@@ -122,25 +122,26 @@ def discover(site):
         time.sleep(0.2)
     return list(found.values())
 
-data = json.loads((ROOT / "restaurants.json").read_text(encoding="utf-8"))
-out = {}
-for restaurant in data.get("items", [])[:MAX_SITES]:
-    site = restaurant.get("website", "")
-    direct = restaurant.get("menu", "")
-    links = []
-    if direct and safe(direct):
-        links.append({"url": direct, "kind": kind(direct), "status": "published", "source": "OpenStreetMap menu tag"})
-    if site and safe(site):
-        links.extend(discover(site))
-        if not links:
-            links.append({"url": site, "kind": "website", "status": "website_only", "source": site})
-    if links:
-        dedup = {x["url"]: x for x in links}
-        out[restaurant["id"]] = {"name": restaurant["name"], "official_website": site, "links": list(dedup.values())}
-    print(restaurant.get("name", "?"), len(links), "links", flush=True)
-(ROOT / "menu-discovery.json").write_text(json.dumps({
-    "updated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-    "note": "Discovered candidates are not verified menus. Official-site crawling respects robots.txt.",
-    "restaurants": out
-}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-print("Restaurants with links:", len(out))
+if __name__ == "__main__":
+    data = json.loads((ROOT / "restaurants.json").read_text(encoding="utf-8"))
+    out = {}
+    for restaurant in data.get("items", [])[:MAX_SITES]:
+        site = restaurant.get("website", "")
+        direct = restaurant.get("menu", "")
+        links = []
+        if direct and safe(direct):
+            links.append({"url": direct, "kind": kind(direct), "status": "published", "source": "OpenStreetMap menu tag"})
+        if site and safe(site):
+            links.extend(discover(site))
+            if not links:
+                links.append({"url": site, "kind": "website", "status": "website_only", "source": site})
+        if links:
+            dedup = {x["url"]: x for x in links}
+            out[restaurant["id"]] = {"name": restaurant["name"], "official_website": site, "links": list(dedup.values())}
+        print(restaurant.get("name", "?"), len(links), "links", flush=True)
+    (ROOT / "menu-discovery.json").write_text(json.dumps({
+        "updated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        "note": "Discovered candidates are not verified menus. Official-site crawling respects robots.txt.",
+        "restaurants": out
+    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print("Restaurants with links:", len(out))
