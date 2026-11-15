@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T20:56:57.916771+00:00",
+  "updated_at": "2026-11-15T21:17:53.854143+00:00",
   "note": "Discovered candidates are not verified menus. Official-site crawling respects robots.txt.",
   "restaurants": {
     "node/3328393211": {
@@ -20,63 +20,9 @@
       "links": [
         {
           "url": "https://www.avalonnerja.com/es/menu-a-la-carta/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/es/a-la-carte-menu-summer/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/a-la-carte-menu-summer/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/es/carta-de-vino/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/es/bebidas/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/es/bebidas/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/drinks/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/a-la-carte-menu/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/a-la-carte-menu-summer/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/drinks/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/christmas-eve-menu-2026/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/christmas-menu-2026/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/christmas-vegan-menu-2026/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
+          "kind": "website",
+          "status": "website_only",
+          "source": "https://www.avalonnerja.com/es/menu-a-la-carta/"
         }
       ]
     },
