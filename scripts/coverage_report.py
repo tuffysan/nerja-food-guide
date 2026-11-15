@@ -1,0 +1,45 @@
+"""Generate transparent menu coverage report from the committed datasets."""
+import datetime
+import json
+import pathlib
+
+root = pathlib.Path(__file__).resolve().parents[1] / "data"
+def load(name, default):
+    path = root / name
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
+
+places = load("restaurants.json", {"items": []}).get("items", [])
+discovery = load("menu-discovery.json", {"restaurants": {}}).get("restaurants", {})
+pdf = load("pdf-menus.json", {"restaurants": {}}).get("restaurants", {})
+auto = load("auto-menus.json", {"restaurants": {}}).get("restaurants", {})
+curated = load("curated-menus.json", {"entries": []}).get("entries", [])
+
+with_menu = set()
+with_prices = set()
+for p in places:
+    pid = p["id"]
+    if p.get("menu") or any(x.get("kind") != "website" for x in discovery.get(pid, {}).get("links", [])):
+        with_menu.add(pid)
+    if pdf.get(pid, {}).get("dishes"):
+        with_menu.add(pid)
+        with_prices.add(pid)
+    for c in curated:
+        if any(m.casefold() in p["name"].casefold() for m in c.get("match", [])):
+            if c.get("dishes") or auto.get(c["name"], {}).get("dishes"):
+                with_menu.add(pid)
+                with_prices.add(pid)
+            break
+
+report = {
+    "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+    "osm_restaurants": len(places),
+    "restaurants_with_menu_links_or_dishes": len(with_menu),
+    "restaurants_with_dish_prices": len(with_prices),
+    "curated_entries": len(curated),
+    "discovered_link_entries": len(discovery),
+    "automated_pdf_menu_entries": sum(bool(x.get("dishes")) for x in pdf.values()),
+    "automated_structured_menu_entries": sum(bool(x.get("dishes")) for x in auto.values()),
+    "note": "Discovered menu links and OCR price candidates are not human verified. Counts exclude unmatched curated-only restaurants."
+}
+(root / "coverage-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print(json.dumps(report, ensure_ascii=False, indent=2))
