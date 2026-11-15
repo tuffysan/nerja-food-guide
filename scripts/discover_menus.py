@@ -46,6 +46,5 @@ for r in data["items"]:
  if links:
   unique=list({x["url"]:x for x in links}.values())
   out[r["id"]]=dict(name=r["name"],official_website=website,links=unique)
-(root/"menu-discovery.json").write_text(json.dumps(dict(updated_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),note="Unverified links to original restaurant websites.",restaurants=out),ensure_ascii=False,indent=2)+"
-")
+(root/"menu-discovery.json").write_text(json.dumps(dict(updated_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),note="Unverified links to original restaurant websites.",restaurants=out),ensure_ascii=False,indent=2)+chr(10))
 print("Menu links for",len(out),"places")
