@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T21:17:53.854143+00:00",
+  "updated_at": "2026-11-15T21:33:19.569885+00:00",
   "note": "Discovered candidates are not verified menus. Official-site crawling respects robots.txt.",
   "restaurants": {
     "node/3328393211": {
@@ -20,45 +20,99 @@
       "links": [
         {
           "url": "https://www.avalonnerja.com/es/menu-a-la-carta/",
-          "kind": "website",
-          "status": "website_only",
-          "source": "https://www.avalonnerja.com/es/menu-a-la-carta/"
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/es/a-la-carte-menu-summer/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/a-la-carte-menu-summer/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/es/carta-de-vino/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/es/bebidas/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/es/bebidas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/drinks/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/a-la-carte-menu/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/a-la-carte-menu-summer/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/drinks/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/christmas-eve-menu-2026/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/christmas-menu-2026/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/christmas-vegan-menu-2026/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
         }
       ]
     },
     "node/2154168766": {
-      "name": "Bruxelles",
-      "official_website": "https://nerjadenerja.es/es/",
+      "name": "Bruxelles by David Leon",
+      "official_website": "https://nerjadenerja.es/",
       "links": [
         {
           "url": "https://nerjadenerja.es/es/cartas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/menu/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/es/carta/brekkie/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/menu/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/es/carta/menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/menu/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/es/carta/italiano/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/menu/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/es/carta/takeaway/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/menu/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/static/uploads/eventos/047bbd03-IMG_7418.jpeg",
@@ -88,31 +142,31 @@
           "url": "https://nerjadenerja.es/en/cartas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/cartas/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/fr/cartas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/cartas/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/nl/cartas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/cartas/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/sv/cartas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/cartas/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/de/cartas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/cartas/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/static/uploads/novedades/dba8e09e-9494CD12-09C9-4DB9-BA78-73D289E0B820.jpg",
@@ -136,61 +190,61 @@
           "url": "https://nerjadenerja.es/en/carta/brekkie/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/fr/carta/brekkie/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/nl/carta/brekkie/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/sv/carta/brekkie/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/de/carta/brekkie/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/en/carta/menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/menu/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/fr/carta/menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/menu/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/nl/carta/menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/menu/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/sv/carta/menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/menu/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/de/carta/menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/menu/"
+          "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
           "url": "https://nerjadenerja.es/static/pdf/pages/carta-bruxelles-es-01.jpg?v=1794041510",
@@ -403,10 +457,16 @@
       "official_website": "https://www.oldtownrestaurantfrigiliana.com",
       "links": [
         {
-          "url": "https://www.oldtownrestaurantfrigiliana.com",
-          "kind": "website",
-          "status": "website_only",
-          "source": "https://www.oldtownrestaurantfrigiliana.com"
+          "url": "https://www.oldtownrestaurantfrigiliana.com/es/la-carta-menu/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.oldtownrestaurantfrigiliana.com/es/sitemap.xml"
+        },
+        {
+          "url": "https://www.oldtownrestaurantfrigiliana.com/en/a-la-carte-menu/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.oldtownrestaurantfrigiliana.com/en/sitemap.xml"
         }
       ]
     },
