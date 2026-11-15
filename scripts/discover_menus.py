@@ -24,10 +24,22 @@ class Parser(html.parser.HTMLParser):
     def __init__(self):
         super().__init__()
         self.links = []
+        self.in_anchor = False
+        self.anchor_href = ""
+        self.anchor_label = ""
+    def handle_data(self, data):
+        if self.in_anchor and data.strip():
+            self.links.append((self.anchor_href, self.anchor_label + " " + data.strip()))
+    def handle_endtag(self, tag):
+        if tag == "a":
+            self.in_anchor = False
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if tag == "a" and a.get("href"):
-            self.links.append((a["href"], " ".join([a.get("title", ""), a.get("aria-label", "")])))
+            self.in_anchor = True
+            self.anchor_href = a["href"]
+            self.anchor_label = " ".join([a.get("title", ""), a.get("aria-label", "")])
+            self.links.append((a["href"], self.anchor_label))
         if tag == "img" and a.get("src") and (STRONG.search(a.get("src", "") + " " + a.get("alt", "")) or re.search(r"qr|codigo|código", a.get("src", "") + " " + a.get("alt", ""), re.I)):
             self.links.append((a["src"], a.get("alt", "")))
 
