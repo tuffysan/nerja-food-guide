@@ -42,4 +42,11 @@ try:
  print("Updated",len(rows),"places")
 except Exception as exc:
  print("Refresh failed; previous data preserved:",repr(exc),file=sys.stderr)
- sys.exit(1)
+ try:
+  cached=json.loads(destination.read_text(encoding="utf-8"))
+  rows=cached.get("items",[])
+  if len(rows)<10:raise ValueError("Cached restaurant directory is missing or too small")
+  print("Using",len(rows),"cached restaurants; continuing menu updates",flush=True)
+ except Exception as cache_error:
+  print("No usable fallback restaurant directory:",repr(cache_error),file=sys.stderr)
+  sys.exit(1)
