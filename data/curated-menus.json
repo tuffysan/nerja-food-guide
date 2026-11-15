@@ -344,6 +344,26 @@
       "address": "Calle Almirante Ferrándiz 29, Nerja, Spanien",
       "dishes": [],
       "note": "Officiell meny med maträtter och priser. Kontrollera priser hos restaurangen."
+    },
+    {
+      "name": "Restaurante 34",
+      "match": [
+        "restaurante 34"
+      ],
+      "source": "https://weur-cdn.menuweb.menu/storage/media/companies_menu_pdf/48514173/restaurante-34-nerja-carta.pdf",
+      "address": "Calle Hernando de Carabeo 34, Nerja",
+      "dishes": [],
+      "note": "Tredjeparts-PDF; aktuell meny och priser är inte verifierade."
+    },
+    {
+      "name": "La Bodega de Antonia",
+      "match": [
+        "bodega de antonia"
+      ],
+      "source": "https://weur-cdn.carta.menu/storage/media/companies_menu_pdf/75360625/la-bodega-de-antonia-nerja-carta.pdf",
+      "address": "Calle Hernando de Carabeo 5, Nerja",
+      "dishes": [],
+      "note": "Tredjeparts-PDF; aktuell meny och priser är inte verifierade."
     }
   ]
 }
