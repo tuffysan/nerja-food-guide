@@ -37,6 +37,8 @@ report = {
     "restaurants_with_menu_links_or_dishes": len(with_menu),
     "restaurants_with_dish_prices": len(with_prices),
     "curated_entries": len(curated),
+    "curated_entries_with_menu_source": sum(bool(c.get("source")) for c in curated),
+    "curated_entries_with_prices": sum(bool(c.get("dishes") or html.get("curated/" + c["name"], {}).get("dishes") or auto.get(c["name"], {}).get("dishes")) for c in curated),
     "curated_entries_with_source": sum(bool(c.get("source")) for c in curated),
     "curated_only_menu_candidates": sum(bool(discovery.get("curated/" + c.get("name", ""), {}).get("links")) for c in curated),
     "all_discovery_entries_including_curated": len(discovery),
