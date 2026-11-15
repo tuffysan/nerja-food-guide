@@ -28,7 +28,7 @@ def pairs_from(text):
    pairs.append([m[1].strip(" .-"),m[2].replace(".",",")+" €"])
  return list({x[0].casefold():x for x in pairs}.values())[:80]
 def ocr(image):
- return subprocess.run(["tesseract","stdin","stdout","-l","spa+eng","--psm","6"],input=image,stdout=subprocess.PIPE,stderr=subprocess.DEVNULL,timeout=18,check=True).stdout.decode("utf-8","replace")
+ return subprocess.run(["tesseract","stdin","stdout","-l","spa+eng","--psm","11"],input=image,stdout=subprocess.PIPE,stderr=subprocess.DEVNULL,timeout=18,check=True).stdout.decode("utf-8","replace")
 def read_pdf(data):
  reader=PdfReader(io.BytesIO(data),strict=False)
  if len(reader.pages)>15:return []
@@ -49,7 +49,7 @@ for r in restaurants:
  if not site or not urllib.parse.urlsplit(site).scheme=="https":continue
  links=discovery.get(r["id"],{}).get("links",[])
  candidates=[x for x in links if x.get("kind") in ("pdf","image") and allowed(x.get("url",""),site)]
- for candidate in candidates[:2]:
+ for candidate in candidates[:12]:
   url=candidate["url"]
   try:
    req=urllib.request.Request(url,headers={"User-Agent":"NerjaFoodGuide/3.4","Accept":"application/pdf,image/*"})
@@ -58,10 +58,10 @@ for r in restaurants:
     data=response.read(2_500_001)
    if len(data)>2_500_000:continue
    if data.startswith(b"%PDF"):pairs=read_pdf(data)
-   elif content_type.startswith("image/") and data[:4] in (b"\x89PNG",b"RIFF") or data[:3]==b"\xff\xd8\xff":
+   elif content_type.startswith("image/") and (data.startswith(b"\x89PNG") or data.startswith(b"RIFF") or data.startswith(b"\xff\xd8\xff")):
     pairs=pairs_from(ocr(data))
    else:continue
-   if len(pairs)>=3:
+   if len(pairs)>=2:
     out[r["id"]]={"source":url,"status":"candidate","method":"pdf-text-or-local-ocr","checked_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),"dishes":pairs}
     print(r["name"],len(pairs),"unverified menu candidates",flush=True)
     break
