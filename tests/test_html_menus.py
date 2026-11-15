@@ -14,6 +14,10 @@ class HTMLMenuTests(unittest.TestCase):
     def test_skip_navigation_and_contact(self):
         body = '<nav><p>Contact 12,50 €</p></nav><main><p>Pollo al ajillo 13,50 €</p></main>'
         self.assertEqual(extract_lines(body), [["Pollo al ajillo", "13,50 €"]])
+    def test_reject_category_prices_and_surcharges(self):
+        body = '<p>Vegetable Delights · Todos a 6,95 €</p><p>desde 4,50 €</p><p>Pan & mantequilla: +€ 2,00 €</p><p>Paella de Marisco 18,00 €</p>'
+        self.assertEqual(extract_lines(body), [["Paella de Marisco", "18,00 €"]])
+
     def test_reject_ambiguous_multiple_prices(self):
         self.assertEqual(extract_lines("<p>Tapas 5,00 € / 9,00 €</p>"), [])
 
