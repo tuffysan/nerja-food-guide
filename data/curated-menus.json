@@ -117,7 +117,7 @@
       "cuisine": "Italian",
       "source": "https://www.labotteganerja.com/",
       "address": "Calle Castilla Pérez 21, Nerja",
-      "note": "Restaurangens webbplats anger stängt 9 november–25 december 2026.",
+      "note": "Stängt enligt den officiella webbplatsen 9 november–25 december 2026. Menylänkar finns på webbplatsen.",
       "dishes": []
     },
     {
@@ -267,6 +267,23 @@
           "17,95 €"
         ]
       ]
+    },
+    {
+      "name": "Bruxelles by David Leon",
+      "match": [
+        "bruxelles",
+        "brussels by david"
+      ],
+      "cuisine": "Belgian and Mediterranean",
+      "source": "https://nerjadenerja.es/es/",
+      "address": "Playa Burriana, Nerja",
+      "dishes": [
+        [
+          "Menú de mediodía: ensalada mixta, medio pollo asado con patatas fritas",
+          "15,40 €"
+        ]
+      ],
+      "note": "Menú del día mostrado en la web oficial el 15 de noviembre de 2026; puede cambiar."
     }
   ]
 }
