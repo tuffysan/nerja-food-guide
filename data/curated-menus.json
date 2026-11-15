@@ -333,17 +333,6 @@
       "cuisine": "Mediterranean",
       "dishes": [],
       "note": "Officiell webbplats har länkar till mat-, dryckes- och snackmenyer."
-    },
-    {
-      "name": "Restaurante La Fuente",
-      "match": [
-        "la fuente"
-      ],
-      "source": "https://www.lafuentenerja.com/",
-      "address": "Plaza Balcón de Europa 9, Nerja",
-      "cuisine": "Italian",
-      "dishes": [],
-      "note": "Restauranginformation; kontrollera menyn hos restaurangen."
     }
   ]
 }
