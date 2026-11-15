@@ -320,6 +320,30 @@
       "address": "Calle Gloria 14/15, Nerja",
       "dishes": [],
       "note": "PDF-källa från 2025; kontrollera aktuell meny och priser."
+    },
+    {
+      "name": "Restaurante Doña Lola",
+      "match": [
+        "doña lola",
+        "dona lola"
+      ],
+      "source": "https://restaurantedonalola.com/",
+      "address": "Plaza Balcón de Europa 15, Nerja",
+      "phone": "+34 604 483 253",
+      "cuisine": "Mediterranean",
+      "dishes": [],
+      "note": "Officiell webbplats har länkar till mat-, dryckes- och snackmenyer."
+    },
+    {
+      "name": "Restaurante La Fuente",
+      "match": [
+        "la fuente"
+      ],
+      "source": "https://www.lafuentenerja.com/",
+      "address": "Plaza Balcón de Europa 9, Nerja",
+      "cuisine": "Italian",
+      "dishes": [],
+      "note": "Restauranginformation; kontrollera menyn hos restaurangen."
     }
   ]
 }
