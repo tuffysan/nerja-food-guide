@@ -3,6 +3,7 @@ Candidate prices are unverified. No downloaded media is committed.
 """
 import io,json,re,pathlib,urllib.request,urllib.parse,datetime,ipaddress,socket,subprocess,tempfile,time
 from pypdf import PdfReader
+from discover_menus import robots_allowed
 root=pathlib.Path(__file__).resolve().parents[1]/"data"
 restaurants=json.loads((root/"restaurants.json").read_text())["items"]
 discovery=json.loads((root/"menu-discovery.json").read_text()).get("restaurants",{})
@@ -45,17 +46,35 @@ def read_pdf(data):
   for page in sorted(pathlib.Path(directory).glob("page-*.png")):
    if page.stat().st_size<3_000_000:text+="\n"+ocr(page.read_bytes())
  return pairs_from(text)
+previous=json.loads(target.read_text(encoding="utf-8")).get("restaurants",{}) if target.exists() else {}
 out={}
+diagnostics={"attempted":0,"fresh":0,"failures":[],"stale":0}
+# Include curated and researched PDFs even if a venue has no OSM ID or website.
+extra=[]
+curated=json.loads((root/"curated-menus.json").read_text(encoding="utf-8")).get("entries",[])
+verified=json.loads((root/"verified-menu-sources.json").read_text(encoding="utf-8")).get("entries",[])
+for entry in curated:
+ url=entry.get("source","")
+ if urllib.parse.urlsplit(url).path.lower().endswith(".pdf"):
+  extra.append({"id":"curated/"+entry["name"],"name":entry["name"],"website":url,"extra_url":url})
+for entry in verified:
+ url=entry.get("menu","")
+ if urllib.parse.urlsplit(url).path.lower().endswith(".pdf"):
+  extra.append({"id":"verified/"+entry["name"],"name":entry["name"],"website":url,"extra_url":url})
 deadline=time.monotonic()+420
-for r in restaurants:
+for r in restaurants+extra:
  if time.monotonic()>deadline:break
  site=r.get("website")
  if not site or not urllib.parse.urlsplit(site).scheme=="https":continue
  links=discovery.get(r["id"],{}).get("links",[])
+ if r.get("extra_url"):
+  links=[{"url":r["extra_url"],"kind":"pdf"}]+links
  candidates=[x for x in links if x.get("kind") in ("pdf","image") and allowed(x.get("url",""),site)]
  for candidate in candidates[:12]:
   url=candidate["url"]
   try:
+   diagnostics["attempted"]+=1
+   if not robots_allowed(url):continue
    req=urllib.request.Request(url,headers={"User-Agent":"NerjaFoodGuide/3.4","Accept":"application/pdf,image/*"})
    with opener.open(req,timeout=10) as response:
     content_type=response.headers.get("Content-Type","").lower()
@@ -67,8 +86,11 @@ for r in restaurants:
    else:continue
    if len(pairs)>=3:
     out[r["id"]]={"source":url,"status":"candidate","method":"pdf-text-or-local-ocr","checked_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),"dishes":pairs}
+    diagnostics["fresh"]+=1
     print(r["name"],len(pairs),"unverified menu candidates",flush=True)
     break
-  except Exception as e:print("OCR skipped",r["name"],str(e)[:100],flush=True)
+  except Exception as e:
+   diagnostics["failures"].append({"restaurant":r["name"],"url":url,"reason":str(e)[:160]})
+   print("OCR skipped",r["name"],str(e)[:100],flush=True)
 
 target.write_text(json.dumps({"restaurants":out},ensure_ascii=False,indent=2)+"\n")
