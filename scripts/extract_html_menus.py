@@ -118,7 +118,9 @@ def fetch(url, official):
 if __name__ == "__main__":
     discovered = json.loads((ROOT / "menu-discovery.json").read_text(encoding="utf-8")).get("restaurants", {})
     target = ROOT / "html-menus.json"
+    previous = json.loads(target.read_text(encoding="utf-8")).get("restaurants", {}) if target.exists() else {}
     results = {}
+    failures = {}
     for rid, restaurant in discovered.items():
         official = restaurant.get("official_website") or ""
         pages = [x["url"] for x in restaurant.get("links", []) if x.get("kind") == "web" and x.get("status") != "website_only"]
@@ -138,6 +140,7 @@ if __name__ == "__main__":
                     sources.append(url)
                     per_page.append({"url": url, "dishes": found})
             except Exception as exc:
+                failures.setdefault(rid, []).append({"url": url, "reason": str(exc)[:160]})
                 print(restaurant["name"], str(exc)[:100], flush=True)
         # Keep each source page separately: never mix prices from different
         # seasonal/language menus into a single authoritative menu.
@@ -147,6 +150,8 @@ if __name__ == "__main__":
                             "method": "html-visible-text", "checked_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
                             "pages": per_page,
                             "dishes": dishes}
+        elif rid in previous:
+            results[rid] = dict(previous[rid], status="stale_candidate", stale_reason="No fresh menu extracted")
         print(restaurant["name"], len(dishes), "HTML candidates", flush=True)
     # Official menu sources may belong to restaurants absent from OSM.
     curated = json.loads((ROOT / "curated-menus.json").read_text(encoding="utf-8")).get("entries", [])
@@ -163,5 +168,18 @@ if __name__ == "__main__":
                                 "checked_at": datetime.datetime.now(datetime.timezone.utc).isoformat(), "dishes": dishes}
             print(entry["name"], len(dishes), "curated-source candidates", flush=True)
         except Exception as exc:
+            failures.setdefault(key, []).append({"url": url, "reason": str(exc)[:160]})
             print(entry["name"], str(exc)[:100], flush=True)
-    target.write_text(json.dumps({"restaurants": results}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        if key not in results and key in previous:
+            results[key] = dict(previous[key], status="stale_candidate", stale_reason="No fresh menu extracted")
+    # Preserve old candidates for sources absent from a temporary discovery run.
+    for rid, old in previous.items():
+        if rid not in results:
+            results[rid] = dict(old, status="stale_candidate", stale_reason="Source not refreshed")
+    target.write_text(json.dumps({"restaurants": results}, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    (ROOT / "html-menu-diagnostics.json").write_text(json.dumps({
+        "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        "fresh": sum(v.get("status") == "candidate" for v in results.values()),
+        "stale": sum(v.get("status") == "stale_candidate" for v in results.values()),
+        "failures": failures
+    }, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
