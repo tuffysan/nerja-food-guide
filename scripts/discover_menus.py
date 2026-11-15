@@ -28,7 +28,7 @@ class Parser(html.parser.HTMLParser):
         a = dict(attrs)
         if tag == "a" and a.get("href"):
             self.links.append((a["href"], " ".join([a.get("title", ""), a.get("aria-label", "")])))
-        if tag == "img" and a.get("src") and STRONG.search(a.get("src", "") + " " + a.get("alt", "")):
+        if tag == "img" and a.get("src") and (STRONG.search(a.get("src", "") + " " + a.get("alt", "")) or re.search(r"qr|codigo|código", a.get("src", "") + " " + a.get("alt", ""), re.I)):
             self.links.append((a["src"], a.get("alt", "")))
 
 def safe(url):
