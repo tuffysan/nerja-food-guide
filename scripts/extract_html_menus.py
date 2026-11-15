@@ -103,6 +103,7 @@ if __name__ == "__main__":
             pages = [official]
         dishes = []
         sources = []
+        per_page = []
         for url in dict.fromkeys(pages):
             if len(sources) >= 12:
                 break
@@ -111,6 +112,7 @@ if __name__ == "__main__":
                 if found:
                     dishes.extend(found)
                     sources.append(url)
+                    per_page.append({"url": url, "dishes": found})
             except Exception as exc:
                 print(restaurant["name"], str(exc)[:100], flush=True)
         # Keep each source page separately: never mix prices from different
@@ -119,6 +121,7 @@ if __name__ == "__main__":
         if len(dishes) >= 2:
             results[rid] = {"source": sources[0], "sources": sources, "status": "candidate",
                             "method": "html-visible-text", "checked_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                            "pages": per_page,
                             "dishes": dishes}
         print(restaurant["name"], len(dishes), "HTML candidates", flush=True)
     # Official menu sources may belong to restaurants absent from OSM.
