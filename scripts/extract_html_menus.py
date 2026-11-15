@@ -98,6 +98,9 @@ if __name__ == "__main__":
     for rid, restaurant in discovered.items():
         official = restaurant.get("official_website") or ""
         pages = [x["url"] for x in restaurant.get("links", []) if x.get("kind") == "web" and x.get("status") != "website_only"]
+        # Official websites may render the entire menu on the landing page.
+        if not pages and official and urllib.parse.urlsplit(official).path not in ("", "/"):
+            pages = [official]
         dishes = []
         sources = []
         for url in dict.fromkeys(pages):
@@ -110,7 +113,9 @@ if __name__ == "__main__":
                     sources.append(url)
             except Exception as exc:
                 print(restaurant["name"], str(exc)[:100], flush=True)
-        dishes = list({tuple(d): d for d in dishes}.values())[:100]
+        # Keep each source page separately: never mix prices from different
+        # seasonal/language menus into a single authoritative menu.
+        dishes = list({d[0].casefold(): d for d in dishes}.values())[:100]
         if len(dishes) >= 2:
             results[rid] = {"source": sources[0], "sources": sources, "status": "candidate",
                             "method": "html-visible-text", "checked_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
