@@ -11,7 +11,7 @@ from discover_menus import safe, robots_allowed, OPENER
 
 ROOT = pathlib.Path(__file__).resolve().parents[1] / "data"
 PRICE = re.compile(r"(?<!\d)(\d{1,3}[.,]\d{2})\s*(?:€|EUR)?(?!\w)", re.I)
-BAD = re.compile(r"\b(cookie|privacy|privacidad|reserv|booking|tel[eé]fono|contact|copyright|iva|total|subtotal)\b", re.I)
+BAD = re.compile(r"\b(cookie|privacy|privacidad|reserv|booking|tel[eé]fono|contact|copyright|iva|total|subtotal|shipping|envío|descuento|discount|newsletter|suscrib|subscribe|login|iniciar sesión)\b", re.I)
 MENU_HINT = re.compile(r"menu|men[uú]|carta|food|dish|plato|price|precio|item|product|woocommerce|elementor", re.I)
 BLOCKS = {"article", "section", "li", "tr", "p", "h3", "h4"}
 SKIP = {"script", "style", "svg", "noscript", "nav", "footer", "header"}
@@ -68,7 +68,7 @@ def extract_lines(body):
         # Only allow a short trailing suffix, never silently combine multiple dishes.
         if line[m.end():].strip(" .–—|") or m.start() < 4:
             continue
-        name = line[:m.start()].strip(" .:-–—|")
+        if not 0.5 <= float(m.group(1).replace(",", ".")) <= 250:\n            continue\n        name = line[:m.start()].strip(" .:-–—|")
         if not (4 <= len(name) <= 95 and re.search(r"[A-Za-zÁÉÍÓÚÑáéíóúñ]", name)):
             continue
         if len(name.split()) > 15 or re.search(r"https?://|@|[{}<>]", name):
@@ -80,9 +80,9 @@ def extract_lines(body):
     for i in range(len(blocks) - 1):
         name, price_text = blocks[i], blocks[i + 1]
         m = PRICE.fullmatch(price_text)
-        if not m or not (5 <= len(name) <= 70) or not (2 <= len(name.split()) <= 10):
+        if not m or not 0.5 <= float(m.group(1).replace(",", ".")) <= 250 or not (5 <= len(name) <= 70) or not (2 <= len(name.split()) <= 10):
             continue
-        if BAD.search(name) or PRICE.search(name) or re.search(r"https?://|@|[{}<>]", name):
+        if BAD.search(name) or PRICE.search(name) or re.search(r"https?://|@|[{}<>]", name) or name.lower().startswith(("€", "eur", "precio", "price")):
             continue
         found.append([name.strip(" .:-–—|"), m.group(1).replace(".", ",") + " €"])
     return list({(x[0].casefold(), x[1]): x for x in found}.values())[:100]
