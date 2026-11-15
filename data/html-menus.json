@@ -13,7 +13,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T21:33:42.238237+00:00",
+      "checked_at": "2026-11-15T22:04:29.032838+00:00",
       "pages": [
         {
           "url": "https://www.avalonnerja.com/es/menu-a-la-carta/",
@@ -661,14 +661,14 @@
         "https://rincondelsolnerja.com/cartas/pescados/",
         "https://rincondelsolnerja.com/cartas/arroces-y-pastas/",
         "https://rincondelsolnerja.com/cartas/pescaito-frito/",
-        "https://rincondelsolnerja.com/cartas/pizza/",
         "https://rincondelsolnerja.com/cartas/postres/",
         "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
-        "https://rincondelsolnerja.com/cartas/vino-tinto/"
+        "https://rincondelsolnerja.com/cartas/vino-tinto/",
+        "https://rincondelsolnerja.com/cartas/vino-blanco/"
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T21:34:08.593006+00:00",
+      "checked_at": "2026-11-15T22:05:37.519058+00:00",
       "pages": [
         {
           "url": "https://rincondelsolnerja.com/cartas/ensaladas/",
@@ -831,27 +831,6 @@
           ]
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/pizza/",
-          "dishes": [
-            [
-              "Base blanca con mozzarella, salmón ahumado, rúcula y tomate cherry",
-              "15,95 €"
-            ],
-            [
-              "Tomate, mozzarella y pepperoni",
-              "13,95 €"
-            ],
-            [
-              "Tomate, mozzarella, jamón york, champiñones y aceitunas",
-              "15,95 €"
-            ],
-            [
-              "Tomate y mozzarella",
-              "13,95 €"
-            ]
-          ]
-        },
-        {
           "url": "https://rincondelsolnerja.com/cartas/postres/",
           "dishes": [
             [
@@ -919,6 +898,43 @@
             [
               "Cristina D.O. Sierras de Málaga Malbec",
               "49,20 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/vino-blanco/",
+          "dishes": [
+            [
+              "Blanco de la Casa Verdejo",
+              "15,50 €"
+            ],
+            [
+              "Bordón D.O.Ca. Rioja Viura",
+              "16,50 €"
+            ],
+            [
+              "Castillo de Miraflores D.O. Rueda Verdejo semidulce",
+              "16,50 €"
+            ],
+            [
+              "Piérola D.O.Ca. Rioja Tempranillo blanco",
+              "17,50 €"
+            ],
+            [
+              "Tamaral D.O. Rueda Verdejo",
+              "18,50 €"
+            ],
+            [
+              "Altanza D.O.Ca. Rioja Sauvignon blanc",
+              "22,90 €"
+            ],
+            [
+              "Marco Real by Martín Berasategui D.O. Rías Baixas Albariño",
+              "26,50 €"
+            ],
+            [
+              "O Luar D.O. Valdeorras Godello",
+              "35,00 €"
             ]
           ]
         }
@@ -1045,22 +1061,6 @@
           "13,95 €"
         ],
         [
-          "Base blanca con mozzarella, salmón ahumado, rúcula y tomate cherry",
-          "15,95 €"
-        ],
-        [
-          "Tomate, mozzarella y pepperoni",
-          "13,95 €"
-        ],
-        [
-          "Tomate, mozzarella, jamón york, champiñones y aceitunas",
-          "15,95 €"
-        ],
-        [
-          "Tomate y mozzarella",
-          "13,95 €"
-        ],
-        [
           "Fondant de chocolate",
           "7,95 €"
         ],
@@ -1115,6 +1115,38 @@
         [
           "Cristina D.O. Sierras de Málaga Malbec",
           "49,20 €"
+        ],
+        [
+          "Blanco de la Casa Verdejo",
+          "15,50 €"
+        ],
+        [
+          "Bordón D.O.Ca. Rioja Viura",
+          "16,50 €"
+        ],
+        [
+          "Castillo de Miraflores D.O. Rueda Verdejo semidulce",
+          "16,50 €"
+        ],
+        [
+          "Piérola D.O.Ca. Rioja Tempranillo blanco",
+          "17,50 €"
+        ],
+        [
+          "Tamaral D.O. Rueda Verdejo",
+          "18,50 €"
+        ],
+        [
+          "Altanza D.O.Ca. Rioja Sauvignon blanc",
+          "22,90 €"
+        ],
+        [
+          "Marco Real by Martín Berasategui D.O. Rías Baixas Albariño",
+          "26,50 €"
+        ],
+        [
+          "O Luar D.O. Valdeorras Godello",
+          "35,00 €"
         ]
       ]
     },
@@ -1122,7 +1154,7 @@
       "source": "https://restauranteunico.com/nuestra-carta/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T21:34:41.735892+00:00",
+      "checked_at": "2026-11-15T22:06:26.319756+00:00",
       "dishes": [
         [
           "Cava",
@@ -1286,7 +1318,7 @@
       "source": "https://www.peppepizza.com/carta",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T21:34:41.843256+00:00",
+      "checked_at": "2026-11-15T22:06:26.581885+00:00",
       "dishes": [
         [
           "Polpette Tradizionali",
@@ -1590,7 +1622,7 @@
       "source": "https://lafamarestaurante.com/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T21:34:42.733914+00:00",
+      "checked_at": "2026-11-15T22:06:27.877256+00:00",
       "dishes": [
         [
           "Desayuno Inglés English breakfast",
@@ -1954,7 +1986,7 @@
       "source": "https://trattoriaitalianerja.es/en/menu/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T21:34:45.204857+00:00",
+      "checked_at": "2026-11-15T22:06:29.633711+00:00",
       "dishes": [
         [
           "🇮🇹 Barbera D'Alba DOC - Piazzo",
@@ -1986,7 +2018,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T21:34:25.349031+00:00",
+      "checked_at": "2026-11-15T22:06:06.650665+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
@@ -2466,6 +2498,336 @@
         ]
       ]
     },
+    "researched/Restaurante Único": {
+      "source": "https://restauranteunico.com/nuestra-carta/",
+      "sources": [
+        "https://restauranteunico.com/nuestra-carta/"
+      ],
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T22:06:19.561914+00:00",
+      "pages": [
+        {
+          "url": "https://restauranteunico.com/nuestra-carta/",
+          "dishes": [
+            [
+              "Cava",
+              "4,20 €"
+            ],
+            [
+              "Kirr royal",
+              "4,80 €"
+            ],
+            [
+              "Mimosa",
+              "4,80 €"
+            ],
+            [
+              "Aperol spritz",
+              "6,30 €"
+            ],
+            [
+              "Bellini",
+              "4,80 €"
+            ],
+            [
+              "Manzanilla",
+              "4,50 €"
+            ],
+            [
+              "Campari",
+              "5,00 €"
+            ],
+            [
+              "Campari+ naranja",
+              "6,00 €"
+            ],
+            [
+              "Limoncello spritz",
+              "6,00 €"
+            ],
+            [
+              "Campari spritz",
+              "6,30 €"
+            ],
+            [
+              "Martini rojo",
+              "4,00 €"
+            ],
+            [
+              "Martini blanco",
+              "4,00 €"
+            ],
+            [
+              "Larios",
+              "7,00 €"
+            ],
+            [
+              "Larios Rose",
+              "7,50 €"
+            ],
+            [
+              "Bombay Sapphire",
+              "8,90 €"
+            ],
+            [
+              "Tanqueray",
+              "8,50 €"
+            ],
+            [
+              "Hendrick’s",
+              "10,90 €"
+            ],
+            [
+              "Agua sin gas",
+              "2,40 €"
+            ],
+            [
+              "Agua con gas",
+              "2,40 €"
+            ],
+            [
+              "Caña de cerveza",
+              "2,70 €"
+            ],
+            [
+              "Tanque de cerveza",
+              "5,20 €"
+            ],
+            [
+              "Heineken 00",
+              "3,00 €"
+            ],
+            [
+              "Alhambra 1925",
+              "4,00 €"
+            ],
+            [
+              "Alhambra Special",
+              "3,50 €"
+            ],
+            [
+              "Radler",
+              "3,00 €"
+            ],
+            [
+              "San Miguel",
+              "3,00 €"
+            ],
+            [
+              "Tinto verano con limon",
+              "3,00 €"
+            ],
+            [
+              "Tinto verano con casera",
+              "3,50 €"
+            ],
+            [
+              "Tinto de verano 1l",
+              "10,00 €"
+            ],
+            [
+              "Copa de tinto",
+              "3,90 €"
+            ],
+            [
+              "Copa de blanco",
+              "3,90 €"
+            ],
+            [
+              "Copa de rosa",
+              "3,90 €"
+            ],
+            [
+              "Refresco",
+              "3,00 €"
+            ],
+            [
+              "Zumo naranja",
+              "3,50 €"
+            ],
+            [
+              "Zumo variado",
+              "2,50 €"
+            ],
+            [
+              "Crumble de manzana Apple crumble",
+              "7,90 €"
+            ],
+            [
+              "Caramelised lemon cremeeux, biscuit sablé",
+              "7,90 €"
+            ],
+            [
+              "Viña Axarquia moscatel",
+              "4,20 €"
+            ],
+            [
+              "Crema de limon caramelizada Caramelized lemon cream",
+              "6,90 €"
+            ]
+          ]
+        }
+      ],
+      "dishes": [
+        [
+          "Cava",
+          "4,20 €"
+        ],
+        [
+          "Kirr royal",
+          "4,80 €"
+        ],
+        [
+          "Mimosa",
+          "4,80 €"
+        ],
+        [
+          "Aperol spritz",
+          "6,30 €"
+        ],
+        [
+          "Bellini",
+          "4,80 €"
+        ],
+        [
+          "Manzanilla",
+          "4,50 €"
+        ],
+        [
+          "Campari",
+          "5,00 €"
+        ],
+        [
+          "Campari+ naranja",
+          "6,00 €"
+        ],
+        [
+          "Limoncello spritz",
+          "6,00 €"
+        ],
+        [
+          "Campari spritz",
+          "6,30 €"
+        ],
+        [
+          "Martini rojo",
+          "4,00 €"
+        ],
+        [
+          "Martini blanco",
+          "4,00 €"
+        ],
+        [
+          "Larios",
+          "7,00 €"
+        ],
+        [
+          "Larios Rose",
+          "7,50 €"
+        ],
+        [
+          "Bombay Sapphire",
+          "8,90 €"
+        ],
+        [
+          "Tanqueray",
+          "8,50 €"
+        ],
+        [
+          "Hendrick’s",
+          "10,90 €"
+        ],
+        [
+          "Agua sin gas",
+          "2,40 €"
+        ],
+        [
+          "Agua con gas",
+          "2,40 €"
+        ],
+        [
+          "Caña de cerveza",
+          "2,70 €"
+        ],
+        [
+          "Tanque de cerveza",
+          "5,20 €"
+        ],
+        [
+          "Heineken 00",
+          "3,00 €"
+        ],
+        [
+          "Alhambra 1925",
+          "4,00 €"
+        ],
+        [
+          "Alhambra Special",
+          "3,50 €"
+        ],
+        [
+          "Radler",
+          "3,00 €"
+        ],
+        [
+          "San Miguel",
+          "3,00 €"
+        ],
+        [
+          "Tinto verano con limon",
+          "3,00 €"
+        ],
+        [
+          "Tinto verano con casera",
+          "3,50 €"
+        ],
+        [
+          "Tinto de verano 1l",
+          "10,00 €"
+        ],
+        [
+          "Copa de tinto",
+          "3,90 €"
+        ],
+        [
+          "Copa de blanco",
+          "3,90 €"
+        ],
+        [
+          "Copa de rosa",
+          "3,90 €"
+        ],
+        [
+          "Refresco",
+          "3,00 €"
+        ],
+        [
+          "Zumo naranja",
+          "3,50 €"
+        ],
+        [
+          "Zumo variado",
+          "2,50 €"
+        ],
+        [
+          "Crumble de manzana Apple crumble",
+          "7,90 €"
+        ],
+        [
+          "Caramelised lemon cremeeux, biscuit sablé",
+          "7,90 €"
+        ],
+        [
+          "Viña Axarquia moscatel",
+          "4,20 €"
+        ],
+        [
+          "Crema de limon caramelizada Caramelized lemon cream",
+          "6,90 €"
+        ]
+      ]
+    },
     "verified/restauranteunico": {
       "source": "https://restauranteunico.com/nuestra-carta/",
       "sources": [
@@ -2473,7 +2835,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T21:34:37.712571+00:00",
+      "checked_at": "2026-11-15T22:06:23.121519+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",

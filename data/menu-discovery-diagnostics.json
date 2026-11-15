@@ -1,0 +1,31 @@
+{
+  "external_leads": 8,
+  "official_leads": 8,
+  "qr_images_checked": 0,
+  "qr_links": 0,
+  "errors": [
+    {
+      "restaurant": "Andele!! Andele!!",
+      "reason": "HTTP Error 302: Found"
+    },
+    {
+      "restaurant": "Bruxelles by David Leon",
+      "reason": "HTTP Error 302: Found"
+    },
+    {
+      "restaurant": "La Marina Marisqueria",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "restaurant": "Old Town Restaurant & Bar",
+      "reason": "HTTP Error 302: Found"
+    },
+    {
+      "restaurant": "Teteria Zaidin",
+      "reason": "HTTP Error 301: Moved Permanently"
+    }
+  ],
+  "qr_sites_checked": 18,
+  "generated_at": "2026-11-15T22:04:14.831395+00:00",
+  "total_sources": 52
+}

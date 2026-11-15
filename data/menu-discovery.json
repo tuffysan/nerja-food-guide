@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-15T21:33:19.569885+00:00",
-  "note": "Discovered candidates are not verified menus. Official-site crawling respects robots.txt.",
+  "updated_at": "2026-11-15T22:04:14.884151+00:00",
+  "note": "Official and third-party sources are labeled separately. QR links are candidates, not verified menus.",
   "restaurants": {
     "node/3328393211": {
       "name": "Andele!! Andele!!",
@@ -217,6 +217,12 @@
           "source": "https://nerjadenerja.es/sitemap.xml"
         },
         {
+          "url": "https://nerjadenerja.es/static/pdf/desayuno-bruxelles.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
           "url": "https://nerjadenerja.es/en/carta/menu/",
           "kind": "web",
           "status": "candidate",
@@ -317,12 +323,6 @@
           "kind": "image",
           "status": "candidate",
           "source": "https://nerjadenerja.es/es/carta/menu/"
-        },
-        {
-          "url": "https://nerjadenerja.es/static/pdf/pages/carta-bruxelles-es-13.jpg?v=1794041510",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/menu/"
         }
       ]
     },
@@ -354,6 +354,12 @@
       "name": "La Barca",
       "official_website": "https://www.merenderolabarca.es/",
       "links": [
+        {
+          "url": "https://www.merenderolabarca.es/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.merenderolabarca.es/"
+        },
         {
           "url": "https://www.merenderolabarca.es/img/carta-nueva/page-2.jpg",
           "kind": "image",
@@ -415,16 +421,28 @@
       "official_website": "https://www.labotteganerja.com/",
       "links": [
         {
+          "url": "https://www.labotteganerja.com/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.labotteganerja.com/"
+        },
+        {
+          "url": "https://www.labotteganerja.com/s/may-2026-english.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.labotteganerja.com/"
+        },
+        {
           "url": "https://www.labotteganerja.com/s/drinks-2026-f9lg.pdf",
           "kind": "pdf",
           "status": "candidate",
           "source": "https://www.labotteganerja.com/"
         },
         {
-          "url": "https://www.labotteganerja.com/",
-          "kind": "web",
-          "status": "published",
-          "source": "Reviewed source list"
+          "url": "https://www.labotteganerja.com/s/may-2026-spanish.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.labotteganerja.com/"
         }
       ]
     },
@@ -790,11 +808,29 @@
           "url": "https://www.peppepizza.com/carta",
           "kind": "web",
           "status": "candidate",
+          "source": "https://www.peppepizza.com/blog/cocteles-nerja-terraza/"
+        },
+        {
+          "url": "https://www.peppepizza.com/",
+          "kind": "web",
+          "status": "candidate",
           "source": "https://www.peppepizza.com/"
         },
         {
           "url": "https://www.peppepizza.com/pdf/carta-peppe.pdf?v=2026-08",
           "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/carta"
+        },
+        {
+          "url": "https://www.peppepizza.com/blog/cocteles-nerja-terraza/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/"
+        },
+        {
+          "url": "https://www.peppepizza.com/index.html",
+          "kind": "web",
           "status": "candidate",
           "source": "https://www.peppepizza.com/carta"
         },
@@ -923,6 +959,12 @@
           "kind": "image",
           "status": "candidate",
           "source": "https://lafamarestaurante.com"
+        },
+        {
+          "url": "https://lafamarestaurante.com",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://lafamarestaurante.com/aviso-legal-lafama/"
         }
       ]
     },
@@ -1197,6 +1239,30 @@
         {
           "url": "https://trattoriaitalianerja.es/en/menu/",
           "kind": "web",
+          "status": "curated",
+          "source": "curated-menus.json"
+        }
+      ]
+    },
+    "curated/Restaurante 34": {
+      "name": "Restaurante 34",
+      "official_website": "https://weur-cdn.menuweb.menu/",
+      "links": [
+        {
+          "url": "https://weur-cdn.menuweb.menu/storage/media/companies_menu_pdf/48514173/restaurante-34-nerja-carta.pdf",
+          "kind": "pdf",
+          "status": "curated",
+          "source": "curated-menus.json"
+        }
+      ]
+    },
+    "node/10126448663": {
+      "name": "La Bodega de Antonia",
+      "official_website": "https://weur-cdn.carta.menu/",
+      "links": [
+        {
+          "url": "https://weur-cdn.carta.menu/storage/media/companies_menu_pdf/75360625/la-bodega-de-antonia-nerja-carta.pdf",
+          "kind": "pdf",
           "status": "curated",
           "source": "curated-menus.json"
         }
@@ -1507,6 +1573,12 @@
           "source": "https://nerjadenerja.es/es/carta/brekkie/"
         },
         {
+          "url": "https://nerjadenerja.es/static/pdf/desayuno-bruxelles.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
           "url": "https://nerjadenerja.es/en/carta/menu/",
           "kind": "web",
           "status": "candidate",
@@ -1607,12 +1679,344 @@
           "kind": "image",
           "status": "candidate",
           "source": "https://nerjadenerja.es/es/carta/menu/"
+        }
+      ]
+    },
+    "verified/MUM Nerja": {
+      "name": "MUM Nerja",
+      "official_website": "https://www.mumnerja.com/indexesp.html",
+      "links": [
+        {
+          "url": "https://www.mumnerja.com/indexesp.html",
+          "kind": "web",
+          "status": "published",
+          "source": "Reviewed source list"
         },
         {
-          "url": "https://nerjadenerja.es/static/pdf/pages/carta-bruxelles-es-13.jpg?v=1794041510",
+          "url": "https://www.mumnerja.com/cartaesp.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/menu-diarioesp.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/menu-kidsesp.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/menu-kidsesp.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/menu-kidsesp.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/carta.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/img/menu/1.jpg",
           "kind": "image",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/carta/menu/"
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/img/menu/2.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/img/menu/3.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/img/menu/4.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/img/menu/5.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/img/menu/6.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/img/menu/7.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/img/menu/8.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/img/menu/9.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/img/menu/10.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/img/menu/11.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/menu-diario.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        },
+        {
+          "url": "https://www.mumnerja.com/menu-kids.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.mumnerja.com/carta.html"
+        }
+      ]
+    },
+    "researched/Restaurante Único": {
+      "name": "Restaurante Único",
+      "official_website": "https://restauranteunico.com/",
+      "links": [
+        {
+          "url": "https://restauranteunico.com/nuestra-carta/",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": ""
+        }
+      ]
+    },
+    "researched/La Bottega": {
+      "name": "La Bottega",
+      "official_website": "https://www.labotteganerja.com/",
+      "links": [
+        {
+          "url": "https://www.labotteganerja.com/",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": ""
+        }
+      ]
+    },
+    "researched/Restaurante Doña Lola": {
+      "name": "Restaurante Doña Lola",
+      "official_website": "https://restaurantedonalola.com/",
+      "links": [
+        {
+          "url": "https://restaurantedonalola.com/",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": ""
+        }
+      ]
+    },
+    "researched/Trattoria Italia": {
+      "name": "Trattoria Italia",
+      "official_website": "https://trattoriaitalianerja.es/",
+      "links": [
+        {
+          "url": "https://trattoriaitalianerja.es/",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": ""
+        }
+      ]
+    },
+    "researched/Restaurante del Parador de Nerja": {
+      "name": "Restaurante del Parador de Nerja",
+      "official_website": "https://paradores.es/es/restaurante-del-parador-de-nerja",
+      "links": [
+        {
+          "url": "https://paradores.es/es/restaurante-del-parador-de-nerja",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": ""
+        }
+      ]
+    },
+    "researched/Bruxelles by David Leon": {
+      "name": "Bruxelles by David Leon",
+      "official_website": "https://nerjadenerja.es/es/",
+      "links": [
+        {
+          "url": "https://nerjadenerja.es/es/",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": ""
+        }
+      ]
+    },
+    "researched/Rincón del Sol": {
+      "name": "Rincón del Sol",
+      "official_website": "https://rincondelsolnerja.com/",
+      "links": [
+        {
+          "url": "https://rincondelsolnerja.com/cartas/",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": ""
+        }
+      ]
+    },
+    "researched/Casa Luque": {
+      "name": "Casa Luque",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://www.thefork.es/restaurante/casa-luque-r848021/menu",
+          "kind": "web",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "third_party",
+          "note": ""
+        }
+      ]
+    },
+    "researched/Origen Nerja Restaurante": {
+      "name": "Origen Nerja Restaurante",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://www.tripadvisor.es/Restaurant_Review-g315917-d33093865-Reviews-Origen_Nerja_Restaurante-Nerja_Costa_del_Sol_Province_of_Malaga_Andalucia.html",
+          "kind": "web",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "third_party",
+          "note": ""
+        }
+      ]
+    },
+    "researched/El Pórtico": {
+      "name": "El Pórtico",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://restaurantguru.com/El-Portico-Nerja/menu",
+          "kind": "web",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "third_party",
+          "note": "Restaurant Guru listing; menu not independently verified"
+        }
+      ]
+    },
+    "researched/Cafetería Calabella": {
+      "name": "Cafetería Calabella",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://restaurantguru.com/Cafeteria-Calabella-Nerja-2/menu",
+          "kind": "web",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "third_party",
+          "note": "User-uploaded historic menu images; may be outdated"
+        }
+      ]
+    },
+    "researched/Bakers Restaurant Bar": {
+      "name": "Bakers Restaurant Bar",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://restaurantguru.com/Bakers-Restaurant-Bar-Nerja/menu",
+          "kind": "web",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "unverified_lead",
+          "note": "Candidate listing URL, requires verification"
+        }
+      ]
+    },
+    "researched/Inita Cafe": {
+      "name": "Inita Cafe",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://weur-cdn.carta.menu/storage/media/companies_menu_pdf/114107611/inita-cafe-nerja-carta.pdf",
+          "kind": "pdf",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "third_party",
+          "note": "Third-party category PDF; not a verified priced menu"
+        }
+      ]
+    },
+    "researched/Patagonia y Ole": {
+      "name": "Patagonia y Ole",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://www.thefork.es/restaurante/patagonia-y-ole-r824673/menu",
+          "kind": "web",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "third_party",
+          "note": "TheFork menu last edited December 2024"
+        }
+      ]
+    },
+    "researched/Restaurante Oliva": {
+      "name": "Restaurante Oliva",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://es.restaurantguru.com/Oliva-Nerja/menu",
+          "kind": "web",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "third_party",
+          "note": "Restaurant Guru owner and user menus; historic versions"
+        }
+      ]
+    },
+    "researched/MUM Nerja": {
+      "name": "MUM Nerja",
+      "official_website": "https://www.mumnerja.com/indexesp.html",
+      "links": [
+        {
+          "url": "https://www.mumnerja.com/indexesp.html",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": "Official website contains links to Carta and Menú Diario; prices not yet verified."
         }
       ]
     },
@@ -1670,6 +2074,18 @@
       "links": [
         {
           "url": "https://nerjadenerja.es/es/",
+          "kind": "web",
+          "status": "published",
+          "source": "researched official restaurant website"
+        }
+      ]
+    },
+    "verified/mumnerja": {
+      "name": "MUM Nerja",
+      "official_website": "https://www.mumnerja.com/indexesp.html",
+      "links": [
+        {
+          "url": "https://www.mumnerja.com/indexesp.html",
           "kind": "web",
           "status": "published",
           "source": "researched official restaurant website"
