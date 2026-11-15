@@ -11,6 +11,7 @@ def load(name, default):
 places = load("restaurants.json", {"items": []}).get("items", [])
 discovery = load("menu-discovery.json", {"restaurants": {}}).get("restaurants", {})
 pdf = load("pdf-menus.json", {"restaurants": {}}).get("restaurants", {})
+html = load("html-menus.json", {"restaurants": {}}).get("restaurants", {})
 auto = load("auto-menus.json", {"restaurants": {}}).get("restaurants", {})
 curated = load("curated-menus.json", {"entries": []}).get("entries", [])
 
@@ -20,7 +21,7 @@ for p in places:
     pid = p["id"]
     if p.get("menu") or any(x.get("kind") != "website" for x in discovery.get(pid, {}).get("links", [])):
         with_menu.add(pid)
-    if pdf.get(pid, {}).get("dishes"):
+    if pdf.get(pid, {}).get("dishes") or html.get(pid, {}).get("dishes"):
         with_menu.add(pid)
         with_prices.add(pid)
     for c in curated:
@@ -37,6 +38,7 @@ report = {
     "restaurants_with_dish_prices": len(with_prices),
     "curated_entries": len(curated),
     "discovered_link_entries": len(discovery),
+    "automated_html_menu_entries": sum(bool(x.get("dishes")) for x in html.values()),
     "automated_pdf_menu_entries": sum(bool(x.get("dishes")) for x in pdf.values()),
     "automated_structured_menu_entries": sum(bool(x.get("dishes")) for x in auto.values()),
     "note": "Discovered menu links and OCR price candidates are not human verified. Counts exclude unmatched curated-only restaurants."
