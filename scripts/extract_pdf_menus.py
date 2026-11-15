@@ -93,4 +93,9 @@ for r in restaurants+extra:
    diagnostics["failures"].append({"restaurant":r["name"],"url":url,"reason":str(e)[:160]})
    print("OCR skipped",r["name"],str(e)[:100],flush=True)
 
-target.write_text(json.dumps({"restaurants":out},ensure_ascii=False,indent=2)+"\n")
+for key, old in previous.items():
+ if key not in out:
+  out[key]=dict(old,status="stale_candidate",stale_reason="No fresh PDF extraction")
+  diagnostics["stale"]+=1
+target.write_text(json.dumps({"restaurants":out},ensure_ascii=False,indent=2)+"\\n")
+(root/"pdf-menu-diagnostics.json").write_text(json.dumps(diagnostics,ensure_ascii=False,indent=2)+"\\n")
