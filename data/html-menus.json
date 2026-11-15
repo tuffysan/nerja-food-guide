@@ -6,16 +6,391 @@
         "https://www.avalonnerja.com/es/menu-a-la-carta/",
         "https://www.avalonnerja.com/es/a-la-carte-menu-summer/",
         "https://www.avalonnerja.com/es/carta-de-vino/",
+        "https://www.avalonnerja.com/es/bebidas/",
         "https://www.avalonnerja.com/a-la-carte-menu/",
-        "https://www.avalonnerja.com/a-la-carte-menu-summer/"
+        "https://www.avalonnerja.com/a-la-carte-menu-summer/",
+        "https://www.avalonnerja.com/drinks/"
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T20:34:10.842503+00:00",
+      "checked_at": "2026-11-15T20:57:14.385307+00:00",
+      "pages": [
+        {
+          "url": "https://www.avalonnerja.com/es/menu-a-la-carta/",
+          "dishes": [
+            [
+              "Croquetas del día",
+              "9,00 €"
+            ],
+            [
+              "Verduras del dia",
+              "6,00 €"
+            ],
+            [
+              "Patatas fritas",
+              "4,00 €"
+            ],
+            [
+              "Papas a lo pobre",
+              "4,00 €"
+            ],
+            [
+              "Tarta de queso con lima y gengibre",
+              "8,00 €"
+            ],
+            [
+              "Pudin de toffee – caramelo salado – helado de vainilla",
+              "8,00 €"
+            ],
+            [
+              "Ensalada de frutas frescas",
+              "8,00 €"
+            ],
+            [
+              "Tarta de chocolate – mascarpone con naranja",
+              "8,00 €"
+            ],
+            [
+              "Panna cotta – vodka - naranja",
+              "8,00 €"
+            ],
+            [
+              "Quesos españoles - membrillo – pan crujiente",
+              "12,00 €"
+            ],
+            [
+              "Sorbete de mango – ponche caballero",
+              "8,00 €"
+            ],
+            [
+              "Helado de vainilla – caramelo salado",
+              "8,00 €"
+            ],
+            [
+              "Sorbete de limón – cava",
+              "8,00 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://www.avalonnerja.com/es/a-la-carte-menu-summer/",
+          "dishes": [
+            [
+              "Croquetas del día",
+              "10,00 €"
+            ],
+            [
+              "Paté de hígado de pollo",
+              "11,00 €"
+            ],
+            [
+              "Aceitunas",
+              "1,00 €"
+            ],
+            [
+              "Alioli",
+              "1,00 €"
+            ],
+            [
+              "Verduras mediterraneas",
+              "6,00 €"
+            ],
+            [
+              "Patatas fritas",
+              "4,00 €"
+            ],
+            [
+              "Ensalada de acompañante pequeña",
+              "6,00 €"
+            ],
+            [
+              "Ensalada de frutas frescas",
+              "9,00 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://www.avalonnerja.com/es/carta-de-vino/",
+          "dishes": [
+            [
+              "Conde de Leizao | Tempranillo | Rioja, botella",
+              "14,00 €"
+            ],
+            [
+              "Conde de Leizao | Tempranillo | Rioja",
+              "14,00 €"
+            ],
+            [
+              "Señorio Real | Tempranillo | Ribera del Duero",
+              "14,00 €"
+            ],
+            [
+              "Botella",
+              "14,00 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://www.avalonnerja.com/es/bebidas/",
+          "dishes": [
+            [
+              "Bitter Kas",
+              "2,50 €"
+            ],
+            [
+              "Nestea",
+              "2,50 €"
+            ],
+            [
+              "Sprite",
+              "2,50 €"
+            ],
+            [
+              "Arándano agrio, gaseosa y lima",
+              "4,50 €"
+            ],
+            [
+              "Aquarius limón",
+              "2,50 €"
+            ],
+            [
+              "Smoothie fresa / platano",
+              "6,50 €"
+            ],
+            [
+              "Smoothie coco y piña",
+              "6,50 €"
+            ],
+            [
+              "Smoothie mango",
+              "6,50 €"
+            ],
+            [
+              "Frozen Mojito non-alcohol",
+              "6,50 €"
+            ],
+            [
+              "Pinkish Pantha",
+              "6,00 €"
+            ],
+            [
+              "Cola Cao",
+              "2,00 €"
+            ],
+            [
+              "Spritzer",
+              "6,00 €"
+            ],
+            [
+              "Tequila Sunrise with fresh orange juice",
+              "12,00 €"
+            ],
+            [
+              "Espresso Martini",
+              "10,00 €"
+            ],
+            [
+              "Classic Martini",
+              "10,00 €"
+            ],
+            [
+              "Margarita",
+              "10,00 €"
+            ],
+            [
+              "Nuestro Mojito",
+              "10,00 €"
+            ],
+            [
+              "Negroni",
+              "10,00 €"
+            ],
+            [
+              "Piña Colada",
+              "10,00 €"
+            ],
+            [
+              "Chocolatini con Tanqueray Sevilla",
+              "11,00 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://www.avalonnerja.com/a-la-carte-menu/",
+          "dishes": [
+            [
+              "Croquetas of the day",
+              "9,00 €"
+            ],
+            [
+              "Vegetables of the day",
+              "6,00 €"
+            ],
+            [
+              "Hand cut chips",
+              "4,00 €"
+            ],
+            [
+              "Spanish potatoes",
+              "4,00 €"
+            ],
+            [
+              "Lime and ginger cheesecake",
+              "8,00 €"
+            ],
+            [
+              "Sticky toffee pudding – salted caramel - vanilla ice cream",
+              "8,00 €"
+            ],
+            [
+              "Fresh fruit salad",
+              "8,00 €"
+            ],
+            [
+              "Warm chocolate cake – orange mascarpone",
+              "8,00 €"
+            ],
+            [
+              "Panna cotta – vodka - orange",
+              "8,00 €"
+            ],
+            [
+              "Spanish cheeses – quince jelly – crisp bread",
+              "12,00 €"
+            ],
+            [
+              "Mango sorbet – ponche caballero",
+              "8,00 €"
+            ],
+            [
+              "Vanilla ice cream – salted caramel",
+              "8,00 €"
+            ],
+            [
+              "Lemon sorbet – cava",
+              "8,00 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://www.avalonnerja.com/a-la-carte-menu-summer/",
+          "dishes": [
+            [
+              "Croquetas of the day",
+              "10,00 €"
+            ],
+            [
+              "Olives",
+              "1,00 €"
+            ],
+            [
+              "Alioli",
+              "1,00 €"
+            ],
+            [
+              "Mediterranean vegetables",
+              "6,00 €"
+            ],
+            [
+              "Hand cut chips",
+              "4,00 €"
+            ],
+            [
+              "Small side salad",
+              "6,00 €"
+            ],
+            [
+              "Lime and ginger cheesecake",
+              "10,00 €"
+            ],
+            [
+              "Fresh fruit salad",
+              "9,00 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://www.avalonnerja.com/drinks/",
+          "dishes": [
+            [
+              "Bitter Kas",
+              "2,50 €"
+            ],
+            [
+              "Sprite",
+              "2,50 €"
+            ],
+            [
+              "Cranberry, Soda and Lime",
+              "4,50 €"
+            ],
+            [
+              "Aquarius Lemon",
+              "2,50 €"
+            ],
+            [
+              "Smoothie Strawberry / Banana",
+              "6,50 €"
+            ],
+            [
+              "Smoothie Coconut / Pineapple",
+              "6,50 €"
+            ],
+            [
+              "Smoothie Mango",
+              "6,50 €"
+            ],
+            [
+              "Frozen Mojito without alcohol",
+              "6,50 €"
+            ],
+            [
+              "Pinkish Pantha",
+              "6,00 €"
+            ],
+            [
+              "Spritzer",
+              "6,00 €"
+            ],
+            [
+              "Tequila Sunrise with fresh orange juice",
+              "12,00 €"
+            ],
+            [
+              "Espresso Martini",
+              "10,00 €"
+            ],
+            [
+              "Classic Martini",
+              "10,00 €"
+            ],
+            [
+              "Margarita",
+              "10,00 €"
+            ],
+            [
+              "Our Mojito",
+              "10,00 €"
+            ],
+            [
+              "Negroni",
+              "10,00 €"
+            ],
+            [
+              "Piña Colada",
+              "10,00 €"
+            ],
+            [
+              "Chocolatini with Tanqueray Sevilla",
+              "11,00 €"
+            ]
+          ]
+        }
+      ],
       "dishes": [
         [
           "Croquetas del día",
-          "9,00 €"
+          "10,00 €"
         ],
         [
           "Verduras del dia",
@@ -39,7 +414,7 @@
         ],
         [
           "Ensalada de frutas frescas",
-          "8,00 €"
+          "9,00 €"
         ],
         [
           "Tarta de chocolate – mascarpone con naranja",
@@ -66,10 +441,6 @@
           "8,00 €"
         ],
         [
-          "Croquetas del día",
-          "10,00 €"
-        ],
-        [
           "Paté de hígado de pollo",
           "11,00 €"
         ],
@@ -90,10 +461,6 @@
           "6,00 €"
         ],
         [
-          "Ensalada de frutas frescas",
-          "9,00 €"
-        ],
-        [
           "Conde de Leizao | Tempranillo | Rioja, botella",
           "14,00 €"
         ],
@@ -110,8 +477,88 @@
           "14,00 €"
         ],
         [
+          "Bitter Kas",
+          "2,50 €"
+        ],
+        [
+          "Nestea",
+          "2,50 €"
+        ],
+        [
+          "Sprite",
+          "2,50 €"
+        ],
+        [
+          "Arándano agrio, gaseosa y lima",
+          "4,50 €"
+        ],
+        [
+          "Aquarius limón",
+          "2,50 €"
+        ],
+        [
+          "Smoothie fresa / platano",
+          "6,50 €"
+        ],
+        [
+          "Smoothie coco y piña",
+          "6,50 €"
+        ],
+        [
+          "Smoothie Mango",
+          "6,50 €"
+        ],
+        [
+          "Frozen Mojito non-alcohol",
+          "6,50 €"
+        ],
+        [
+          "Pinkish Pantha",
+          "6,00 €"
+        ],
+        [
+          "Cola Cao",
+          "2,00 €"
+        ],
+        [
+          "Spritzer",
+          "6,00 €"
+        ],
+        [
+          "Tequila Sunrise with fresh orange juice",
+          "12,00 €"
+        ],
+        [
+          "Espresso Martini",
+          "10,00 €"
+        ],
+        [
+          "Classic Martini",
+          "10,00 €"
+        ],
+        [
+          "Margarita",
+          "10,00 €"
+        ],
+        [
+          "Nuestro Mojito",
+          "10,00 €"
+        ],
+        [
+          "Negroni",
+          "10,00 €"
+        ],
+        [
+          "Piña Colada",
+          "10,00 €"
+        ],
+        [
+          "Chocolatini con Tanqueray Sevilla",
+          "11,00 €"
+        ],
+        [
           "Croquetas of the day",
-          "9,00 €"
+          "10,00 €"
         ],
         [
           "Vegetables of the day",
@@ -127,7 +574,7 @@
         ],
         [
           "Lime and ginger cheesecake",
-          "8,00 €"
+          "10,00 €"
         ],
         [
           "Sticky toffee pudding – salted caramel - vanilla ice cream",
@@ -135,7 +582,7 @@
         ],
         [
           "Fresh fruit salad",
-          "8,00 €"
+          "9,00 €"
         ],
         [
           "Warm chocolate cake – orange mascarpone",
@@ -162,10 +609,6 @@
           "8,00 €"
         ],
         [
-          "Croquetas of the day",
-          "10,00 €"
-        ],
-        [
           "Olives",
           "1,00 €"
         ],
@@ -178,12 +621,500 @@
           "6,00 €"
         ],
         [
-          "Lime and ginger cheesecake",
+          "Cranberry, Soda and Lime",
+          "4,50 €"
+        ],
+        [
+          "Aquarius Lemon",
+          "2,50 €"
+        ],
+        [
+          "Smoothie Strawberry / Banana",
+          "6,50 €"
+        ],
+        [
+          "Smoothie Coconut / Pineapple",
+          "6,50 €"
+        ],
+        [
+          "Frozen Mojito without alcohol",
+          "6,50 €"
+        ],
+        [
+          "Our Mojito",
           "10,00 €"
         ],
         [
-          "Fresh fruit salad",
-          "9,00 €"
+          "Chocolatini with Tanqueray Sevilla",
+          "11,00 €"
+        ]
+      ]
+    },
+    "node/2702579708": {
+      "source": "https://rincondelsolnerja.com/cartas/ensaladas/",
+      "sources": [
+        "https://rincondelsolnerja.com/cartas/ensaladas/",
+        "https://rincondelsolnerja.com/cartas/poke-salads-y-asiaticos/",
+        "https://rincondelsolnerja.com/cartas/entrantes/",
+        "https://rincondelsolnerja.com/cartas/carnes/",
+        "https://rincondelsolnerja.com/cartas/burguers-y-bruschettas/",
+        "https://rincondelsolnerja.com/cartas/pescados/",
+        "https://rincondelsolnerja.com/cartas/arroces-y-pastas/",
+        "https://rincondelsolnerja.com/cartas/pescaito-frito/",
+        "https://rincondelsolnerja.com/cartas/pizza/",
+        "https://rincondelsolnerja.com/cartas/postres/",
+        "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
+        "https://rincondelsolnerja.com/cartas/vino-tinto/"
+      ],
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T20:57:46.527596+00:00",
+      "pages": [
+        {
+          "url": "https://rincondelsolnerja.com/cartas/ensaladas/",
+          "dishes": [
+            [
+              "Brotes tiernos, tomates cherry, pepino, cebolla encurtida y atún",
+              "11,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/poke-salads-y-asiaticos/",
+          "dishes": [
+            [
+              "Verduras Thai aromatizadas con jengibre",
+              "12,95 €"
+            ],
+            [
+              "Salmón, arroz jazmín, aguacate, edamame, patchoy, wakame y mango",
+              "16,95 €"
+            ],
+            [
+              "Udons salteados con katsu de pollo y salsa Kinchi",
+              "17,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/entrantes/",
+          "dishes": [
+            [
+              "Salsa brava ligeramente picante",
+              "9,95 €"
+            ],
+            [
+              "Berenjenas, tomates secos y crema de miel de caña",
+              "13,95 €"
+            ],
+            [
+              "Shitake, porcini y mayo de boletus",
+              "13,95 €"
+            ],
+            [
+              "Acompañadas de verduritas, mango y salsa sakura",
+              "16,95 €"
+            ],
+            [
+              "Con verduritas, salsa de albahaca y curry, y guisantes wasabi",
+              "14,95 €"
+            ],
+            [
+              "Acompañado de verduritas y salsa unagi",
+              "23,95 €"
+            ],
+            [
+              "Ajos, tomates cherry y parmentier de coliflor",
+              "25,95 €"
+            ],
+            [
+              "Langostinos al pil-pil",
+              "16,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/carnes/",
+          "dishes": [
+            [
+              "Entrecot de Black Angus a la parrilla 350g",
+              "27,70 €"
+            ],
+            [
+              "Costillas de cerdo BBQ",
+              "23,90 €"
+            ],
+            [
+              "Secreto ibérico Piri-Piri",
+              "41,70 €"
+            ],
+            [
+              "Acompañado de arroz jazmín",
+              "24,70 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/burguers-y-bruschettas/",
+          "dishes": [
+            [
+              "Jamón serrano, brotes tiernos, emulsión de tomate y mozzarella fresca",
+              "13,70 €"
+            ],
+            [
+              "Cochinita pibil, cebolla encurtida, guacamole y emulsión de tomate",
+              "14,90 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pescados/",
+          "dishes": [
+            [
+              "Salmón en crema de carabineros y espárragos",
+              "25,70 €"
+            ],
+            [
+              "Calamar a la parrilla con vinagreta ponzu",
+              "26,90 €"
+            ],
+            [
+              "Papillote de dorada al mango y cilantro",
+              "24,70 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/arroces-y-pastas/",
+          "dishes": [
+            [
+              "Risotto del Mediterráneo",
+              "20,95 €"
+            ],
+            [
+              "Fettuccine con bogavante, tomates cherry y albahaca",
+              "27,70 €"
+            ],
+            [
+              "Risotto de Carabinero y Gambas",
+              "26,70 €"
+            ],
+            [
+              "Risotto de Boletus, trufas y espárragos",
+              "19,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pescaito-frito/",
+          "dishes": [
+            [
+              "Fritura de pescado",
+              "24,70 €"
+            ],
+            [
+              "Bacalao en tempura al aroma ponzu",
+              "17,90 €"
+            ],
+            [
+              "Calamares fritos",
+              "13,90 €"
+            ],
+            [
+              "Boquerones fritos",
+              "15,95 €"
+            ],
+            [
+              "Rejos fritos",
+              "13,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pizza/",
+          "dishes": [
+            [
+              "Base blanca con mozzarella, salmón ahumado, rúcula y tomate cherry",
+              "15,95 €"
+            ],
+            [
+              "Tomate, mozzarella y pepperoni",
+              "13,95 €"
+            ],
+            [
+              "Tomate, mozzarella, jamón york, champiñones y aceitunas",
+              "15,95 €"
+            ],
+            [
+              "Tomate y mozzarella",
+              "13,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/postres/",
+          "dishes": [
+            [
+              "Fondant de chocolate",
+              "7,95 €"
+            ],
+            [
+              "Tarta de queso con pistacho",
+              "8,95 €"
+            ],
+            [
+              "RDS Edition",
+              "7,95 €"
+            ],
+            [
+              "Soufflé de manzana",
+              "7,95 €"
+            ],
+            [
+              "Tarta de queso",
+              "7,95 €"
+            ],
+            [
+              "Tarta tres leches",
+              "7,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
+          "dishes": [
+            [
+              "HELADO INCLUIDO",
+              "12,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/vino-tinto/",
+          "dishes": [
+            [
+              "Tinto de la Casa Garnacha",
+              "15,50 €"
+            ],
+            [
+              "Lurton D.O. Toro Tempranillo (Tinta de Toro)",
+              "20,60 €"
+            ],
+            [
+              "Beronia D.O.Ca. Rioja Tempranillo",
+              "21,50 €"
+            ],
+            [
+              "912 D.O. Ribera del Duero Tempranillo",
+              "23,95 €"
+            ],
+            [
+              "Marqués de Riscal Reserva D.O.Ca. Rioja Tempranillo y Graciano",
+              "30,00 €"
+            ],
+            [
+              "Acinipo D.O. Sierras de Málaga Monastrell negra",
+              "34,00 €"
+            ],
+            [
+              "Cristina D.O. Sierras de Málaga Malbec",
+              "49,20 €"
+            ]
+          ]
+        }
+      ],
+      "dishes": [
+        [
+          "Brotes tiernos, tomates cherry, pepino, cebolla encurtida y atún",
+          "11,95 €"
+        ],
+        [
+          "Verduras Thai aromatizadas con jengibre",
+          "12,95 €"
+        ],
+        [
+          "Salmón, arroz jazmín, aguacate, edamame, patchoy, wakame y mango",
+          "16,95 €"
+        ],
+        [
+          "Udons salteados con katsu de pollo y salsa Kinchi",
+          "17,95 €"
+        ],
+        [
+          "Salsa brava ligeramente picante",
+          "9,95 €"
+        ],
+        [
+          "Berenjenas, tomates secos y crema de miel de caña",
+          "13,95 €"
+        ],
+        [
+          "Shitake, porcini y mayo de boletus",
+          "13,95 €"
+        ],
+        [
+          "Acompañadas de verduritas, mango y salsa sakura",
+          "16,95 €"
+        ],
+        [
+          "Con verduritas, salsa de albahaca y curry, y guisantes wasabi",
+          "14,95 €"
+        ],
+        [
+          "Acompañado de verduritas y salsa unagi",
+          "23,95 €"
+        ],
+        [
+          "Ajos, tomates cherry y parmentier de coliflor",
+          "25,95 €"
+        ],
+        [
+          "Langostinos al pil-pil",
+          "16,95 €"
+        ],
+        [
+          "Entrecot de Black Angus a la parrilla 350g",
+          "27,70 €"
+        ],
+        [
+          "Costillas de cerdo BBQ",
+          "23,90 €"
+        ],
+        [
+          "Secreto ibérico Piri-Piri",
+          "41,70 €"
+        ],
+        [
+          "Acompañado de arroz jazmín",
+          "24,70 €"
+        ],
+        [
+          "Jamón serrano, brotes tiernos, emulsión de tomate y mozzarella fresca",
+          "13,70 €"
+        ],
+        [
+          "Cochinita pibil, cebolla encurtida, guacamole y emulsión de tomate",
+          "14,90 €"
+        ],
+        [
+          "Salmón en crema de carabineros y espárragos",
+          "25,70 €"
+        ],
+        [
+          "Calamar a la parrilla con vinagreta ponzu",
+          "26,90 €"
+        ],
+        [
+          "Papillote de dorada al mango y cilantro",
+          "24,70 €"
+        ],
+        [
+          "Risotto del Mediterráneo",
+          "20,95 €"
+        ],
+        [
+          "Fettuccine con bogavante, tomates cherry y albahaca",
+          "27,70 €"
+        ],
+        [
+          "Risotto de Carabinero y Gambas",
+          "26,70 €"
+        ],
+        [
+          "Risotto de Boletus, trufas y espárragos",
+          "19,95 €"
+        ],
+        [
+          "Fritura de pescado",
+          "24,70 €"
+        ],
+        [
+          "Bacalao en tempura al aroma ponzu",
+          "17,90 €"
+        ],
+        [
+          "Calamares fritos",
+          "13,90 €"
+        ],
+        [
+          "Boquerones fritos",
+          "15,95 €"
+        ],
+        [
+          "Rejos fritos",
+          "13,95 €"
+        ],
+        [
+          "Base blanca con mozzarella, salmón ahumado, rúcula y tomate cherry",
+          "15,95 €"
+        ],
+        [
+          "Tomate, mozzarella y pepperoni",
+          "13,95 €"
+        ],
+        [
+          "Tomate, mozzarella, jamón york, champiñones y aceitunas",
+          "15,95 €"
+        ],
+        [
+          "Tomate y mozzarella",
+          "13,95 €"
+        ],
+        [
+          "Fondant de chocolate",
+          "7,95 €"
+        ],
+        [
+          "Tarta de queso con pistacho",
+          "8,95 €"
+        ],
+        [
+          "RDS Edition",
+          "7,95 €"
+        ],
+        [
+          "Soufflé de manzana",
+          "7,95 €"
+        ],
+        [
+          "Tarta de queso",
+          "7,95 €"
+        ],
+        [
+          "Tarta tres leches",
+          "7,95 €"
+        ],
+        [
+          "HELADO INCLUIDO",
+          "12,95 €"
+        ],
+        [
+          "Tinto de la Casa Garnacha",
+          "15,50 €"
+        ],
+        [
+          "Lurton D.O. Toro Tempranillo (Tinta de Toro)",
+          "20,60 €"
+        ],
+        [
+          "Beronia D.O.Ca. Rioja Tempranillo",
+          "21,50 €"
+        ],
+        [
+          "912 D.O. Ribera del Duero Tempranillo",
+          "23,95 €"
+        ],
+        [
+          "Marqués de Riscal Reserva D.O.Ca. Rioja Tempranillo y Graciano",
+          "30,00 €"
+        ],
+        [
+          "Acinipo D.O. Sierras de Málaga Monastrell negra",
+          "34,00 €"
+        ],
+        [
+          "Cristina D.O. Sierras de Málaga Malbec",
+          "49,20 €"
         ]
       ]
     },
@@ -191,7 +1122,7 @@
       "source": "https://restauranteunico.com/nuestra-carta/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T20:35:46.740909+00:00",
+      "checked_at": "2026-11-15T20:58:25.430048+00:00",
       "dishes": [
         [
           "Cava",
@@ -332,6 +1263,26 @@
         [
           "Zumo variado",
           "2,50 €"
+        ],
+        [
+          "Crumble de manzana Apple crumble",
+          "7,90 €"
+        ],
+        [
+          "Caramelised lemon cremeeux, biscuit sablé",
+          "7,90 €"
+        ],
+        [
+          "Viña Axarquia moscatel",
+          "4,20 €"
+        ],
+        [
+          "Crumble de manzana Apple crumble",
+          "6,90 €"
+        ],
+        [
+          "Crema de limon caramelizada Caramelized lemon cream",
+          "6,90 €"
         ]
       ]
     },
@@ -339,7 +1290,7 @@
       "source": "https://www.peppepizza.com/carta",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T20:35:46.907008+00:00",
+      "checked_at": "2026-11-15T20:58:25.519765+00:00",
       "dishes": [
         [
           "Polpette Tradizionali",
@@ -643,7 +1594,7 @@
       "source": "https://chezspice.es/menu",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T20:35:47.122764+00:00",
+      "checked_at": "2026-11-15T20:58:25.635905+00:00",
       "dishes": [
         [
           "Vegetable Delights · Todos a",
@@ -657,20 +1608,24 @@
     },
     "curated/Oculto": {
       "source": "https://www.restauranteoculto.com/carta/",
-      "sources": [
-        "https://www.restauranteoculto.com/carta/",
-        "https://www.restauranteoculto.com/en/menu/"
-      ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T20:35:11.364887+00:00",
+      "checked_at": "2026-11-15T20:58:26.305083+00:00",
       "dishes": [
         [
           "desde",
-          "4,90 €"
+          "4,50 €"
         ],
         [
-          "from",
+          "desde",
+          "7,90 €"
+        ],
+        [
+          "desde",
+          "9,90 €"
+        ],
+        [
+          "desde",
           "4,90 €"
         ]
       ]
@@ -679,7 +1634,7 @@
       "source": "https://lafamarestaurante.com/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T20:35:48.227892+00:00",
+      "checked_at": "2026-11-15T20:58:26.426814+00:00",
       "dishes": [
         [
           "Desayuno Inglés English breakfast",
@@ -771,7 +1726,7 @@
         ],
         [
           "Atún con Tomate Tuna with tomato",
-          "2,80 €"
+          "3,00 €"
         ],
         [
           "Pavo con Tomate Turkey with tomato",
@@ -834,6 +1789,10 @@
           "3,00 €"
         ],
         [
+          "Atún con Tomate Tuna with tomato",
+          "2,80 €"
+        ],
+        [
           "Bacon con Queso y Tomate Bacon, cheese and tomato",
           "2,80 €"
         ],
@@ -847,7 +1806,7 @@
         ],
         [
           "Ingrediente Extra Extra ingredient",
-          "1,10 €"
+          "0,20 €"
         ],
         [
           "Con Queso de Cabra Tomato, rucola, goat cheese, crispy onion and 180g beef meat burger",
@@ -880,6 +1839,10 @@
         [
           "Extra de Patatas Extra chips",
           "2,70 €"
+        ],
+        [
+          "Ingrediente Extra Extra ingredient",
+          "1,10 €"
         ],
         [
           "San Jacobo de Pollo a la Pimienta/Champiñón Chicken cordon bleu with pepper/mushroom sauce",
@@ -1043,7 +2006,7 @@
       "source": "https://trattoriaitalianerja.es/en/menu/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T20:35:50.749457+00:00",
+      "checked_at": "2026-11-15T20:58:28.082822+00:00",
       "dishes": [
         [
           "🇮🇹 Barbera D'Alba DOC - Piazzo",
@@ -1059,26 +2022,291 @@
         ],
         [
           "Copa / Glass",
+          "3,90 €"
+        ],
+        [
+          "Copa / Glass",
           "4,50 €"
         ],
         [
           "Copa/Glass",
-          "5,50 €"
+          "4,50 €"
+        ],
+        [
+          "Copa/Glass",
+          "3,90 €"
         ],
         [
           "½ Bot",
           "8,50 €"
+        ],
+        [
+          "Copa/Glass",
+          "5,50 €"
         ]
       ]
     },
     "verified/Restaurante Único": {
       "source": "https://restauranteunico.com/nuestra-carta/",
       "sources": [
-        "https://restauranteunico.com/nuestra-carta/"
+        "https://restauranteunico.com/nuestra-carta/",
+        "https://restauranteunico.com/nuestra-carta-de-vinos/"
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T20:35:28.303724+00:00",
+      "checked_at": "2026-11-15T20:58:11.876408+00:00",
+      "pages": [
+        {
+          "url": "https://restauranteunico.com/nuestra-carta/",
+          "dishes": [
+            [
+              "Cava",
+              "4,20 €"
+            ],
+            [
+              "Kirr royal",
+              "4,80 €"
+            ],
+            [
+              "Mimosa",
+              "4,80 €"
+            ],
+            [
+              "Aperol spritz",
+              "6,30 €"
+            ],
+            [
+              "Bellini",
+              "4,80 €"
+            ],
+            [
+              "Manzanilla",
+              "4,50 €"
+            ],
+            [
+              "Campari",
+              "5,00 €"
+            ],
+            [
+              "Campari+ naranja",
+              "6,00 €"
+            ],
+            [
+              "Limoncello spritz",
+              "6,00 €"
+            ],
+            [
+              "Campari spritz",
+              "6,30 €"
+            ],
+            [
+              "Martini rojo",
+              "4,00 €"
+            ],
+            [
+              "Martini blanco",
+              "4,00 €"
+            ],
+            [
+              "Larios",
+              "7,00 €"
+            ],
+            [
+              "Larios Rose",
+              "7,50 €"
+            ],
+            [
+              "Bombay Sapphire",
+              "8,90 €"
+            ],
+            [
+              "Tanqueray",
+              "8,50 €"
+            ],
+            [
+              "Hendrick’s",
+              "10,90 €"
+            ],
+            [
+              "Agua sin gas",
+              "2,40 €"
+            ],
+            [
+              "Agua con gas",
+              "2,40 €"
+            ],
+            [
+              "Caña de cerveza",
+              "2,70 €"
+            ],
+            [
+              "Tanque de cerveza",
+              "5,20 €"
+            ],
+            [
+              "Heineken 00",
+              "3,00 €"
+            ],
+            [
+              "Alhambra 1925",
+              "4,00 €"
+            ],
+            [
+              "Alhambra Special",
+              "3,50 €"
+            ],
+            [
+              "Radler",
+              "3,00 €"
+            ],
+            [
+              "San Miguel",
+              "3,00 €"
+            ],
+            [
+              "Tinto verano con limon",
+              "3,00 €"
+            ],
+            [
+              "Tinto verano con casera",
+              "3,50 €"
+            ],
+            [
+              "Tinto de verano 1l",
+              "10,00 €"
+            ],
+            [
+              "Copa de tinto",
+              "3,90 €"
+            ],
+            [
+              "Copa de blanco",
+              "3,90 €"
+            ],
+            [
+              "Copa de rosa",
+              "3,90 €"
+            ],
+            [
+              "Refresco",
+              "3,00 €"
+            ],
+            [
+              "Zumo naranja",
+              "3,50 €"
+            ],
+            [
+              "Zumo variado",
+              "2,50 €"
+            ],
+            [
+              "Crumble de manzana Apple crumble",
+              "7,90 €"
+            ],
+            [
+              "Caramelised lemon cremeeux, biscuit sablé",
+              "7,90 €"
+            ],
+            [
+              "Viña Axarquia moscatel",
+              "4,20 €"
+            ],
+            [
+              "Crumble de manzana Apple crumble",
+              "6,90 €"
+            ],
+            [
+              "Crema de limon caramelizada Caramelized lemon cream",
+              "6,90 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://restauranteunico.com/nuestra-carta-de-vinos/",
+          "dishes": [
+            [
+              "Uva: Macabeo Xarel-lo y Parellada",
+              "23,90 €"
+            ],
+            [
+              "Uva: Monastrel, Garnacha,Trepat",
+              "20,00 €"
+            ],
+            [
+              "Uva: Chardonnay, Gewürztraminer y Macabeo – Barrica sin Crianza",
+              "14,50 €"
+            ],
+            [
+              "Uva: 100% Chardonnay",
+              "21,00 €"
+            ],
+            [
+              "Uva: 100% Verdejo – Barrica sin Crianza",
+              "19,50 €"
+            ],
+            [
+              "Uva: 100% Albariño – Barrica sin Crianza",
+              "24,90 €"
+            ],
+            [
+              "Uva: Chardonnay 100% – Barrica 6 meses",
+              "24,00 €"
+            ],
+            [
+              "Uva: Cabernet Sauvignon, Tempranillo y Merlot – Barrica sin Crianza",
+              "14,50 €"
+            ],
+            [
+              "Uva: Garnacha 100%",
+              "17,00 €"
+            ],
+            [
+              "Uva: 100% Prieto Picudo",
+              "19,00 €"
+            ],
+            [
+              "Uva: 90% Tempranillo, – Barrica 12 meses",
+              "16,00 €"
+            ],
+            [
+              "Uva: 80% Tempranillo, 5% Graciano,15% Garnacha – Barrica 18/22 meses",
+              "27,00 €"
+            ],
+            [
+              "Uva: 100% Tempranillo – Barrica 24 meses",
+              "18,90 €"
+            ],
+            [
+              "Uva: 100% Tempranillo – Barrica 12 meses",
+              "32,00 €"
+            ],
+            [
+              "Uva: Tempranillo, Cabernet Sauvignon y Merlot- Barrica 6 meses",
+              "19,90 €"
+            ],
+            [
+              "Uva: 95% Tempranillo, 5% Cabernet Savignon – Barrica con crianza",
+              "19,50 €"
+            ],
+            [
+              "Uva: 100% Tempranillo – Barrica 12 meses",
+              "29,00 €"
+            ],
+            [
+              "Uva: 100% Tempranillo – Barrica 14 meses",
+              "60,00 €"
+            ],
+            [
+              "Uva: 100% Pinot Noir – Barrica 12 meses",
+              "22,90 €"
+            ],
+            [
+              "Uva: 100% Prieto Picudo- Barrica 14 meses",
+              "24,90 €"
+            ]
+          ]
+        }
+      ],
       "dishes": [
         [
           "Cava",
@@ -1219,6 +2447,132 @@
         [
           "Zumo variado",
           "2,50 €"
+        ],
+        [
+          "Crumble de manzana Apple crumble",
+          "6,90 €"
+        ],
+        [
+          "Caramelised lemon cremeeux, biscuit sablé",
+          "7,90 €"
+        ],
+        [
+          "Viña Axarquia moscatel",
+          "4,20 €"
+        ],
+        [
+          "Crema de limon caramelizada Caramelized lemon cream",
+          "6,90 €"
+        ],
+        [
+          "Uva: Macabeo Xarel-lo y Parellada",
+          "23,90 €"
+        ],
+        [
+          "Uva: Monastrel, Garnacha,Trepat",
+          "20,00 €"
+        ],
+        [
+          "Uva: Chardonnay, Gewürztraminer y Macabeo – Barrica sin Crianza",
+          "14,50 €"
+        ],
+        [
+          "Uva: 100% Chardonnay",
+          "21,00 €"
+        ],
+        [
+          "Uva: 100% Verdejo – Barrica sin Crianza",
+          "19,50 €"
+        ],
+        [
+          "Uva: 100% Albariño – Barrica sin Crianza",
+          "24,90 €"
+        ],
+        [
+          "Uva: Chardonnay 100% – Barrica 6 meses",
+          "24,00 €"
+        ],
+        [
+          "Uva: Cabernet Sauvignon, Tempranillo y Merlot – Barrica sin Crianza",
+          "14,50 €"
+        ],
+        [
+          "Uva: Garnacha 100%",
+          "17,00 €"
+        ],
+        [
+          "Uva: 100% Prieto Picudo",
+          "19,00 €"
+        ],
+        [
+          "Uva: 90% Tempranillo, – Barrica 12 meses",
+          "16,00 €"
+        ],
+        [
+          "Uva: 80% Tempranillo, 5% Graciano,15% Garnacha – Barrica 18/22 meses",
+          "27,00 €"
+        ],
+        [
+          "Uva: 100% Tempranillo – Barrica 24 meses",
+          "18,90 €"
+        ],
+        [
+          "Uva: 100% Tempranillo – Barrica 12 meses",
+          "29,00 €"
+        ],
+        [
+          "Uva: Tempranillo, Cabernet Sauvignon y Merlot- Barrica 6 meses",
+          "19,90 €"
+        ],
+        [
+          "Uva: 95% Tempranillo, 5% Cabernet Savignon – Barrica con crianza",
+          "19,50 €"
+        ],
+        [
+          "Uva: 100% Tempranillo – Barrica 14 meses",
+          "60,00 €"
+        ],
+        [
+          "Uva: 100% Pinot Noir – Barrica 12 meses",
+          "22,90 €"
+        ],
+        [
+          "Uva: 100% Prieto Picudo- Barrica 14 meses",
+          "24,90 €"
+        ]
+      ]
+    },
+    "verified/Bruxelles by David Leon": {
+      "source": "https://nerjadenerja.es/es/",
+      "sources": [
+        "https://nerjadenerja.es/es/"
+      ],
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T20:58:21.722586+00:00",
+      "pages": [
+        {
+          "url": "https://nerjadenerja.es/es/",
+          "dishes": [
+            [
+              "Pan & mantequilla: +€",
+              "2,00 €"
+            ],
+            [
+              "½ pollo asado con patatas fritas",
+              "15,40 €"
+            ]
+          ]
+        }
+      ],
+      "dishes": [
+        [
+          "Pan & mantequilla: +€",
+          "2,00 €"
+        ],
+        [
+          "½ pollo asado con patatas fritas",
+          "15,40 €"
         ]
       ]
     },
@@ -1229,7 +2583,174 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-15T20:35:39.446985+00:00",
+      "checked_at": "2026-11-15T20:58:22.513214+00:00",
+      "pages": [
+        {
+          "url": "https://restauranteunico.com/nuestra-carta/",
+          "dishes": [
+            [
+              "Cava",
+              "4,20 €"
+            ],
+            [
+              "Kirr royal",
+              "4,80 €"
+            ],
+            [
+              "Mimosa",
+              "4,80 €"
+            ],
+            [
+              "Aperol spritz",
+              "6,30 €"
+            ],
+            [
+              "Bellini",
+              "4,80 €"
+            ],
+            [
+              "Manzanilla",
+              "4,50 €"
+            ],
+            [
+              "Campari",
+              "5,00 €"
+            ],
+            [
+              "Campari+ naranja",
+              "6,00 €"
+            ],
+            [
+              "Limoncello spritz",
+              "6,00 €"
+            ],
+            [
+              "Campari spritz",
+              "6,30 €"
+            ],
+            [
+              "Martini rojo",
+              "4,00 €"
+            ],
+            [
+              "Martini blanco",
+              "4,00 €"
+            ],
+            [
+              "Larios",
+              "7,00 €"
+            ],
+            [
+              "Larios Rose",
+              "7,50 €"
+            ],
+            [
+              "Bombay Sapphire",
+              "8,90 €"
+            ],
+            [
+              "Tanqueray",
+              "8,50 €"
+            ],
+            [
+              "Hendrick’s",
+              "10,90 €"
+            ],
+            [
+              "Agua sin gas",
+              "2,40 €"
+            ],
+            [
+              "Agua con gas",
+              "2,40 €"
+            ],
+            [
+              "Caña de cerveza",
+              "2,70 €"
+            ],
+            [
+              "Tanque de cerveza",
+              "5,20 €"
+            ],
+            [
+              "Heineken 00",
+              "3,00 €"
+            ],
+            [
+              "Alhambra 1925",
+              "4,00 €"
+            ],
+            [
+              "Alhambra Special",
+              "3,50 €"
+            ],
+            [
+              "Radler",
+              "3,00 €"
+            ],
+            [
+              "San Miguel",
+              "3,00 €"
+            ],
+            [
+              "Tinto verano con limon",
+              "3,00 €"
+            ],
+            [
+              "Tinto verano con casera",
+              "3,50 €"
+            ],
+            [
+              "Tinto de verano 1l",
+              "10,00 €"
+            ],
+            [
+              "Copa de tinto",
+              "3,90 €"
+            ],
+            [
+              "Copa de blanco",
+              "3,90 €"
+            ],
+            [
+              "Copa de rosa",
+              "3,90 €"
+            ],
+            [
+              "Refresco",
+              "3,00 €"
+            ],
+            [
+              "Zumo naranja",
+              "3,50 €"
+            ],
+            [
+              "Zumo variado",
+              "2,50 €"
+            ],
+            [
+              "Crumble de manzana Apple crumble",
+              "7,90 €"
+            ],
+            [
+              "Caramelised lemon cremeeux, biscuit sablé",
+              "7,90 €"
+            ],
+            [
+              "Viña Axarquia moscatel",
+              "4,20 €"
+            ],
+            [
+              "Crumble de manzana Apple crumble",
+              "6,90 €"
+            ],
+            [
+              "Crema de limon caramelizada Caramelized lemon cream",
+              "6,90 €"
+            ]
+          ]
+        }
+      ],
       "dishes": [
         [
           "Cava",
@@ -1370,6 +2891,72 @@
         [
           "Zumo variado",
           "2,50 €"
+        ],
+        [
+          "Crumble de manzana Apple crumble",
+          "6,90 €"
+        ],
+        [
+          "Caramelised lemon cremeeux, biscuit sablé",
+          "7,90 €"
+        ],
+        [
+          "Viña Axarquia moscatel",
+          "4,20 €"
+        ],
+        [
+          "Crema de limon caramelizada Caramelized lemon cream",
+          "6,90 €"
+        ]
+      ]
+    },
+    "verified/bruxellesbydavidleon": {
+      "source": "https://nerjadenerja.es/es/",
+      "sources": [
+        "https://nerjadenerja.es/es/"
+      ],
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T20:58:23.744832+00:00",
+      "pages": [
+        {
+          "url": "https://nerjadenerja.es/es/",
+          "dishes": [
+            [
+              "Pan & mantequilla: +€",
+              "2,00 €"
+            ],
+            [
+              "½ pollo asado con patatas fritas",
+              "15,40 €"
+            ]
+          ]
+        }
+      ],
+      "dishes": [
+        [
+          "Pan & mantequilla: +€",
+          "2,00 €"
+        ],
+        [
+          "½ pollo asado con patatas fritas",
+          "15,40 €"
+        ]
+      ]
+    },
+    "curated/Bruxelles by David Leon": {
+      "source": "https://nerjadenerja.es/es/",
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T20:58:26.583613+00:00",
+      "dishes": [
+        [
+          "Pan & mantequilla: +€",
+          "2,00 €"
+        ],
+        [
+          "½ pollo asado con patatas fritas",
+          "15,40 €"
         ]
       ]
     }
