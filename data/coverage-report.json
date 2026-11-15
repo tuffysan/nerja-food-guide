@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-11-15T19:33:49.854584+00:00",
+  "osm_restaurants": 183,
+  "restaurants_with_menu_links_or_dishes": 4,
+  "restaurants_with_dish_prices": 1,
+  "curated_entries": 14,
+  "discovered_link_entries": 12,
+  "automated_pdf_menu_entries": 0,
+  "automated_structured_menu_entries": 0,
+  "note": "Discovered menu links and OCR price candidates are not human verified. Counts exclude unmatched curated-only restaurants."
+}

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-15T19:06:07.395664+00:00",
-  "note": "Unverified links to original restaurant websites.",
+  "updated_at": "2026-11-15T19:33:23.066658+00:00",
+  "note": "Discovered candidates are not verified menus. Official-site crawling respects robots.txt.",
   "restaurants": {
     "node/3328393211": {
       "name": "Andele!! Andele!!",
@@ -14,16 +14,34 @@
         }
       ]
     },
+    "node/579590817": {
+      "name": "Cielito Lindo",
+      "official_website": "https://cielitolindo.es/",
+      "links": [
+        {
+          "url": "https://cielitolindo.es/",
+          "kind": "website",
+          "status": "website_only",
+          "source": "https://cielitolindo.es/"
+        }
+      ]
+    },
+    "node/11409454639": {
+      "name": "Il Covo",
+      "official_website": "https://linktr.ee/ilcovo_es",
+      "links": [
+        {
+          "url": "https://linktr.ee/ilcovo_es",
+          "kind": "website",
+          "status": "website_only",
+          "source": "https://linktr.ee/ilcovo_es"
+        }
+      ]
+    },
     "node/5667412345": {
       "name": "La Barca",
       "official_website": "https://www.merenderolabarca.es/",
       "links": [
-        {
-          "url": "https://www.merenderolabarca.es/#carta",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.merenderolabarca.es/"
-        },
         {
           "url": "https://www.merenderolabarca.es/img/carta-nueva/page-2.jpg",
           "kind": "image",
@@ -80,6 +98,42 @@
         }
       ]
     },
+    "node/1057385149": {
+      "name": "La Marina Marisqueria",
+      "official_website": "https://la-marina-marisqueria.negocio.site/",
+      "links": [
+        {
+          "url": "https://la-marina-marisqueria.negocio.site/",
+          "kind": "website",
+          "status": "website_only",
+          "source": "https://la-marina-marisqueria.negocio.site/"
+        }
+      ]
+    },
+    "node/2114139257": {
+      "name": "La Parrala \"Ayo\"",
+      "official_website": "https://www.ayonerja.com",
+      "links": [
+        {
+          "url": "https://www.ayonerja.com",
+          "kind": "website",
+          "status": "website_only",
+          "source": "https://www.ayonerja.com"
+        }
+      ]
+    },
+    "node/13566629101": {
+      "name": "Old Town Restaurant & Bar",
+      "official_website": "https://www.oldtownrestaurantfrigiliana.com",
+      "links": [
+        {
+          "url": "https://www.oldtownrestaurantfrigiliana.com",
+          "kind": "website",
+          "status": "website_only",
+          "source": "https://www.oldtownrestaurantfrigiliana.com"
+        }
+      ]
+    },
     "node/4230056368": {
       "name": "Redondo Fish",
       "official_website": "https://redondo.bar/",
@@ -112,7 +166,133 @@
           "url": "https://rincondelsolnerja.com/cartas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://rincondelsolnerja.com/"
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/ensaladas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/poke-salads-y-asiaticos/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/entrantes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/carnes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/burguers-y-bruschettas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pescados/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/arroces-y-pastas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pescaito-frito/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pizza/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/postres/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/vino-tinto/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/vino-blanco/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/vino-rosado/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/cavas-champagnes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/refrescos-cervezas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/cafes-e-infusiones/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/zumos-batidos/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        }
+      ]
+    },
+    "node/3593959373": {
+      "name": "Teteria Zaidin",
+      "official_website": "https://esnerja.com/restaurante/teteria-zaidin/",
+      "links": [
+        {
+          "url": "https://esnerja.com/restaurante/teteria-zaidin/",
+          "kind": "website",
+          "status": "website_only",
+          "source": "https://esnerja.com/restaurante/teteria-zaidin/"
         }
       ]
     },
