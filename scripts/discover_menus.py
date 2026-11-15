@@ -158,6 +158,26 @@ if __name__ == "__main__":
             links.extend(discover(site))
         existing = out.get(rid, {}).get("links", [])
         out[rid] = {"name": name, "official_website": site, "links": list({x["url"]: x for x in existing + links}.values())[:MAX_LINKS]}
+    # Seeded sources supplement incomplete OpenStreetMap website coverage.
+    seeds_path = ROOT / "verified-menu-sources.json"
+    if seeds_path.exists():
+        seeds = json.loads(seeds_path.read_text(encoding="utf-8")).get("entries", [])
+        for entry in seeds:
+            if entry.get("source_type") != "official":
+                continue
+            name = entry.get("name", "")
+            site = entry.get("website", "")
+            menu = entry.get("menu", "")
+            if not site or not safe(site):
+                continue
+            key = next((r["id"] for r in data.get("items", []) if r["name"].casefold() == name.casefold()), "verified/" + name)
+            links = []
+            if menu and safe(menu) and same_host(menu, site):
+                links.append({"url": menu, "kind": kind(menu), "status": "published", "source": "Reviewed source list"})
+            links.extend(discover(site))
+            if links:
+                existing = out.get(key, {}).get("links", [])
+                out[key] = {"name": name, "official_website": site, "links": list({x["url"]: x for x in existing + links}.values())}
     (ROOT / "menu-discovery.json").write_text(json.dumps({
         "updated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "note": "Discovered candidates are not verified menus. Official-site crawling respects robots.txt.",
