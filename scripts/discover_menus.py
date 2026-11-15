@@ -2,7 +2,9 @@
 import json,pathlib,urllib.parse,urllib.request,html.parser,re,datetime,ipaddress,socket
 root=pathlib.Path(__file__).resolve().parents[1]/"data"
 class Parser(html.parser.HTMLParser):
- def __init__(self):super().__init__();self.links=[]
+ def __init__(self):super().__init__();self.links=[];self.text=[]
+ def handle_data(self,data):
+  if data.strip():self.text.append(data.strip())
  def handle_starttag(self,tag,attrs):
   a=dict(attrs)
   if tag=="a" and a.get("href"):self.links.append((a["href"],a.get("title","")+" "+a.get("aria-label","")))
@@ -37,10 +39,13 @@ for r in data["items"]:
     path=urllib.parse.urlsplit(u).path.lower()
     kind="pdf" if path.endswith(".pdf") else ("image" if re.search(r"\.(?:jpe?g|png|webp)$",path,re.I) else "web")
     links.append(dict(url=u,kind=kind,status="candidate",source=final))
-    if len(links)>=8:break
+    if len(links)>=16:break
+   # Also retain the official site as a useful fallback when no menu was found.
+   if not links:links.append(dict(url=final,kind="website",status="website_only",source=final))
   except Exception as e:print("Skipped",r["name"],str(e)[:80],flush=True)
  if links:
   unique=list({x["url"]:x for x in links}.values())
   out[r["id"]]=dict(name=r["name"],official_website=website,links=unique)
-(root/"menu-discovery.json").write_text(json.dumps(dict(updated_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),note="Unverified links to original restaurant websites.",restaurants=out),ensure_ascii=False,indent=2)+"\n")
+(root/"menu-discovery.json").write_text(json.dumps(dict(updated_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),note="Unverified links to original restaurant websites.",restaurants=out),ensure_ascii=False,indent=2)+"
+")
 print("Menu links for",len(out),"places")
