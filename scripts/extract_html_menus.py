@@ -91,6 +91,10 @@ def extract_lines(body):
     # Keep the first plausible price and do not show contradictory duplicates.
     unique = {}
     for name, price in found:
+        name = " ".join(name.split()).strip(" .:-–—|")
+        low = name.casefold()
+        if low in ("desde", "from", "copa / glass") or "todos a" in low or "todas a" in low or "+€" in low or "+ €" in low:
+            continue
         key = re.sub(r"[^a-z0-9]", "", name.casefold())
         if key and key not in unique:
             unique[key] = [name, price]
