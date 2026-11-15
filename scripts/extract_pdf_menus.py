@@ -20,11 +20,15 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
  def redirect_request(self,req,fp,code,msg,headers,newurl):return None
 opener=urllib.request.build_opener(NoRedirect)
 pattern=re.compile(r"^(.{4,95}?)\s+(?:[.·•-]\s*){0,8}(\d{1,3}[.,]\d{2})\s*(?:€|EUR)?\s*$",re.I)
+def plausible(name):
+ name=name.strip()
+ words=name.split()
+ return (len(words)>=2 and len(name)>=9 and len(name)<=85 and len(re.findall(r"[A-Za-zÁÉÍÓÚÑáéíóúñ]",name))>=7 and not re.search(r"[<>|{}\\] |https?://|www\.|\d{4}",name,re.I) and not any(len(w)>24 for w in words))
 def pairs_from(text):
  pairs=[]
  for line in text.splitlines():
   m=pattern.match(" ".join(line.strip().split()))
-  if m and not re.search(r"\b(total|iva|vat|telefono|phone|descuento)\b",m[1],re.I):
+  if m and plausible(m[1]) and not re.search(r"\b(total|iva|vat|telefono|phone|descuento)\b",m[1],re.I):
    pairs.append([m[1].strip(" .-"),m[2].replace(".",",")+" €"])
  return list({x[0].casefold():x for x in pairs}.values())[:80]
 def ocr(image):
@@ -61,7 +65,7 @@ for r in restaurants:
    elif content_type.startswith("image/") and (data.startswith(b"\x89PNG") or data.startswith(b"RIFF") or data.startswith(b"\xff\xd8\xff")):
     pairs=pairs_from(ocr(data))
    else:continue
-   if len(pairs)>=2:
+   if len(pairs)>=3:
     out[r["id"]]={"source":url,"status":"candidate","method":"pdf-text-or-local-ocr","checked_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),"dishes":pairs}
     print(r["name"],len(pairs),"unverified menu candidates",flush=True)
     break
