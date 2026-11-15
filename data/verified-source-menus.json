@@ -29,7 +29,7 @@
         ],
         [
           "Focaccia con crema de queso",
-          "10,90 €"
+          "6,90 €"
         ],
         [
           "Pluma iberica",
@@ -158,6 +158,26 @@
           "13,00 €"
         ]
       ]
+    },
+    {
+      "name": "La Bottega",
+      "match": [
+        "la bottega"
+      ],
+      "address": "Calle Castilla Pérez 21, Nerja, Málaga, España",
+      "source": "https://www.labotteganerja.com/",
+      "note": "Officiell webbplats med länkar till matmeny på engelska och spanska. Kontrollera säsongsstängning.",
+      "dishes": []
+    },
+    {
+      "name": "Bruxelles",
+      "match": [
+        "bruxelles"
+      ],
+      "address": "Playa Burriana, Nerja, Málaga, España",
+      "source": "https://nerjadenerja.es/es/",
+      "note": "Officiell webbplats med menylänkar och dagsmeny; dagspris varierar.",
+      "dishes": []
     }
   ]
 }
