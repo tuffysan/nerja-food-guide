@@ -7,7 +7,7 @@ root=pathlib.Path(__file__).resolve().parents[1]/"data"
 restaurants=json.loads((root/"restaurants.json").read_text())["items"]
 discovery=json.loads((root/"menu-discovery.json").read_text()).get("restaurants",{})
 target=root/"pdf-menus.json"
-previous=json.loads(target.read_text()).get("restaurants",{}) if target.exists() else {}
+
 def allowed(url,base):
  try:
   p=urllib.parse.urlsplit(url);b=urllib.parse.urlsplit(base)
@@ -70,5 +70,5 @@ for r in restaurants:
     print(r["name"],len(pairs),"unverified menu candidates",flush=True)
     break
   except Exception as e:print("OCR skipped",r["name"],str(e)[:100],flush=True)
- if r["id"] not in out and r["id"] in previous:out[r["id"]]=previous[r["id"]]
+
 target.write_text(json.dumps({"restaurants":out},ensure_ascii=False,indent=2)+"\n")
