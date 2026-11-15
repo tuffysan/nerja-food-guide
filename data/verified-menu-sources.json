@@ -41,6 +41,27 @@
       "menu": "https://nerjadenerja.es/es/",
       "address": "Playa Burriana, Nerja, Spanien",
       "source_type": "official"
+    },
+    {
+      "name": "Rincón del Sol",
+      "website": "https://rincondelsolnerja.com/",
+      "menu": "https://rincondelsolnerja.com/cartas/",
+      "address": "Nerja, Spanien",
+      "source_type": "official"
+    },
+    {
+      "name": "Casa Luque",
+      "website": "",
+      "menu": "https://www.thefork.es/restaurante/casa-luque-r848021/menu",
+      "address": "Plaza de Cavana 2, Nerja, Spanien",
+      "source_type": "third_party"
+    },
+    {
+      "name": "Origen Nerja Restaurante",
+      "website": "",
+      "menu": "https://www.tripadvisor.es/Restaurant_Review-g315917-d33093865-Reviews-Origen_Nerja_Restaurante-Nerja_Costa_del_Sol_Province_of_Malaga_Andalucia.html",
+      "address": "Plaza de España 9, Nerja, Spanien",
+      "source_type": "third_party"
     }
   ]
 }
