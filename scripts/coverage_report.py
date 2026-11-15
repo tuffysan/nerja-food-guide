@@ -14,6 +14,7 @@ pdf = load("pdf-menus.json", {"restaurants": {}}).get("restaurants", {})
 html = load("html-menus.json", {"restaurants": {}}).get("restaurants", {})
 auto = load("auto-menus.json", {"restaurants": {}}).get("restaurants", {})
 curated = load("curated-menus.json", {"entries": []}).get("entries", [])
+sourced = load("verified-source-menus.json", {"entries": []}).get("entries", [])
 verified = load("verified-menu-sources.json", {"entries": []}).get("entries", [])
 
 with_menu = set()
@@ -38,6 +39,8 @@ report = {
     "restaurants_with_menu_links_or_dishes": len(with_menu),
     "restaurants_with_dish_prices": len(with_prices),
     "curated_entries": len(curated),
+    "official_source_menu_entries": len(sourced),
+    "official_source_dish_entries": sum(len(x.get("dishes", [])) for x in sourced),
     "researched_official_menu_sources": len(verified),
     "curated_entries_with_menu_source": sum(bool(c.get("source")) for c in curated),
     "curated_entries_with_prices": sum(bool(c.get("dishes") or html.get("curated/" + c["name"], {}).get("dishes") or auto.get(c["name"], {}).get("dishes")) for c in curated),
