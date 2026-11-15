@@ -14,10 +14,10 @@ import urllib.robotparser
 
 ROOT = pathlib.Path(__file__).resolve().parents[1] / "data"
 KEYWORDS = re.compile(r"menu|men[uú]|carta|food|comida|speisekarte|carte|dinner|lunch|tapas|platos|restaurant", re.I)
-STRONG = re.compile(r"menu|men[uú]|carta|speisekarte|carte|food-menu|food_menu", re.I)
+STRONG = re.compile(r"menu|men[uú]|carta|speisekarte|carte|food-menu|food_menu|entrantes|ensaladas|carnes|pescados|postres|bebidas|starters|desserts|drinks|pizzas|pastas", re.I)
 MAX_SITES = 220
-MAX_PAGES = 4
-MAX_LINKS = 20
+MAX_PAGES = 8
+MAX_LINKS = 40
 
 class Parser(html.parser.HTMLParser):
     def __init__(self):
@@ -67,13 +67,6 @@ def robots_allowed(url):
                 ROBOTS[host] = rp
         except urllib.error.HTTPError as error:
             ROBOTS[host] = True if error.code in (404, 410) else None
-        except urllib.error.HTTPError as error:
-            # A missing robots.txt means no published crawl restrictions.
-            if error.code in (404, 410):
-                rp.parse([])
-                ROBOTS[host] = rp
-            else:
-                ROBOTS[host] = None
         except Exception:
             ROBOTS[host] = None
     return ROBOTS[host] is True or (ROBOTS[host] is not None and ROBOTS[host].can_fetch("NerjaFoodGuide", url))
@@ -125,7 +118,7 @@ def discover(site):
             clue = urllib.parse.unquote(target) + " " + label
             if STRONG.search(clue):
                 found[target] = {"url": target, "kind": kind(target), "status": "candidate", "source": page}
-            if depth < 2 and kind(target) == "web" and KEYWORDS.search(clue) and target not in visited and not any(x[0] == target for x in queue):
+            if depth < 3 and kind(target) == "web" and (KEYWORDS.search(clue) or STRONG.search(clue)) and target not in visited and not any(x[0] == target for x in queue):
                 queue.append((target, depth + 1))
             if len(found) >= MAX_LINKS:
                 break
@@ -152,7 +145,10 @@ if __name__ == "__main__":
         if direct and safe(direct):
             links.append({"url": direct, "kind": kind(direct), "status": "published", "source": "OpenStreetMap menu tag"})
         if site and safe(site):
-            links.extend(discover(site))
+            if kind(site) != "web":
+                links.append({"url": site, "kind": kind(site), "status": "candidate", "source": "official website"})
+            else:
+                links.extend(discover(site))
             if not links:
                 links.append({"url": site, "kind": "website", "status": "website_only", "source": site})
         if links:
