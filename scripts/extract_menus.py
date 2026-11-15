@@ -46,7 +46,7 @@ def extract(url):
    if not isinstance(offer,dict):continue
    price=offer.get("price")
    currency=offer.get("priceCurrency","EUR")
-   if isinstance(name,str) and len(name)<130 and isinstance(price,(str,int,float)) and re.fullmatch(r"\\d{1,4}(?:[.,]\\d{1,2})?",str(price)) and currency=="EUR":
+   if isinstance(name,str) and len(name)<130 and isinstance(price,(str,int,float)) and re.fullmatch(r"[0-9]{1,4}(?:[.,][0-9]{1,2})?",str(price)) and currency=="EUR":
     found.append([name,str(price).replace(".",",")+" €"])
  return list({x[0].casefold():x for x in found}.values())[:80]
 out={}
@@ -63,4 +63,4 @@ for entry in source["entries"]:
  except Exception as exc:
   print(entry["name"],"not refreshed:",str(exc)[:120],flush=True)
   if entry["name"] in previous.get("restaurants",{}):out[entry["name"]]=previous["restaurants"][entry["name"]]
-target.write_text(json.dumps({"restaurants":out},ensure_ascii=False,indent=2)+"\\n")
+target.write_text(json.dumps({"restaurants":out},ensure_ascii=False,indent=2)+"\n")
