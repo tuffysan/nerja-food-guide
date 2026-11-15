@@ -178,6 +178,63 @@
       "source": "https://nerjadenerja.es/es/",
       "note": "Officiell webbplats med menylänkar och dagsmeny; dagspris varierar.",
       "dishes": []
+    },
+    {
+      "name": "Avalon",
+      "address": "Punta Lara 22, 29780 Nerja, Málaga, España",
+      "source": "https://www.avalonnerja.com/es/menu-a-la-carta/",
+      "dishes": [
+        [
+          "Estofado de jabalí con vino tinto",
+          "20,00 €"
+        ],
+        [
+          "Solomillo de ternera",
+          "27,00 €"
+        ],
+        [
+          "Carrilladas de cerdo al Oporto",
+          "19,00 €"
+        ],
+        [
+          "Ensalada de pollo con harissa",
+          "19,00 €"
+        ],
+        [
+          "Risotto",
+          "16,00 €"
+        ],
+        [
+          "Ensalada de couscous",
+          "16,00 €"
+        ],
+        [
+          "Tofu glaseado con salsa de soja",
+          "17,00 €"
+        ],
+        [
+          "Tarta de queso con lima y gengibre",
+          "8,00 €"
+        ],
+        [
+          "Tarta de chocolate",
+          "8,00 €"
+        ],
+        [
+          "Panna cotta",
+          "8,00 €"
+        ]
+      ]
+    },
+    {
+      "name": "La Bottega",
+      "match": [
+        "la bottega"
+      ],
+      "address": "Calle Castilla Pérez 21, Nerja, Málaga, España",
+      "source": "https://www.labotteganerja.com/",
+      "note": "Officiell webbplats med länkar till matmenyer på engelska och spanska. Stängt 9 november–25 december 2026 enligt restaurangen.",
+      "dishes": []
     }
   ]
 }
