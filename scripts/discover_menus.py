@@ -1,50 +1,146 @@
-"""Discover official menu pages, PDFs and menu images. Links remain unverified."""
-import json,pathlib,urllib.parse,urllib.request,html.parser,re,datetime,ipaddress,socket
-root=pathlib.Path(__file__).resolve().parents[1]/"data"
+"""Find likely menu pages on official restaurant sites, with bounded same-site crawling."""
+import datetime
+import html.parser
+import ipaddress
+import json
+import pathlib
+import re
+import socket
+import time
+import urllib.parse
+import urllib.request
+import urllib.robotparser
+
+ROOT = pathlib.Path(__file__).resolve().parents[1] / "data"
+KEYWORDS = re.compile(r"menu|men[uú]|carta|food|comida|speisekarte|carte|dinner|lunch|tapas|platos|restaurant", re.I)
+STRONG = re.compile(r"menu|men[uú]|carta|speisekarte|carte|food-menu|food_menu", re.I)
+MAX_SITES = 220
+MAX_PAGES = 4
+MAX_LINKS = 20
+
 class Parser(html.parser.HTMLParser):
- def __init__(self):super().__init__();self.links=[];self.text=[]
- def handle_data(self,data):
-  if data.strip():self.text.append(data.strip())
- def handle_starttag(self,tag,attrs):
-  a=dict(attrs)
-  if tag=="a" and a.get("href"):self.links.append((a["href"],a.get("title","")+" "+a.get("aria-label","")))
-  if tag=="img" and a.get("src") and re.search(r"menu|men[uú]|carta",a.get("src","")+" "+a.get("alt",""),re.I):self.links.append((a["src"],a.get("alt","")))
-def safe(u):
- try:
-  p=urllib.parse.urlsplit(u)
-  if p.scheme!="https" or not p.hostname or p.username or p.password or p.port not in (None,443):return False
-  return all(ipaddress.ip_address(x[4][0]).is_global for x in socket.getaddrinfo(p.hostname,443))
- except Exception:return False
+    def __init__(self):
+        super().__init__()
+        self.links = []
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag == "a" and a.get("href"):
+            self.links.append((a["href"], " ".join([a.get("title", ""), a.get("aria-label", "")])))
+        if tag == "img" and a.get("src") and STRONG.search(a.get("src", "") + " " + a.get("alt", "")):
+            self.links.append((a["src"], a.get("alt", "")))
+
+def safe(url):
+    try:
+        p = urllib.parse.urlsplit(url)
+        if p.scheme != "https" or not p.hostname or p.username or p.password or p.port not in (None, 443):
+            return False
+        return all(ipaddress.ip_address(x[4][0]).is_global for x in socket.getaddrinfo(p.hostname, 443))
+    except (ValueError, OSError):
+        return False
+
+def same_host(url, origin):
+    return urllib.parse.urlsplit(url).hostname == urllib.parse.urlsplit(origin).hostname
+
 class NoRedirect(urllib.request.HTTPRedirectHandler):
- def redirect_request(self,req,fp,code,msg,headers,newurl):return None
-opener=urllib.request.build_opener(NoRedirect)
-data=json.loads((root/"restaurants.json").read_text());out={}
-for r in data["items"]:
- links=[];website=r.get("website");menu=r.get("menu")
- if menu and safe(menu):links.append(dict(url=menu,kind="pdf" if urllib.parse.urlsplit(menu).path.lower().endswith(".pdf") else "web",status="published",source="OpenStreetMap menu tag"))
- if website and safe(website):
-  try:
-   req=urllib.request.Request(website,headers={"User-Agent":"NerjaFoodGuide/3.4","Accept":"text/html"})
-   with opener.open(req,timeout=8) as resp:
-    final=resp.geturl()
-    if not safe(final) or urllib.parse.urlsplit(final).hostname!=urllib.parse.urlsplit(website).hostname:continue
-    if "text/html" not in resp.headers.get("Content-Type",""):continue
-    body=resp.read(200001)
-    if len(body)>200000:continue
-   p=Parser();p.feed(body.decode("utf-8","replace"))
-   for href,label in p.links:
-    u=urllib.parse.urljoin(final,href)
-    if not safe(u) or urllib.parse.urlsplit(u).hostname!=urllib.parse.urlsplit(final).hostname:continue
-    if not re.search(r"menu|men[uú]|carta|speisekarte|pdf",u+" "+label,re.I):continue
-    path=urllib.parse.urlsplit(u).path.lower()
-    kind="pdf" if path.endswith(".pdf") else ("image" if re.search(r"\.(?:jpe?g|png|webp)$",path,re.I) else "web")
-    links.append(dict(url=u,kind=kind,status="candidate",source=final))
-    if len(links)>=16:break
-   # Also retain the official site as a useful fallback when no menu was found.
-   if not links:links.append(dict(url=final,kind="website",status="website_only",source=final))
-  except Exception as e:print("Skipped",r["name"],str(e)[:80],flush=True)
- if links:
-  unique=list({x["url"]:x for x in links}.values())
-  out[r["id"]]=dict(name=r["name"],official_website=website,links=unique)
-(root/"menu-discovery.json").write_text(json.dumps(dict(updated_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),note="Unverified links to original restaurant websites.",restaurants=out),ensure_ascii=False,indent=2)+chr(10))
-print("Menu links for",len(out),"places")
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+OPENER = urllib.request.build_opener(NoRedirect)
+ROBOTS = {}
+
+def robots_allowed(url):
+    p = urllib.parse.urlsplit(url)
+    host = p.hostname
+    if host not in ROBOTS:
+        rp = urllib.robotparser.RobotFileParser()
+        rp.set_url("https://" + host + "/robots.txt")
+        try:
+            # Fail closed if robots.txt is inaccessible.
+            req = urllib.request.Request(rp.url, headers={"User-Agent": "NerjaFoodGuide/4.0"})
+            with OPENER.open(req, timeout=5) as response:
+                raw = response.read(100001)
+            if len(raw) > 100000:
+                ROBOTS[host] = None
+            else:
+                rp.parse(raw.decode("utf-8", "replace").splitlines())
+                ROBOTS[host] = rp
+        except Exception:
+            ROBOTS[host] = None
+    return ROBOTS[host] is not None and ROBOTS[host].can_fetch("NerjaFoodGuide", url)
+
+def fetch_html(url):
+    if not safe(url) or not robots_allowed(url):
+        return None
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "NerjaFoodGuide/4.0 (+https://tuffysan.github.io/nerja-food-guide/)",
+        "Accept": "text/html"
+    })
+    with OPENER.open(req, timeout=7) as response:
+        if response.geturl() != url or "text/html" not in response.headers.get("Content-Type", "").lower():
+            return None
+        body = response.read(250001)
+    if len(body) > 250000:
+        return None
+    parser = Parser()
+    parser.feed(body.decode("utf-8", "replace"))
+    return parser.links
+
+def kind(url):
+    path = urllib.parse.urlsplit(url).path.lower()
+    if path.endswith(".pdf"):
+        return "pdf"
+    if re.search(r"\.(?:png|jpe?g|webp)$", path):
+        return "image"
+    return "web"
+
+def discover(site):
+    queue = [(site, 0)]
+    visited = set()
+    found = {}
+    while queue and len(visited) < MAX_PAGES and len(found) < MAX_LINKS:
+        page, depth = queue.pop(0)
+        if page in visited:
+            continue
+        visited.add(page)
+        try:
+            links = fetch_html(page)
+        except Exception:
+            continue
+        if links is None:
+            continue
+        for href, label in links:
+            target = urllib.parse.urljoin(page, href).split("#")[0]
+            if not same_host(target, site) or not safe(target):
+                continue
+            clue = urllib.parse.unquote(target) + " " + label
+            if STRONG.search(clue):
+                found[target] = {"url": target, "kind": kind(target), "status": "candidate", "source": page}
+            if depth < 2 and kind(target) == "web" and KEYWORDS.search(clue) and target not in visited and not any(x[0] == target for x in queue):
+                queue.append((target, depth + 1))
+            if len(found) >= MAX_LINKS:
+                break
+        time.sleep(0.2)
+    return list(found.values())
+
+data = json.loads((ROOT / "restaurants.json").read_text(encoding="utf-8"))
+out = {}
+for restaurant in data.get("items", [])[:MAX_SITES]:
+    site = restaurant.get("website", "")
+    direct = restaurant.get("menu", "")
+    links = []
+    if direct and safe(direct):
+        links.append({"url": direct, "kind": kind(direct), "status": "published", "source": "OpenStreetMap menu tag"})
+    if site and safe(site):
+        links.extend(discover(site))
+        if not links:
+            links.append({"url": site, "kind": "website", "status": "website_only", "source": site})
+    if links:
+        dedup = {x["url"]: x for x in links}
+        out[restaurant["id"]] = {"name": restaurant["name"], "official_website": site, "links": list(dedup.values())}
+    print(restaurant.get("name", "?"), len(links), "links", flush=True)
+(ROOT / "menu-discovery.json").write_text(json.dumps({
+    "updated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+    "note": "Discovered candidates are not verified menus. Official-site crawling respects robots.txt.",
+    "restaurants": out
+}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print("Restaurants with links:", len(out))
