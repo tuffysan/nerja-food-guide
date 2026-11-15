@@ -64,9 +64,11 @@ def robots_allowed(url):
             else:
                 rp.parse(raw.decode("utf-8", "replace").splitlines())
                 ROBOTS[host] = rp
+        except urllib.error.HTTPError as error:
+            ROBOTS[host] = True if error.code in (404, 410) else None
         except Exception:
             ROBOTS[host] = None
-    return ROBOTS[host] is not None and ROBOTS[host].can_fetch("NerjaFoodGuide", url)
+    return ROBOTS[host] is True or (ROBOTS[host] is not None and ROBOTS[host].can_fetch("NerjaFoodGuide", url))
 
 def fetch_html(url):
     if not safe(url) or not robots_allowed(url):
