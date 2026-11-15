@@ -333,6 +333,17 @@
       "cuisine": "Mediterranean",
       "dishes": [],
       "note": "Officiell webbplats har länkar till mat-, dryckes- och snackmenyer."
+    },
+    {
+      "name": "Trattoria Italia",
+      "match": [
+        "trattoria italia"
+      ],
+      "source": "https://trattoriaitalianerja.es/en/menu/",
+      "cuisine": "Italienskt",
+      "address": "Calle Almirante Ferrándiz 29, Nerja, Spanien",
+      "dishes": [],
+      "note": "Officiell meny med maträtter och priser. Kontrollera priser hos restaurangen."
     }
   ]
 }
