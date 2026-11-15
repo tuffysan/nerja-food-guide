@@ -116,4 +116,20 @@ if __name__ == "__main__":
                             "method": "html-visible-text", "checked_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
                             "dishes": dishes}
         print(restaurant["name"], len(dishes), "HTML candidates", flush=True)
+    # Official menu sources may belong to restaurants absent from OSM.
+    curated = json.loads((ROOT / "curated-menus.json").read_text(encoding="utf-8")).get("entries", [])
+    for entry in curated:
+        url = entry.get("source", "")
+        host = urllib.parse.urlsplit(url).hostname or ""
+        if not host or host.endswith(("thefork.es", "tripadvisor.es")):
+            continue
+        key = "curated/" + entry["name"]
+        try:
+            dishes = fetch(url, url)
+            if len(dishes) >= 2:
+                results[key] = {"source": url, "status": "candidate", "method": "html-visible-text",
+                                "checked_at": datetime.datetime.now(datetime.timezone.utc).isoformat(), "dishes": dishes}
+            print(entry["name"], len(dishes), "curated-source candidates", flush=True)
+        except Exception as exc:
+            print(entry["name"], str(exc)[:100], flush=True)
     target.write_text(json.dumps({"restaurants": results}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
