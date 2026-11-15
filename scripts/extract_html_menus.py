@@ -74,7 +74,18 @@ def extract_lines(body):
         if len(name.split()) > 15 or re.search(r"https?://|@|[{}<>]", name):
             continue
         found.append([name, m.group(1).replace(".", ",") + " €"])
-    return list({x[0].casefold(): x for x in found}.values())[:100]
+    # Some menu themes render a dish heading and its price as adjacent blocks.
+    # Only pair consecutive short blocks; avoid descriptions and unrelated prices.
+    blocks = [" ".join(html.unescape(x).split()) for x in parser.blocks]
+    for i in range(len(blocks) - 1):
+        name, price_text = blocks[i], blocks[i + 1]
+        m = PRICE.fullmatch(price_text)
+        if not m or not (5 <= len(name) <= 70) or not (2 <= len(name.split()) <= 10):
+            continue
+        if BAD.search(name) or PRICE.search(name) or re.search(r"https?://|@|[{}<>]", name):
+            continue
+        found.append([name.strip(" .:-–—|"), m.group(1).replace(".", ",") + " €"])
+    return list({(x[0].casefold(), x[1]): x for x in found}.values())[:100]
 
 def fetch(url, official):
     url = url.split("#")[0]
@@ -99,7 +110,7 @@ if __name__ == "__main__":
         official = restaurant.get("official_website") or ""
         pages = [x["url"] for x in restaurant.get("links", []) if x.get("kind") == "web" and x.get("status") != "website_only"]
         # Official websites may render the entire menu on the landing page.
-        if not pages and official and urllib.parse.urlsplit(official).path not in ("", "/"):
+        if not pages and official:
             pages = [official]
         dishes = []
         sources = []
