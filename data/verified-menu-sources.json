@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "name": "Restaurante Único",
+      "website": "https://restauranteunico.com/",
+      "menu": "https://restauranteunico.com/nuestra-carta/",
+      "address": "Nerja, Málaga, Spanien",
+      "source_type": "official"
+    },
+    {
+      "name": "La Bottega",
+      "website": "https://www.labotteganerja.com/",
+      "menu": "https://www.labotteganerja.com/",
+      "address": "Calle Castilla Pérez 21, Nerja, Spanien",
+      "source_type": "official"
+    },
+    {
+      "name": "Restaurante Doña Lola",
+      "website": "https://restaurantedonalola.com/",
+      "menu": "https://restaurantedonalola.com/",
+      "address": "Plaza Balcón de Europa 15, Nerja, Spanien",
+      "source_type": "official"
+    },
+    {
+      "name": "Trattoria Italia",
+      "website": "https://trattoriaitalianerja.es/",
+      "menu": "https://trattoriaitalianerja.es/",
+      "address": "Calle Almirante Ferrándiz 29, Nerja, Spanien",
+      "source_type": "official"
+    },
+    {
+      "name": "Restaurante del Parador de Nerja",
+      "website": "https://paradores.es/es/restaurante-del-parador-de-nerja",
+      "menu": "https://paradores.es/es/restaurante-del-parador-de-nerja",
+      "address": "Nerja, Málaga, Spanien",
+      "source_type": "official"
+    },
+    {
+      "name": "Bruxelles by David Leon",
+      "website": "https://nerjadenerja.es/es/",
+      "menu": "https://nerjadenerja.es/es/",
+      "address": "Playa Burriana, Nerja, Spanien",
+      "source_type": "official"
+    }
+  ]
+}
