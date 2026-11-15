@@ -87,7 +87,14 @@ def extract_lines(body):
         if BAD.search(name) or PRICE.search(name) or re.search(r"https?://|@|[{}<>]", name) or name.lower().startswith(("€", "eur", "precio", "price")):
             continue
         found.append([name.strip(" .:-–—|"), m.group(1).replace(".", ",") + " €"])
-    return list({(x[0].casefold(), x[1]): x for x in found}.values())[:100]
+    # One dish can appear multiple times in responsive/mobile markup.
+    # Keep the first plausible price and do not show contradictory duplicates.
+    unique = {}
+    for name, price in found:
+        key = re.sub(r"[^a-z0-9]", "", name.casefold())
+        if key and key not in unique:
+            unique[key] = [name, price]
+    return list(unique.values())[:100]
 
 def fetch(url, official):
     url = url.split("#")[0]
