@@ -7,6 +7,7 @@ import json
 import pathlib
 import subprocess
 import tempfile
+import time
 import urllib.parse
 import urllib.request
 
@@ -15,6 +16,8 @@ from discover_menus import OPENER, Parser, robots_allowed, safe, same_host
 ROOT = pathlib.Path(__file__).resolve().parents[1] / "data"
 MAX_IMAGES_PER_SITE = 8
 MAX_BYTES = 1_000_000
+MAX_QR_SITES = 18
+QR_DEADLINE_SECONDS = 100
 
 
 def source_links(entries):
@@ -85,7 +88,7 @@ def qr_candidates(site):
 
 def augment(discovered, researched, qr_lookup=None):
     qr_lookup = qr_lookup or (lambda site: ([], 0))
-    output = dict(discovered)
+    output = {key: dict(record) for key, record in discovered.items()}
     stats = {"external_leads": 0, "official_leads": 0, "qr_images_checked": 0, "qr_links": 0, "errors": []}
     for key, record in source_links(researched).items():
         existing = output.get(key)
@@ -99,10 +102,15 @@ def augment(discovered, researched, qr_lookup=None):
             stats["official_leads"] += 1
         else:
             stats["external_leads"] += 1
+    started = time.monotonic()
+    sites_checked = set()
     for key, record in list(output.items()):
         site = record.get("official_website", "")
-        if not site or not safe(site) or record.get("qr_scanned"):
+        if not site or site in sites_checked or len(sites_checked) >= MAX_QR_SITES or time.monotonic() - started > QR_DEADLINE_SECONDS:
             continue
+        if not safe(site):
+            continue
+        sites_checked.add(site)
         try:
             links, checked = qr_lookup(site)
             stats["qr_images_checked"] += checked
@@ -114,6 +122,7 @@ def augment(discovered, researched, qr_lookup=None):
             record["links"] = list(existing.values())
         except Exception as error:
             stats["errors"].append({"restaurant": record.get("name", key), "reason": str(error)[:160]})
+    stats["qr_sites_checked"] = len(sites_checked)
     return output, stats
 
 
