@@ -127,8 +127,14 @@ def discover(site):
 if __name__ == "__main__":
     data = json.loads((ROOT / "restaurants.json").read_text(encoding="utf-8"))
     out = {}
+    seed_path = ROOT / "verified-source-menus.json"
+    seeds = json.loads(seed_path.read_text(encoding="utf-8")).get("entries", []) if seed_path.exists() else []
     for restaurant in data.get("items", [])[:MAX_SITES]:
         site = restaurant.get("website", "")
+        if not site:
+            matched = [x for x in seeds if x.get("source") and (x["name"].casefold() == restaurant["name"].casefold() or any(m.casefold() == restaurant["name"].casefold() for m in x.get("match", [])))]
+            if len(matched) == 1:
+                site = matched[0]["source"]
         direct = restaurant.get("menu", "")
         links = []
         if direct and safe(direct):
