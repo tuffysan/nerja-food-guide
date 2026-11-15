@@ -1,0 +1,160 @@
+{
+  "updated_at": "2026-11-15",
+  "entries": [
+    {
+      "name": "Restaurante Único",
+      "match": [
+        "unico",
+        "único"
+      ],
+      "cuisine": "Mediterranean",
+      "source": "https://restauranteunico.com/nuestra-carta/",
+      "dishes": [
+        [
+          "Ensalada de queso de cabra",
+          "12,90 €"
+        ],
+        [
+          "Carpaccio de ternera",
+          "12,90 €"
+        ],
+        [
+          "Tataki de atún",
+          "13,90 €"
+        ],
+        [
+          "Pulpo a la plancha",
+          "14,50 €"
+        ],
+        [
+          "Pluma ibérica",
+          "22,50 €"
+        ],
+        [
+          "Dorada con pistachos",
+          "21,90 €"
+        ]
+      ]
+    },
+    {
+      "name": "Peppe Pizza",
+      "match": [
+        "peppe"
+      ],
+      "cuisine": "Pizza",
+      "source": "https://www.peppepizza.com/carta",
+      "address": "Calle Almirante Ferrándiz 32, Nerja",
+      "dishes": [
+        [
+          "Menú infantil",
+          "9,00 €"
+        ],
+        [
+          "Sangría clásica (jarra)",
+          "20,00 €"
+        ]
+      ]
+    },
+    {
+      "name": "Chez Spice",
+      "match": [
+        "chez spice"
+      ],
+      "cuisine": "Indian",
+      "source": "https://chezspice.es/menu",
+      "dishes": [
+        [
+          "Chicken Momo",
+          "3,95 €"
+        ],
+        [
+          "Onion Bhaji",
+          "3,95 €"
+        ],
+        [
+          "Samosa de verduras o cordero",
+          "3,95 €"
+        ],
+        [
+          "Paneer Tikka",
+          "5,45 €"
+        ]
+      ]
+    },
+    {
+      "name": "Parador de Nerja",
+      "match": [
+        "parador",
+        "ombú",
+        "ombu"
+      ],
+      "cuisine": "Andalusian",
+      "source": "https://paradores.es/es/restaurante-del-parador-de-nerja",
+      "dishes": [
+        [
+          "Croquetas de jamón ibérico",
+          "8 € / 14 €"
+        ],
+        [
+          "Berenjenas fritas con miel",
+          "8 € / 14 €"
+        ],
+        [
+          "Fritura de pescados",
+          "12 € / 22 €"
+        ],
+        [
+          "Flamenquín de jamón serrano",
+          "16 €"
+        ]
+      ]
+    },
+    {
+      "name": "La Bottega",
+      "match": [
+        "la bottega"
+      ],
+      "cuisine": "Italian",
+      "source": "https://www.labotteganerja.com/",
+      "address": "Calle Castilla Pérez 21, Nerja",
+      "note": "Restaurangens webbplats anger stängt 9 november–25 december 2026.",
+      "dishes": []
+    },
+    {
+      "name": "Rare Grill",
+      "match": [
+        "rare grill"
+      ],
+      "cuisine": "Grill",
+      "source": "https://www.thefork.es/restaurante/rare-grill-r849688/menu",
+      "dishes": [
+        [
+          "Loaded nachos",
+          "13,90 €"
+        ],
+        [
+          "Provolone cheese",
+          "11,90 €"
+        ],
+        [
+          "Chicken wings",
+          "10,90 €"
+        ]
+      ]
+    },
+    {
+      "name": "Casa Luque",
+      "match": [
+        "casa luque"
+      ],
+      "cuisine": "Andalusian",
+      "source": "https://www.thefork.es/restaurante/casa-luque-r848021/menu",
+      "dishes": [
+        [
+          "Menú Axarquía (per person)",
+          "44,50 €"
+        ]
+      ]
+    }
+  ]
+}
