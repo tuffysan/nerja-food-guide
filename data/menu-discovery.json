@@ -1,5 +1,96 @@
 {
-  "updated_at": null,
-  "note": "Candidates are unverified; no menu files are hosted.",
-  "restaurants": {}
+  "updated_at": "2026-11-15T14:13:32.574986+00:00",
+  "note": "Menu candidates are not verified. Links point to original websites.",
+  "restaurants": {
+    "node/3328393211": {
+      "name": "Andele!! Andele!!",
+      "official_website": "https://andeleandelenerja.com/",
+      "links": [
+        {
+          "url": "https://andeleandelenerja.com/#men%C3%BA",
+          "kind": "web",
+          "status": "published",
+          "source": "OpenStreetMap menu tag"
+        }
+      ]
+    },
+    "node/5667412345": {
+      "name": "La Barca",
+      "official_website": "https://www.merenderolabarca.es/",
+      "links": [
+        {
+          "url": "https://www.merenderolabarca.es/#carta",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.merenderolabarca.es/"
+        },
+        {
+          "url": "https://www.merenderolabarca.es/#carta",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.merenderolabarca.es/"
+        }
+      ]
+    },
+    "node/2368322223": {
+      "name": "oliva",
+      "official_website": "http://www.restauranteoliva.com",
+      "links": [
+        {
+          "url": "http://www.restauranteoliva.com#menu",
+          "kind": "web",
+          "status": "candidate",
+          "source": "http://www.restauranteoliva.com"
+        },
+        {
+          "url": "http://www.restauranteoliva.com/assets/menu-postres.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "http://www.restauranteoliva.com"
+        },
+        {
+          "url": "http://www.restauranteoliva.com/assets/vinos.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "http://www.restauranteoliva.com"
+        }
+      ]
+    },
+    "node/9672055163": {
+      "name": "Oliva",
+      "official_website": "http://www.restauranteoliva.com/",
+      "links": [
+        {
+          "url": "http://www.restauranteoliva.com/#menu",
+          "kind": "web",
+          "status": "candidate",
+          "source": "http://www.restauranteoliva.com/"
+        },
+        {
+          "url": "http://www.restauranteoliva.com/assets/menu-postres.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "http://www.restauranteoliva.com/"
+        },
+        {
+          "url": "http://www.restauranteoliva.com/assets/vinos.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "http://www.restauranteoliva.com/"
+        }
+      ]
+    },
+    "node/2702579708": {
+      "name": "Rincón del Sol",
+      "official_website": "https://rincondelsolnerja.com/",
+      "links": [
+        {
+          "url": "https://rincondelsolnerja.com/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/"
+        }
+      ]
+    }
+  }
 }
