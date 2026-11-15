@@ -62,6 +62,54 @@
       "menu": "https://www.tripadvisor.es/Restaurant_Review-g315917-d33093865-Reviews-Origen_Nerja_Restaurante-Nerja_Costa_del_Sol_Province_of_Malaga_Andalucia.html",
       "address": "Plaza de España 9, Nerja, Spanien",
       "source_type": "third_party"
+    },
+    {
+      "name": "El Pórtico",
+      "website": "",
+      "menu": "https://restaurantguru.com/El-Portico-Nerja/menu",
+      "address": "Nerja, Málaga, España",
+      "source_type": "third_party",
+      "note": "Restaurant Guru listing; menu not independently verified"
+    },
+    {
+      "name": "Cafetería Calabella",
+      "website": "",
+      "menu": "https://restaurantguru.com/Cafeteria-Calabella-Nerja-2/menu",
+      "address": "Nerja, Málaga, España",
+      "source_type": "third_party",
+      "note": "User-uploaded historic menu images; may be outdated"
+    },
+    {
+      "name": "Bakers Restaurant Bar",
+      "website": "",
+      "menu": "https://restaurantguru.com/Bakers-Restaurant-Bar-Nerja/menu",
+      "address": "Nerja, Málaga, España",
+      "source_type": "unverified_lead",
+      "note": "Candidate listing URL, requires verification"
+    },
+    {
+      "name": "Inita Cafe",
+      "website": "",
+      "menu": "https://weur-cdn.carta.menu/storage/media/companies_menu_pdf/114107611/inita-cafe-nerja-carta.pdf",
+      "address": "Nerja, Málaga, España",
+      "source_type": "third_party",
+      "note": "Third-party category PDF; not a verified priced menu"
+    },
+    {
+      "name": "Patagonia y Ole",
+      "website": "",
+      "menu": "https://www.thefork.es/restaurante/patagonia-y-ole-r824673/menu",
+      "address": "Nerja, Málaga, España",
+      "source_type": "third_party",
+      "note": "TheFork menu last edited December 2024"
+    },
+    {
+      "name": "Restaurante Oliva",
+      "website": "",
+      "menu": "https://es.restaurantguru.com/Oliva-Nerja/menu",
+      "address": "Nerja, Málaga, España",
+      "source_type": "third_party",
+      "note": "Restaurant Guru owner and user menus; historic versions"
     }
   ]
 }
