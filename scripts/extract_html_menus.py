@@ -1,4 +1,4 @@
-"""Conservative extraction of dish/price candidates from official HTML menu pages."""
+"""Extract conservative dish/price pairs from visible official restaurant menu HTML."""
 import datetime
 import html
 from html.parser import HTMLParser
@@ -6,57 +6,84 @@ import json
 import pathlib
 import re
 import urllib.parse
-from discover_menus import safe, robots_allowed, OPENER
 import urllib.request
+from discover_menus import safe, robots_allowed, OPENER
 
 ROOT = pathlib.Path(__file__).resolve().parents[1] / "data"
-PRICE = re.compile(r"(?<!\d)(\d{1,3}[.,]\d{2})\s*(?:€|EUR)?\s*$", re.I)
-BAD = re.compile(r"\b(cookie|privacy|privacidad|reserv|booking|tel[eé]fono|contact|copyright|iva|total)\b", re.I)
+PRICE = re.compile(r"(?<!\d)(\d{1,3}[.,]\d{2})\s*(?:€|EUR)?(?!\w)", re.I)
+BAD = re.compile(r"\b(cookie|privacy|privacidad|reserv|booking|tel[eé]fono|contact|copyright|iva|total|subtotal)\b", re.I)
+MENU_HINT = re.compile(r"menu|men[uú]|carta|food|dish|plato|price|precio|item|product|woocommerce|elementor", re.I)
+BLOCKS = {"article", "section", "li", "tr", "p", "h3", "h4"}
+SKIP = {"script", "style", "svg", "noscript", "nav", "footer", "header"}
 
-class TextLines(HTMLParser):
+class MenuParser(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.parts = []
+        self.stack = []
+        self.blocks = []
+        self.current = []
         self.skip = 0
+        self.texts = []
     def handle_starttag(self, tag, attrs):
-        if tag in ("script", "style", "svg", "noscript"):
+        a = dict(attrs)
+        if tag in SKIP:
             self.skip += 1
-        if tag in ("p", "li", "div", "h2", "h3", "h4", "tr", "br"):
-            self.parts.append("\n")
-    def handle_endtag(self, tag):
-        if tag in ("script", "style", "svg", "noscript"):
-            self.skip = max(0, self.skip - 1)
-        if tag in ("p", "li", "div", "h2", "h3", "h4", "tr"):
-            self.parts.append("\n")
+        if tag in BLOCKS:
+            self.stack.append((tag, len(self.current)))
+        if tag in ("br", "hr") and not self.skip:
+            self.current.append("\n")
+        if tag == "img" and not self.skip and a.get("alt"):
+            self.current.append(" " + a["alt"] + " ")
     def handle_data(self, data):
-        if not self.skip:
-            self.parts.append(data)
+        if not self.skip and data.strip():
+            self.current.append(" " + data.strip() + " ")
+    def handle_endtag(self, tag):
+        if tag in SKIP:
+            self.skip = max(0, self.skip - 1)
+        if tag in BLOCKS:
+            for i in range(len(self.stack) - 1, -1, -1):
+                if self.stack[i][0] == tag:
+                    start = self.stack[i][1]
+                    content = " ".join("".join(self.current[start:]).split())
+                    if content:
+                        self.blocks.append(content)
+                    del self.stack[i:]
+                    break
+        if tag in ("div", "td", "span", "h2") and not self.skip:
+            self.current.append("\n")
 
 def extract_lines(body):
-    parser = TextLines()
+    parser = MenuParser()
     parser.feed(body)
-    text = html.unescape("".join(parser.parts))
-    out = []
-    for line in text.splitlines():
-        line = " ".join(line.split())
-        if not (6 <= len(line) <= 135) or BAD.search(line):
+    candidates = parser.blocks + "".join(parser.current).splitlines()
+    found = []
+    for candidate in candidates:
+        line = " ".join(html.unescape(candidate).split())
+        if not 6 <= len(line) <= 180 or BAD.search(line):
             continue
-        match = PRICE.search(line)
-        if not match:
+        matches = list(PRICE.finditer(line))
+        if len(matches) != 1:
             continue
-        name = line[:match.start()].strip(" .:-–—|")
-        if not (4 <= len(name) <= 95) or not re.search(r"[A-Za-zÁÉÍÓÚÑáéíóúñ]", name):
+        m = matches[0]
+        # Only allow a short trailing suffix, never silently combine multiple dishes.
+        if line[m.end():].strip(" .–—|") or m.start() < 4:
             continue
-        out.append([name, match.group(1).replace(".", ",") + " €"])
-    return list({p[0].casefold(): p for p in out}.values())[:100]
+        name = line[:m.start()].strip(" .:-–—|")
+        if not (4 <= len(name) <= 95 and re.search(r"[A-Za-zÁÉÍÓÚÑáéíóúñ]", name)):
+            continue
+        if len(name.split()) > 15 or re.search(r"https?://|@|[{}<>]", name):
+            continue
+        found.append([name, m.group(1).replace(".", ",") + " €"])
+    return list({x[0].casefold(): x for x in found}.values())[:100]
 
 def fetch(url, official):
+    url = url.split("#")[0]
     if not safe(url) or not robots_allowed(url):
         return []
     if urllib.parse.urlsplit(url).hostname != urllib.parse.urlsplit(official).hostname:
         return []
-    request = urllib.request.Request(url, headers={"User-Agent": "NerjaFoodGuide/4.0", "Accept": "text/html"})
-    with OPENER.open(request, timeout=8) as response:
+    req = urllib.request.Request(url, headers={"User-Agent": "NerjaFoodGuide/4.1", "Accept": "text/html"})
+    with OPENER.open(req, timeout=8) as response:
         if response.geturl() != url or "text/html" not in response.headers.get("Content-Type", "").lower():
             return []
         data = response.read(300001)
@@ -67,25 +94,26 @@ def fetch(url, official):
 if __name__ == "__main__":
     discovered = json.loads((ROOT / "menu-discovery.json").read_text(encoding="utf-8")).get("restaurants", {})
     target = ROOT / "html-menus.json"
-    previous = json.loads(target.read_text(encoding="utf-8")).get("restaurants", {}) if target.exists() else {}
     results = {}
     for rid, restaurant in discovered.items():
         official = restaurant.get("official_website") or ""
         pages = [x["url"] for x in restaurant.get("links", []) if x.get("kind") == "web" and x.get("status") != "website_only"]
         dishes = []
-        source = ""
-        for url in pages[:10]:
+        sources = []
+        for url in dict.fromkeys(pages):
+            if len(sources) >= 12:
+                break
             try:
-                found = fetch(url.split("#")[0], official)
+                found = fetch(url, official)
                 if found:
                     dishes.extend(found)
-                    source = url
+                    sources.append(url)
             except Exception as exc:
                 print(restaurant["name"], str(exc)[:100], flush=True)
-        dishes = list({d[0].casefold(): d for d in dishes}.values())[:100]
+        dishes = list({tuple(d): d for d in dishes}.values())[:100]
         if len(dishes) >= 2:
-            results[rid] = {"source": source, "status": "candidate", "method": "html-text", "checked_at": datetime.datetime.now(datetime.timezone.utc).isoformat(), "dishes": dishes}
-        elif rid in previous:
-            results[rid] = previous[rid]
+            results[rid] = {"source": sources[0], "sources": sources, "status": "candidate",
+                            "method": "html-visible-text", "checked_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                            "dishes": dishes}
         print(restaurant["name"], len(dishes), "HTML candidates", flush=True)
     target.write_text(json.dumps({"restaurants": results}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
