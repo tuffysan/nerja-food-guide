@@ -139,6 +139,23 @@ if __name__ == "__main__":
             dedup = {x["url"]: x for x in links}
             out[restaurant["id"]] = {"name": restaurant["name"], "official_website": site, "links": list(dedup.values())}
         print(restaurant.get("name", "?"), len(links), "links", flush=True)
+    curated = json.loads((ROOT / "curated-menus.json").read_text(encoding="utf-8")).get("entries", [])
+    for entry in curated:
+        name = entry.get("name", "")
+        source = entry.get("source", "")
+        if not source or not safe(source):
+            continue
+        matched = next((p for p in data.get("items", []) if any(m.casefold() in p.get("name", "").casefold() for m in entry.get("match", []))), None)
+        rid = matched["id"] if matched else "curated/" + name
+        if rid in out and any(x.get("kind") != "website" for x in out[rid]["links"]):
+            continue
+        # Curated sources are editorially supplied; no external search-engine API is required.
+        site = source if urllib.parse.urlsplit(source).path in ("", "/") else urllib.parse.urlunsplit((*urllib.parse.urlsplit(source)[:2], "/", "", ""))
+        links = [{"url": source, "kind": kind(source), "status": "curated", "source": "curated-menus.json"}]
+        if safe(site):
+            links.extend(discover(site))
+        existing = out.get(rid, {}).get("links", [])
+        out[rid] = {"name": name, "official_website": site, "links": list({x["url"]: x for x in existing + links}.values())[:MAX_LINKS]}
     (ROOT / "menu-discovery.json").write_text(json.dumps({
         "updated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "note": "Discovered candidates are not verified menus. Official-site crawling respects robots.txt.",
