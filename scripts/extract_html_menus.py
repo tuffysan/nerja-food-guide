@@ -176,10 +176,10 @@ if __name__ == "__main__":
     for rid, old in previous.items():
         if rid not in results:
             results[rid] = dict(old, status="stale_candidate", stale_reason="Source not refreshed")
-    target.write_text(json.dumps({"restaurants": results}, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    target.write_text(json.dumps({"restaurants": results}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (ROOT / "html-menu-diagnostics.json").write_text(json.dumps({
         "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "fresh": sum(v.get("status") == "candidate" for v in results.values()),
         "stale": sum(v.get("status") == "stale_candidate" for v in results.values()),
         "failures": failures
-    }, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
