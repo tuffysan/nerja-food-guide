@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T19:46:17.824467+00:00",
+  "updated_at": "2026-11-15T20:06:19.153959+00:00",
   "note": "Discovered candidates are not verified menus. Official-site crawling respects robots.txt.",
   "restaurants": {
     "node/3328393211": {
@@ -11,6 +11,186 @@
           "kind": "web",
           "status": "published",
           "source": "OpenStreetMap menu tag"
+        }
+      ]
+    },
+    "node/12243862968": {
+      "name": "Avalon",
+      "official_website": "https://www.avalonnerja.com/es/menu-a-la-carta/",
+      "links": [
+        {
+          "url": "https://www.avalonnerja.com/es/menu-a-la-carta/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/es/a-la-carte-menu-summer/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/es/carta-de-vino/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/es/carta-de-vino/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/es/carta-de-vino/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/a-la-carte-menu/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/a-la-carte-menu-summer/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/christmas-eve-menu-2026/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/christmas-menu-2026/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/christmas-vegan-menu-2026/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
+        }
+      ]
+    },
+    "node/2154168766": {
+      "name": "Bruxelles",
+      "official_website": "https://nerjadenerja.es/es/",
+      "links": [
+        {
+          "url": "https://nerjadenerja.es/es/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/es/carta/brekkie/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/es/carta/menu/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/es/carta/italiano/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/es/carta/takeaway/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/static/uploads/eventos/047bbd03-IMG_7418.jpeg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/"
+        },
+        {
+          "url": "https://nerjadenerja.es/static/uploads/eventos/41f5b653-8617E944-1F5E-4A07-A9B2-5C765D6A1DB2.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/"
+        },
+        {
+          "url": "https://nerjadenerja.es/static/uploads/eventos/36fcc56a-3099BB0F-883D-4FC3-8D6A-36A579DD397B.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/"
+        },
+        {
+          "url": "https://nerjadenerja.es/es/carta/menu/?p=10",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/en/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/fr/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/nl/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/sv/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/de/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/static/img/cartas/piedra.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/static/pdf/carta-bruxelles.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/en/carta/brekkie/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/fr/carta/brekkie/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/nl/carta/brekkie/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/sv/carta/brekkie/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
         }
       ]
     },
@@ -95,6 +275,18 @@
           "kind": "image",
           "status": "candidate",
           "source": "https://www.merenderolabarca.es/"
+        }
+      ]
+    },
+    "node/6970068955": {
+      "name": "La Bottega",
+      "official_website": "https://www.labotteganerja.com/",
+      "links": [
+        {
+          "url": "https://www.labotteganerja.com/",
+          "kind": "web",
+          "status": "published",
+          "source": "Reviewed source list"
         }
       ]
     },
@@ -305,6 +497,660 @@
           "kind": "website",
           "status": "website_only",
           "source": "https://clubtropicananerja.net/bar-restaurant"
+        }
+      ]
+    },
+    "curated/Restaurante Único": {
+      "name": "Restaurante Único",
+      "official_website": "https://restauranteunico.com/",
+      "links": [
+        {
+          "url": "https://restauranteunico.com/nuestra-carta/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restauranteunico.com/sobre-nosotros/"
+        },
+        {
+          "url": "https://restauranteunico.com/nuestra-carta-de-vinos/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restauranteunico.com/sobre-nosotros/"
+        }
+      ]
+    },
+    "curated/Peppe Pizza": {
+      "name": "Peppe Pizza",
+      "official_website": "https://www.peppepizza.com/",
+      "links": [
+        {
+          "url": "https://www.peppepizza.com/carta",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/"
+        },
+        {
+          "url": "https://www.peppepizza.com/pdf/carta-peppe.pdf?v=2026-08",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/carta"
+        },
+        {
+          "url": "https://www.peppepizza.com/pdf/carta-bebidas-cocteles.pdf?v=2026-08",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/carta"
+        },
+        {
+          "url": "https://www.peppepizza.com/pdf/carta-dolci-caffe.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/carta"
+        },
+        {
+          "url": "https://www.peppepizza.com/pdf/carta-kids.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/carta"
+        }
+      ]
+    },
+    "curated/Chez Spice": {
+      "name": "Chez Spice",
+      "official_website": "https://chezspice.es/",
+      "links": [
+        {
+          "url": "https://chezspice.es/menu",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://chezspice.es/menu"
+        }
+      ]
+    },
+    "curated/Parador de Nerja": {
+      "name": "Parador de Nerja",
+      "official_website": "https://paradores.es/",
+      "links": [
+        {
+          "url": "https://paradores.es/es/restaurante-del-parador-de-nerja",
+          "kind": "web",
+          "status": "curated",
+          "source": "curated-menus.json"
+        }
+      ]
+    },
+    "curated/Rare Grill": {
+      "name": "Rare Grill",
+      "official_website": "https://www.thefork.es/",
+      "links": [
+        {
+          "url": "https://www.thefork.es/restaurante/rare-grill-r849688/menu",
+          "kind": "web",
+          "status": "curated",
+          "source": "curated-menus.json"
+        }
+      ]
+    },
+    "curated/Casa Luque": {
+      "name": "Casa Luque",
+      "official_website": "https://www.thefork.es/",
+      "links": [
+        {
+          "url": "https://www.thefork.es/restaurante/casa-luque-r848021/menu",
+          "kind": "web",
+          "status": "curated",
+          "source": "curated-menus.json"
+        }
+      ]
+    },
+    "curated/Oculto": {
+      "name": "Oculto",
+      "official_website": "https://www.restauranteoculto.com/",
+      "links": [
+        {
+          "url": "https://www.restauranteoculto.com/carta/",
+          "kind": "web",
+          "status": "curated",
+          "source": "curated-menus.json"
+        },
+        {
+          "url": "https://www.restauranteoculto.com/carta",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.restauranteoculto.com/"
+        },
+        {
+          "url": "https://www.restauranteoculto.com/menu-grupos",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.restauranteoculto.com/"
+        },
+        {
+          "url": "https://www.restauranteoculto.com/en/menu/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.restauranteoculto.com/en/"
+        },
+        {
+          "url": "https://www.restauranteoculto.com/en/group-menu/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.restauranteoculto.com/en/"
+        }
+      ]
+    },
+    "curated/La Fama": {
+      "name": "La Fama",
+      "official_website": "https://lafamarestaurante.com/",
+      "links": [
+        {
+          "url": "https://lafamarestaurante.com/",
+          "kind": "web",
+          "status": "curated",
+          "source": "curated-menus.json"
+        },
+        {
+          "url": "https://lafamarestaurante.com/wp-content/uploads/2024/08/CARTAS-la-fama-exaprint-2024-QR-e1722727027567.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://lafamarestaurante.com"
+        },
+        {
+          "url": "https://lafamarestaurante.com/wp-content/uploads/2024/08/cropped-CARTAS-la-fama-exaprint-2024-QR-1-e1723201308522.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://lafamarestaurante.com"
+        }
+      ]
+    },
+    "curated/Lisbeth's Nordic Cuisine & Lounge Bar": {
+      "name": "Lisbeth's Nordic Cuisine & Lounge Bar",
+      "official_website": "https://www.thefork.es/",
+      "links": [
+        {
+          "url": "https://www.thefork.es/restaurante/lisbeth-s-nordic-cuisine-lounge-bar-r866460/menu",
+          "kind": "web",
+          "status": "curated",
+          "source": "curated-menus.json"
+        }
+      ]
+    },
+    "curated/El Ombú del Mediterráneo": {
+      "name": "El Ombú del Mediterráneo",
+      "official_website": "https://paradores.es/",
+      "links": [
+        {
+          "url": "https://paradores.es/es/espacio-gastronomico-el-ombu-del-mediterraneo-parador-de-nerja",
+          "kind": "web",
+          "status": "curated",
+          "source": "curated-menus.json"
+        }
+      ]
+    },
+    "node/997717639": {
+      "name": "La Tasquita del Sevillano",
+      "official_website": "https://sevillanonerja.com/",
+      "links": [
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-La-Tasquita-2025.pdf",
+          "kind": "pdf",
+          "status": "curated",
+          "source": "curated-menus.json"
+        },
+        {
+          "url": "https://sevillanonerja.com/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-566x800.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/restaurantes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/1-640x800.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Rincon-del-Sevillano-Nerja-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-La-Tasquita-Sevillano-Nerja-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Chaparil-Sevillano-Nerja-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-Los-Huertos-1.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Menu-Comuniones-2026-Restaurantes-Sevillano-Nerja.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-75x65.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/tag/menu-nochevieja-2025/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
+        }
+      ]
+    },
+    "node/5642328367": {
+      "name": "Restaurante Doña Lola",
+      "official_website": "https://restaurantedonalola.com/",
+      "links": [
+        {
+          "url": "https://restaurantedonalola.com/",
+          "kind": "web",
+          "status": "curated",
+          "source": "curated-menus.json"
+        },
+        {
+          "url": "https://restaurantedonalola.com/carta.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/empresa.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/carta-bebidas.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/empresa.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/carta-snack.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/empresa.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/images/home/menu3.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/index.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/images/home/menu4.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/index.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/cartaeng.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/indexeng.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/carta-bebidaseng.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/indexeng.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/carta-snackeng.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/indexeng.html"
+        }
+      ]
+    },
+    "curated/Trattoria Italia": {
+      "name": "Trattoria Italia",
+      "official_website": "https://trattoriaitalianerja.es/",
+      "links": [
+        {
+          "url": "https://trattoriaitalianerja.es/en/menu/",
+          "kind": "web",
+          "status": "curated",
+          "source": "curated-menus.json"
+        }
+      ]
+    },
+    "verified/Restaurante Único": {
+      "name": "Restaurante Único",
+      "official_website": "https://restauranteunico.com/",
+      "links": [
+        {
+          "url": "https://restauranteunico.com/nuestra-carta/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restauranteunico.com/sobre-nosotros/"
+        },
+        {
+          "url": "https://restauranteunico.com/nuestra-carta-de-vinos/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restauranteunico.com/sobre-nosotros/"
+        }
+      ]
+    },
+    "verified/Restaurante Doña Lola": {
+      "name": "Restaurante Doña Lola",
+      "official_website": "https://restaurantedonalola.com/",
+      "links": [
+        {
+          "url": "https://restaurantedonalola.com/",
+          "kind": "web",
+          "status": "published",
+          "source": "Reviewed source list"
+        },
+        {
+          "url": "https://restaurantedonalola.com/carta.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/empresa.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/carta-bebidas.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/empresa.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/carta-snack.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/empresa.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/images/home/menu3.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/index.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/images/home/menu4.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/index.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/cartaeng.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/indexeng.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/carta-bebidaseng.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/indexeng.html"
+        },
+        {
+          "url": "https://restaurantedonalola.com/carta-snackeng.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restaurantedonalola.com/indexeng.html"
+        }
+      ]
+    },
+    "verified/Trattoria Italia": {
+      "name": "Trattoria Italia",
+      "official_website": "https://trattoriaitalianerja.es/",
+      "links": [
+        {
+          "url": "https://trattoriaitalianerja.es/",
+          "kind": "web",
+          "status": "published",
+          "source": "Reviewed source list"
+        }
+      ]
+    },
+    "verified/Restaurante del Parador de Nerja": {
+      "name": "Restaurante del Parador de Nerja",
+      "official_website": "https://paradores.es/es/restaurante-del-parador-de-nerja",
+      "links": [
+        {
+          "url": "https://paradores.es/es/restaurante-del-parador-de-nerja",
+          "kind": "web",
+          "status": "published",
+          "source": "Reviewed source list"
+        }
+      ]
+    },
+    "verified/Bruxelles by David Leon": {
+      "name": "Bruxelles by David Leon",
+      "official_website": "https://nerjadenerja.es/es/",
+      "links": [
+        {
+          "url": "https://nerjadenerja.es/es/",
+          "kind": "web",
+          "status": "published",
+          "source": "Reviewed source list"
+        },
+        {
+          "url": "https://nerjadenerja.es/es/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/es/carta/brekkie/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/es/carta/menu/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/es/carta/italiano/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/es/carta/takeaway/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/static/uploads/eventos/047bbd03-IMG_7418.jpeg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/"
+        },
+        {
+          "url": "https://nerjadenerja.es/static/uploads/eventos/41f5b653-8617E944-1F5E-4A07-A9B2-5C765D6A1DB2.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/"
+        },
+        {
+          "url": "https://nerjadenerja.es/static/uploads/eventos/36fcc56a-3099BB0F-883D-4FC3-8D6A-36A579DD397B.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/"
+        },
+        {
+          "url": "https://nerjadenerja.es/es/carta/menu/?p=10",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/en/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/fr/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/nl/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/sv/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/de/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/static/img/cartas/piedra.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/static/pdf/carta-bruxelles.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/cartas/"
+        },
+        {
+          "url": "https://nerjadenerja.es/en/carta/brekkie/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/fr/carta/brekkie/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/nl/carta/brekkie/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        },
+        {
+          "url": "https://nerjadenerja.es/sv/carta/brekkie/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
+        }
+      ]
+    },
+    "verified/restauranteunico": {
+      "name": "Restaurante Único",
+      "official_website": "https://restauranteunico.com/",
+      "links": [
+        {
+          "url": "https://restauranteunico.com/nuestra-carta/",
+          "kind": "web",
+          "status": "published",
+          "source": "researched official restaurant website"
+        }
+      ]
+    },
+    "verified/restaurantedonalola": {
+      "name": "Restaurante Doña Lola",
+      "official_website": "https://restaurantedonalola.com/",
+      "links": [
+        {
+          "url": "https://restaurantedonalola.com/",
+          "kind": "web",
+          "status": "published",
+          "source": "researched official restaurant website"
+        }
+      ]
+    },
+    "verified/trattoriaitalia": {
+      "name": "Trattoria Italia",
+      "official_website": "https://trattoriaitalianerja.es/",
+      "links": [
+        {
+          "url": "https://trattoriaitalianerja.es/",
+          "kind": "web",
+          "status": "published",
+          "source": "researched official restaurant website"
+        }
+      ]
+    },
+    "verified/restaurantedelparadordenerja": {
+      "name": "Restaurante del Parador de Nerja",
+      "official_website": "https://paradores.es/es/restaurante-del-parador-de-nerja",
+      "links": [
+        {
+          "url": "https://paradores.es/es/restaurante-del-parador-de-nerja",
+          "kind": "web",
+          "status": "published",
+          "source": "researched official restaurant website"
+        }
+      ]
+    },
+    "verified/bruxellesbydavidleon": {
+      "name": "Bruxelles by David Leon",
+      "official_website": "https://nerjadenerja.es/es/",
+      "links": [
+        {
+          "url": "https://nerjadenerja.es/es/",
+          "kind": "web",
+          "status": "published",
+          "source": "researched official restaurant website"
         }
       ]
     }

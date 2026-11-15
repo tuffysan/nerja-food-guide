@@ -1,3 +1,1377 @@
 {
-  "restaurants": {}
+  "restaurants": {
+    "node/12243862968": {
+      "source": "https://www.avalonnerja.com/es/menu-a-la-carta/",
+      "sources": [
+        "https://www.avalonnerja.com/es/menu-a-la-carta/",
+        "https://www.avalonnerja.com/es/a-la-carte-menu-summer/",
+        "https://www.avalonnerja.com/es/carta-de-vino/",
+        "https://www.avalonnerja.com/a-la-carte-menu/",
+        "https://www.avalonnerja.com/a-la-carte-menu-summer/"
+      ],
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T20:06:40.072045+00:00",
+      "dishes": [
+        [
+          "Croquetas del día",
+          "9,00 €"
+        ],
+        [
+          "Verduras del dia",
+          "6,00 €"
+        ],
+        [
+          "Patatas fritas",
+          "4,00 €"
+        ],
+        [
+          "Papas a lo pobre",
+          "4,00 €"
+        ],
+        [
+          "Tarta de queso con lima y gengibre",
+          "8,00 €"
+        ],
+        [
+          "Pudin de toffee – caramelo salado – helado de vainilla",
+          "8,00 €"
+        ],
+        [
+          "Ensalada de frutas frescas",
+          "8,00 €"
+        ],
+        [
+          "Tarta de chocolate – mascarpone con naranja",
+          "8,00 €"
+        ],
+        [
+          "Panna cotta – vodka - naranja",
+          "8,00 €"
+        ],
+        [
+          "Quesos españoles - membrillo – pan crujiente",
+          "12,00 €"
+        ],
+        [
+          "Sorbete de mango – ponche caballero",
+          "8,00 €"
+        ],
+        [
+          "Helado de vainilla – caramelo salado",
+          "8,00 €"
+        ],
+        [
+          "Sorbete de limón – cava",
+          "8,00 €"
+        ],
+        [
+          "Croquetas del día",
+          "10,00 €"
+        ],
+        [
+          "Paté de hígado de pollo",
+          "11,00 €"
+        ],
+        [
+          "Aceitunas",
+          "1,00 €"
+        ],
+        [
+          "Alioli",
+          "1,00 €"
+        ],
+        [
+          "Verduras mediterraneas",
+          "6,00 €"
+        ],
+        [
+          "Ensalada de acompañante pequeña",
+          "6,00 €"
+        ],
+        [
+          "Ensalada de frutas frescas",
+          "9,00 €"
+        ],
+        [
+          "Conde de Leizao | Tempranillo | Rioja, botella",
+          "14,00 €"
+        ],
+        [
+          "Conde de Leizao | Tempranillo | Rioja",
+          "14,00 €"
+        ],
+        [
+          "Señorio Real | Tempranillo | Ribera del Duero",
+          "14,00 €"
+        ],
+        [
+          "Botella",
+          "14,00 €"
+        ],
+        [
+          "Croquetas of the day",
+          "9,00 €"
+        ],
+        [
+          "Vegetables of the day",
+          "6,00 €"
+        ],
+        [
+          "Hand cut chips",
+          "4,00 €"
+        ],
+        [
+          "Spanish potatoes",
+          "4,00 €"
+        ],
+        [
+          "Lime and ginger cheesecake",
+          "8,00 €"
+        ],
+        [
+          "Sticky toffee pudding – salted caramel - vanilla ice cream",
+          "8,00 €"
+        ],
+        [
+          "Fresh fruit salad",
+          "8,00 €"
+        ],
+        [
+          "Warm chocolate cake – orange mascarpone",
+          "8,00 €"
+        ],
+        [
+          "Panna cotta – vodka - orange",
+          "8,00 €"
+        ],
+        [
+          "Spanish cheeses – quince jelly – crisp bread",
+          "12,00 €"
+        ],
+        [
+          "Mango sorbet – ponche caballero",
+          "8,00 €"
+        ],
+        [
+          "Vanilla ice cream – salted caramel",
+          "8,00 €"
+        ],
+        [
+          "Lemon sorbet – cava",
+          "8,00 €"
+        ],
+        [
+          "Croquetas of the day",
+          "10,00 €"
+        ],
+        [
+          "Olives",
+          "1,00 €"
+        ],
+        [
+          "Mediterranean vegetables",
+          "6,00 €"
+        ],
+        [
+          "Small side salad",
+          "6,00 €"
+        ],
+        [
+          "Lime and ginger cheesecake",
+          "10,00 €"
+        ],
+        [
+          "Fresh fruit salad",
+          "9,00 €"
+        ]
+      ]
+    },
+    "curated/Restaurante Único": {
+      "source": "https://restauranteunico.com/nuestra-carta/",
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T20:08:12.537581+00:00",
+      "dishes": [
+        [
+          "Cava",
+          "4,20 €"
+        ],
+        [
+          "Kirr royal",
+          "4,80 €"
+        ],
+        [
+          "Mimosa",
+          "4,80 €"
+        ],
+        [
+          "Aperol spritz",
+          "6,30 €"
+        ],
+        [
+          "Bellini",
+          "4,80 €"
+        ],
+        [
+          "Manzanilla",
+          "4,50 €"
+        ],
+        [
+          "Campari",
+          "5,00 €"
+        ],
+        [
+          "Campari+ naranja",
+          "6,00 €"
+        ],
+        [
+          "Limoncello spritz",
+          "6,00 €"
+        ],
+        [
+          "Campari spritz",
+          "6,30 €"
+        ],
+        [
+          "Martini rojo",
+          "4,00 €"
+        ],
+        [
+          "Martini blanco",
+          "4,00 €"
+        ],
+        [
+          "Larios",
+          "7,00 €"
+        ],
+        [
+          "Larios Rose",
+          "7,50 €"
+        ],
+        [
+          "Bombay Sapphire",
+          "8,90 €"
+        ],
+        [
+          "Tanqueray",
+          "8,50 €"
+        ],
+        [
+          "Hendrick’s",
+          "10,90 €"
+        ],
+        [
+          "Agua sin gas",
+          "2,40 €"
+        ],
+        [
+          "Agua con gas",
+          "2,40 €"
+        ],
+        [
+          "Caña de cerveza",
+          "2,70 €"
+        ],
+        [
+          "Tanque de cerveza",
+          "5,20 €"
+        ],
+        [
+          "Heineken 00",
+          "3,00 €"
+        ],
+        [
+          "Alhambra 1925",
+          "4,00 €"
+        ],
+        [
+          "Alhambra Special",
+          "3,50 €"
+        ],
+        [
+          "Radler",
+          "3,00 €"
+        ],
+        [
+          "San Miguel",
+          "3,00 €"
+        ],
+        [
+          "Tinto verano con limon",
+          "3,00 €"
+        ],
+        [
+          "Tinto verano con casera",
+          "3,50 €"
+        ],
+        [
+          "Tinto de verano 1l",
+          "10,00 €"
+        ],
+        [
+          "Copa de tinto",
+          "3,90 €"
+        ],
+        [
+          "Copa de blanco",
+          "3,90 €"
+        ],
+        [
+          "Copa de rosa",
+          "3,90 €"
+        ],
+        [
+          "Refresco",
+          "3,00 €"
+        ],
+        [
+          "Zumo naranja",
+          "3,50 €"
+        ],
+        [
+          "Zumo variado",
+          "2,50 €"
+        ]
+      ]
+    },
+    "curated/Peppe Pizza": {
+      "source": "https://www.peppepizza.com/carta",
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T20:08:12.664828+00:00",
+      "dishes": [
+        [
+          "Polpette Tradizionali",
+          "15,40 €"
+        ],
+        [
+          "Antipasto Italiano",
+          "17,50 €"
+        ],
+        [
+          "Mejillones marinera",
+          "14,50 €"
+        ],
+        [
+          "Carpaccio di Manzo",
+          "14,50 €"
+        ],
+        [
+          "Langostinos al pil pil",
+          "13,90 €"
+        ],
+        [
+          "Croquetas caseras",
+          "12,50 €"
+        ],
+        [
+          "Bruschetta con anchoas del Cantábrico",
+          "8,90 €"
+        ],
+        [
+          "Ensalada César",
+          "14,90 €"
+        ],
+        [
+          "Prosciutto Cotto",
+          "13,50 €"
+        ],
+        [
+          "Hannah Hawaiian",
+          "13,90 €"
+        ],
+        [
+          "Nashville",
+          "14,90 €"
+        ],
+        [
+          "Culatello Deluxe",
+          "15,50 €"
+        ],
+        [
+          "Tonnino",
+          "15,50 €"
+        ],
+        [
+          "Napoli 2.0",
+          "15,90 €"
+        ],
+        [
+          "Capricciosa",
+          "15,90 €"
+        ],
+        [
+          "Best Pepperoni",
+          "15,90 €"
+        ],
+        [
+          "Peppe's",
+          "15,90 €"
+        ],
+        [
+          "Mallorquina",
+          "16,40 €"
+        ],
+        [
+          "Napoli Badass",
+          "16,90 €"
+        ],
+        [
+          "Pesto 2.0",
+          "16,90 €"
+        ],
+        [
+          "Mortadella e Pistacchio",
+          "17,50 €"
+        ],
+        [
+          "Vaya Trufa",
+          "17,90 €"
+        ],
+        [
+          "Penne alla Carbonara",
+          "14,90 €"
+        ],
+        [
+          "Lasaña della Nonna",
+          "15,50 €"
+        ],
+        [
+          "Parpadelle Bolognese",
+          "15,90 €"
+        ],
+        [
+          "Macheroni Funghi e Tartufo",
+          "16,90 €"
+        ],
+        [
+          "Ravioli al Tartufo",
+          "17,50 €"
+        ],
+        [
+          "Spaghetti al Frutti di Mare",
+          "17,90 €"
+        ],
+        [
+          "Risotto Scampi",
+          "16,40 €"
+        ],
+        [
+          "Pollo Piemonte",
+          "17,90 €"
+        ],
+        [
+          "Cotoletta di Pollo alla Milanese",
+          "18,90 €"
+        ],
+        [
+          "Salmón al forno",
+          "21,90 €"
+        ],
+        [
+          "Tiramisú Classico con mascarpone, savoiardi y espresso en Peppe Pizza, Nerja Affogato",
+          "6,00 €"
+        ],
+        [
+          "Tiramisú Classico",
+          "7,00 €"
+        ],
+        [
+          "Cheesecake casera",
+          "7,00 €"
+        ],
+        [
+          "Ristretto",
+          "3,00 €"
+        ],
+        [
+          "Doppio Espresso",
+          "4,00 €"
+        ],
+        [
+          "Americano",
+          "3,00 €"
+        ],
+        [
+          "Capuccino",
+          "4,00 €"
+        ],
+        [
+          "Café con leche",
+          "3,00 €"
+        ],
+        [
+          "Iced Latte",
+          "4,00 €"
+        ],
+        [
+          "Limoncello",
+          "3,00 €"
+        ],
+        [
+          "Vaccari Sambuca",
+          "6,00 €"
+        ],
+        [
+          "Amaretto Disaronno",
+          "5,00 €"
+        ],
+        [
+          "Frangelico",
+          "4,00 €"
+        ],
+        [
+          "Amaro Averna",
+          "4,00 €"
+        ],
+        [
+          "Grappa di Moscato",
+          "4,00 €"
+        ],
+        [
+          "Carajillo",
+          "4,00 €"
+        ],
+        [
+          "Aperol Spritz",
+          "10,00 €"
+        ],
+        [
+          "Campari Spritz",
+          "10,00 €"
+        ],
+        [
+          "Peach Spritz",
+          "10,00 €"
+        ],
+        [
+          "Hugo Spritz",
+          "11,00 €"
+        ],
+        [
+          "Limoncello Spritz",
+          "11,00 €"
+        ],
+        [
+          "Sarti Spritz",
+          "11,00 €"
+        ],
+        [
+          "Negroni Classic",
+          "11,00 €"
+        ],
+        [
+          "Negroni Sbagliato",
+          "12,00 €"
+        ],
+        [
+          "Mojito",
+          "10,00 €"
+        ],
+        [
+          "Burriana Beach",
+          "10,00 €"
+        ],
+        [
+          "Piña Colada",
+          "10,00 €"
+        ],
+        [
+          "Espresso Martini",
+          "12,00 €"
+        ],
+        [
+          "Pornstar Martini",
+          "12,00 €"
+        ],
+        [
+          "Margarita",
+          "12,00 €"
+        ],
+        [
+          "Paloma",
+          "12,00 €"
+        ],
+        [
+          "Tequila Sunrise",
+          "12,00 €"
+        ],
+        [
+          "Caipirinha",
+          "12,00 €"
+        ],
+        [
+          "Strawberry Daiquiri",
+          "12,00 €"
+        ],
+        [
+          "Moscow Mule",
+          "12,00 €"
+        ],
+        [
+          "Amaretto Sour",
+          "12,00 €"
+        ],
+        [
+          "New York Sour",
+          "12,00 €"
+        ],
+        [
+          "Long Island Iced Tea",
+          "12,00 €"
+        ],
+        [
+          "Sangría Clásica",
+          "20,00 €"
+        ],
+        [
+          "Sangría Frizzante",
+          "25,00 €"
+        ],
+        [
+          "Cerveza",
+          "5,00 €"
+        ],
+        [
+          "Menú Kids",
+          "9,00 €"
+        ]
+      ]
+    },
+    "curated/Chez Spice": {
+      "source": "https://chezspice.es/menu",
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T20:08:12.753861+00:00",
+      "dishes": [
+        [
+          "Vegetable Delights · Todos a",
+          "6,95 €"
+        ],
+        [
+          "Desserts · Todos a",
+          "3,95 €"
+        ]
+      ]
+    },
+    "curated/Oculto": {
+      "source": "https://www.restauranteoculto.com/carta/",
+      "sources": [
+        "https://www.restauranteoculto.com/carta/",
+        "https://www.restauranteoculto.com/en/menu/"
+      ],
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T20:07:44.601362+00:00",
+      "dishes": [
+        [
+          "desde",
+          "4,90 €"
+        ],
+        [
+          "from",
+          "4,90 €"
+        ]
+      ]
+    },
+    "curated/La Fama": {
+      "source": "https://lafamarestaurante.com/",
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T20:08:14.313401+00:00",
+      "dishes": [
+        [
+          "Desayuno Inglés English breakfast",
+          "8,90 €"
+        ],
+        [
+          "Huevos con Bacon Eggs with bacon",
+          "6,90 €"
+        ],
+        [
+          "Huevos Revueltos Scrambled eggs",
+          "6,00 €"
+        ],
+        [
+          "Café Irlandés Irish coffee",
+          "5,00 €"
+        ],
+        [
+          "Chocolate Caliente con Nata Hot chocolate with cream",
+          "3,50 €"
+        ],
+        [
+          "Capuchino Capuccino",
+          "2,80 €"
+        ],
+        [
+          "Latte Macchiato Latte macchiato",
+          "2,80 €"
+        ],
+        [
+          "Carajillo Brandy and coffee",
+          "2,20 €"
+        ],
+        [
+          "Café Solo / Expreso Espresso",
+          "1,80 €"
+        ],
+        [
+          "Café con Leche With milk",
+          "1,80 €"
+        ],
+        [
+          "Colacao Hot chocolate",
+          "2,00 €"
+        ],
+        [
+          "Zumo de Naranja Natural Fresh orange juice",
+          "3,00 €"
+        ],
+        [
+          "Batido de Chocolate Chocolate milkshake",
+          "2,50 €"
+        ],
+        [
+          "Refrescos Soft drinks",
+          "2,50 €"
+        ],
+        [
+          "Agua con Gas Sparkling water",
+          "2,00 €"
+        ],
+        [
+          "Agua Pequeña Small bottle of water",
+          "1,50 €"
+        ],
+        [
+          "Salmón, Tomate, Aguacate y Queso Crema Salmon, tomato, avocado and cheese cream",
+          "5,80 €"
+        ],
+        [
+          "Queso de Cabra, Tomate, Aguacate, Miel y Nueces Goat cheese, tomato, avocado, honey and nuts",
+          "4,80 €"
+        ],
+        [
+          "Tortilla Francesa con Tomate Omelette with tomato",
+          "3,00 €"
+        ],
+        [
+          "Manchego Cheese manchego with tomato",
+          "3,50 €"
+        ],
+        [
+          "Serrano con Tomate Serrano ham and tomato",
+          "3,00 €"
+        ],
+        [
+          "Serrano y Manchego con Tomate Serrano ham and manchego cheese with tomato",
+          "4,30 €"
+        ],
+        [
+          "Atún con Tomate Tuna with tomato",
+          "2,80 €"
+        ],
+        [
+          "Pavo con Tomate Turkey with tomato",
+          "2,80 €"
+        ],
+        [
+          "York con Queso York ham and cheese",
+          "2,80 €"
+        ],
+        [
+          "Paté Pâté",
+          "2,00 €"
+        ],
+        [
+          "Mantequilla y Mermelada Butter and jam",
+          "1,80 €"
+        ],
+        [
+          "Tomate With tomato",
+          "1,80 €"
+        ],
+        [
+          "Pollo Tomato, lettuce, cheese, chicken, egg and mayonnaise",
+          "5,80 €"
+        ],
+        [
+          "Lomo con Huevo Loin with egg · Tomato, lettuce, cheese, loin, egg and mayonnaise",
+          "5,00 €"
+        ],
+        [
+          "Bacon Completo Tomato, lettuce, cheese, bacon, egg and mayonnaise",
+          "4,80 €"
+        ],
+        [
+          "Mixto Completo Tomato, lettuce, egg, onion, york ham and cheese",
+          "4,50 €"
+        ],
+        [
+          "Andaluza con Queso Tomato, serrano ham and cheese",
+          "4,50 €"
+        ],
+        [
+          "Vegetal Tomato, lettuce, cheese, onion, egg",
+          "4,20 €"
+        ],
+        [
+          "Lomo en Manteca Loin cooked in lard",
+          "3,50 €"
+        ],
+        [
+          "Manchego con Tomate Manchego cheese with tomato",
+          "3,20 €"
+        ],
+        [
+          "Andaluza Tomato, oil and serrano ham",
+          "3,00 €"
+        ],
+        [
+          "Tortilla Francesa con Tomate Omelette and tomato",
+          "3,00 €"
+        ],
+        [
+          "Bacon con Queso y Tomate Bacon, cheese and tomato",
+          "2,80 €"
+        ],
+        [
+          "Mixto York ham and cheese",
+          "2,20 €"
+        ],
+        [
+          "Pavo con Tomate Turkey and tomato",
+          "2,00 €"
+        ],
+        [
+          "Ingrediente Extra Extra ingredient",
+          "1,10 €"
+        ],
+        [
+          "Con Queso de Cabra Tomato, rucola, goat cheese, crispy onion and 180g beef meat burger",
+          "9,40 €"
+        ],
+        [
+          "Doble Carne Tomato, lettuce, pickle and 2 beef-chicken meat burger",
+          "7,70 €"
+        ],
+        [
+          "XL Tomato, lettuce, pickle and 180g beef meat burger",
+          "7,50 €"
+        ],
+        [
+          "BBQ Tomato, lettuce, pickle, bacon, cheese, bbq sauce and beef meat burger",
+          "7,50 €"
+        ],
+        [
+          "Vegana Tomato, lettuce, pickle and vegan meat burger",
+          "6,40 €"
+        ],
+        [
+          "Pollo Tomato, lettuce, pickle and chicken meat burger",
+          "6,10 €"
+        ],
+        [
+          "Ternera Tomato, lettuce, pickle and beef meat burger",
+          "6,10 €"
+        ],
+        [
+          "Extra de Patatas Extra chips",
+          "2,70 €"
+        ],
+        [
+          "San Jacobo de Pollo a la Pimienta/Champiñón Chicken cordon bleu with pepper/mushroom sauce",
+          "13,20 €"
+        ],
+        [
+          "Solomillo de Cerdo a la Pimienta Pork sirloin with pepper sauce",
+          "13,20 €"
+        ],
+        [
+          "Secreto de Cerdo Iberian pork shoulder",
+          "12,00 €"
+        ],
+        [
+          "Pechuga de Pollo a la Plancha Grilled chicken",
+          "10,50 €"
+        ],
+        [
+          "Escalope de Pollo Chicken escalope",
+          "11,50 €"
+        ],
+        [
+          "Brocheta de Rape con Langostinos Monkfish skewer with prawns",
+          "16,50 €"
+        ],
+        [
+          "Fish and Chips Classic fish and chips",
+          "13,20 €"
+        ],
+        [
+          "Gambas al Pil-Pil Prawn with pil-pil sauce",
+          "12,50 €"
+        ],
+        [
+          "Ensalada de Rúcula con Queso de Cabra Arugula salad with goat cheese",
+          "11,50 €"
+        ],
+        [
+          "Ensalada César Caesar salad",
+          "11,00 €"
+        ],
+        [
+          "Ensalada de Tomate y Aguacate Tomato and avocado",
+          "10,50 €"
+        ],
+        [
+          "Cóctel de Gambas Prawns cocktail",
+          "10,50 €"
+        ],
+        [
+          "Ensalada Mixta Mixed salad",
+          "9,50 €"
+        ],
+        [
+          "Tortilla de Atún y Gambas Omelette with tuna and prawn",
+          "11,60 €"
+        ],
+        [
+          "Huevos Rotos con Jamón Eggs with fries and ham",
+          "11,00 €"
+        ],
+        [
+          "Huevos Rotos con Bacon Eggs with fries and bacon",
+          "11,00 €"
+        ],
+        [
+          "Tortilla de Gambas Omelette with prawns",
+          "10,50 €"
+        ],
+        [
+          "Tortilla de Atún Omelette with tuna",
+          "10,50 €"
+        ],
+        [
+          "Tortilla de Champiñones Omelette with mushrooms",
+          "10,50 €"
+        ],
+        [
+          "Huevos Fritos con Patatas Eggs with fries",
+          "9,40 €"
+        ],
+        [
+          "Tortilla Francesa Omelette",
+          "8,70 €"
+        ],
+        [
+          "Huevos Revueltos con Espinacas Scrambled eggs with spinach",
+          "7,60 €"
+        ],
+        [
+          "Pinta de Cerveza Pint",
+          "5,20 €"
+        ],
+        [
+          "Tercio de Cerveza Bottle of beer",
+          "3,00 €"
+        ],
+        [
+          "Caña de Cerveza Small beer",
+          "2,50 €"
+        ],
+        [
+          "Cerveza sin Alcohol Non-alcoholic beer",
+          "3,00 €"
+        ],
+        [
+          "Alhambra Reserva Alhambra Reserva",
+          "3,80 €"
+        ],
+        [
+          "Copa de Vino Glass of wine",
+          "2,80 €"
+        ],
+        [
+          "Tinto de Verano Summer wine",
+          "2,80 €"
+        ],
+        [
+          "Copa de Sangría Glass of sangria",
+          "5,20 €"
+        ],
+        [
+          "Mini Cava Small bottle of cava",
+          "3,80 €"
+        ],
+        [
+          "Aperol Spritz Aperol Spritz",
+          "7,00 €"
+        ],
+        [
+          "Combinado de Ginebra, Ron, Vodka o Whisky Spirit drinks",
+          "6,00 €"
+        ],
+        [
+          "Tía María",
+          "4,50 €"
+        ],
+        [
+          "Baileys",
+          "4,50 €"
+        ],
+        [
+          "Pacharán / Sloe Brandy",
+          "3,50 €"
+        ],
+        [
+          "Ponche / Punch",
+          "3,50 €"
+        ],
+        [
+          "Brandy",
+          "3,20 €"
+        ],
+        [
+          "Anís / Anisette",
+          "3,20 €"
+        ]
+      ]
+    },
+    "curated/Trattoria Italia": {
+      "source": "https://trattoriaitalianerja.es/en/menu/",
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T20:08:16.297201+00:00",
+      "dishes": [
+        [
+          "🇮🇹 Barbera D'Alba DOC - Piazzo",
+          "21,00 €"
+        ],
+        [
+          "Rosado-Rosé Copa/Glass",
+          "4,50 €"
+        ],
+        [
+          "🇮🇹 Chardonnay DOC. Grave Friuli-Romio",
+          "21,50 €"
+        ],
+        [
+          "Copa / Glass",
+          "4,50 €"
+        ],
+        [
+          "Copa/Glass",
+          "5,50 €"
+        ],
+        [
+          "½ Bot",
+          "8,50 €"
+        ]
+      ]
+    },
+    "verified/Restaurante Único": {
+      "source": "https://restauranteunico.com/nuestra-carta/",
+      "sources": [
+        "https://restauranteunico.com/nuestra-carta/"
+      ],
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T20:07:59.312486+00:00",
+      "dishes": [
+        [
+          "Cava",
+          "4,20 €"
+        ],
+        [
+          "Kirr royal",
+          "4,80 €"
+        ],
+        [
+          "Mimosa",
+          "4,80 €"
+        ],
+        [
+          "Aperol spritz",
+          "6,30 €"
+        ],
+        [
+          "Bellini",
+          "4,80 €"
+        ],
+        [
+          "Manzanilla",
+          "4,50 €"
+        ],
+        [
+          "Campari",
+          "5,00 €"
+        ],
+        [
+          "Campari+ naranja",
+          "6,00 €"
+        ],
+        [
+          "Limoncello spritz",
+          "6,00 €"
+        ],
+        [
+          "Campari spritz",
+          "6,30 €"
+        ],
+        [
+          "Martini rojo",
+          "4,00 €"
+        ],
+        [
+          "Martini blanco",
+          "4,00 €"
+        ],
+        [
+          "Larios",
+          "7,00 €"
+        ],
+        [
+          "Larios Rose",
+          "7,50 €"
+        ],
+        [
+          "Bombay Sapphire",
+          "8,90 €"
+        ],
+        [
+          "Tanqueray",
+          "8,50 €"
+        ],
+        [
+          "Hendrick’s",
+          "10,90 €"
+        ],
+        [
+          "Agua sin gas",
+          "2,40 €"
+        ],
+        [
+          "Agua con gas",
+          "2,40 €"
+        ],
+        [
+          "Caña de cerveza",
+          "2,70 €"
+        ],
+        [
+          "Tanque de cerveza",
+          "5,20 €"
+        ],
+        [
+          "Heineken 00",
+          "3,00 €"
+        ],
+        [
+          "Alhambra 1925",
+          "4,00 €"
+        ],
+        [
+          "Alhambra Special",
+          "3,50 €"
+        ],
+        [
+          "Radler",
+          "3,00 €"
+        ],
+        [
+          "San Miguel",
+          "3,00 €"
+        ],
+        [
+          "Tinto verano con limon",
+          "3,00 €"
+        ],
+        [
+          "Tinto verano con casera",
+          "3,50 €"
+        ],
+        [
+          "Tinto de verano 1l",
+          "10,00 €"
+        ],
+        [
+          "Copa de tinto",
+          "3,90 €"
+        ],
+        [
+          "Copa de blanco",
+          "3,90 €"
+        ],
+        [
+          "Copa de rosa",
+          "3,90 €"
+        ],
+        [
+          "Refresco",
+          "3,00 €"
+        ],
+        [
+          "Zumo naranja",
+          "3,50 €"
+        ],
+        [
+          "Zumo variado",
+          "2,50 €"
+        ]
+      ]
+    },
+    "verified/restauranteunico": {
+      "source": "https://restauranteunico.com/nuestra-carta/",
+      "sources": [
+        "https://restauranteunico.com/nuestra-carta/"
+      ],
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-15T20:08:09.912266+00:00",
+      "dishes": [
+        [
+          "Cava",
+          "4,20 €"
+        ],
+        [
+          "Kirr royal",
+          "4,80 €"
+        ],
+        [
+          "Mimosa",
+          "4,80 €"
+        ],
+        [
+          "Aperol spritz",
+          "6,30 €"
+        ],
+        [
+          "Bellini",
+          "4,80 €"
+        ],
+        [
+          "Manzanilla",
+          "4,50 €"
+        ],
+        [
+          "Campari",
+          "5,00 €"
+        ],
+        [
+          "Campari+ naranja",
+          "6,00 €"
+        ],
+        [
+          "Limoncello spritz",
+          "6,00 €"
+        ],
+        [
+          "Campari spritz",
+          "6,30 €"
+        ],
+        [
+          "Martini rojo",
+          "4,00 €"
+        ],
+        [
+          "Martini blanco",
+          "4,00 €"
+        ],
+        [
+          "Larios",
+          "7,00 €"
+        ],
+        [
+          "Larios Rose",
+          "7,50 €"
+        ],
+        [
+          "Bombay Sapphire",
+          "8,90 €"
+        ],
+        [
+          "Tanqueray",
+          "8,50 €"
+        ],
+        [
+          "Hendrick’s",
+          "10,90 €"
+        ],
+        [
+          "Agua sin gas",
+          "2,40 €"
+        ],
+        [
+          "Agua con gas",
+          "2,40 €"
+        ],
+        [
+          "Caña de cerveza",
+          "2,70 €"
+        ],
+        [
+          "Tanque de cerveza",
+          "5,20 €"
+        ],
+        [
+          "Heineken 00",
+          "3,00 €"
+        ],
+        [
+          "Alhambra 1925",
+          "4,00 €"
+        ],
+        [
+          "Alhambra Special",
+          "3,50 €"
+        ],
+        [
+          "Radler",
+          "3,00 €"
+        ],
+        [
+          "San Miguel",
+          "3,00 €"
+        ],
+        [
+          "Tinto verano con limon",
+          "3,00 €"
+        ],
+        [
+          "Tinto verano con casera",
+          "3,50 €"
+        ],
+        [
+          "Tinto de verano 1l",
+          "10,00 €"
+        ],
+        [
+          "Copa de tinto",
+          "3,90 €"
+        ],
+        [
+          "Copa de blanco",
+          "3,90 €"
+        ],
+        [
+          "Copa de rosa",
+          "3,90 €"
+        ],
+        [
+          "Refresco",
+          "3,00 €"
+        ],
+        [
+          "Zumo naranja",
+          "3,50 €"
+        ],
+        [
+          "Zumo variado",
+          "2,50 €"
+        ]
+      ]
+    }
+  }
 }

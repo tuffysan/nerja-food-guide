@@ -1,12 +1,20 @@
 {
-  "generated_at": "2026-11-15T19:47:20.835563+00:00",
+  "generated_at": "2026-11-15T20:09:01.247316+00:00",
   "osm_restaurants": 183,
-  "restaurants_with_menu_links_or_dishes": 4,
-  "restaurants_with_dish_prices": 2,
-  "curated_entries": 14,
-  "discovered_link_entries": 12,
-  "automated_html_menu_entries": 0,
+  "restaurants_with_menu_links_or_dishes": 8,
+  "restaurants_with_dish_prices": 3,
+  "curated_entries": 15,
+  "official_source_menu_entries": 7,
+  "official_source_dish_entries": 44,
+  "researched_official_menu_sources": 9,
+  "curated_entries_with_menu_source": 15,
+  "curated_entries_with_prices": 12,
+  "curated_entries_with_source": 15,
+  "curated_only_menu_candidates": 11,
+  "all_discovery_entries_including_curated": 38,
+  "discovered_link_entries": 38,
+  "automated_html_menu_entries": 9,
   "automated_pdf_menu_entries": 1,
   "automated_structured_menu_entries": 0,
-  "note": "Discovered menu links and OCR price candidates are not human verified. Counts exclude unmatched curated-only restaurants."
+  "note": "Discovered menu links and OCR price candidates are not human verified. OSM coverage counts exclude independently researched restaurants not matched to OSM and unmatched curated-only restaurants."
 }
