@@ -23,6 +23,10 @@ jobs:
         run: python scripts/update.py
       - name: Discover menu links
         run: python scripts/discover_menus.py
+      - name: Install free QR decoder
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq zbar-tools
+      - name: Discover QR and external menu sources
+        run: python scripts/menu_discovery_v2.py
       - name: Merge researched official menu sources
         run: python scripts/merge_verified_sources.py
       - name: Install free PDF parser
@@ -41,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/restaurants.json data/menu-discovery.json data/auto-menus.json data/pdf-menus.json data/html-menus.json data/coverage-report.json data/html-menu-diagnostics.json data/pdf-menu-diagnostics.json
+          git add data/restaurants.json data/menu-discovery.json data/auto-menus.json data/pdf-menus.json data/html-menus.json data/coverage-report.json data/html-menu-diagnostics.json data/pdf-menu-diagnostics.json data/menu-discovery-diagnostics.json
           if ! git diff --cached --quiet; then
             git commit -m "Update Nerja restaurant data"
             git push
