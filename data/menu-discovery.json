@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-15T14:13:32.574986+00:00",
-  "note": "Menu candidates are not verified. Links point to original websites.",
+  "updated_at": "2026-11-15T15:11:27.901429+00:00",
+  "note": "Unverified links to original restaurant websites.",
   "restaurants": {
     "node/3328393211": {
       "name": "Andele!! Andele!!",
@@ -25,58 +25,40 @@
           "source": "https://www.merenderolabarca.es/"
         },
         {
-          "url": "https://www.merenderolabarca.es/#carta",
-          "kind": "web",
+          "url": "https://www.merenderolabarca.es/img/carta-nueva/page-2.jpg",
+          "kind": "image",
           "status": "candidate",
           "source": "https://www.merenderolabarca.es/"
-        }
-      ]
-    },
-    "node/2368322223": {
-      "name": "oliva",
-      "official_website": "http://www.restauranteoliva.com",
-      "links": [
-        {
-          "url": "http://www.restauranteoliva.com#menu",
-          "kind": "web",
-          "status": "candidate",
-          "source": "http://www.restauranteoliva.com"
         },
         {
-          "url": "http://www.restauranteoliva.com/assets/menu-postres.pdf",
-          "kind": "pdf",
+          "url": "https://www.merenderolabarca.es/img/carta-nueva/page-3.jpg",
+          "kind": "image",
           "status": "candidate",
-          "source": "http://www.restauranteoliva.com"
+          "source": "https://www.merenderolabarca.es/"
         },
         {
-          "url": "http://www.restauranteoliva.com/assets/vinos.pdf",
-          "kind": "pdf",
+          "url": "https://www.merenderolabarca.es/img/carta-nueva/page-4.jpg",
+          "kind": "image",
           "status": "candidate",
-          "source": "http://www.restauranteoliva.com"
-        }
-      ]
-    },
-    "node/9672055163": {
-      "name": "Oliva",
-      "official_website": "http://www.restauranteoliva.com/",
-      "links": [
-        {
-          "url": "http://www.restauranteoliva.com/#menu",
-          "kind": "web",
-          "status": "candidate",
-          "source": "http://www.restauranteoliva.com/"
+          "source": "https://www.merenderolabarca.es/"
         },
         {
-          "url": "http://www.restauranteoliva.com/assets/menu-postres.pdf",
-          "kind": "pdf",
+          "url": "https://www.merenderolabarca.es/img/carta-nueva/page-5.jpg",
+          "kind": "image",
           "status": "candidate",
-          "source": "http://www.restauranteoliva.com/"
+          "source": "https://www.merenderolabarca.es/"
         },
         {
-          "url": "http://www.restauranteoliva.com/assets/vinos.pdf",
-          "kind": "pdf",
+          "url": "https://www.merenderolabarca.es/img/carta-nueva/page-6.jpg",
+          "kind": "image",
           "status": "candidate",
-          "source": "http://www.restauranteoliva.com/"
+          "source": "https://www.merenderolabarca.es/"
+        },
+        {
+          "url": "https://www.merenderolabarca.es/img/carta-nueva/page-7.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.merenderolabarca.es/"
         }
       ]
     },
