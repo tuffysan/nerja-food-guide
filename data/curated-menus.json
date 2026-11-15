@@ -284,6 +284,42 @@
         ]
       ],
       "note": "Menú del día mostrado en la web oficial el 15 de noviembre de 2026; puede cambiar."
+    },
+    {
+      "name": "El Ombú del Mediterráneo",
+      "match": [
+        "ombú del mediterráneo",
+        "ombu del mediterraneo"
+      ],
+      "cuisine": "Andalusian",
+      "source": "https://paradores.es/es/espacio-gastronomico-el-ombu-del-mediterraneo-parador-de-nerja",
+      "address": "Calle Almuñécar 8, Nerja",
+      "dishes": [
+        [
+          "Jamón ibérico D.O.P. Jabugo (50/100 g)",
+          "14 € / 25 €"
+        ],
+        [
+          "Quesos de cabra de Montes de Málaga",
+          "9 € / 16 €"
+        ],
+        [
+          "Berenjenas fritas con miel de Frigiliana",
+          "8 € / 14 €"
+        ]
+      ]
+    },
+    {
+      "name": "La Tasquita del Sevillano",
+      "match": [
+        "tasquita",
+        "sevillano"
+      ],
+      "cuisine": "Spanish",
+      "source": "https://sevillanonerja.com/wp-content/uploads/Carta-La-Tasquita-2025.pdf",
+      "address": "Calle Gloria 14/15, Nerja",
+      "dishes": [],
+      "note": "PDF-källa från 2025; kontrollera aktuell meny och priser."
     }
   ]
 }
