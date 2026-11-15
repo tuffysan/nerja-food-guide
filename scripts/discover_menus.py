@@ -1,5 +1,6 @@
 """Find likely menu pages on official restaurant sites, with bounded same-site crawling."""
 import datetime
+import urllib.error
 import html.parser
 import ipaddress
 import json
@@ -66,6 +67,13 @@ def robots_allowed(url):
                 ROBOTS[host] = rp
         except urllib.error.HTTPError as error:
             ROBOTS[host] = True if error.code in (404, 410) else None
+        except urllib.error.HTTPError as error:
+            # A missing robots.txt means no published crawl restrictions.
+            if error.code in (404, 410):
+                rp.parse([])
+                ROBOTS[host] = rp
+            else:
+                ROBOTS[host] = None
         except Exception:
             ROBOTS[host] = None
     return ROBOTS[host] is True or (ROBOTS[host] is not None and ROBOTS[host].can_fetch("NerjaFoodGuide", url))
@@ -129,6 +137,7 @@ if __name__ == "__main__":
     out = {}
     seed_path = ROOT / "verified-source-menus.json"
     seeds = json.loads(seed_path.read_text(encoding="utf-8")).get("entries", []) if seed_path.exists() else []
+    known_sources = json.loads((ROOT / "verified-source-menus.json").read_text(encoding="utf-8")).get("entries", []) if (ROOT / "verified-source-menus.json").exists() else []
     for restaurant in data.get("items", [])[:MAX_SITES]:
         site = restaurant.get("website", "")
         if not site:
@@ -136,6 +145,9 @@ if __name__ == "__main__":
             if len(matched) == 1:
                 site = matched[0]["source"]
         direct = restaurant.get("menu", "")
+        for known in known_sources:
+            if known.get("name", "").casefold() == restaurant.get("name", "").casefold() and not site:
+                site = known.get("source", "")
         links = []
         if direct and safe(direct):
             links.append({"url": direct, "kind": kind(direct), "status": "published", "source": "OpenStreetMap menu tag"})
