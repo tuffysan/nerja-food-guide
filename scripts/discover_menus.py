@@ -152,7 +152,7 @@ if __name__ == "__main__":
         # Curated sources are editorially supplied; no external search-engine API is required.
         site = source if urllib.parse.urlsplit(source).path in ("", "/") else urllib.parse.urlunsplit((*urllib.parse.urlsplit(source)[:2], "/", "", ""))
         links = [{"url": source, "kind": kind(source), "status": "curated", "source": "curated-menus.json"}]
-        if safe(site):
+        if safe(site) and not any(site.endswith(domain) or urllib.parse.urlsplit(site).hostname.endswith(domain) for domain in ("thefork.es", "linktr.ee", "esnerja.com")):
             links.extend(discover(site))
         existing = out.get(rid, {}).get("links", [])
         out[rid] = {"name": name, "official_website": site, "links": list({x["url"]: x for x in existing + links}.values())[:MAX_LINKS]}
