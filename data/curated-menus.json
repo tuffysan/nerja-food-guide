@@ -155,6 +155,118 @@
           "44,50 €"
         ]
       ]
+    },
+    {
+      "name": "Oculto",
+      "match": [
+        "oculto"
+      ],
+      "cuisine": "Fusion",
+      "source": "https://www.restauranteoculto.com/carta/",
+      "dishes": [
+        [
+          "Jamón Oculto",
+          "26,90 €"
+        ],
+        [
+          "Tiraditos de pez limón con trufa",
+          "26,90 €"
+        ],
+        [
+          "Mini taco de solomillo (2 ud.)",
+          "19,50 €"
+        ],
+        [
+          "Gyozas Oculto (4 ud.)",
+          "18,90 €"
+        ],
+        [
+          "Croquetas Thai (2 ud.)",
+          "7,90 €"
+        ],
+        [
+          "Ensalada de pollo estilo Oculto",
+          "17,50 €"
+        ],
+        [
+          "Vegan Burger",
+          "18,50 €"
+        ],
+        [
+          "Salmón pistache",
+          "23,90 €"
+        ]
+      ]
+    },
+    {
+      "name": "La Fama",
+      "match": [
+        "la fama"
+      ],
+      "cuisine": "Brunch",
+      "source": "https://lafamarestaurante.com/",
+      "address": "Plaza Cantarero 9, Nerja",
+      "dishes": [
+        [
+          "Desayuno Inglés",
+          "8,90 €"
+        ],
+        [
+          "Huevos con Bacon",
+          "6,90 €"
+        ],
+        [
+          "Ensalada César",
+          "11,00 €"
+        ],
+        [
+          "Ensalada de Rúcula con Queso de Cabra",
+          "11,50 €"
+        ],
+        [
+          "Tortilla de Gambas",
+          "10,50 €"
+        ],
+        [
+          "Café con Leche",
+          "1,80 €"
+        ],
+        [
+          "Capuchino",
+          "2,80 €"
+        ]
+      ]
+    },
+    {
+      "name": "Lisbeth's Nordic Cuisine & Lounge Bar",
+      "match": [
+        "lisbeth"
+      ],
+      "cuisine": "Nordic",
+      "source": "https://www.thefork.es/restaurante/lisbeth-s-nordic-cuisine-lounge-bar-r866460/menu",
+      "address": "Urb. Nerjamedina 3, Nerja",
+      "dishes": [
+        [
+          "Marineret sild, karrysalat, æg og løg",
+          "8,95 €"
+        ],
+        [
+          "Fiskefilet med pommes frites",
+          "11,95 €"
+        ],
+        [
+          "Hakkebøf med spejlæg",
+          "14,95 €"
+        ],
+        [
+          "Stjerneskud",
+          "16,95 €"
+        ],
+        [
+          "Salmón",
+          "17,95 €"
+        ]
+      ]
     }
   ]
 }
