@@ -68,7 +68,9 @@ def extract_lines(body):
         # Only allow a short trailing suffix, never silently combine multiple dishes.
         if line[m.end():].strip(" .–—|") or m.start() < 4:
             continue
-        if not 0.5 <= float(m.group(1).replace(",", ".")) <= 250:\n            continue\n        name = line[:m.start()].strip(" .:-–—|")
+        if not 0.5 <= float(m.group(1).replace(",", ".")) <= 250:
+            continue
+        name = line[:m.start()].strip(" .:-–—|")
         if not (4 <= len(name) <= 95 and re.search(r"[A-Za-zÁÉÍÓÚÑáéíóúñ]", name)):
             continue
         if len(name.split()) > 15 or re.search(r"https?://|@|[{}<>]", name):
