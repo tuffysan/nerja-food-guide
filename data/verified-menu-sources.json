@@ -110,6 +110,14 @@
       "address": "Nerja, Málaga, España",
       "source_type": "third_party",
       "note": "Restaurant Guru owner and user menus; historic versions"
+    },
+    {
+      "name": "MUM Nerja",
+      "website": "https://www.mumnerja.com/indexesp.html",
+      "menu": "https://www.mumnerja.com/indexesp.html",
+      "address": "Calle Pintada 3, Nerja, Málaga, España",
+      "source_type": "official",
+      "note": "Official website contains links to Carta and Menú Diario; prices not yet verified."
     }
   ]
 }
