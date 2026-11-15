@@ -11,6 +11,7 @@ import time
 import urllib.parse
 import urllib.request
 import urllib.robotparser
+import xml.etree.ElementTree as ET
 
 ROOT = pathlib.Path(__file__).resolve().parents[1] / "data"
 KEYWORDS = re.compile(r"menu|men[uú]|carta|food|comida|speisekarte|carte|dinner|lunch|tapas|platos|restaurant", re.I)
@@ -88,6 +89,41 @@ def fetch_html(url):
     parser.feed(body.decode("utf-8", "replace"))
     return parser.links
 
+def sitemap_menus(site):
+    """Find menu pages in a site's public sitemap without a paid search API."""
+    base = urllib.parse.urlsplit(site)
+    root = base.scheme + "://" + base.netloc
+    queue = [root + "/sitemap.xml", root + "/wp-sitemap.xml"]
+    visited = set()
+    found = {}
+    while queue and len(visited) < 8 and len(found) < MAX_LINKS:
+        url = queue.pop(0)
+        if url in visited or not same_host(url, site) or not safe(url) or not robots_allowed(url):
+            continue
+        visited.add(url)
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "NerjaFoodGuide/4.2"})
+            with OPENER.open(req, timeout=5) as response:
+                if response.geturl() != url:
+                    continue
+                content = response.read(350001)
+            if len(content) > 350000:
+                continue
+            tree = ET.fromstring(content)
+            for element in tree.iter():
+                if element.tag.rsplit("}", 1)[-1] != "loc" or not element.text:
+                    continue
+                target = element.text.strip().split("#")[0]
+                if not same_host(target, site) or not safe(target):
+                    continue
+                if target.lower().endswith(".xml") and len(queue) < 12:
+                    queue.append(target)
+                elif STRONG.search(urllib.parse.unquote(urllib.parse.urlsplit(target).path)):
+                    found[target] = {"url": target, "kind": kind(target), "status": "candidate", "source": url}
+        except (OSError, ValueError, ET.ParseError):
+            continue
+    return list(found.values())
+
 def kind(url):
     path = urllib.parse.urlsplit(url).path.lower()
     if path.endswith(".pdf"):
@@ -123,7 +159,9 @@ def discover(site):
             if len(found) >= MAX_LINKS:
                 break
         time.sleep(0.2)
-    return list(found.values())
+    for entry in sitemap_menus(site):
+        found.setdefault(entry["url"], entry)
+    return list(found.values())[:MAX_LINKS]
 
 if __name__ == "__main__":
     data = json.loads((ROOT / "restaurants.json").read_text(encoding="utf-8"))
@@ -163,8 +201,6 @@ if __name__ == "__main__":
             continue
         matched = next((p for p in data.get("items", []) if any(m.casefold() in p.get("name", "").casefold() for m in entry.get("match", []))), None)
         rid = matched["id"] if matched else "curated/" + name
-        if rid in out and any(x.get("kind") != "website" for x in out[rid]["links"]):
-            continue
         # Curated sources are editorially supplied; no external search-engine API is required.
         site = source if urllib.parse.urlsplit(source).path in ("", "/") else urllib.parse.urlunsplit((*urllib.parse.urlsplit(source)[:2], "/", "", ""))
         links = [{"url": source, "kind": kind(source), "status": "curated", "source": "curated-menus.json"}]
