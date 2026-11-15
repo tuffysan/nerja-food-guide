@@ -48,11 +48,12 @@ for entry in curated:
     name = entry["name"]
     match = next((r for r in restaurants if norm(r["name"]) == norm(name)), None)
     rid = match["id"] if match else "curated/" + name
-    record = out.setdefault(rid, {"name": name, "official_website": menu, "links": []})
-    if not record.get("official_website"):
+    third_party = host.endswith(("carta.menu", "menuweb.menu", "restaurantguru.com")) or "thefork." in host or "tripadvisor." in host
+    record = out.setdefault(rid, {"name": name, "official_website": "" if third_party else menu, "links": []})
+    if not record.get("official_website") and not third_party:
         record["official_website"] = menu
     if not any(x.get("url") == menu for x in record["links"]):
-        record["links"].append({"url": menu, "kind": kind(menu), "status": "candidate",
+        record["links"].append({"url": menu, "kind": kind(menu), "status": "external_unverified" if third_party else "candidate",
                                 "source": "curated restaurant source; unverified"})
 
 data["updated_at"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
