@@ -14,6 +14,7 @@ pdf = load("pdf-menus.json", {"restaurants": {}}).get("restaurants", {})
 html = load("html-menus.json", {"restaurants": {}}).get("restaurants", {})
 auto = load("auto-menus.json", {"restaurants": {}}).get("restaurants", {})
 curated = load("curated-menus.json", {"entries": []}).get("entries", [])
+verified = load("verified-menu-sources.json", {"entries": []}).get("entries", [])
 
 with_menu = set()
 with_prices = set()
@@ -37,6 +38,7 @@ report = {
     "restaurants_with_menu_links_or_dishes": len(with_menu),
     "restaurants_with_dish_prices": len(with_prices),
     "curated_entries": len(curated),
+    "researched_official_menu_sources": len(verified),
     "curated_entries_with_menu_source": sum(bool(c.get("source")) for c in curated),
     "curated_entries_with_prices": sum(bool(c.get("dishes") or html.get("curated/" + c["name"], {}).get("dishes") or auto.get(c["name"], {}).get("dishes")) for c in curated),
     "curated_entries_with_source": sum(bool(c.get("source")) for c in curated),
@@ -46,7 +48,7 @@ report = {
     "automated_html_menu_entries": sum(bool(x.get("dishes")) for x in html.values()),
     "automated_pdf_menu_entries": sum(bool(x.get("dishes")) for x in pdf.values()),
     "automated_structured_menu_entries": sum(bool(x.get("dishes")) for x in auto.values()),
-    "note": "Discovered menu links and OCR price candidates are not human verified. Counts exclude unmatched curated-only restaurants."
+    "note": "Discovered menu links and OCR price candidates are not human verified. OSM coverage counts exclude independently researched restaurants not matched to OSM and unmatched curated-only restaurants."
 }
 (root / "coverage-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(json.dumps(report, ensure_ascii=False, indent=2))
