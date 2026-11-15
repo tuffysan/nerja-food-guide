@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T15:11:27.901429+00:00",
+  "updated_at": "2026-11-15T19:06:07.395664+00:00",
   "note": "Unverified links to original restaurant websites.",
   "restaurants": {
     "node/3328393211": {
@@ -59,6 +59,48 @@
           "kind": "image",
           "status": "candidate",
           "source": "https://www.merenderolabarca.es/"
+        },
+        {
+          "url": "https://www.merenderolabarca.es/img/carta-nueva/page-8.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.merenderolabarca.es/"
+        },
+        {
+          "url": "https://www.merenderolabarca.es/img/carta-nueva/page-9.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.merenderolabarca.es/"
+        },
+        {
+          "url": "https://www.merenderolabarca.es/img/carta-nueva/page-1.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.merenderolabarca.es/"
+        }
+      ]
+    },
+    "node/4230056368": {
+      "name": "Redondo Fish",
+      "official_website": "https://redondo.bar/",
+      "links": [
+        {
+          "url": "https://redondo.bar/",
+          "kind": "website",
+          "status": "website_only",
+          "source": "https://redondo.bar/"
+        }
+      ]
+    },
+    "node/5100592225": {
+      "name": "Restaurante El 34",
+      "official_website": "https://www.hotelcarabeo.com/boutique_hotels_nerja/boutique_hotels_nerja_restaurant34.asp",
+      "links": [
+        {
+          "url": "https://www.hotelcarabeo.com/boutique_hotels_nerja/boutique_hotels_nerja_restaurant34.asp",
+          "kind": "website",
+          "status": "website_only",
+          "source": "https://www.hotelcarabeo.com/boutique_hotels_nerja/boutique_hotels_nerja_restaurant34.asp"
         }
       ]
     },
@@ -71,6 +113,18 @@
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/"
+        }
+      ]
+    },
+    "node/535073499": {
+      "name": "Tropicana",
+      "official_website": "https://clubtropicananerja.net/bar-restaurant",
+      "links": [
+        {
+          "url": "https://clubtropicananerja.net/bar-restaurant",
+          "kind": "website",
+          "status": "website_only",
+          "source": "https://clubtropicananerja.net/bar-restaurant"
         }
       ]
     }
