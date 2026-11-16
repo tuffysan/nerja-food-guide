@@ -55,6 +55,38 @@ def request_metadata(titles):
             raise RuntimeError("Wikimedia metadata unavailable")
         return json.load(response)["query"]["pages"]
 
+
+def wikidata_image_titles(restaurants):
+    """Wikidata P18 photos linked by explicit OSM Q-ID; never fuzzy-match names."""
+    identifiers = {}
+    for restaurant in restaurants:
+        qid = str(restaurant.get("wikidata") or "").strip()
+        if re.fullmatch(r"Q[1-9][0-9]{0,11}", qid) and not title_from_tag(restaurant.get("image")):
+            identifiers.setdefault(qid, []).append(restaurant["id"])
+    result = {}
+    for offset in range(0, min(len(identifiers), 150), 25):
+        batch = list(identifiers)[offset:offset + 25]
+        params = urllib.parse.urlencode({
+            "action": "wbgetentities", "format": "json", "ids": "|".join(batch),
+            "props": "claims"
+        })
+        try:
+            req = urllib.request.Request("https://www.wikidata.org/w/api.php?" + params,
+                headers={"User-Agent": AGENT, "Accept": "application/json"})
+            with urllib.request.urlopen(req, timeout=20) as response:
+                entities = json.load(response).get("entities", {})
+            for qid in batch:
+                claims = entities.get(qid, {}).get("claims", {}).get("P18", [])
+                for claim in claims[:1]:
+                    name = claim.get("mainsnak", {}).get("datavalue", {}).get("value")
+                    title = title_from_tag(name)
+                    if title:
+                        result.setdefault(title, []).extend(identifiers[qid])
+        except (OSError, ValueError, KeyError) as exc:
+            print("Wikidata photo lookup unavailable:", str(exc)[:120])
+        time.sleep(0.3)
+    return result
+
 def build():
     restaurants = json.loads(INPUT.read_text(encoding="utf-8")).get("items", [])
     previous = json.loads(OUTPUT.read_text(encoding="utf-8")).get("photos", {}) if OUTPUT.exists() else {}
@@ -63,6 +95,8 @@ def build():
         title = title_from_tag(restaurant.get("image"))
         if title:
             titles.setdefault(title, []).append(restaurant["id"])
+    for title, ids in wikidata_image_titles(restaurants).items():
+        titles.setdefault(title, []).extend(ids)
     result = {}
     errors = 0
     for offset in range(0, len(titles), 10):
@@ -97,7 +131,7 @@ def build():
                     "checked_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
                 }
         time.sleep(0.3)
-    # Preserve previous records only for restaurants that still have the same explicit OSM image reference.
+    # Preserve previous records only for restaurants with an explicit OSM or Wikidata image association.
     # If metadata is unreachable, keep a previously validated image instead of losing the photo.
     for rid, old in previous.items():
         if rid not in result and rid in {key for values in titles.values() for key in values} and errors:
