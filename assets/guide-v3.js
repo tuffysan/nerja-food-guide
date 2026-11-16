@@ -87,7 +87,7 @@
   function addPhoto(card,r){
     const frame=document.createElement("div");frame.className="restaurant-photo";
     const record=photoCatalog[r.id];
-    if(record?.url?.startsWith("https://upload.wikimedia.org/")&&record?.source?.startsWith("https://commons.wikimedia.org/")){
+    if((record?.url?.startsWith("https://upload.wikimedia.org/")||record?.url?.startsWith("https://commons.wikimedia.org/wiki/Special:FilePath/"))&&record?.source?.startsWith("https://commons.wikimedia.org/")){
       const img=document.createElement("img");img.src=record.url;img.loading="lazy";img.decoding="async";
       img.alt="Foto kopplat till "+r.name+" enligt OpenStreetMap";
       img.onerror=()=>{frame.replaceChildren();frame.classList.add("photo-fallback");frame.textContent="🍽️"};
