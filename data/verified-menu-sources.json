@@ -26,10 +26,10 @@
     {
       "name": "Trattoria Italia",
       "website": "https://trattoriaitalianerja.es/",
-      "menu": "https://trattoriaitalianerja.es/carta/",
+      "menu": "https://trattoriaitalianerja.es/en/menu/",
       "address": "Calle Almirante Ferrándiz 29, Nerja, Spanien",
       "source_type": "official",
-      "note": "Official restaurant menu or PDF; check current version"
+      "note": "Official English food menu inspected November 2026"
     },
     {
       "name": "Restaurante del Parador de Nerja",
@@ -189,6 +189,14 @@
       "website": "https://www.peppepizza.com/",
       "source_type": "official",
       "note": "Official restaurant menu or PDF; check current version"
+    },
+    {
+      "name": "Restaurante Jamaica",
+      "website": "https://cafeteriajamaica.com/",
+      "menu": "https://cafeteriajamaica.com/",
+      "source_type": "official_menu_section",
+      "address": "Avenida del Mediterráneo, Nerja, España",
+      "note": "Official homepage has Nuestra carta / Carta completa section; not a direct menu document"
     }
   ]
 }
