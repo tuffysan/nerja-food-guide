@@ -10,6 +10,7 @@
 <label for="restaurant">Restaurangens namn *</label><input id="restaurant" maxlength="100" required>
 <label for="website">Officiell webbplats (valfritt)</label><input id="website" type="url" placeholder="https://...">
 <label for="menu">Länk till publicerad meny *</label><input id="menu" type="url" placeholder="https://..." required>
+<label for="photo">Länk till restaurangfoto på Wikimedia Commons (valfritt)</label><input id="photo" type="url" placeholder="https://commons.wikimedia.org/wiki/File:..."><p>Fotot måste föreställa rätt restaurang och ha en licens som tillåter återanvändning. Upphovsperson och licens anges vid publicering.</p>
 <label for="relationship">Din relation till restaurangen *</label><select id="relationship" required><option value="">Välj</option><option>Ägare eller ansvarig</option><option>Anställd</option><option>Gäst eller besökare</option></select>
 <label for="notes">Kommentar (valfritt)</label><textarea id="notes" maxlength="1200" placeholder="Exempelvis ändrade öppettider eller datum för senaste menyn"></textarea>
 <p>Vi kontrollerar källan, eventuella priser och restaurangens identitet innan publicering. Skicka inte personuppgifter eller konfidentiell information.</p>
@@ -19,7 +20,7 @@
 document.getElementById("submission").addEventListener("submit",e=>{
 e.preventDefault();
 const get=id=>document.getElementById(id).value.trim();
-const body=["## Menyuppdatering","Restaurang: "+get("restaurant"),"Officiell webbplats: "+(get("website")||"Ej angiven"),"Menykälla: "+get("menu"),"Relation: "+get("relationship"),"Kommentar: "+(get("notes")||"Ingen"),"","Kontrollera äkthet, källtyp och priser innan publicering."].join("\n");
+const body=["## Menyuppdatering","Restaurang: "+get("restaurant"),"Officiell webbplats: "+(get("website")||"Ej angiven"),"Menykälla: "+get("menu"),"Föreslaget foto: "+(get("photo")||"Inget"),"Relation: "+get("relationship"),"Kommentar: "+(get("notes")||"Ingen"),"","Kontrollera äkthet, källtyp och priser innan publicering."].join("\n");
 const params=new URLSearchParams({title:"Menyförslag: "+get("restaurant"),body});
 window.open("https://github.com/tuffysan/nerja-food-guide/issues/new?"+params.toString(),"_blank","noopener,noreferrer");
 });
