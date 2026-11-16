@@ -10,9 +10,11 @@
     {
       "name": "La Bottega",
       "website": "https://www.labotteganerja.com/",
-      "menu": "https://www.labotteganerja.com/",
+      "menu": "https://www.labotteganerja.com/s/may-2026-english.pdf",
       "address": "Calle Castilla Pérez 21, Nerja, Spanien",
-      "source_type": "official"
+      "source_type": "official",
+      "note": "English food menu PDF linked directly from the restaurant's official site; dated May 2026",
+      "menu_format": "pdf"
     },
     {
       "name": "Restaurante Doña Lola",
@@ -153,6 +155,14 @@
       "website": "https://sevillanonerja.com/",
       "address": "Calle Los Huertos 33, Nerja, España",
       "source_type": "official"
+    },
+    {
+      "name": "Avalon",
+      "website": "https://www.avalonnerja.com/",
+      "menu": "https://www.avalonnerja.com/a-la-carte-menu/",
+      "address": "Punta Lara 22, Nerja, España",
+      "source_type": "official",
+      "note": "Official a la carte menu; prices may change"
     }
   ]
 }
