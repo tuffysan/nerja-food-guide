@@ -132,11 +132,11 @@
     },
     {
       "name": "Rincón del Sevillano",
-      "menu": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Rincon-del-Sevillano-Nerja-2025.pdf",
+      "menu": "https://sevillanonerja.com/restaurantes/",
       "website": "https://sevillanonerja.com/",
       "address": "Calle Gloria 14, Nerja, España",
-      "source_type": "official",
-      "note": "Official restaurant menu or PDF; check current version"
+      "source_type": "official_menu_section",
+      "note": "Official restaurant listing links to the menu PDF; earlier guessed direct PDF path was not verified"
     },
     {
       "name": "Sevillano La Tasquita",
@@ -147,19 +147,19 @@
     },
     {
       "name": "Sevillano El Chaparil",
-      "menu": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Chaparil-Sevillano-Nerja-2025.pdf",
+      "menu": "https://sevillanonerja.com/restaurantes/",
       "website": "https://sevillanonerja.com/",
       "address": "Calle Chaparil 7, Nerja, España",
-      "source_type": "official",
-      "note": "Official restaurant menu or PDF; check current version"
+      "source_type": "official_menu_section",
+      "note": "Official restaurant listing links to the menu PDF; earlier guessed direct PDF path was not verified"
     },
     {
       "name": "Los Huertos del Sevillano",
-      "menu": "https://sevillanonerja.com/wp-content/uploads/Carta-Los-Huertos-1.pdf",
+      "menu": "https://sevillanonerja.com/restaurantes/",
       "website": "https://sevillanonerja.com/",
       "address": "Calle Los Huertos 33, Nerja, España",
-      "source_type": "official",
-      "note": "Official restaurant menu or PDF; check current version"
+      "source_type": "official_menu_section",
+      "note": "Official restaurant listing links to the menu PDF; earlier guessed direct PDF path was not verified"
     },
     {
       "name": "Avalon",
@@ -171,10 +171,10 @@
     },
     {
       "name": "La Tasquita del Sevillano",
-      "menu": "https://sevillanonerja.com/wp-content/uploads/Carta-La-Tasquita-Sevillano-Nerja-2025.pdf",
+      "menu": "https://sevillanonerja.com/restaurantes/",
       "website": "https://sevillanonerja.com/",
-      "source_type": "official",
-      "note": "Official restaurant menu or PDF; check current version"
+      "source_type": "official_menu_section",
+      "note": "Official restaurant page links to Carta La Tasquita; earlier guessed PDF path was not verified"
     },
     {
       "name": "Tardeo by Origen",
@@ -197,6 +197,13 @@
       "source_type": "official_menu_section",
       "address": "Avenida del Mediterráneo, Nerja, España",
       "note": "Official homepage has Nuestra carta / Carta completa section; not a direct menu document"
+    },
+    {
+      "name": "Nerja Club",
+      "website": "https://www.nerjaclub.com/",
+      "menu": "https://www.nerjaclub.com/cdn/files/CARTA-BEBIDAS-NERJA-CLUB.pdf",
+      "source_type": "official",
+      "note": "Official drinks menu PDF (not food menu); March 2026"
     }
   ]
 }
