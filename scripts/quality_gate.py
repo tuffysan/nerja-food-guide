@@ -8,6 +8,8 @@ import json
 import pathlib
 import subprocess
 import sys
+import re
+from urllib.parse import urlsplit
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 FILES = ("restaurants.json", "menu-discovery.json", "restaurant-photos.json")
@@ -30,6 +32,11 @@ def metrics(restaurants, discovery, photos):
         "licensed_photos": len(photos.get("photos", {})),
     }
 
+def menu_specific(url):
+    """Generic restaurant homepages are not menus and may be replaced safely."""
+    path = urlsplit(str(url or '')).path.lower()
+    return bool(re.search(r'(?:menu|carta|speisekarte|food|drink|bebida|\\.pdf$)', path))
+
 def validate():
     old = [read(name, True) for name in FILES]
     new = [read(name) for name in FILES]
@@ -46,7 +53,10 @@ def validate():
         if name == "menu-discovery.json":
             previous = {link.get("url") for entry in old_data.get("restaurants", {}).values() for link in entry.get("links", []) if link.get("url")}
             current = {link.get("url") for entry in new_data.get("restaurants", {}).values() for link in entry.get("links", []) if link.get("url")}
-            lost = previous - current
+            lost = {url for url in previous - current if menu_specific(url)}
+            ignored = len(previous - current) - len(lost)
+            if ignored:
+                print(f"Ignored {ignored} removed generic homepage URL(s), not menu-specific")
             if lost:
                 errors.append(f"{len(lost)} menu URLs lost (first 5: {sorted(lost)[:5]})")
         if name == "restaurant-photos.json":
