@@ -146,11 +146,35 @@ def build():
                     "checked_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
                 }
         time.sleep(0.3)
-    # Preserve previous records only for restaurants with an explicit OSM or Wikidata image association.
-    # If metadata is unreachable, keep a previously validated image instead of losing the photo.
+    # Keep reviewed and attributed photos even when Commons metadata is unavailable.
+    approved_ids = set()
+    if approvals_file.exists():
+        for entry in approved:
+            rid = entry.get("restaurant_id")
+            if rid in restaurant_names and restaurant_names[rid] == entry.get("restaurant_name"):
+                approved_ids.add(rid)
+    associated_ids = {key for values in titles.values() for key in values}
     for rid, old in previous.items():
-        if rid not in result and rid in {key for values in titles.values() for key in values} and errors:
-            result[rid] = old
+        if rid not in result and rid in associated_ids and (errors or rid in approved_ids):
+            if old.get("source", "").startswith("https://commons.wikimedia.org/") and old.get("license") and old.get("author"):
+                result[rid] = old
+    # Reviewed photos can be served by Commons FilePath without a successful API lookup.
+    if approvals_file.exists():
+        for entry in approved:
+            rid = entry.get("restaurant_id")
+            title = title_from_tag(entry.get("commons_file"))
+            if rid not in approved_ids or rid in result or not title:
+                continue
+            if not entry.get("author") or not license_allowed(entry.get("license")):
+                continue
+            filename = title.split(":", 1)[1].replace(" ", "_")
+            result[rid] = {
+                "url": "https://commons.wikimedia.org/wiki/Special:FilePath/" + urllib.parse.quote(filename) + "?width=700",
+                "source": "https://commons.wikimedia.org/wiki/" + urllib.parse.quote(title.replace(" ", "_"), safe=":/()"),
+                "author": entry["author"], "license": entry["license"],
+                "license_url": entry.get("license_url", ""),
+                "checked_at": entry.get("reviewed_at", ""),
+            }
     OUTPUT.write_text(json.dumps({"photos": result, "photo_count": len(result), "metadata_errors": errors},
                                   ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("Licensed restaurant photos:", len(result), "metadata errors:", errors)
