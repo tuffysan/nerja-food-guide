@@ -24,7 +24,7 @@ def candidates_for(r):
         "gsnamespace":6,"gsprimary":"all","gslimit":12
     })
     req=urllib.request.Request(API+"?"+params,headers=HEADERS)
-    with urllib.request.urlopen(req,timeout=14) as response:
+    with urllib.request.urlopen(req,timeout=7) as response:
         rows=json.load(response).get("query",{}).get("geosearch",[])
     name=str(r["name"]).casefold()
     words=[w for w in re.findall(r"[a-záéíóúñü]{4,}",name) if w not in
@@ -47,7 +47,7 @@ def main():
     checked=0
     for r in restaurants:
         if r["id"] in photos:continue
-        if checked>=30:break
+        if checked>=12:break
         checked+=1
         try:
             options=candidates_for(r)
