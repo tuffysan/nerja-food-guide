@@ -1,5 +1,8 @@
 name: V2 evidence collection
 on:
+  push:
+    branches: [rebuild/v2-clean]
+    paths: ['.github/workflows/v2-collect.yml']
   workflow_dispatch:
   schedule:
     - cron: '43 6 * * *'
