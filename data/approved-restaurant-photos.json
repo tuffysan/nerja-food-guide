@@ -1,0 +1,12 @@
+{
+  "approved": [
+    {
+      "restaurant_id": "node/430878902",
+      "restaurant_name": "La Puntilla",
+      "commons_file": "File:Pesces en exhibición - La Puntilla (41315176722).jpg",
+      "evidence": "Wikimedia Commons category Restaurants in Nerja; filename explicitly identifies La Puntilla; depicts a fish display, not necessarily restaurant exterior",
+      "reviewed_at": "2026-11-16",
+      "image_kind": "restaurant_food_display"
+    }
+  ]
+}
