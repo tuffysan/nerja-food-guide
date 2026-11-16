@@ -108,7 +108,7 @@ def fetch(url, official):
         return []
     req = urllib.request.Request(url, headers={"User-Agent": "NerjaFoodGuide/4.1", "Accept": "text/html"})
     with OPENER.open(req, timeout=8) as response:
-        if response.geturl() != url or "text/html" not in response.headers.get("Content-Type", "").lower():
+        if urllib.parse.urlsplit(response.geturl()).hostname != urllib.parse.urlsplit(url).hostname or not safe(response.geturl()) or "text/html" not in response.headers.get("Content-Type", "").lower():
             return []
         data = response.read(300001)
     if len(data) > 300000:
