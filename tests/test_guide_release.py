@@ -39,6 +39,13 @@ class GuideReleaseTests(unittest.TestCase):
             self.assertIsNotNone(source,name)
             self.assertTrue(source["menu"].startswith("https://"),name)
             self.assertTrue(source["menu"].endswith(".pdf"),name)
+    def test_menu_audit_is_price_independent(self):
+        import ast
+        source=(ROOT/"scripts/menu_availability_audit.py").read_text(encoding="utf-8")
+        ast.parse(source)
+        self.assertIn("restaurants_with_menu_links",source)
+        self.assertIn("restaurants_with_official_menu_link",source)
+        self.assertNotIn("hasPrices(",source)
     def test_web_assets_connected(self):
         html=(ROOT/"index.html").read_text(encoding="utf-8")
         self.assertIn('assets/guide-v3.js',html)
