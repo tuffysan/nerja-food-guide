@@ -77,7 +77,7 @@
       const restaurant=items.find(r=>r.name===title);
       if(!restaurant)continue;
       card.hidden=!ids.has(restaurant.id);
-      if(card.dataset.enhanced)return;
+      if(card.dataset.enhanced)continue;
       card.dataset.enhanced="1";
       addPhoto(card,restaurant);
       const details=[];
