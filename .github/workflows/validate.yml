@@ -56,7 +56,7 @@ jobs:
                       self.inside = False
           parser = Scripts()
           parser.feed(Path("index.html").read_text(encoding="utf-8"))
-          Path("/tmp/nerja-inline.js").write_text("\\n".join(parser.parts), encoding="utf-8")
+          Path("/tmp/nerja-inline.js").write_text("\n".join(parser.parts), encoding="utf-8")
           PY
           node --check /tmp/nerja-inline.js
       - name: Run regression tests
