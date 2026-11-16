@@ -18,6 +18,13 @@
   filters.after(toolbar);
   const mapBox=document.createElement("div");mapBox.id="restaurant-map";mapBox.hidden=true;mapBox.setAttribute("aria-label","Karta över restauranger i Nerja");toolbar.after(mapBox);
   let map=null,layer=null,loading=false;
+  let photoCatalog={};
+  fetch("data/restaurant-photos.json").then(response=>response.ok?response.json():{photos:{}})
+    .then(data=>{photoCatalog=data.photos||{};for(const card of cards.children){
+      const restaurant=items.find(r=>r.name===card.querySelector("h2")?.textContent);
+      if(restaurant){const frame=card.querySelector(".restaurant-photo");if(frame)frame.remove();addPhoto(card,restaurant)}
+    }}).catch(()=>{});
+
   function dishes(r){
     const d=findCurated(r);
     return [...(d?.dishes||[]),...(autoMenus[d?.name]?.dishes||[]),...(pdfMenus[r.id]?.dishes||[]),...(htmlFor(r)?.dishes||[])];
@@ -48,18 +55,21 @@
   }
   function addPhoto(card,r){
     const frame=document.createElement("div");frame.className="restaurant-photo";
-    const src=photoUrl(r);
-    if(src){
-      const img=document.createElement("img");img.src=src;img.loading="lazy";img.decoding="async";
-      img.alt="Restaurangfoto från OpenStreetMap: "+r.name;
+    const record=photoCatalog[r.id];
+    if(record?.url?.startsWith("https://upload.wikimedia.org/")&&record?.source?.startsWith("https://commons.wikimedia.org/")){
+      const img=document.createElement("img");img.src=record.url;img.loading="lazy";img.decoding="async";
+      img.alt="Foto kopplat till "+r.name+" enligt OpenStreetMap";
       img.onerror=()=>{frame.replaceChildren();frame.classList.add("photo-fallback");frame.textContent="🍽️"};
       frame.append(img);
-      const credit=document.createElement("small");credit.className="photo-credit";credit.textContent="Bildkälla: OSM / Wikimedia Commons";
+      const credit=document.createElement("a");credit.className="photo-credit";credit.href=record.source;
+      credit.target="_blank";credit.rel="noopener noreferrer";
+      credit.textContent=(record.author||"Se källan")+" · "+(record.license||"Licens");
+      credit.title="Upphovsperson och licens på Wikimedia Commons";
       frame.append(credit);
     }else{
       frame.classList.add("photo-fallback");
       frame.textContent=r.amenity==="cafe"?"☕":r.amenity==="fast_food"?"🥙":"🍽️";
-      frame.setAttribute("aria-label","Illustration – restaurangfoto saknas");
+      frame.setAttribute("aria-label","Illustration – licensierat restaurangfoto saknas");
     }
     card.prepend(frame);
   }
