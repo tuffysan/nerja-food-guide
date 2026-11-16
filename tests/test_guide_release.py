@@ -12,6 +12,21 @@ class GuideReleaseTests(unittest.TestCase):
         self.assertIn('assets/guide-v3.css',html)
         self.assertTrue((ROOT/"assets/guide-v3.js").is_file())
         self.assertTrue((ROOT/"restaurant-portal.html").is_file())
+    def test_menu_highlights_have_valid_source_and_prices(self):
+        import json
+        from urllib.parse import urlsplit
+        entries=json.loads((ROOT/"data/featured-menu-highlights.json").read_text(encoding="utf-8"))["entries"]
+        self.assertGreaterEqual(len(entries),3)
+        for entry in entries:
+            self.assertEqual(urlsplit(entry["url"]).scheme,"https")
+            self.assertTrue(entry["dishes"])
+            for dish in entry["dishes"]:
+                self.assertEqual(len(dish),2)
+                self.assertIn("€",dish[1])
+    def test_map_and_search_recovery_controls(self):
+        js=(ROOT/"assets/guide-v3.js").read_text(encoding="utf-8")
+        for token in ("Rensa filter","empty-results","Visa restaurang i listan","if(!window.L)"):
+            self.assertIn(token,js)
     def test_portal_requires_review(self):
         portal=(ROOT/"restaurant-portal.html").read_text(encoding="utf-8")
         self.assertIn("issues/new?",portal)
