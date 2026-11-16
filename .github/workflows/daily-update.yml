@@ -14,6 +14,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -60,5 +62,23 @@ jobs:
           git add data/restaurants.json data/menu-discovery.json data/auto-menus.json data/pdf-menus.json data/html-menus.json data/coverage-report.json data/html-menu-diagnostics.json data/pdf-menu-diagnostics.json data/menu-discovery-diagnostics.json
           if ! git diff --cached --quiet; then
             git commit -m "Update Nerja restaurant data"
-            git push
+            # Code updates may land on main while discovery is running.
+            # Replay only the generated-data commit on the current remote head.
+            # Abort instead of overwriting or force-pushing on a conflict.
+            for attempt in 1 2 3; do
+              git fetch origin main
+              if git rebase origin/main; then
+                if git push origin HEAD:main; then
+                  exit 0
+                fi
+                echo "Main moved during push; retrying ($attempt/3)"
+              else
+                git rebase --abort || true
+                echo "::error::Generated data conflicts with new commits on main; not overwriting changes"
+                exit 1
+              fi
+              sleep 2
+            done
+            echo "::error::Main kept moving during data publication; no force push attempted"
+            exit 1
           fi
