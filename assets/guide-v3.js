@@ -163,6 +163,7 @@
       wrap.append(strong,text,a);marker.bindPopup(wrap);marker.addTo(layer);bounds.push([lat,lon]);
     }
     if(bounds.length)map.fitBounds(bounds,{padding:[25,25],maxZoom:15});
+    else if(layer)map.setView([36.75,-3.875],13);
   }
   function loadMap(){
     if(map||loading)return;
@@ -178,7 +179,7 @@
       layer=L.layerGroup().addTo(map);
       setTimeout(()=>{map.invalidateSize();drawMap(selected())},0);
     };
-    script.onerror=()=>{mapBox.textContent="Kartan kunde inte laddas. Använd kartlänkarna på restaurangkorten.";loading=false};
+    script.onerror=()=>{mapBox.textContent="Kartan kunde inte laddas. Restaurangerna och deras kartlänkar fungerar fortfarande nedanför.";loading=false};
     document.head.append(script);
   }
   toggle.addEventListener("click",()=>{
