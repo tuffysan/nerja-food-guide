@@ -5,13 +5,14 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  pages: write
 concurrency:
   group: restaurant-update
   cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
@@ -67,6 +68,20 @@ jobs:
         run: python scripts/content_audit.py
       - name: Audit menu availability independently of prices
         run: python scripts/menu_availability_audit.py
+      - name: Reject data regressions before publishing
+        run: python scripts/quality_gate.py
+      - name: Upload discovery diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nerja-discovery-diagnostics
+          path: |
+            data/*diagnostics.json
+            data/coverage-report.json
+            data/menu-availability-audit.json
+            data/content-audit.json
+          if-no-files-found: warn
+          retention-days: 14
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
@@ -94,3 +109,12 @@ jobs:
             echo "::error::Main kept moving during data publication; no force push attempted"
             exit 1
           fi
+      - name: Request GitHub Pages rebuild for automated data commits
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # A push by GITHUB_TOKEN does not itself trigger a Pages build.
+          # For branch-based Pages, explicitly request a build after the data commit.
+          # Fail visibly if the repository's Pages source does not support this API.
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" --silent
