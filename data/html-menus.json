@@ -15,7 +15,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T07:58:20.662875+00:00",
+      "checked_at": "2026-11-16T09:40:41.254101+00:00",
       "pages": [
         {
           "url": "https://www.avalonnerja.com/es/menu-a-la-carta/",
@@ -760,7 +760,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T07:59:05.846510+00:00",
+      "checked_at": "2026-11-16T09:41:37.524288+00:00",
       "pages": [
         {
           "url": "https://rincondelsolnerja.com/cartas/ensaladas/",
@@ -1214,7 +1214,7 @@
       "source": "https://restauranteunico.com/nuestra-carta/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T08:00:00.829377+00:00",
+      "checked_at": "2026-11-16T09:42:28.676694+00:00",
       "dishes": [
         [
           "Cava",
@@ -1378,7 +1378,7 @@
       "source": "https://www.peppepizza.com/carta",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T08:00:00.995092+00:00",
+      "checked_at": "2026-11-16T09:42:28.819691+00:00",
       "dishes": [
         [
           "Polpette Tradizionali",
@@ -1682,7 +1682,7 @@
       "source": "https://lafamarestaurante.com/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T08:00:02.927104+00:00",
+      "checked_at": "2026-11-16T09:42:30.033865+00:00",
       "dishes": [
         [
           "Desayuno Inglés English breakfast",
@@ -2046,7 +2046,7 @@
       "source": "https://trattoriaitalianerja.es/en/menu/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T08:00:05.282596+00:00",
+      "checked_at": "2026-11-16T09:42:33.471258+00:00",
       "dishes": [
         [
           "🇮🇹 Barbera D'Alba DOC - Piazzo",
@@ -2073,12 +2073,11 @@
     "verified/Restaurante Único": {
       "source": "https://restauranteunico.com/nuestra-carta/",
       "sources": [
-        "https://restauranteunico.com/nuestra-carta/",
-        "https://restauranteunico.com/nuestra-carta-de-vinos/"
+        "https://restauranteunico.com/nuestra-carta/"
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T07:59:40.468259+00:00",
+      "checked_at": "2026-11-16T09:42:07.873717+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
@@ -2240,87 +2239,6 @@
               "6,90 €"
             ]
           ]
-        },
-        {
-          "url": "https://restauranteunico.com/nuestra-carta-de-vinos/",
-          "dishes": [
-            [
-              "Uva: Macabeo Xarel-lo y Parellada",
-              "23,90 €"
-            ],
-            [
-              "Uva: Monastrel, Garnacha,Trepat",
-              "20,00 €"
-            ],
-            [
-              "Uva: Chardonnay, Gewürztraminer y Macabeo – Barrica sin Crianza",
-              "14,50 €"
-            ],
-            [
-              "Uva: 100% Chardonnay",
-              "21,00 €"
-            ],
-            [
-              "Uva: 100% Verdejo – Barrica sin Crianza",
-              "19,50 €"
-            ],
-            [
-              "Uva: 100% Albariño – Barrica sin Crianza",
-              "24,90 €"
-            ],
-            [
-              "Uva: Chardonnay 100% – Barrica 6 meses",
-              "24,00 €"
-            ],
-            [
-              "Uva: Cabernet Sauvignon, Tempranillo y Merlot – Barrica sin Crianza",
-              "14,50 €"
-            ],
-            [
-              "Uva: Garnacha 100%",
-              "17,00 €"
-            ],
-            [
-              "Uva: 100% Prieto Picudo",
-              "19,00 €"
-            ],
-            [
-              "Uva: 90% Tempranillo, – Barrica 12 meses",
-              "16,00 €"
-            ],
-            [
-              "Uva: 80% Tempranillo, 5% Graciano,15% Garnacha – Barrica 18/22 meses",
-              "27,00 €"
-            ],
-            [
-              "Uva: 100% Tempranillo – Barrica 24 meses",
-              "18,90 €"
-            ],
-            [
-              "Uva: 100% Tempranillo – Barrica 12 meses",
-              "32,00 €"
-            ],
-            [
-              "Uva: Tempranillo, Cabernet Sauvignon y Merlot- Barrica 6 meses",
-              "19,90 €"
-            ],
-            [
-              "Uva: 95% Tempranillo, 5% Cabernet Savignon – Barrica con crianza",
-              "19,50 €"
-            ],
-            [
-              "Uva: 100% Tempranillo – Barrica 14 meses",
-              "60,00 €"
-            ],
-            [
-              "Uva: 100% Pinot Noir – Barrica 12 meses",
-              "22,90 €"
-            ],
-            [
-              "Uva: 100% Prieto Picudo- Barrica 14 meses",
-              "24,90 €"
-            ]
-          ]
         }
       ],
       "dishes": [
@@ -2479,82 +2397,6 @@
         [
           "Crema de limon caramelizada Caramelized lemon cream",
           "6,90 €"
-        ],
-        [
-          "Uva: Macabeo Xarel-lo y Parellada",
-          "23,90 €"
-        ],
-        [
-          "Uva: Monastrel, Garnacha,Trepat",
-          "20,00 €"
-        ],
-        [
-          "Uva: Chardonnay, Gewürztraminer y Macabeo – Barrica sin Crianza",
-          "14,50 €"
-        ],
-        [
-          "Uva: 100% Chardonnay",
-          "21,00 €"
-        ],
-        [
-          "Uva: 100% Verdejo – Barrica sin Crianza",
-          "19,50 €"
-        ],
-        [
-          "Uva: 100% Albariño – Barrica sin Crianza",
-          "24,90 €"
-        ],
-        [
-          "Uva: Chardonnay 100% – Barrica 6 meses",
-          "24,00 €"
-        ],
-        [
-          "Uva: Cabernet Sauvignon, Tempranillo y Merlot – Barrica sin Crianza",
-          "14,50 €"
-        ],
-        [
-          "Uva: Garnacha 100%",
-          "17,00 €"
-        ],
-        [
-          "Uva: 100% Prieto Picudo",
-          "19,00 €"
-        ],
-        [
-          "Uva: 90% Tempranillo, – Barrica 12 meses",
-          "16,00 €"
-        ],
-        [
-          "Uva: 80% Tempranillo, 5% Graciano,15% Garnacha – Barrica 18/22 meses",
-          "27,00 €"
-        ],
-        [
-          "Uva: 100% Tempranillo – Barrica 24 meses",
-          "18,90 €"
-        ],
-        [
-          "Uva: 100% Tempranillo – Barrica 12 meses",
-          "32,00 €"
-        ],
-        [
-          "Uva: Tempranillo, Cabernet Sauvignon y Merlot- Barrica 6 meses",
-          "19,90 €"
-        ],
-        [
-          "Uva: 95% Tempranillo, 5% Cabernet Savignon – Barrica con crianza",
-          "19,50 €"
-        ],
-        [
-          "Uva: 100% Tempranillo – Barrica 14 meses",
-          "60,00 €"
-        ],
-        [
-          "Uva: 100% Pinot Noir – Barrica 12 meses",
-          "22,90 €"
-        ],
-        [
-          "Uva: 100% Prieto Picudo- Barrica 14 meses",
-          "24,90 €"
         ]
       ]
     },
@@ -2566,7 +2408,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T07:59:44.852895+00:00",
+      "checked_at": "2026-11-16T09:42:12.343848+00:00",
       "pages": [
         {
           "url": "https://trattoriaitalianerja.es/en/menu/",
@@ -2649,7 +2491,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T07:59:53.198889+00:00",
+      "checked_at": "2026-11-16T09:42:21.730468+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
@@ -2979,7 +2821,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T07:59:57.181519+00:00",
+      "checked_at": "2026-11-16T09:42:25.441263+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
