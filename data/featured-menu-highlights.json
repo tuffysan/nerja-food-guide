@@ -1,0 +1,63 @@
+{
+  "note": "Prisexempel från restaurangernas publicerade menyer, inte garanterade dagspriser. Kontrollera alltid originalkällan.",
+  "updated": "2026-11-16",
+  "entries": [
+    {
+      "name": "Restaurante Único",
+      "url": "https://restauranteunico.com/nuestra-carta/",
+      "area": "Nerja centrum",
+      "dishes": [
+        [
+          "Burrata med tomater",
+          "13,90 €"
+        ],
+        [
+          "Entrecôte med svampsås",
+          "24,90 €"
+        ],
+        [
+          "Gnocchi med zucchini",
+          "12,90 €"
+        ]
+      ]
+    },
+    {
+      "name": "La Puntilla",
+      "url": "https://www.lapuntillanerja.es/menu/",
+      "area": "Nerja centrum",
+      "dishes": [
+        [
+          "Gazpacho (säsong)",
+          "6,50 €"
+        ],
+        [
+          "Pimientos de Padrón",
+          "5,50 € / 8,50 €"
+        ],
+        [
+          "Grillad bläckfisk",
+          "19,90 €"
+        ]
+      ]
+    },
+    {
+      "name": "Rincón del Sol",
+      "url": "https://rincondelsolnerja.com/cartas/",
+      "area": "Playa Burriana",
+      "dishes": [
+        [
+          "Patatas bravas",
+          "9,95 €"
+        ],
+        [
+          "Paella med skaldjur (per person)",
+          "24,70 €"
+        ],
+        [
+          "Risotto med svamp och tryffel",
+          "19,95 €"
+        ]
+      ]
+    }
+  ]
+}
