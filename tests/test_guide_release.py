@@ -29,6 +29,13 @@ class GuideReleaseTests(unittest.TestCase):
         self.assertIn("license_allowed",source)
         self.assertIn("iiurlwidth",source)
         self.assertTrue((ROOT/"data/restaurant-photos.json").exists())
+    def test_approved_photo_identity(self):
+        import json
+        approved=json.loads((ROOT/"data/approved-restaurant-photos.json").read_text(encoding="utf-8"))["approved"]
+        restaurants={r["id"]:r["name"] for r in json.loads((ROOT/"data/restaurants.json").read_text(encoding="utf-8"))["items"]}
+        for photo in approved:
+            self.assertEqual(restaurants.get(photo["restaurant_id"]),photo["restaurant_name"])
+            self.assertTrue(photo["commons_file"].startswith("File:"))
     def test_photo_license_restrictions(self):
         import importlib.util
         spec=importlib.util.spec_from_file_location("photo_module", ROOT/"scripts/update_photos.py")
