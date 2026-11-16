@@ -35,6 +35,40 @@
     return items.filter(r=>searchable(r).includes(q)&&(!t||r.cuisine===t)&&
       (mode==="all"||(mode==="fav"&&fav.has(r.id))||(mode==="menu"&&hasMenu(r))||(mode==="priced"&&hasPrices(r)))&&withinPrice(r));
   }
+
+  function photoUrl(r){
+    const raw=String(r.image||"").trim();
+    if(!raw)return null;
+    if(raw.startsWith("https://")){
+      try{const u=new URL(raw);return ["upload.wikimedia.org","commons.wikimedia.org"].includes(u.hostname)?u.href:null}catch(e){return null}
+    }
+    const name=raw.replace(/^File:/i,"").replace(/^Image:/i,"");
+    if(!/^[^/?#]{4,160}[.](jpg|jpeg|png|webp)$/i.test(name))return null;
+    return "https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(name)+"?width=700";
+  }
+  function addPhoto(card,r){
+    const frame=document.createElement("div");frame.className="restaurant-photo";
+    const src=photoUrl(r);
+    if(src){
+      const img=document.createElement("img");img.src=src;img.loading="lazy";img.decoding="async";
+      img.alt="Restaurangfoto från OpenStreetMap: "+r.name;
+      img.onerror=()=>{frame.replaceChildren();frame.classList.add("photo-fallback");frame.textContent="🍽️"};
+      frame.append(img);
+      const credit=document.createElement("small");credit.className="photo-credit";credit.textContent="Bildkälla: OSM / Wikimedia Commons";
+      frame.append(credit);
+    }else{
+      frame.classList.add("photo-fallback");
+      frame.textContent=r.amenity==="cafe"?"☕":r.amenity==="fast_food"?"🥙":"🍽️";
+      frame.setAttribute("aria-label","Illustration – restaurangfoto saknas");
+    }
+    card.prepend(frame);
+  }
+  function menuScore(r){
+    if(dishes(r).length)return 3;
+    if(hasMenu(r))return 2;
+    if(r.website)return 1;
+    return 0;
+  }
   function decorate(){
     const filtered=selected();
     const ids=new Set(filtered.map(r=>r.id));
@@ -45,6 +79,7 @@
       card.hidden=!ids.has(restaurant.id);
       if(card.dataset.enhanced)return;
       card.dataset.enhanced="1";
+      addPhoto(card,restaurant);
       const details=[];
       for(const child of [...card.children]){
         if(child.tagName!=="P")continue;
@@ -73,7 +108,10 @@
       else{tag.textContent="Menyuppgifter kan saknas"}
       card.querySelector("h2")?.after(tag);
     }
-    count.textContent=filtered.length+" restauranger";
+    const sorted=[...filtered].sort((a,b)=>menuScore(b)-menuScore(a)||a.name.localeCompare(b.name,"sv"));
+    const byName=new Map([...cards.children].map(card=>[card.querySelector("h2")?.textContent,card]));
+    for(const r of sorted){const card=byName.get(r.name);if(card)cards.append(card)}
+    count.textContent=filtered.length+" restauranger · menyer visas först";
     if(map&&!mapBox.hidden)drawMap(filtered);
   }
   function drawMap(restaurants){
