@@ -1,0 +1,35 @@
+name: V2 acceptance checks
+on:
+  push:
+    branches: [rebuild/v2-clean]
+    paths: ['v2/**', 'data/**', '.github/workflows/v2-validate.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check JavaScript
+        run: node --check v2/app.js
+      - name: Verify dataset and restaurant coverage
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path("data")
+          restaurant=json.loads((root/"restaurants.json").read_text())
+          ids=[r["id"] for r in restaurant["items"]]
+          assert len(ids)==len(set(ids)),"Duplicate restaurant IDs"
+          assert len(ids)>=150,"Restaurant coverage unexpectedly reduced"
+          for name in ("menu-discovery","verified-menu-sources","curated-menus","restaurant-photos"):
+              json.loads((root/(name+".json")).read_text())
+          for file in ("index.html","app.js","style.css"):
+              assert (Path("v2")/file).stat().st_size>100
+          print(f"V2 dataset valid: {len(ids)} restaurants")
+          PY
