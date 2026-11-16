@@ -20,20 +20,40 @@ def allowed(url,base):
 class NoRedirect(urllib.request.HTTPRedirectHandler):
  def redirect_request(self,req,fp,code,msg,headers,newurl):return None
 opener=OPENER
+MAX_DOWNLOAD_BYTES=8_000_000
 pattern=re.compile(r"^(.{4,95}?)\s+(?:[.·•-]\s*){0,8}(\d{1,3}[.,]\d{2})\s*(?:€|EUR)?\s*$",re.I)
 def plausible(name):
  name=name.strip()
  words=name.split()
  return (len(words)>=2 and len(name)>=9 and len(name)<=85 and len(re.findall(r"[A-Za-zÁÉÍÓÚÑáéíóúñ]",name))>=7 and not re.search(r"[<>|{}\\] |https?://|www\.|\d{4}",name,re.I) and not any(len(w)>24 for w in words))
+price_only=re.compile(r"^(?:€\\s*)?(\\d{1,3}[.,]\\d{2})\\s*(?:€|EUR)?$",re.I)
+def adjacent_pairs(text):
+ lines=[" ".join(x.split()) for x in text.splitlines()]
+ found=[]
+ for i in range(len(lines)-1):
+  name=lines[i].strip(" .·-")
+  m=price_only.fullmatch(lines[i+1])
+  if m and plausible(name) and not re.search(r"\\b(total|iva|vat|telefono|phone|descuento|subtotal|desde|from)\\b",name,re.I):
+   amount=float(m[1].replace(",","."))
+   if 0.5<=amount<=250:
+    found.append([name,m[1].replace(".",",")+" €"])
+ return found
 def pairs_from(text):
  pairs=[]
  for line in text.splitlines():
   m=pattern.match(" ".join(line.strip().split()))
   if m and plausible(m[1]) and not re.search(r"\b(total|iva|vat|telefono|phone|descuento)\b",m[1],re.I):
    pairs.append([m[1].strip(" .-"),m[2].replace(".",",")+" €"])
- return list({x[0].casefold():x for x in pairs}.values())[:80]
+ return list({x[0].casefold():x for x in pairs+adjacent_pairs(text)}.values())[:80]
 def ocr(image):
- return subprocess.run(["tesseract","stdin","stdout","-l","spa+eng","--psm","11"],input=image,stdout=subprocess.PIPE,stderr=subprocess.DEVNULL,timeout=18,check=True).stdout.decode("utf-8","replace")
+ texts=[]
+ for mode in ("11","6"):
+  try:
+   result=subprocess.run(["tesseract","stdin","stdout","-l","spa+eng","--psm",mode],input=image,stdout=subprocess.PIPE,stderr=subprocess.DEVNULL,timeout=18,check=True)
+   texts.append(result.stdout.decode("utf-8","replace"))
+  except (subprocess.TimeoutExpired,subprocess.CalledProcessError):
+   continue
+ return "\\n".join(texts)
 def read_pdf(data):
  reader=PdfReader(io.BytesIO(data),strict=False)
  if len(reader.pages)>25:return []
@@ -79,9 +99,9 @@ for r in restaurants+extra:
    with opener.open(req,timeout=10) as response:
     if not same_host(response.geturl(),url) or not safe(response.geturl()):continue
     content_type=response.headers.get("Content-Type","").lower()
-    data=response.read(2_500_001)
-   if len(data)>2_500_000:
-    diagnostics["failures"].append({"restaurant":r["name"],"url":url,"reason":"File exceeds 2.5 MB limit"})
+    data=response.read(MAX_DOWNLOAD_BYTES+1)
+   if len(data)>MAX_DOWNLOAD_BYTES:
+    diagnostics["failures"].append({"restaurant":r["name"],"url":url,"reason":"File exceeds 8 MB limit"})
     continue
    if data.startswith(b"%PDF"):pairs=read_pdf(data)
    elif content_type.startswith("image/") and (data.startswith(b"\x89PNG") or data.startswith(b"RIFF") or data.startswith(b"\xff\xd8\xff")):
