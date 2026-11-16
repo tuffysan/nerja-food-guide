@@ -1,0 +1,63 @@
+name: Validate restaurant guide
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'assets/**'
+      - 'scripts/**'
+      - 'data/**'
+      - 'tests/**'
+      - '.github/workflows/**'
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile all discovery scripts
+        run: python -m compileall -q scripts tests
+      - name: Validate all committed JSON
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for file in Path("data").glob("*.json"):
+              json.loads(file.read_text(encoding="utf-8"))
+          PY
+      - name: Validate JavaScript syntax
+        run: |
+          node --check assets/guide-v3.js
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          class Scripts(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.inside = False
+                  self.parts = []
+              def handle_starttag(self, tag, attrs):
+                  self.inside = tag == "script" and not dict(attrs).get("src")
+              def handle_data(self, data):
+                  if self.inside:
+                      self.parts.append(data)
+              def handle_endtag(self, tag):
+                  if tag == "script":
+                      self.inside = False
+          parser = Scripts()
+          parser.feed(Path("index.html").read_text(encoding="utf-8"))
+          Path("/tmp/nerja-inline.js").write_text("\\n".join(parser.parts), encoding="utf-8")
+          PY
+          node --check /tmp/nerja-inline.js
+      - name: Run regression tests
+        run: python -m unittest discover -s tests -v
