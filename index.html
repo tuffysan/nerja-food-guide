@@ -23,8 +23,8 @@ for(let r of items){
  }
  unique.set(key,keep);
 }
-items=[...unique.values()];discover=menus.restaurants||{};let types=[...new Set(items.map(x=>x.cuisine).filter(x=>x&&x!=='Ej angivet'))].sort();for(let t of types){let o=el('option',t);o.value=t;$('type').append(o)}render()}).catch(e=>{$('status').textContent='Restaurangregistret är inte hämtat ännu. Kör GitHub Actions → Daily restaurant update → Run workflow. ('+e.message+')'});
-</script><script src="assets/guide-v3.js?v=20261116w"></script><script>
+items=[...unique.values()];discover=menus.restaurants||{};const discoveredByName=new Map();for(const [key,entry] of Object.entries(discover)){const n=normalizeName(entry.name||key.split('/').slice(1).join('/'));if(!n)continue;const arr=discoveredByName.get(n)||[];arr.push(...(entry.links||[]));discoveredByName.set(n,arr)}for(const restaurant of items){const matches=[...(discover[restaurant.id]?.links||[]),...(discoveredByName.get(normalizeName(restaurant.name))||[])];const uniqueLinks=new Map();for(const candidate of matches){if(url(candidate.url)&&candidate.kind!=='website')uniqueLinks.set(candidate.url,candidate)}if(uniqueLinks.size)discover[restaurant.id]={...(discover[restaurant.id]||{}),links:[...uniqueLinks.values()]}}let types=[...new Set(items.map(x=>x.cuisine).filter(x=>x&&x!=='Ej angivet'))].sort();for(let t of types){let o=el('option',t);o.value=t;$('type').append(o)}render()}).catch(e=>{$('status').textContent='Restaurangregistret är inte hämtat ännu. Kör GitHub Actions → Daily restaurant update → Run workflow. ('+e.message+')'});
+</script><script src="assets/guide-v3.js?v=20261116x"></script><script>
 fetch("data/verified-menu-sources.json").then(r=>r.ok?r.json():{entries:[]}).then(data=>{
  const target=document.getElementById("more-verified-menus");
  const seen=new Set(["Restaurante Único","La Bottega"]);
