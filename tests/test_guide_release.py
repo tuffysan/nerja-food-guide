@@ -29,6 +29,20 @@ class GuideReleaseTests(unittest.TestCase):
         self.assertIn("license_allowed",source)
         self.assertIn("iiurlwidth",source)
         self.assertTrue((ROOT/"data/restaurant-photos.json").exists())
+    def test_photo_license_restrictions(self):
+        import importlib.util
+        spec=importlib.util.spec_from_file_location("photo_module", ROOT/"scripts/update_photos.py")
+        module=importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        for allowed in ("CC BY 4.0","CC BY-SA 4.0","CC0 1.0","Public domain"):
+            self.assertTrue(module.license_allowed(allowed),allowed)
+        for denied in ("CC BY-NC 4.0","CC BY-ND 4.0","CC BY-NC-SA 4.0","All rights reserved",""):
+            self.assertFalse(module.license_allowed(denied),denied)
+    def test_photo_candidate_review_not_auto_published(self):
+        script=(ROOT/"scripts/discover_photo_candidates.py").read_text(encoding="utf-8")
+        ast.parse(script)
+        self.assertIn("needs_manual_identity_and_license_review",script)
+        self.assertIn("checked>=12",script)
     def test_map_has_attribution_and_no_paid_api(self):
         js=(ROOT/"assets/guide-v3.js").read_text(encoding="utf-8")
         self.assertIn("openstreetmap.org/copyright",js)
