@@ -1,15 +1,5 @@
 {
-  "photos": {
-    "node/430878902": {
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pesces_en_exhibici%C3%B3n_-_La_Puntilla_(41315176722).jpg?width=700",
-      "source": "https://commons.wikimedia.org/wiki/File:Pesces_en_exhibici%C3%B3n_-_La_Puntilla_(41315176722).jpg",
-      "author": "Haydn Blackey",
-      "license": "CC BY-SA 2.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
-      "checked_at": "2026-11-16",
-      "image_kind": "restaurant_food_display"
-    }
-  },
-  "photo_count": 1,
+  "photos": {},
+  "photo_count": 0,
   "metadata_errors": 0
 }

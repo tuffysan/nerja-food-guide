@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T19:00:56.998556+00:00",
+  "updated_at": "2026-11-16T19:45:06.566082+00:00",
   "note": "Official and third-party sources are labeled separately. QR links are candidates, not verified menus.",
   "restaurants": {
     "node/3328393211": {
@@ -506,6 +506,18 @@
         }
       ]
     },
+    "node/430878902": {
+      "name": "La Puntilla",
+      "official_website": "https://www.lapuntillanerja.es/",
+      "links": [
+        {
+          "url": "https://www.lapuntillanerja.es/menu/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.lapuntillanerja.es/page-sitemap.xml"
+        }
+      ]
+    },
     "node/13566629101": {
       "name": "Old Town Restaurant & Bar",
       "official_website": "https://www.oldtownrestaurantfrigiliana.com",
@@ -553,91 +565,37 @@
       "official_website": "https://rincondelsolnerja.com/",
       "links": [
         {
-          "url": "https://rincondelsolnerja.com/cartas/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/en/menus/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/en/menus/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/en/menus/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/ensaladas/",
+          "url": "https://rincondelsolnerja.com/cartas/combinados/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/poke-salads-y-asiaticos/",
+          "url": "https://rincondelsolnerja.com/cartas/aperitivos-cocteles/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/entrantes/",
+          "url": "https://rincondelsolnerja.com/cartas/licores-brandys/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/wp-content/uploads/2022/04/Entrantes-1000x1000.png",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/en/menus/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/carnes/",
+          "url": "https://rincondelsolnerja.com/cartas/zumos-batidos/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/burguers-y-bruschettas/",
+          "url": "https://rincondelsolnerja.com/cartas/cafes-e-infusiones/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/pescados/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/cartas/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/arroces-y-pastas/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/cartas/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/pescaito-frito/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/cartas/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/pizza/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/cartas/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/postres/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/cartas/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/wp-content/uploads/2022/04/Postres-1000x1000.png",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/en/menus/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
+          "url": "https://rincondelsolnerja.com/cartas/refrescos-cervezas/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
@@ -667,40 +625,94 @@
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/refrescos-cervezas/",
+          "url": "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/cafes-e-infusiones/",
+          "url": "https://rincondelsolnerja.com/cartas/postres/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/zumos-batidos/",
+          "url": "https://rincondelsolnerja.com/cartas/pizza/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/licores-brandys/",
+          "url": "https://rincondelsolnerja.com/cartas/arroces-y-pastas/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/aperitivos-cocteles/",
+          "url": "https://rincondelsolnerja.com/cartas/pescaito-frito/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/combinados/",
+          "url": "https://rincondelsolnerja.com/cartas/pescados/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/burguers-y-bruschettas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/carnes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/entrantes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/poke-salads-y-asiaticos/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/ensaladas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/wp-content/uploads/2022/04/Entrantes-1000x1000.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/wp-content/uploads/2022/04/Postres-1000x1000.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
         },
         {
           "url": "https://rincondelsolnerja.com/en/menus/salads/",
@@ -1083,7 +1095,7 @@
       ]
     },
     "node/997717639": {
-      "name": "La Tasquita del Sevillano",
+      "name": "Sevillano La Tasquita",
       "official_website": "https://sevillanonerja.com/",
       "links": [
         {
@@ -1976,6 +1988,348 @@
         }
       ]
     },
+    "verified/Rincón del Sevillano": {
+      "name": "Rincón del Sevillano",
+      "official_website": "https://sevillanonerja.com/",
+      "links": [
+        {
+          "url": "https://sevillanonerja.com/restaurantes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-566x800.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/"
+        },
+        {
+          "url": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/category/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/1-640x800.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Rincon-del-Sevillano-Nerja-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-La-Tasquita-Sevillano-Nerja-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Chaparil-Sevillano-Nerja-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-Los-Huertos-1.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Menu-Comuniones-2026-Restaurantes-Sevillano-Nerja.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-75x65.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/"
+        },
+        {
+          "url": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/tag/menu-nochevieja-2025/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/tag/menu-nochevieja-2025/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-CENA-EMPRESA-NAVIDAD-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/"
+        },
+        {
+          "url": "https://sevillanonerja.com/category/restaurantes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/category/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/"
+        }
+      ]
+    },
+    "verified/Sevillano El Chaparil": {
+      "name": "Sevillano El Chaparil",
+      "official_website": "https://sevillanonerja.com/",
+      "links": [
+        {
+          "url": "https://sevillanonerja.com/restaurantes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-566x800.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/"
+        },
+        {
+          "url": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/category/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/1-640x800.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Rincon-del-Sevillano-Nerja-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-La-Tasquita-Sevillano-Nerja-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Chaparil-Sevillano-Nerja-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-Los-Huertos-1.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Menu-Comuniones-2026-Restaurantes-Sevillano-Nerja.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-75x65.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/"
+        },
+        {
+          "url": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/tag/menu-nochevieja-2025/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/tag/menu-nochevieja-2025/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-CENA-EMPRESA-NAVIDAD-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/"
+        },
+        {
+          "url": "https://sevillanonerja.com/category/restaurantes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/category/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/"
+        }
+      ]
+    },
+    "verified/Los Huertos del Sevillano": {
+      "name": "Los Huertos del Sevillano",
+      "official_website": "https://sevillanonerja.com/",
+      "links": [
+        {
+          "url": "https://sevillanonerja.com/restaurantes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-566x800.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/"
+        },
+        {
+          "url": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/category/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/1-640x800.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Rincon-del-Sevillano-Nerja-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-La-Tasquita-Sevillano-Nerja-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Chaparil-Sevillano-Nerja-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-Los-Huertos-1.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/Menu-Comuniones-2026-Restaurantes-Sevillano-Nerja.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-75x65.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/"
+        },
+        {
+          "url": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
+        },
+        {
+          "url": "https://sevillanonerja.com/tag/menu-nochevieja-2025/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/tag/menu-nochevieja-2025/"
+        },
+        {
+          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-CENA-EMPRESA-NAVIDAD-2025.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/"
+        },
+        {
+          "url": "https://sevillanonerja.com/category/restaurantes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/category/restaurantes/"
+        },
+        {
+          "url": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/"
+        }
+      ]
+    },
     "researched/Restaurante Único": {
       "name": "Restaurante Único",
       "official_website": "https://restauranteunico.com/",
@@ -2200,6 +2554,76 @@
         }
       ]
     },
+    "researched/La Puntilla": {
+      "name": "La Puntilla",
+      "official_website": "https://www.lapuntillanerja.es/",
+      "links": [
+        {
+          "url": "https://www.lapuntillanerja.es/menu/",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": ""
+        }
+      ]
+    },
+    "researched/Rincón del Sevillano": {
+      "name": "Rincón del Sevillano",
+      "official_website": "https://sevillanonerja.com/",
+      "links": [
+        {
+          "url": "https://sevillanonerja.com/restaurantes/",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": ""
+        }
+      ]
+    },
+    "researched/Sevillano La Tasquita": {
+      "name": "Sevillano La Tasquita",
+      "official_website": "https://sevillanonerja.com/",
+      "links": [
+        {
+          "url": "https://sevillanonerja.com/restaurantes/",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": ""
+        }
+      ]
+    },
+    "researched/Sevillano El Chaparil": {
+      "name": "Sevillano El Chaparil",
+      "official_website": "https://sevillanonerja.com/",
+      "links": [
+        {
+          "url": "https://sevillanonerja.com/restaurantes/",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": ""
+        }
+      ]
+    },
+    "researched/Los Huertos del Sevillano": {
+      "name": "Los Huertos del Sevillano",
+      "official_website": "https://sevillanonerja.com/",
+      "links": [
+        {
+          "url": "https://sevillanonerja.com/restaurantes/",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": ""
+        }
+      ]
+    },
     "verified/restauranteunico": {
       "name": "Restaurante Único",
       "official_website": "https://restauranteunico.com/",
@@ -2266,6 +2690,42 @@
       "links": [
         {
           "url": "https://www.mumnerja.com/indexesp.html",
+          "kind": "web",
+          "status": "published",
+          "source": "researched official restaurant website"
+        }
+      ]
+    },
+    "verified/rincondelsevillano": {
+      "name": "Rincón del Sevillano",
+      "official_website": "https://sevillanonerja.com/",
+      "links": [
+        {
+          "url": "https://sevillanonerja.com/restaurantes/",
+          "kind": "web",
+          "status": "published",
+          "source": "researched official restaurant website"
+        }
+      ]
+    },
+    "verified/sevillanoelchaparil": {
+      "name": "Sevillano El Chaparil",
+      "official_website": "https://sevillanonerja.com/",
+      "links": [
+        {
+          "url": "https://sevillanonerja.com/restaurantes/",
+          "kind": "web",
+          "status": "published",
+          "source": "researched official restaurant website"
+        }
+      ]
+    },
+    "verified/loshuertosdelsevillano": {
+      "name": "Los Huertos del Sevillano",
+      "official_website": "https://sevillanonerja.com/",
+      "links": [
+        {
+          "url": "https://sevillanonerja.com/restaurantes/",
           "kind": "web",
           "status": "published",
           "source": "researched official restaurant website"

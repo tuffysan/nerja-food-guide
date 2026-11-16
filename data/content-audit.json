@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-16",
+  "updated_at": "2026-11-16T19:50:05.678389+00:00",
   "scope": "OpenStreetMap restaurant records only; additional curated listings may exist",
   "note": "No menu/photo is fabricated. Status is evidence coverage, not proof a restaurant lacks a menu.",
   "stats": {
     "total": 183,
     "with_dishes": 3,
-    "with_menu_link_or_dishes": 7,
-    "with_photo": 1,
-    "missing_menu": 176,
-    "missing_photo": 182
+    "with_menu_link_or_dishes": 8,
+    "with_photo": 0,
+    "missing_menu": 175,
+    "missing_photo": 183
   },
   "restaurants": [
     {
@@ -219,7 +219,7 @@
       "photo_status": "not_found",
       "address_status": "not_found",
       "website_status": "not_found",
-      "source_url": "https://nerjadenerja.es/es/"
+      "source_url": null
     },
     {
       "id": "node/5641390801",
@@ -884,7 +884,7 @@
     {
       "id": "node/10126448663",
       "name": "La Bodega de Antonia",
-      "menu_status": "not_found",
+      "menu_status": "menu_link",
       "dish_count": 0,
       "photo_status": "not_found",
       "address_status": "not_found",
@@ -1016,7 +1016,7 @@
       "name": "La Puntilla",
       "menu_status": "dishes_and_prices",
       "dish_count": 66,
-      "photo_status": "licensed_photo",
+      "photo_status": "not_found",
       "address_status": "not_found",
       "website_status": "available",
       "source_url": "https://www.lapuntillanerja.es/menu/"

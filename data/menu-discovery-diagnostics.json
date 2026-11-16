@@ -1,6 +1,6 @@
 {
   "external_leads": 8,
-  "official_leads": 8,
+  "official_leads": 13,
   "qr_images_checked": 0,
   "qr_links": 0,
   "errors": [
@@ -14,6 +14,6 @@
     }
   ],
   "qr_sites_checked": 18,
-  "generated_at": "2026-11-16T19:00:56.931353+00:00",
-  "total_sources": 52
+  "generated_at": "2026-11-16T19:45:06.492056+00:00",
+  "total_sources": 61
 }
