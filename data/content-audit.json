@@ -1,0 +1,1845 @@
+{
+  "updated_at": "2026-11-16",
+  "scope": "OpenStreetMap restaurant records only; additional curated listings may exist",
+  "note": "No menu/photo is fabricated. Status is evidence coverage, not proof a restaurant lacks a menu.",
+  "stats": {
+    "total": 183,
+    "with_dishes": 3,
+    "with_menu_link_or_dishes": 7,
+    "with_photo": 1,
+    "missing_menu": 176,
+    "missing_photo": 182
+  },
+  "restaurants": [
+    {
+      "id": "node/6726806247",
+      "name": "100 Montaditos",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/430878885",
+      "name": "Alegre",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/1575649206",
+      "name": "Anahi",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/3328393211",
+      "name": "Andele!! Andele!!",
+      "menu_status": "menu_link",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "available",
+      "source_url": "https://andeleandelenerja.com/#men%C3%BA"
+    },
+    {
+      "id": "node/10126438254",
+      "name": "Antica Roma",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/3331997863",
+      "name": "Asador de Pollos Sirena",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2774995381",
+      "name": "Asian Ben",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4788285770",
+      "name": "Au Petit Paris",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/12243862968",
+      "name": "Avalon",
+      "menu_status": "dishes_and_prices",
+      "dish_count": 10,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": "https://www.avalonnerja.com/es/menu-a-la-carta/"
+    },
+    {
+      "id": "node/833420283",
+      "name": "Axarquía",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2883917401",
+      "name": "Bahia cafebar",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/304571589",
+      "name": "Bamboo",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/14094437327",
+      "name": "Bar el Barco",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "way/78393450",
+      "name": "Beach Club",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2774995374",
+      "name": "Bella Roma",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4164895892",
+      "name": "Benítez",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/10699384906",
+      "name": "Boca Pizza",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/13306918128",
+      "name": "Boris Grill & Bakery",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/6964600333",
+      "name": "Botanic",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/6057345609",
+      "name": "Bruno's Grill",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2154168766",
+      "name": "Bruxelles",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": "https://nerjadenerja.es/es/"
+    },
+    {
+      "id": "node/5641390801",
+      "name": "Cafe Fenix",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/543661479",
+      "name": "Cafe Paris",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2752241853",
+      "name": "Cafeteria Heladeria Albi",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/10699645706",
+      "name": "Cafetería Cavana",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4399835189",
+      "name": "Café Bar Restaurante Balcon de Maro",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4164894090",
+      "name": "Carabeo Lounge",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2774995378",
+      "name": "Carlos",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/833418421",
+      "name": "Carlos Molineta",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2368321887",
+      "name": "China House",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/13207269259",
+      "name": "Chiringuito Mauri",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/431250005",
+      "name": "Chiringuito Torrecilla 3",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4164895893",
+      "name": "Cibeles",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/579590817",
+      "name": "Cielito Lindo",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/431250046",
+      "name": "Cobos",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/307845016",
+      "name": "Cochran's Terraza",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/14018334501",
+      "name": "Coffee & flowers Specialty Coffee",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/3792660148",
+      "name": "Colloseo",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/431250023",
+      "name": "conect@.t",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/9453186248",
+      "name": "conect@t",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/1108753287",
+      "name": "Costa",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/14018323001",
+      "name": "CRISPY FELLAS",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/3359565192",
+      "name": "Cuatro Esquinas",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/309862991",
+      "name": "Curry House",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4229734841",
+      "name": "Da Carlo",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/775371428",
+      "name": "Dal Toscana moved to Pintada",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4399713093",
+      "name": "Detunda",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4800866432",
+      "name": "Don Chisciotte",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/3359538922",
+      "name": "Don Enrique",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/5642328367",
+      "name": "Dona Lola",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/9200321214",
+      "name": "Dulce Casa",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/13241594500",
+      "name": "Eat Italy",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4165777892",
+      "name": "El Candil",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2370695047",
+      "name": "El Capricho",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4229734846",
+      "name": "El Colorao",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4399834691",
+      "name": "El Hogar",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/6079753418",
+      "name": "el Limonero",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/1739162249",
+      "name": "El Merendón",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/775371421",
+      "name": "El Nino",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/10699385205",
+      "name": "El Portico",
+      "menu_status": "menu_link",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": "https://restaurantguru.com/El-Portico-Nerja/menu"
+    },
+    {
+      "id": "node/322819142",
+      "name": "El Puente",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/9282688554",
+      "name": "El Pugilla",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/997703611",
+      "name": "El Pulguilla",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/10699668406",
+      "name": "El Rincon de Encarni",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/1122309756",
+      "name": "El Taller",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/1119698098",
+      "name": "First",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/9672112061",
+      "name": "Gloria Bendita",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/9675076657",
+      "name": "Goa Town",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/6521128167",
+      "name": "Good Stuff",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/1108753440",
+      "name": "Génesis",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/9675076659",
+      "name": "Hermes",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2368322077",
+      "name": "Holiday Kebab Nerja",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/11409454639",
+      "name": "Il Covo",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/4230075568",
+      "name": "Italica",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2368321985",
+      "name": "Jaime",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/304571661",
+      "name": "Jamaica",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/9413764796",
+      "name": "Joanny's",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/1119700645",
+      "name": "Jose Cruz",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4230075570",
+      "name": "Julies & Valeri's",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2368322222",
+      "name": "junior Pizza",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/325937110",
+      "name": "Kanema",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/13306918141",
+      "name": "KK'S Bar & Restaurant",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2774995380",
+      "name": "Kronox",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4230075595",
+      "name": "Kronox",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/6504530413",
+      "name": "L'Italy",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/5667412345",
+      "name": "La Barca",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/307845017",
+      "name": "La Biznaga",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/10126448663",
+      "name": "La Bodega de Antonia",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": "https://weur-cdn.carta.menu/storage/media/companies_menu_pdf/75360625/la-bodega-de-antonia-nerja-carta.pdf"
+    },
+    {
+      "id": "node/4800864468",
+      "name": "La Bodeguita del Medio",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/6970068955",
+      "name": "La Bottega",
+      "menu_status": "menu_link",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "available",
+      "source_url": "https://www.labotteganerja.com/"
+    },
+    {
+      "id": "node/9386501417",
+      "name": "La Dama",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2114074332",
+      "name": "la ferretería",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4230075573",
+      "name": "La fuente",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2154168791",
+      "name": "La Gastronomia",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/1057385149",
+      "name": "La Marina Marisqueria",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/10132446103",
+      "name": "La Nube",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4229781998",
+      "name": "La Parada",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "way/85571578",
+      "name": "La Parra",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2114139257",
+      "name": "La Parrala \"Ayo\"",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/738884910",
+      "name": "La Pescia",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/430878902",
+      "name": "La Puntilla",
+      "menu_status": "dishes_and_prices",
+      "dish_count": 66,
+      "photo_status": "licensed_photo",
+      "address_status": "not_found",
+      "website_status": "available",
+      "source_url": "https://www.lapuntillanerja.es/menu/"
+    },
+    {
+      "id": "node/543661240",
+      "name": "La Rambla",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/430878866",
+      "name": "La Raqueta",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/997700806",
+      "name": "La Taberna",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2368321987",
+      "name": "La Taberna de Pepe Moles",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4788285771",
+      "name": "Lan Sang",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/12745694658",
+      "name": "Las Chinas",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/11935417581",
+      "name": "las palmeras Beach Club",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4903340921",
+      "name": "Little Italy",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4887161680",
+      "name": "Los Cangrejos",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/9200265444",
+      "name": "LuxaLad",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/1290221483",
+      "name": "Made in Italy",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2368321989",
+      "name": "Malibu",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/920130070",
+      "name": "MarBella",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/1132335116",
+      "name": "Marissal by Dorobe",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2774995376",
+      "name": "Mediterráneo",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/1753943507",
+      "name": "Meson Andaluz Vicente",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2368321991",
+      "name": "Meson Jose y Victoria",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "way/78390696",
+      "name": "Mesonera de Nerja",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "way/78388534",
+      "name": "Miguel el Manga",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/430879426",
+      "name": "Mirador de Güilche",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4165073292",
+      "name": "Miralmar restaurant",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/304571590",
+      "name": "Mirasol",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4851165338",
+      "name": "Monna Mia",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/5667412344",
+      "name": "Montemar",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "way/79626922",
+      "name": "Morero",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/9672112030",
+      "name": "Mum",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/5306988318",
+      "name": "Namaste",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/13566629101",
+      "name": "Old Town Restaurant & Bar",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/1739162215",
+      "name": "Ole Ole",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2368322223",
+      "name": "oliva",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/9672055163",
+      "name": "Oliva",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/2154168777",
+      "name": "Paco \"El Churretero\"",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/997711463",
+      "name": "Paco Mari",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/9453265524",
+      "name": "Pahuna",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/12386030620",
+      "name": "Paraiso de Nerja Playa",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/10699385106",
+      "name": "Pata Negr",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/9453265517",
+      "name": "Patagonia & Olé",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/997719653",
+      "name": "Pepe Rico",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2702588660",
+      "name": "Pinoccios",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/5100592226",
+      "name": "Playa & Sol Lounge",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4399713092",
+      "name": "Playamaro",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/13857441269",
+      "name": "Playasol Nerja S.L",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/9391849713",
+      "name": "Plaza",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/5334911625",
+      "name": "Portofino",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/5321992529",
+      "name": "Puerto Blanquillo",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2154168784",
+      "name": "Raw",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4230056368",
+      "name": "Redondo Fish",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/12135451351",
+      "name": "Restaurante Casa Manuela",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/292586998",
+      "name": "Restaurante Cueva de Nerja",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/5100592225",
+      "name": "Restaurante El 34",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/2752241854",
+      "name": "Restaurante El Nautico",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/5100645421",
+      "name": "Restaurante El Patanegra",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/976510920",
+      "name": "Restaurante Puente Aguila",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2368322080",
+      "name": "Restaurante zazá",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2702579708",
+      "name": "Rincón del Sol",
+      "menu_status": "dishes_and_prices",
+      "dish_count": 17,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "available",
+      "source_url": "https://rincondelsolnerja.com/cartas/"
+    },
+    {
+      "id": "node/13306918142",
+      "name": "Rockys bar",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/431250027",
+      "name": "Ruskins",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/13228033717",
+      "name": "Safran",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/5641212883",
+      "name": "Salamandra",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/922686821",
+      "name": "San Miguel",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4800875508",
+      "name": "Sanar Lounge",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2154168776",
+      "name": "Santo",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4230075594",
+      "name": "Sapore Italia",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/10699384909",
+      "name": "Scarletta's",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2368322083",
+      "name": "Sekai",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/997717639",
+      "name": "Sevillano La Tasquita",
+      "menu_status": "menu_link",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "available",
+      "source_url": "https://sevillanonerja.com/restaurantes/"
+    },
+    {
+      "id": "node/7835942885",
+      "name": "Spiral Restaurante",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/10691274664",
+      "name": "Taberna de Pepe",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/431250011",
+      "name": "Tai",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/9671977583",
+      "name": "Taste of India",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "available",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/2368322226",
+      "name": "Telepizza",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/3593959373",
+      "name": "Teteria Zaidin",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/1404652362",
+      "name": "The Escape",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/3792399785",
+      "name": "The Restaurant at Burriana",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/3792403626",
+      "name": "The Steak House at Burriana",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/9392050041",
+      "name": "Tiramisu",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/4229734840",
+      "name": "Tito's",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/535073499",
+      "name": "Tropicana",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "available",
+      "source_url": null
+    },
+    {
+      "id": "node/2154168790",
+      "name": "Tropy Sol",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/431250007",
+      "name": "Vitaliano",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/5751311151",
+      "name": "Yuan",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    },
+    {
+      "id": "node/5667412348",
+      "name": "YuuTaley",
+      "menu_status": "not_found",
+      "dish_count": 0,
+      "photo_status": "not_found",
+      "address_status": "not_found",
+      "website_status": "not_found",
+      "source_url": null
+    }
+  ]
+}
