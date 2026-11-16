@@ -29,6 +29,16 @@ class GuideReleaseTests(unittest.TestCase):
         lookup={x["name"]:x for x in sources}
         self.assertTrue(lookup["La Bottega"]["menu"].endswith(".pdf"))
         self.assertIn("/a-la-carte-menu/",lookup["Avalon"]["menu"])
+    def test_official_menu_sources_expand(self):
+        import json
+        entries=json.loads((ROOT/"data/verified-menu-sources.json").read_text(encoding="utf-8"))["entries"]
+        self.assertGreaterEqual(len(entries),25)
+        for name in ("Rincón del Sevillano","La Tasquita del Sevillano",
+                     "Sevillano El Chaparil","Los Huertos del Sevillano","Tardeo by Origen"):
+            source=next((x for x in entries if x["name"]==name),None)
+            self.assertIsNotNone(source,name)
+            self.assertTrue(source["menu"].startswith("https://"),name)
+            self.assertTrue(source["menu"].endswith(".pdf"),name)
     def test_web_assets_connected(self):
         html=(ROOT/"index.html").read_text(encoding="utf-8")
         self.assertIn('assets/guide-v3.js',html)
