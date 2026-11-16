@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Restaurangportal – Nerja Food Guide</title><link rel="stylesheet" href="assets/guide-v3.css">
+<style>body{font:16px system-ui;background:#f4f7f8;color:#163449;margin:0}main{max-width:690px;margin:30px auto;padding:22px;background:white;border-radius:16px}label{display:block;margin:18px 0 6px;font-weight:650}input,textarea,select{width:100%;box-sizing:border-box;padding:12px;border:1px solid #b6c9ce;border-radius:8px;font:inherit}textarea{min-height:100px}button{padding:13px 20px;background:#075a73;color:white;border:0;border-radius:10px;font:inherit;cursor:pointer}p{line-height:1.55}.note{background:#eef6f7;padding:14px;border-radius:10px}</style></head>
+<body><header><h1>🏪 Restaurangportal</h1><p>Föreslå uppdateringar till Nerja Food Guide – kostnadsfritt.</p></header>
+<main><p><a href="index.html">← Till restaurangguiden</a></p>
+<h2>Skicka in eller uppdatera en meny</h2>
+<p class="note">Första versionen använder GitHub Issues för manuell granskning. Inga menypriser publiceras automatiskt. Du behöver ett kostnadsfritt GitHub-konto för att skicka förslaget.</p>
+<form id="submission">
+<label for="restaurant">Restaurangens namn *</label><input id="restaurant" maxlength="100" required>
+<label for="website">Officiell webbplats (valfritt)</label><input id="website" type="url" placeholder="https://...">
+<label for="menu">Länk till publicerad meny *</label><input id="menu" type="url" placeholder="https://..." required>
+<label for="relationship">Din relation till restaurangen *</label><select id="relationship" required><option value="">Välj</option><option>Ägare eller ansvarig</option><option>Anställd</option><option>Gäst eller besökare</option></select>
+<label for="notes">Kommentar (valfritt)</label><textarea id="notes" maxlength="1200" placeholder="Exempelvis ändrade öppettider eller datum för senaste menyn"></textarea>
+<p>Vi kontrollerar källan, eventuella priser och restaurangens identitet innan publicering. Skicka inte personuppgifter eller konfidentiell information.</p>
+<button type="submit">Öppna förslag i GitHub</button></form>
+</main>
+<script>
+document.getElementById("submission").addEventListener("submit",e=>{
+e.preventDefault();
+const get=id=>document.getElementById(id).value.trim();
+const body=["## Menyuppdatering","Restaurang: "+get("restaurant"),"Officiell webbplats: "+(get("website")||"Ej angiven"),"Menykälla: "+get("menu"),"Relation: "+get("relationship"),"Kommentar: "+(get("notes")||"Ingen"),"","Kontrollera äkthet, källtyp och priser innan publicering."].join("\n");
+const params=new URLSearchParams({title:"Menyförslag: "+get("restaurant"),body});
+window.open("https://github.com/tuffysan/nerja-food-guide/issues/new?"+params.toString(),"_blank","noopener,noreferrer");
+});
+</script></body></html>
