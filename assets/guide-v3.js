@@ -111,6 +111,7 @@
     return 0;
   }
   function decorate(){
+    cards.querySelectorAll(".empty-results").forEach(el=>el.remove());
     const filtered=selected();
     const ids=new Set(filtered.map(r=>r.id));
     for(const card of cards.children){
