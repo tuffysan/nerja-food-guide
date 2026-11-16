@@ -55,11 +55,21 @@ def safe(url):
 def same_host(url, origin):
     return urllib.parse.urlsplit(url).hostname == urllib.parse.urlsplit(origin).hostname
 
-class NoRedirect(urllib.request.HTTPRedirectHandler):
-    def redirect_request(self, req, fp, code, msg, headers, newurl):
-        return None
+class SafeRedirect(urllib.request.HTTPRedirectHandler):
+    """Follow only bounded same-host HTTPS redirects to public addresses."""
+    max_redirections = 3
+    max_repeats = 2
 
-OPENER = urllib.request.build_opener(NoRedirect)
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        target = urllib.parse.urljoin(req.full_url, newurl)
+        if not same_host(target, req.full_url) or not safe(target):
+            return None
+        if not urllib.parse.urlsplit(req.full_url).path.endswith("/robots.txt"):
+            if not robots_allowed(target):
+                return None
+        return super().redirect_request(req, fp, code, msg, headers, target)
+
+OPENER = urllib.request.build_opener(SafeRedirect)
 ROBOTS = {}
 
 def robots_allowed(url):
@@ -92,7 +102,7 @@ def fetch_html(url):
         "Accept": "text/html"
     })
     with OPENER.open(req, timeout=7) as response:
-        if response.geturl() != url or "text/html" not in response.headers.get("Content-Type", "").lower():
+        if not same_host(response.geturl(), url) or not safe(response.geturl()) or "text/html" not in response.headers.get("Content-Type", "").lower():
             return None
         body = response.read(250001)
     if len(body) > 250000:
@@ -116,7 +126,7 @@ def sitemap_menus(site):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "NerjaFoodGuide/4.2"})
             with OPENER.open(req, timeout=5) as response:
-                if response.geturl() != url:
+                if not same_host(response.geturl(), url) or not safe(response.geturl()):
                     continue
                 content = response.read(350001)
             if len(content) > 350000:
