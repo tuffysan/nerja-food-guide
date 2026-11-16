@@ -19,6 +19,16 @@ class GuideReleaseTests(unittest.TestCase):
         source=(ROOT/"scripts/update_photos.py").read_text(encoding="utf-8")
         self.assertIn("approved_ids",source)
         self.assertIn("Special:FilePath/",source)
+    def test_restaurants_appear_before_coverage_report(self):
+        html=(ROOT/"index.html").read_text(encoding="utf-8")
+        self.assertLess(html.index('id="cards"'),html.index('class="coverage-panel"'))
+        self.assertIn('Med meny (även utan priser)',html)
+    def test_direct_menu_sources(self):
+        import json
+        sources=json.loads((ROOT/"data/verified-menu-sources.json").read_text(encoding="utf-8"))["entries"]
+        lookup={x["name"]:x for x in sources}
+        self.assertTrue(lookup["La Bottega"]["menu"].endswith(".pdf"))
+        self.assertIn("/a-la-carte-menu/",lookup["Avalon"]["menu"])
     def test_web_assets_connected(self):
         html=(ROOT/"index.html").read_text(encoding="utf-8")
         self.assertIn('assets/guide-v3.js',html)
