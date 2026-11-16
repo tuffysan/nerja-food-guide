@@ -4,6 +4,12 @@
   const cards=document.getElementById("cards");
   const filters=document.querySelector(".filters");
   if(!cards||!filters||typeof render!=="function")return;
+  const area=document.createElement("select");
+  area.id="area";area.setAttribute("aria-label","Välj område i Nerja");
+  for(const [value,label] of [["","Alla områden"],["centro","Nerja centrum"],["balcon","Balcón de Europa"],["burriana","Playa Burriana"],["torrecilla","Torrecilla"],["playazo","El Playazo"],["capistrano","Capistrano"]]){
+    const option=document.createElement("option");option.value=value;option.textContent=label;area.append(option);
+  }
+  filters.append(area);
   const toolbar=document.createElement("div");
   toolbar.className="toolbar";
   const toggle=document.createElement("button");
@@ -16,8 +22,25 @@
   const portal=document.createElement("a");portal.href="restaurant-portal.html";portal.textContent="🏪 Uppdatera restaurang";portal.title="Skicka in en meny för granskning";
   toolbar.append(toggle,portal,priceLabel,count);
   filters.after(toolbar);
-  const mapBox=document.createElement("div");mapBox.id="restaurant-map";mapBox.hidden=true;mapBox.setAttribute("aria-label","Karta över restauranger i Nerja");toolbar.after(mapBox);
+  const mapBox=document.createElement("div");mapBox.id="restaurant-map";mapBox.hidden=false;mapBox.setAttribute("aria-label","Karta över restauranger i Nerja");toolbar.after(mapBox);
   let map=null,layer=null,loading=false;
+  const zones={
+    centro:[36.7472,-3.8763,0.95],
+    balcon:[36.7449,-3.8753,0.42],
+    burriana:[36.7515,-3.8652,0.9],
+    torrecilla:[36.7434,-3.8848,0.75],
+    playazo:[36.7451,-3.9017,1.4],
+    capistrano:[36.7622,-3.8648,1.5]
+  };
+  function inArea(r){
+    if(!area.value)return true;
+    const zone=zones[area.value],lat=Number(r.lat),lon=Number(r.lon);
+    if(!Number.isFinite(lat)||!Number.isFinite(lon))return false;
+    const dy=(lat-zone[0])*111.2,dx=(lon-zone[1])*88.7;
+    return Math.hypot(dx,dy)<=zone[2];
+  }
+  toggle.setAttribute("aria-pressed","true");
+  toggle.textContent="🗺️ Dölj karta";
   let photoCatalog={};
   fetch("data/restaurant-photos.json").then(response=>response.ok?response.json():{photos:{}})
     .then(data=>{photoCatalog=data.photos||{};for(const card of cards.children){
@@ -40,7 +63,7 @@
     const t=document.getElementById("type").value;
     const mode=document.getElementById("favorites").value;
     return items.filter(r=>searchable(r).includes(q)&&(!t||r.cuisine===t)&&
-      (mode==="all"||(mode==="fav"&&fav.has(r.id))||(mode==="menu"&&hasMenu(r))||(mode==="priced"&&hasPrices(r)))&&withinPrice(r));
+      (mode==="all"||(mode==="fav"&&fav.has(r.id))||(mode==="menu"&&hasMenu(r))||(mode==="priced"&&hasPrices(r)))&&withinPrice(r)&&inArea(r));
   }
 
   function photoUrl(r){
@@ -165,6 +188,8 @@
     if(!mapBox.hidden){loadMap();if(map){map.invalidateSize();drawMap(selected())}}
   });
   priceInput.addEventListener("input",decorate);
+  area.addEventListener("change",()=>{decorate();if(map&&!mapBox.hidden)drawMap(selected())});
+  loadMap();
   const original=render;
   render=function(){original();decorate()};
   if(items.length)decorate();
