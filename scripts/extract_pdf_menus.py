@@ -26,14 +26,14 @@ def plausible(name):
  name=name.strip()
  words=name.split()
  return (len(words)>=2 and len(name)>=9 and len(name)<=85 and len(re.findall(r"[A-Za-zÁÉÍÓÚÑáéíóúñ]",name))>=7 and not re.search(r"[<>|{}\\] |https?://|www\.|\d{4}",name,re.I) and not any(len(w)>24 for w in words))
-price_only=re.compile(r"^(?:€\\s*)?(\\d{1,3}[.,]\\d{2})\\s*(?:€|EUR)?$",re.I)
+price_only=re.compile(r"^(?:€\s*)?(\d{1,3}[.,]\d{2})\s*(?:€|EUR)?$",re.I)
 def adjacent_pairs(text):
  lines=[" ".join(x.split()) for x in text.splitlines()]
  found=[]
  for i in range(len(lines)-1):
   name=lines[i].strip(" .·-")
   m=price_only.fullmatch(lines[i+1])
-  if m and plausible(name) and not re.search(r"\\b(total|iva|vat|telefono|phone|descuento|subtotal|desde|from)\\b",name,re.I):
+  if m and plausible(name) and not re.search(r"\b(total|iva|vat|telefono|phone|descuento|subtotal|desde|from)\b",name,re.I):
    amount=float(m[1].replace(",","."))
    if 0.5<=amount<=250:
     found.append([name,m[1].replace(".",",")+" €"])
@@ -53,7 +53,7 @@ def ocr(image):
    texts.append(result.stdout.decode("utf-8","replace"))
   except (subprocess.TimeoutExpired,subprocess.CalledProcessError):
    continue
- return "\\n".join(texts)
+ return "\n".join(texts)
 def read_pdf(data):
  reader=PdfReader(io.BytesIO(data),strict=False)
  if len(reader.pages)>25:return []
