@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T10:23:04.564352+00:00",
+  "updated_at": "2026-11-16T13:56:47.270919+00:00",
   "note": "Official and third-party sources are labeled separately. QR links are candidates, not verified menus.",
   "restaurants": {
     "node/3328393211": {
@@ -20,99 +20,9 @@
       "links": [
         {
           "url": "https://www.avalonnerja.com/es/menu-a-la-carta/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/es/a-la-carte-menu-summer/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/a-la-carte-menu-summer/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/es/carta-de-vino/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/es/bebidas/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/es/bebidas/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/drinks/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/a-la-carte-menu/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/a-la-carte-menu-summer/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/drinks/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/christmas-eve-menu-2026/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/christmas-menu-2026/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/christmas-vegan-menu-2026/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
-        },
-        {
-          "url": "https://www.avalonnerja.com/es/a-la-carte-menu-invierno/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/page-sitemap.xml"
-        },
-        {
-          "url": "https://www.avalonnerja.com/a-la-carte-menu-winter/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/page-sitemap.xml"
-        },
-        {
-          "url": "https://www.avalonnerja.com/christmas-menu-2025/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/page-sitemap.xml"
-        },
-        {
-          "url": "https://www.avalonnerja.com/christmas-vegan-menu-2025/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/page-sitemap.xml"
-        },
-        {
-          "url": "https://www.avalonnerja.com/christmas-eve-menu-2025/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/page-sitemap.xml"
-        },
-        {
-          "url": "https://www.avalonnerja.com/wp-content/uploads/2022/08/waiter-bringing-drinks-150x150.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://www.avalonnerja.com/page-sitemap.xml"
+          "kind": "website",
+          "status": "website_only",
+          "source": "https://www.avalonnerja.com/es/menu-a-la-carta/"
         }
       ]
     },
@@ -945,74 +855,8 @@
         {
           "url": "https://www.restauranteoculto.com/carta/",
           "kind": "web",
-          "status": "candidate",
-          "source": "https://www.restauranteoculto.com/carta"
-        },
-        {
-          "url": "https://www.restauranteoculto.com/carta",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.restauranteoculto.com/reservar"
-        },
-        {
-          "url": "https://www.restauranteoculto.com/menu-grupos",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.restauranteoculto.com/reservar"
-        },
-        {
-          "url": "https://www.restauranteoculto.com/en/menu/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.restauranteoculto.com/carta"
-        },
-        {
-          "url": "https://www.restauranteoculto.com/en/group-menu/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.restauranteoculto.com/menu-grupos"
-        },
-        {
-          "url": "https://www.restauranteoculto.com/wp-content/uploads/2026/11/Oculto-Carta-comida-digital-ESP-Noviembre-2026.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://www.restauranteoculto.com/carta"
-        },
-        {
-          "url": "https://www.restauranteoculto.com/wp-content/uploads/2026/08/Oculto-Carta-Cocteles-digital-Marzo-2026.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://www.restauranteoculto.com/carta"
-        },
-        {
-          "url": "https://www.restauranteoculto.com/wp-content/uploads/2026/08/Oculto-Carta-Vinos-digital-Marzo-2026.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://www.restauranteoculto.com/carta"
-        },
-        {
-          "url": "https://www.restauranteoculto.com/wp-content/uploads/2026/08/Oculto-Bebidas-digital-Marzo-2026.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://www.restauranteoculto.com/carta"
-        },
-        {
-          "url": "https://www.restauranteoculto.com/menu-grupos/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://www.restauranteoculto.com/menu-grupos"
-        },
-        {
-          "url": "https://www.restauranteoculto.com/wp-content/uploads/2026/10/PHOTO-2026-10-23-16-48-08.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://www.restauranteoculto.com/menu-grupos"
-        },
-        {
-          "url": "https://www.restauranteoculto.com/wp-content/uploads/2026/10/PHOTO-2026-10-23-16-48-13.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://www.restauranteoculto.com/menu-grupos"
+          "status": "curated",
+          "source": "curated-menus.json"
         }
       ]
     },
