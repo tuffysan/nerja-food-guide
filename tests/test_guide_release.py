@@ -46,6 +46,12 @@ class GuideReleaseTests(unittest.TestCase):
         self.assertIn("restaurants_with_menu_links",source)
         self.assertIn("restaurants_with_official_menu_link",source)
         self.assertNotIn("hasPrices(",source)
+    def test_merge_accepts_menu_entries_without_website(self):
+        import ast
+        source=(ROOT/"scripts/merge_verified_sources.py").read_text(encoding="utf-8")
+        ast.parse(source)
+        self.assertIn('entry.get("website", "")',source)
+        self.assertIn('entry.get("menu", "")',source)
     def test_web_assets_connected(self):
         html=(ROOT/"index.html").read_text(encoding="utf-8")
         self.assertIn('assets/guide-v3.js',html)
