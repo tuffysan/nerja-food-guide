@@ -336,8 +336,177 @@
         [
           "Postre del día",
           "6,50 €"
+        ],
+        [
+          "Pimientos del Padrón",
+          "5,50 € / 8,50 €"
+        ],
+        [
+          "Ensalada Atún Pequeña",
+          "7,70 €"
+        ],
+        [
+          "Ensalada Atún Grande",
+          "9,30 €"
+        ],
+        [
+          "Ensaladilla Rusa",
+          "6,00 € / 8,80 €"
+        ],
+        [
+          "Berenjenas con miel",
+          "5,40 € / 7,90 €"
+        ],
+        [
+          "Mejillones",
+          "6,80 € / 10,50 €"
+        ],
+        [
+          "Navajas",
+          "6,80 € / 10,50 €"
+        ],
+        [
+          "Conchas Finas (por kg)",
+          "40,00 €"
+        ],
+        [
+          "Coquinas (por kg)",
+          "16,00 €"
+        ],
+        [
+          "Langostinos Pil-Pil",
+          "13,50 €"
+        ],
+        [
+          "Ostras",
+          "4,50 €"
+        ],
+        [
+          "Calamares",
+          "7,30 € / 10,50 €"
+        ],
+        [
+          "Jibia",
+          "7,30 € / 10,50 €"
+        ],
+        [
+          "Calamaritos",
+          "8,00 € / 11,60 €"
+        ],
+        [
+          "Puntillas",
+          "10,60 € / 17,60 €"
+        ],
+        [
+          "Bacalao",
+          "7,30 € / 13,20 €"
+        ],
+        [
+          "Fritura Variada",
+          "9,00 € / 14,00 €"
+        ],
+        [
+          "Fritura de Verano",
+          "7,90 € / 10,50 €"
+        ],
+        [
+          "Sardinas",
+          "7,30 € / 10,00 €"
+        ],
+        [
+          "Rosada Frita",
+          "8,10 € / 14,50 €"
+        ],
+        [
+          "Rosada Plancha",
+          "8,10 € / 14,50 €"
+        ],
+        [
+          "Adobo",
+          "8,10 € / 10,00 €"
+        ],
+        [
+          "Rejo",
+          "7,30 € / 10,00 €"
+        ],
+        [
+          "Boquerones",
+          "7,50 € / 9,80 €"
+        ],
+        [
+          "Salmonetillos fritos",
+          "8,30 € / 14,80 €"
+        ],
+        [
+          "Pijotas",
+          "6,00 € / 10,00 €"
+        ],
+        [
+          "Croquetas de Jamón ibérico",
+          "11,20 €"
+        ],
+        [
+          "Croquetas de choco en su tinta",
+          "11,20 €"
+        ],
+        [
+          "Croquetas de merluza con gambas al pil-pil",
+          "11,20 €"
+        ],
+        [
+          "Croquetas de puchero",
+          "11,20 €"
+        ],
+        [
+          "Croquetas surtidas",
+          "13,20 €"
+        ],
+        [
+          "Pescado del día con Salsa Puntilla",
+          "16,50 €"
+        ],
+        [
+          "Rodaballo (por kg)",
+          "55,00 €"
+        ],
+        [
+          "Calamar Fresco (por kg)",
+          "60,00 €"
+        ],
+        [
+          "Choco de Burriana (por kg)",
+          "50,00 €"
+        ],
+        [
+          "Lenguado (por kg)",
+          "60,00 €"
+        ],
+        [
+          "Filetillos",
+          "6,50 € / 11,40 €"
+        ],
+        [
+          "Plato de Pinchitos",
+          "6,50 € / 12,40 €"
+        ],
+        [
+          "Ración de Patatas Bravas",
+          "5,60 € / 8,00 €"
+        ],
+        [
+          "Ración de Papas a lo Pobre",
+          "5,60 € / 8,00 €"
+        ],
+        [
+          "Ración de Queso Manchego Curado",
+          "6,00 € / 9,50 €"
+        ],
+        [
+          "Arroz Caldoso con Choco y Langostinos (por persona; encargo previo)",
+          "14,00 €"
         ]
-      ]
+      ],
+      "note": "Paella och risrätter beställs minst 12 timmar i förväg, minst 2 personer. Priser per kg och portionsstorlekar framgår av maträttens namn/pris."
     },
     {
       "name": "Rincón del Sol",
