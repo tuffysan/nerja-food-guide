@@ -1,0 +1,42 @@
+name: Build V2 downloadable preview
+on:
+  push:
+    branches: [rebuild/v2-clean]
+    paths: ['v2/**', 'data/**', '.github/workflows/v2-build.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validate JavaScript and evidence tests
+        run: |
+          node --check v2/app.js
+          python -m unittest discover -s v2 -p 'test_*.py' -v
+      - name: Assemble self-contained website
+        run: |
+          mkdir -p dist/data
+          cp v2/index.html v2/app.js v2/style.css v2/researched-menus.json dist/
+          cp data/restaurants.json data/menu-discovery.json data/verified-menu-sources.json data/curated-menus.json data/restaurant-photos.json dist/data/
+          sed -i 's|const DATA="../data/";|const DATA="./data/";|' dist/app.js
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for f in Path("dist").rglob("*.json"):
+              json.loads(f.read_text(encoding="utf-8"))
+          assert (Path("dist")/"index.html").exists()
+          print("Self-contained V2 site assembled")
+          PY
+          node --check dist/app.js
+      - name: Upload ready-to-host V2 site
+        uses: actions/upload-artifact@v4
+        with:
+          name: nerja-food-guide-v2-website
+          path: dist/
+          retention-days: 30
