@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-16",
   "note": "Transcribed from official published menu pages. Prices may change; confirm with the restaurant.",
   "entries": [
     {
@@ -29,7 +29,7 @@
         ],
         [
           "Focaccia con crema de queso",
-          "6,90 €"
+          "10,90 €"
         ],
         [
           "Pluma iberica",
@@ -235,6 +235,184 @@
       "source": "https://www.labotteganerja.com/",
       "note": "Officiell webbplats med länkar till matmenyer på engelska och spanska. Stängt 9 november–25 december 2026 enligt restaurangen.",
       "dishes": []
+    },
+    {
+      "name": "La Puntilla",
+      "address": "Calle Bolivia 1, Nerja, Málaga, España",
+      "source": "https://www.lapuntillanerja.es/menu/",
+      "dishes": [
+        [
+          "Gazpacho Andaluz (en temporada)",
+          "6,50 €"
+        ],
+        [
+          "Sopa de Marisco",
+          "11,00 €"
+        ],
+        [
+          "Ensalada Mixta Pequeña",
+          "6,50 €"
+        ],
+        [
+          "Ensalada Mixta Grande",
+          "7,50 €"
+        ],
+        [
+          "Pimientos asados",
+          "9,00 €"
+        ],
+        [
+          "Pan",
+          "0,60 €"
+        ],
+        [
+          "Gambas a la plancha (200 gr.)",
+          "21,00 €"
+        ],
+        [
+          "Almejas Terreno",
+          "15,00 €"
+        ],
+        [
+          "Pulpo a la Plancha",
+          "19,90 €"
+        ],
+        [
+          "Dorada",
+          "17,00 €"
+        ],
+        [
+          "Lubina",
+          "17,00 €"
+        ],
+        [
+          "Escalope de pollo",
+          "11,50 €"
+        ],
+        [
+          "Pollo a la Plancha",
+          "11,00 €"
+        ],
+        [
+          "Huevos fritos con Patatas",
+          "7,50 €"
+        ],
+        [
+          "Ración de Patatas",
+          "5,00 €"
+        ],
+        [
+          "Paella mixta (por persona; encargo previo)",
+          "13,00 €"
+        ],
+        [
+          "Paella de pescado y marisco (por persona; encargo previo)",
+          "14,00 €"
+        ],
+        [
+          "Arroz con Bogavante (por persona; encargo previo)",
+          "25,50 €"
+        ],
+        [
+          "Flan de turrón",
+          "5,50 €"
+        ],
+        [
+          "Tiramisú de la casa",
+          "6,00 €"
+        ],
+        [
+          "Natillas caseras",
+          "4,50 €"
+        ],
+        [
+          "Arroz con leche",
+          "4,50 €"
+        ],
+        [
+          "Tres chocolates",
+          "6,00 €"
+        ],
+        [
+          "Postre del día",
+          "6,50 €"
+        ]
+      ]
+    },
+    {
+      "name": "Rincón del Sol",
+      "address": "Playa Burriana s/n, Nerja, Málaga, España",
+      "source": "https://rincondelsolnerja.com/cartas/",
+      "dishes": [
+        [
+          "Patatas bravas",
+          "9,95 €"
+        ],
+        [
+          "Lumpiá de Berenjenas",
+          "13,95 €"
+        ],
+        [
+          "Baos de maíz",
+          "13,95 €"
+        ],
+        [
+          "Croquetas Shitake",
+          "13,95 €"
+        ],
+        [
+          "Gyozas de pato",
+          "16,95 €"
+        ],
+        [
+          "Gyozas de bacalao",
+          "14,95 €"
+        ],
+        [
+          "Tataki de atún",
+          "23,95 €"
+        ],
+        [
+          "Pulpo asado estilo RDS",
+          "25,95 €"
+        ],
+        [
+          "Shumai de cerdo",
+          "14,95 €"
+        ],
+        [
+          "Langostinos al pil-pil",
+          "16,95 €"
+        ],
+        [
+          "Arroz caldoso con bogavante (por persona)",
+          "31,70 €"
+        ],
+        [
+          "Paella de mariscos (por persona)",
+          "24,70 €"
+        ],
+        [
+          "Paella mixta (por persona)",
+          "22,50 €"
+        ],
+        [
+          "Risotto del Mediterráneo",
+          "20,95 €"
+        ],
+        [
+          "Fettuccine con bogavante",
+          "27,70 €"
+        ],
+        [
+          "Risotto de Carabinero y Gambas",
+          "26,70 €"
+        ],
+        [
+          "Risotto de Boletus, trufas y espárragos",
+          "19,95 €"
+        ]
+      ]
     }
   ]
 }
