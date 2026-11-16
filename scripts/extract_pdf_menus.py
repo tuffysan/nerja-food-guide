@@ -17,8 +17,6 @@ def allowed(url,base):
    if not ipaddress.ip_address(result[4][0]).is_global:return False
   return True
  except Exception:return False
-class NoRedirect(urllib.request.HTTPRedirectHandler):
- def redirect_request(self,req,fp,code,msg,headers,newurl):return None
 opener=OPENER
 MAX_DOWNLOAD_BYTES=8_000_000
 pattern=re.compile(r"^(.{4,95}?)\s+(?:[.·•-]\s*){0,8}(\d{1,3}[.,]\d{2})\s*(?:€|EUR)?\s*$",re.I)
@@ -76,11 +74,11 @@ verified=json.loads((root/"verified-menu-sources.json").read_text(encoding="utf-
 for entry in curated:
  url=entry.get("source","")
  if urllib.parse.urlsplit(url).path.lower().endswith(".pdf"):
-  extra.append({"id":"curated/"+entry["name"],"name":entry["name"],"website":url,"extra_url":url})
+  extra.append({"id":"curated/"+entry["name"],"name":entry["name"],"website":url,"extra_url":url,"source_type":"third_party" if any(h in urllib.parse.urlsplit(url).hostname.lower() for h in ("carta.menu","menuweb.menu","thefork","restaurantguru")) else "unverified"})
 for entry in verified:
  url=entry.get("menu","")
  if urllib.parse.urlsplit(url).path.lower().endswith(".pdf"):
-  extra.append({"id":"verified/"+entry["name"],"name":entry["name"],"website":url,"extra_url":url})
+  extra.append({"id":"verified/"+entry["name"],"name":entry["name"],"website":url,"extra_url":url,"source_type":entry.get("source_type","unverified")})
 deadline=time.monotonic()+420
 for r in restaurants+extra:
  if time.monotonic()>deadline:break
@@ -110,7 +108,7 @@ for r in restaurants+extra:
     diagnostics["failures"].append({"restaurant":r["name"],"url":url,"reason":"Unsupported content type"})
     continue
    if len(pairs)>=2:
-    out[r["id"]]={"source":url,"status":"candidate","method":"pdf-text-or-local-ocr","checked_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),"dishes":pairs}
+    out[r["id"]]={"source":url,"status":"candidate","source_type":r.get("source_type","official_site" if not r.get("extra_url") else "unverified"),"method":"pdf-text-or-local-ocr","checked_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),"dishes":pairs}
     diagnostics["fresh"]+=1
     print(r["name"],len(pairs),"unverified menu candidates",flush=True)
     break
