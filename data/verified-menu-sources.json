@@ -26,9 +26,10 @@
     {
       "name": "Trattoria Italia",
       "website": "https://trattoriaitalianerja.es/",
-      "menu": "https://trattoriaitalianerja.es/",
+      "menu": "https://trattoriaitalianerja.es/carta/",
       "address": "Calle Almirante Ferrándiz 29, Nerja, Spanien",
-      "source_type": "official"
+      "source_type": "official",
+      "note": "Official restaurant menu or PDF; check current version"
     },
     {
       "name": "Restaurante del Parador de Nerja",
@@ -40,9 +41,10 @@
     {
       "name": "Bruxelles by David Leon",
       "website": "https://nerjadenerja.es/es/",
-      "menu": "https://nerjadenerja.es/es/",
+      "menu": "https://nerjadenerja.es/es/cartas/",
       "address": "Playa Burriana, Nerja, Spanien",
-      "source_type": "official"
+      "source_type": "official",
+      "note": "Official restaurant menu or PDF; check current version"
     },
     {
       "name": "Rincón del Sol",
@@ -130,10 +132,11 @@
     },
     {
       "name": "Rincón del Sevillano",
-      "menu": "https://sevillanonerja.com/restaurantes/",
+      "menu": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Rincon-del-Sevillano-Nerja-2025.pdf",
       "website": "https://sevillanonerja.com/",
       "address": "Calle Gloria 14, Nerja, España",
-      "source_type": "official"
+      "source_type": "official",
+      "note": "Official restaurant menu or PDF; check current version"
     },
     {
       "name": "Sevillano La Tasquita",
@@ -144,17 +147,19 @@
     },
     {
       "name": "Sevillano El Chaparil",
-      "menu": "https://sevillanonerja.com/restaurantes/",
+      "menu": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Chaparil-Sevillano-Nerja-2025.pdf",
       "website": "https://sevillanonerja.com/",
       "address": "Calle Chaparil 7, Nerja, España",
-      "source_type": "official"
+      "source_type": "official",
+      "note": "Official restaurant menu or PDF; check current version"
     },
     {
       "name": "Los Huertos del Sevillano",
-      "menu": "https://sevillanonerja.com/restaurantes/",
+      "menu": "https://sevillanonerja.com/wp-content/uploads/Carta-Los-Huertos-1.pdf",
       "website": "https://sevillanonerja.com/",
       "address": "Calle Los Huertos 33, Nerja, España",
-      "source_type": "official"
+      "source_type": "official",
+      "note": "Official restaurant menu or PDF; check current version"
     },
     {
       "name": "Avalon",
@@ -163,6 +168,27 @@
       "address": "Punta Lara 22, Nerja, España",
       "source_type": "official",
       "note": "Official a la carte menu; prices may change"
+    },
+    {
+      "name": "La Tasquita del Sevillano",
+      "menu": "https://sevillanonerja.com/wp-content/uploads/Carta-La-Tasquita-Sevillano-Nerja-2025.pdf",
+      "website": "https://sevillanonerja.com/",
+      "source_type": "official",
+      "note": "Official restaurant menu or PDF; check current version"
+    },
+    {
+      "name": "Tardeo by Origen",
+      "menu": "https://tardeoennerja.com/wp-content/uploads/2026/09/tardeo-carta.pdf",
+      "website": "https://tardeoennerja.com/",
+      "source_type": "official",
+      "note": "Official restaurant menu or PDF; check current version"
+    },
+    {
+      "name": "Peppe Pizza",
+      "menu": "https://www.peppepizza.com/carta",
+      "website": "https://www.peppepizza.com/",
+      "source_type": "official",
+      "note": "Official restaurant menu or PDF; check current version"
     }
   ]
 }
