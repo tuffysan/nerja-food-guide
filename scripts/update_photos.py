@@ -103,6 +103,15 @@ def build():
             titles.setdefault(title, []).append(restaurant["id"])
     for title, ids in wikidata_image_titles(restaurants).items():
         titles.setdefault(title, []).extend(ids)
+    approvals_file = ROOT / "approved-restaurant-photos.json"
+    if approvals_file.exists():
+        approved = json.loads(approvals_file.read_text(encoding="utf-8")).get("approved", [])
+        restaurant_names = {r["id"]: r["name"] for r in restaurants}
+        for entry in approved:
+            rid = entry.get("restaurant_id")
+            title = title_from_tag(entry.get("commons_file"))
+            if title and rid in restaurant_names and restaurant_names[rid] == entry.get("restaurant_name"):
+                titles.setdefault(title, []).append(rid)
     result = {}
     errors = 0
     for offset in range(0, len(titles), 10):
