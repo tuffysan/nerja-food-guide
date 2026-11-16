@@ -1,6 +1,87 @@
 {
   "attempted": 17,
-  "fresh": 0,
-  "failures": [],
+  "fresh": 1,
+  "failures": [
+    {
+      "restaurant": "La Barca",
+      "url": "https://www.merenderolabarca.es/img/carta-nueva/page-2.jpg",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "La Barca",
+      "url": "https://www.merenderolabarca.es/img/carta-nueva/page-3.jpg",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "La Barca",
+      "url": "https://www.merenderolabarca.es/img/carta-nueva/page-4.jpg",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "La Barca",
+      "url": "https://www.merenderolabarca.es/img/carta-nueva/page-5.jpg",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "La Barca",
+      "url": "https://www.merenderolabarca.es/img/carta-nueva/page-6.jpg",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "La Barca",
+      "url": "https://www.merenderolabarca.es/img/carta-nueva/page-7.jpg",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "La Barca",
+      "url": "https://www.merenderolabarca.es/img/carta-nueva/page-8.jpg",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "La Barca",
+      "url": "https://www.merenderolabarca.es/img/carta-nueva/page-9.jpg",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "Rincón del Sol",
+      "url": "https://rincondelsolnerja.com/wp-content/uploads/2022/04/Entrantes-1000x1000.png",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "Rincón del Sol",
+      "url": "https://rincondelsolnerja.com/wp-content/uploads/2022/04/Postres-1000x1000.png",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "La Tasquita del Sevillano",
+      "url": "https://sevillanonerja.com/wp-content/uploads/Carta-La-Tasquita-2025.pdf",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "La Tasquita del Sevillano",
+      "url": "https://sevillanonerja.com/wp-content/uploads/Carta-La-Tasquita-2025.pdf",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "Restaurante 34",
+      "url": "https://weur-cdn.menuweb.menu/storage/media/companies_menu_pdf/48514173/restaurante-34-nerja-carta.pdf",
+      "reason": "File exceeds 2.5 MB limit"
+    },
+    {
+      "restaurant": "Restaurante 34",
+      "url": "https://weur-cdn.menuweb.menu/storage/media/companies_menu_pdf/48514173/restaurante-34-nerja-carta.pdf",
+      "reason": "File exceeds 2.5 MB limit"
+    },
+    {
+      "restaurant": "La Bodega de Antonia",
+      "url": "https://weur-cdn.carta.menu/storage/media/companies_menu_pdf/75360625/la-bodega-de-antonia-nerja-carta.pdf",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "Inita Cafe",
+      "url": "https://weur-cdn.carta.menu/storage/media/companies_menu_pdf/114107611/inita-cafe-nerja-carta.pdf",
+      "reason": "No confident dish/price pairs"
+    }
+  ],
   "stale": 0
 }

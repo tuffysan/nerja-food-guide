@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-15T22:07:16.256146+00:00",
+  "generated_at": "2026-11-16T08:01:03.780833+00:00",
   "osm_restaurants": 183,
   "restaurants_with_menu_links_or_dishes": 10,
-  "restaurants_with_dish_prices": 3,
+  "restaurants_with_dish_prices": 4,
   "curated_entries": 17,
   "official_source_menu_entries": 7,
   "official_source_dish_entries": 44,
@@ -13,8 +13,8 @@
   "curated_only_menu_candidates": 15,
   "all_discovery_entries_including_curated": 61,
   "discovered_link_entries": 61,
-  "automated_html_menu_entries": 9,
-  "automated_pdf_menu_entries": 0,
+  "automated_html_menu_entries": 10,
+  "automated_pdf_menu_entries": 1,
   "automated_structured_menu_entries": 0,
   "note": "Discovered menu links and OCR price candidates are not human verified. OSM coverage counts exclude independently researched restaurants not matched to OSM and unmatched curated-only restaurants."
 }

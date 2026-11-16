@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T22:04:14.884151+00:00",
+  "updated_at": "2026-11-16T07:57:54.762993+00:00",
   "note": "Official and third-party sources are labeled separately. QR links are candidates, not verified menus.",
   "restaurants": {
     "node/3328393211": {
@@ -77,6 +77,42 @@
           "kind": "web",
           "status": "candidate",
           "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
+        },
+        {
+          "url": "https://www.avalonnerja.com/es/a-la-carte-menu-invierno/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/page-sitemap.xml"
+        },
+        {
+          "url": "https://www.avalonnerja.com/a-la-carte-menu-winter/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/page-sitemap.xml"
+        },
+        {
+          "url": "https://www.avalonnerja.com/christmas-menu-2025/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/page-sitemap.xml"
+        },
+        {
+          "url": "https://www.avalonnerja.com/christmas-vegan-menu-2025/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/page-sitemap.xml"
+        },
+        {
+          "url": "https://www.avalonnerja.com/christmas-eve-menu-2025/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/page-sitemap.xml"
+        },
+        {
+          "url": "https://www.avalonnerja.com/wp-content/uploads/2022/08/waiter-bringing-drinks-150x150.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.avalonnerja.com/page-sitemap.xml"
         }
       ]
     },
@@ -88,49 +124,49 @@
           "url": "https://nerjadenerja.es/es/cartas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/menu/"
         },
         {
           "url": "https://nerjadenerja.es/es/carta/brekkie/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/menu/"
         },
         {
           "url": "https://nerjadenerja.es/es/carta/menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/menu/"
         },
         {
           "url": "https://nerjadenerja.es/es/carta/italiano/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/menu/"
         },
         {
           "url": "https://nerjadenerja.es/es/carta/takeaway/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/menu/"
         },
         {
           "url": "https://nerjadenerja.es/static/uploads/eventos/047bbd03-IMG_7418.jpeg",
           "kind": "image",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/"
+          "source": "https://nerjadenerja.es/"
         },
         {
           "url": "https://nerjadenerja.es/static/uploads/eventos/41f5b653-8617E944-1F5E-4A07-A9B2-5C765D6A1DB2.jpg",
           "kind": "image",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/"
+          "source": "https://nerjadenerja.es/"
         },
         {
           "url": "https://nerjadenerja.es/static/uploads/eventos/36fcc56a-3099BB0F-883D-4FC3-8D6A-36A579DD397B.png",
           "kind": "image",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/es/"
+          "source": "https://nerjadenerja.es/"
         },
         {
           "url": "https://nerjadenerja.es/es/carta/menu/?p=10",
@@ -142,31 +178,31 @@
           "url": "https://nerjadenerja.es/en/cartas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/cartas/"
         },
         {
           "url": "https://nerjadenerja.es/fr/cartas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/cartas/"
         },
         {
           "url": "https://nerjadenerja.es/nl/cartas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/cartas/"
         },
         {
           "url": "https://nerjadenerja.es/sv/cartas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/cartas/"
         },
         {
           "url": "https://nerjadenerja.es/de/cartas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/cartas/"
         },
         {
           "url": "https://nerjadenerja.es/static/uploads/novedades/dba8e09e-9494CD12-09C9-4DB9-BA78-73D289E0B820.jpg",
@@ -190,31 +226,31 @@
           "url": "https://nerjadenerja.es/en/carta/brekkie/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
         },
         {
           "url": "https://nerjadenerja.es/fr/carta/brekkie/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
         },
         {
           "url": "https://nerjadenerja.es/nl/carta/brekkie/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
         },
         {
           "url": "https://nerjadenerja.es/sv/carta/brekkie/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
         },
         {
           "url": "https://nerjadenerja.es/de/carta/brekkie/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/brekkie/"
         },
         {
           "url": "https://nerjadenerja.es/static/pdf/desayuno-bruxelles.pdf",
@@ -226,31 +262,31 @@
           "url": "https://nerjadenerja.es/en/carta/menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/menu/"
         },
         {
           "url": "https://nerjadenerja.es/fr/carta/menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/menu/"
         },
         {
           "url": "https://nerjadenerja.es/nl/carta/menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/menu/"
         },
         {
           "url": "https://nerjadenerja.es/sv/carta/menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/menu/"
         },
         {
           "url": "https://nerjadenerja.es/de/carta/menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://nerjadenerja.es/sitemap.xml"
+          "source": "https://nerjadenerja.es/es/carta/menu/"
         },
         {
           "url": "https://nerjadenerja.es/static/pdf/pages/carta-bruxelles-es-01.jpg?v=1794041510",
@@ -478,13 +514,13 @@
           "url": "https://www.oldtownrestaurantfrigiliana.com/es/la-carta-menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.oldtownrestaurantfrigiliana.com/es/sitemap.xml"
+          "source": "https://www.oldtownrestaurantfrigiliana.com/es/aviso-legal/"
         },
         {
           "url": "https://www.oldtownrestaurantfrigiliana.com/en/a-la-carte-menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.oldtownrestaurantfrigiliana.com/en/sitemap.xml"
+          "source": "https://www.oldtownrestaurantfrigiliana.com/en/"
         }
       ]
     },
@@ -808,7 +844,7 @@
           "url": "https://www.peppepizza.com/carta",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.peppepizza.com/blog/cocteles-nerja-terraza/"
+          "source": "https://www.peppepizza.com/index.html"
         },
         {
           "url": "https://www.peppepizza.com/",
@@ -820,19 +856,19 @@
           "url": "https://www.peppepizza.com/pdf/carta-peppe.pdf?v=2026-08",
           "kind": "pdf",
           "status": "candidate",
-          "source": "https://www.peppepizza.com/carta"
+          "source": "https://www.peppepizza.com/index.html"
         },
         {
           "url": "https://www.peppepizza.com/blog/cocteles-nerja-terraza/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.peppepizza.com/"
+          "source": "https://www.peppepizza.com/index.html"
         },
         {
           "url": "https://www.peppepizza.com/index.html",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.peppepizza.com/carta"
+          "source": "https://www.peppepizza.com/index.html"
         },
         {
           "url": "https://www.peppepizza.com/pdf/carta-bebidas-cocteles.pdf?v=2026-08",
@@ -909,32 +945,74 @@
         {
           "url": "https://www.restauranteoculto.com/carta/",
           "kind": "web",
-          "status": "curated",
-          "source": "curated-menus.json"
+          "status": "candidate",
+          "source": "https://www.restauranteoculto.com/carta"
         },
         {
           "url": "https://www.restauranteoculto.com/carta",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.restauranteoculto.com/"
+          "source": "https://www.restauranteoculto.com/reservar"
         },
         {
           "url": "https://www.restauranteoculto.com/menu-grupos",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.restauranteoculto.com/"
+          "source": "https://www.restauranteoculto.com/reservar"
         },
         {
           "url": "https://www.restauranteoculto.com/en/menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.restauranteoculto.com/en/"
+          "source": "https://www.restauranteoculto.com/carta"
         },
         {
           "url": "https://www.restauranteoculto.com/en/group-menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.restauranteoculto.com/en/"
+          "source": "https://www.restauranteoculto.com/menu-grupos"
+        },
+        {
+          "url": "https://www.restauranteoculto.com/wp-content/uploads/2026/11/Oculto-Carta-comida-digital-ESP-Noviembre-2026.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.restauranteoculto.com/carta"
+        },
+        {
+          "url": "https://www.restauranteoculto.com/wp-content/uploads/2026/08/Oculto-Carta-Cocteles-digital-Marzo-2026.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.restauranteoculto.com/carta"
+        },
+        {
+          "url": "https://www.restauranteoculto.com/wp-content/uploads/2026/08/Oculto-Carta-Vinos-digital-Marzo-2026.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.restauranteoculto.com/carta"
+        },
+        {
+          "url": "https://www.restauranteoculto.com/wp-content/uploads/2026/08/Oculto-Bebidas-digital-Marzo-2026.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.restauranteoculto.com/carta"
+        },
+        {
+          "url": "https://www.restauranteoculto.com/menu-grupos/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.restauranteoculto.com/menu-grupos"
+        },
+        {
+          "url": "https://www.restauranteoculto.com/wp-content/uploads/2026/10/PHOTO-2026-10-23-16-48-08.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.restauranteoculto.com/menu-grupos"
+        },
+        {
+          "url": "https://www.restauranteoculto.com/wp-content/uploads/2026/10/PHOTO-2026-10-23-16-48-13.jpg",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://www.restauranteoculto.com/menu-grupos"
         }
       ]
     },
@@ -965,6 +1043,18 @@
           "kind": "web",
           "status": "candidate",
           "source": "https://lafamarestaurante.com/aviso-legal-lafama/"
+        },
+        {
+          "url": "https://lafamarestaurante.com/menu-adri/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://lafamarestaurante.com/page-sitemap.xml"
+        },
+        {
+          "url": "https://lafamarestaurante.com/mantenimiento-menu/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://lafamarestaurante.com/page-sitemap.xml"
         }
       ]
     },
@@ -1239,8 +1329,50 @@
         {
           "url": "https://trattoriaitalianerja.es/en/menu/",
           "kind": "web",
-          "status": "curated",
-          "source": "curated-menus.json"
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/wp-content/uploads/iconos-carta-1.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/wp-content/uploads/iconos-carta-5.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/wp-content/uploads/iconos-carta-4.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/wp-content/uploads/iconos-carta-9.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/wp-content/uploads/bebidas.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/wp-content/uploads/Entrantes.webp",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/carta/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
         }
       ]
     },
@@ -1415,6 +1547,54 @@
           "kind": "web",
           "status": "published",
           "source": "Reviewed source list"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/en/menu/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/wp-content/uploads/iconos-carta-1.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/wp-content/uploads/iconos-carta-5.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/wp-content/uploads/iconos-carta-4.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/wp-content/uploads/iconos-carta-9.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/wp-content/uploads/bebidas.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/wp-content/uploads/Entrantes.webp",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
+        },
+        {
+          "url": "https://trattoriaitalianerja.es/carta/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://trattoriaitalianerja.es/page-sitemap.xml"
         }
       ]
     },

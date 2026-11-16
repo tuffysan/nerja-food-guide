@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T22:06:30.106475+00:00",
-  "fresh": 9,
+  "generated_at": "2026-11-16T08:00:05.727360+00:00",
+  "fresh": 10,
   "stale": 0,
   "failures": {
     "node/3328393211": [
@@ -15,24 +15,6 @@
         "reason": "HTTP Error 404: Not Found"
       }
     ],
-    "node/2702579708": [
-      {
-        "url": "https://rincondelsolnerja.com/cartas/pizza/",
-        "reason": "The read operation timed out"
-      }
-    ],
-    "node/3593959373": [
-      {
-        "url": "https://esnerja.com/restaurante/teteria-zaidin/",
-        "reason": "HTTP Error 301: Moved Permanently"
-      }
-    ],
-    "curated/Peppe Pizza": [
-      {
-        "url": "https://www.peppepizza.com/index.html",
-        "reason": "HTTP Error 308: Permanent Redirect"
-      }
-    ],
     "curated/Rare Grill": [
       {
         "url": "https://www.thefork.es/restaurante/rare-grill-r849688/menu",
@@ -43,16 +25,6 @@
       {
         "url": "https://www.thefork.es/restaurante/casa-luque-r848021/menu",
         "reason": "HTTP Error 403: Forbidden"
-      }
-    ],
-    "curated/Oculto": [
-      {
-        "url": "https://www.restauranteoculto.com/carta",
-        "reason": "HTTP Error 301: Moved Permanently"
-      },
-      {
-        "url": "https://www.restauranteoculto.com/menu-grupos",
-        "reason": "HTTP Error 301: Moved Permanently"
       }
     ],
     "curated/Lisbeth's Nordic Cuisine & Lounge Bar": [
