@@ -10,6 +10,14 @@
     const option=document.createElement("option");option.value=value;option.textContent=label;area.append(option);
   }
   filters.append(area);
+  const reset=document.createElement("button");reset.type="button";reset.className="reset-filters";reset.textContent="Rensa filter";
+  filters.append(reset);
+  reset.addEventListener("click",()=>{
+    document.getElementById("search").value="";
+    document.getElementById("type").value="";
+    document.getElementById("favorites").value="all";
+    area.value="";priceInput.value="";render();
+  });
   const toolbar=document.createElement("div");
   toolbar.className="toolbar";
   const toggle=document.createElement("button");
@@ -145,6 +153,11 @@
     const byName=new Map([...cards.children].map(card=>[card.querySelector("h2")?.textContent,card]));
     for(const r of sorted){const card=byName.get(r.name);if(card)cards.append(card)}
     count.textContent=filtered.length+" restauranger · "+filtered.filter(hasMenu).length+" med meny · "+filtered.filter(hasPrices).length+" med maträtter/priser";
+    if(!filtered.length){
+      const empty=document.createElement("p");empty.className="empty-results";
+      empty.textContent="Inga restauranger matchar filtren. Välj ett större område eller rensa filtren.";
+      cards.append(empty);
+    }
     if(map&&!mapBox.hidden)drawMap(filtered);
   }
   function drawMap(restaurants){
@@ -160,7 +173,14 @@
       const text=document.createElement("p");text.textContent=r.cuisine||"Restaurang";
       const a=document.createElement("a");a.href="https://www.openstreetmap.org/?mlat="+lat+"&mlon="+lon+"#map=18/"+lat+"/"+lon;
       a.target="_blank";a.rel="noopener noreferrer";a.textContent="Visa i OpenStreetMap";
-      wrap.append(strong,text,a);marker.bindPopup(wrap);marker.addTo(layer);bounds.push([lat,lon]);
+      const menu=document.createElement("span");menu.textContent=hasMenu(r)?" · Meny finns":" · Meny saknas";
+      const show=document.createElement("button");show.type="button";show.textContent="Visa restaurang i listan";
+      show.addEventListener("click",()=>{
+        const card=[...cards.querySelectorAll(".card")].find(c=>c.querySelector("h2")?.textContent===r.name);
+        if(card){card.scrollIntoView({behavior:"smooth",block:"center"});card.classList.add("map-selected");setTimeout(()=>card.classList.remove("map-selected"),2500)}
+      });
+      wrap.append(strong,text,menu,document.createElement("br"),a,document.createElement("br"),show);
+      marker.bindPopup(wrap);marker.addTo(layer);bounds.push([lat,lon]);
     }
     if(bounds.length)map.fitBounds(bounds,{padding:[25,25],maxZoom:15});
     else if(layer)map.setView([36.75,-3.875],13);
