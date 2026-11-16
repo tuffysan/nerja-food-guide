@@ -65,11 +65,13 @@ jobs:
         run: python scripts/coverage_report.py
       - name: Refresh content audit
         run: python scripts/content_audit.py
+      - name: Audit menu availability independently of prices
+        run: python scripts/menu_availability_audit.py
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/content-audit.json data/photo-review-candidates.json data/restaurant-photos.json data/restaurants.json data/menu-discovery.json data/auto-menus.json data/pdf-menus.json data/html-menus.json data/coverage-report.json data/html-menu-diagnostics.json data/pdf-menu-diagnostics.json data/menu-discovery-diagnostics.json
+          git add data/menu-availability-audit.json data/content-audit.json data/photo-review-candidates.json data/restaurant-photos.json data/restaurants.json data/menu-discovery.json data/auto-menus.json data/pdf-menus.json data/html-menus.json data/coverage-report.json data/html-menu-diagnostics.json data/pdf-menu-diagnostics.json data/menu-discovery-diagnostics.json
           if ! git diff --cached --quiet; then
             git commit -m "Update Nerja restaurant data"
             # Code updates may land on main while discovery is running.
