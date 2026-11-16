@@ -52,6 +52,16 @@ class GuideReleaseTests(unittest.TestCase):
         ast.parse(source)
         self.assertIn('entry.get("website", "")',source)
         self.assertIn('entry.get("menu", "")',source)
+    def test_quality_gate_distinguishes_homepage_from_menu(self):
+        import ast
+        path=ROOT/"scripts/quality_gate.py"
+        tree=ast.parse(path.read_text(encoding="utf-8"))
+        self.assertIn("menu_specific", {node.name for node in tree.body if isinstance(node,ast.FunctionDef)})
+        namespace={"__name__":"nerja_quality_test","__file__":str(path)}
+        exec(compile(tree,str(path),"exec"),namespace)
+        self.assertFalse(namespace["menu_specific"]("https://trattoriaitalianerja.es/"))
+        self.assertTrue(namespace["menu_specific"]("https://trattoriaitalianerja.es/en/menu/"))
+        self.assertTrue(namespace["menu_specific"]("https://example.org/carta.pdf"))
     def test_web_assets_connected(self):
         html=(ROOT/"index.html").read_text(encoding="utf-8")
         self.assertIn('assets/guide-v3.js',html)
