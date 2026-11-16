@@ -24,7 +24,7 @@ for(let r of items){
  unique.set(key,keep);
 }
 items=[...unique.values()];discover=menus.restaurants||{};let types=[...new Set(items.map(x=>x.cuisine).filter(x=>x&&x!=='Ej angivet'))].sort();for(let t of types){let o=el('option',t);o.value=t;$('type').append(o)}render()}).catch(e=>{$('status').textContent='Restaurangregistret är inte hämtat ännu. Kör GitHub Actions → Daily restaurant update → Run workflow. ('+e.message+')'});
-</script><script src="assets/guide-v3.js?v=20261116q"></script><script>
+</script><script src="assets/guide-v3.js?v=20261116r"></script><script>
 fetch("data/verified-menu-sources.json").then(r=>r.ok?r.json():{entries:[]}).then(data=>{
  const target=document.getElementById("more-verified-menus");
  const seen=new Set(["Restaurante Único","La Bottega"]);
