@@ -70,8 +70,12 @@ def main():
         pending.update(category_candidates(restaurants,photos))
     except (OSError,ValueError,KeyError) as exc:
         print("Commons category unavailable:",str(exc)[:100])
+    # Rotate daily so every restaurant is eventually reviewed, not only the first 12.
+    day=datetime.datetime.now(datetime.timezone.utc).date().toordinal()
+    offset=(day*12)%max(len(restaurants),1)
+    rotated=restaurants[offset:]+restaurants[:offset]
     checked=0
-    for r in restaurants:
+    for r in rotated:
         if r["id"] in photos:continue
         if checked>=12:break
         checked+=1
