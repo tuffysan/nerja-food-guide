@@ -191,6 +191,7 @@
     const link=document.createElement("link");link.rel="stylesheet";link.href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";document.head.append(link);
     const script=document.createElement("script");script.src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
     script.onload=()=>{
+      if(!window.L){mapBox.textContent="Kartan kunde inte starta. Använd restauranglistan.";loading=false;return}
       map=L.map(mapBox,{scrollWheelZoom:false}).setView([36.75,-3.875],13);
       L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{
         attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
