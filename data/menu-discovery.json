@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T09:40:11.200620+00:00",
+  "updated_at": "2026-11-16T10:23:04.564352+00:00",
   "note": "Official and third-party sources are labeled separately. QR links are candidates, not verified menus.",
   "restaurants": {
     "node/3328393211": {
@@ -1407,8 +1407,14 @@
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
           "kind": "web",
-          "status": "published",
-          "source": "Reviewed source list"
+          "status": "candidate",
+          "source": "https://restauranteunico.com/politica-de-privacidad/"
+        },
+        {
+          "url": "https://restauranteunico.com/nuestra-carta-de-vinos/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://restauranteunico.com/politica-de-privacidad/"
         }
       ]
     },
