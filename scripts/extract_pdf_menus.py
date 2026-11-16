@@ -3,7 +3,7 @@ Candidate prices are unverified. No downloaded media is committed.
 """
 import io,json,re,pathlib,urllib.request,urllib.parse,datetime,ipaddress,socket,subprocess,tempfile,time
 from pypdf import PdfReader
-from discover_menus import robots_allowed
+from discover_menus import robots_allowed, OPENER, safe, same_host
 root=pathlib.Path(__file__).resolve().parents[1]/"data"
 restaurants=json.loads((root/"restaurants.json").read_text())["items"]
 discovery=json.loads((root/"menu-discovery.json").read_text()).get("restaurants",{})
@@ -19,7 +19,7 @@ def allowed(url,base):
  except Exception:return False
 class NoRedirect(urllib.request.HTTPRedirectHandler):
  def redirect_request(self,req,fp,code,msg,headers,newurl):return None
-opener=urllib.request.build_opener(NoRedirect)
+opener=OPENER
 pattern=re.compile(r"^(.{4,95}?)\s+(?:[.·•-]\s*){0,8}(\d{1,3}[.,]\d{2})\s*(?:€|EUR)?\s*$",re.I)
 def plausible(name):
  name=name.strip()
@@ -36,13 +36,13 @@ def ocr(image):
  return subprocess.run(["tesseract","stdin","stdout","-l","spa+eng","--psm","11"],input=image,stdout=subprocess.PIPE,stderr=subprocess.DEVNULL,timeout=18,check=True).stdout.decode("utf-8","replace")
 def read_pdf(data):
  reader=PdfReader(io.BytesIO(data),strict=False)
- if len(reader.pages)>15:return []
- text="\n".join((p.extract_text() or "") for p in reader.pages[:6])
+ if len(reader.pages)>25:return []
+ text="\n".join((p.extract_text() or "") for p in reader.pages[:10])
  if len(pairs_from(text))>=3:return pairs_from(text)
  with tempfile.TemporaryDirectory() as directory:
   pdf=pathlib.Path(directory)/"menu.pdf";pdf.write_bytes(data)
   # OCR first two pages only; bounded processing cost on shared GitHub runners.
-  proc=subprocess.run(["pdftoppm","-f","1","-l","2","-scale-to","1400","-png",str(pdf),str(pathlib.Path(directory)/"page")],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=35,check=True)
+  proc=subprocess.run(["pdftoppm","-f","1","-l","3","-scale-to","1400","-png",str(pdf),str(pathlib.Path(directory)/"page")],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=35,check=True)
   for page in sorted(pathlib.Path(directory).glob("page-*.png")):
    if page.stat().st_size<3_000_000:text+="\n"+ocr(page.read_bytes())
  return pairs_from(text)
@@ -74,21 +74,27 @@ for r in restaurants+extra:
   url=candidate["url"]
   try:
    diagnostics["attempted"]+=1
-   if not robots_allowed(url):continue
+   if not safe(url) or not robots_allowed(url):continue
    req=urllib.request.Request(url,headers={"User-Agent":"NerjaFoodGuide/3.4","Accept":"application/pdf,image/*"})
    with opener.open(req,timeout=10) as response:
+    if not same_host(response.geturl(),url) or not safe(response.geturl()):continue
     content_type=response.headers.get("Content-Type","").lower()
     data=response.read(2_500_001)
-   if len(data)>2_500_000:continue
+   if len(data)>2_500_000:
+    diagnostics["failures"].append({"restaurant":r["name"],"url":url,"reason":"File exceeds 2.5 MB limit"})
+    continue
    if data.startswith(b"%PDF"):pairs=read_pdf(data)
    elif content_type.startswith("image/") and (data.startswith(b"\x89PNG") or data.startswith(b"RIFF") or data.startswith(b"\xff\xd8\xff")):
     pairs=pairs_from(ocr(data))
-   else:continue
-   if len(pairs)>=3:
+   else:
+    diagnostics["failures"].append({"restaurant":r["name"],"url":url,"reason":"Unsupported content type"})
+    continue
+   if len(pairs)>=2:
     out[r["id"]]={"source":url,"status":"candidate","method":"pdf-text-or-local-ocr","checked_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),"dishes":pairs}
     diagnostics["fresh"]+=1
     print(r["name"],len(pairs),"unverified menu candidates",flush=True)
     break
+   diagnostics["failures"].append({"restaurant":r["name"],"url":url,"reason":"No confident dish/price pairs"})
   except Exception as e:
    diagnostics["failures"].append({"restaurant":r["name"],"url":url,"reason":str(e)[:160]})
    print("OCR skipped",r["name"],str(e)[:100],flush=True)
