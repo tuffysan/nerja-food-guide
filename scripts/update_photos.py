@@ -31,7 +31,7 @@ def title_from_tag(tag):
         else:
             return None
     tag = re.sub(r"^(?:File:|Image:)", "", tag, flags=re.I).replace("_", " ")
-    if not re.fullmatch(r"[^\\/?#<>]{4,180}\\.(?:jpe?g|png|webp)", tag, flags=re.I):
+    if not re.fullmatch(r"[^/?#<>]{4,180}[.](?:jpe?g|png|webp)", tag, flags=re.I):
         return None
     return "File:" + tag
 
