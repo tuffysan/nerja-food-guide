@@ -21,7 +21,8 @@
       "website": "https://restaurantedonalola.com/",
       "menu": "https://restaurantedonalola.com/",
       "address": "Plaza Balcón de Europa 15, Nerja, Spanien",
-      "source_type": "official"
+      "source_type": "official_menu_section",
+      "note": "Official homepage has CARTA, CARTA BEBIDA and CARTA SNACK navigation; follow menu links there"
     },
     {
       "name": "Trattoria Italia",
@@ -185,10 +186,10 @@
     },
     {
       "name": "Peppe Pizza",
-      "menu": "https://www.peppepizza.com/carta",
+      "menu": "https://www.peppepizza.com/",
       "website": "https://www.peppepizza.com/",
-      "source_type": "official",
-      "note": "Official restaurant menu or PDF; check current version"
+      "source_type": "official_menu_section",
+      "note": "Official home page contains pizza menu and link to complete PDF menu"
     },
     {
       "name": "Restaurante Jamaica",
@@ -204,6 +205,24 @@
       "menu": "https://www.nerjaclub.com/cdn/files/CARTA-BEBIDAS-NERJA-CLUB.pdf",
       "source_type": "official",
       "note": "Official drinks menu PDF (not food menu); March 2026"
+    },
+    {
+      "name": "El Ombú del Mediterráneo",
+      "menu": "https://paradores.es/es/espacio-gastronomico-el-ombu-del-mediterraneo-parador-de-nerja",
+      "source_type": "official",
+      "note": "Official Paradores page has published dishes and menu section"
+    },
+    {
+      "name": "Lisbeth's Nordic Cuisine & Lounge Bar",
+      "menu": "https://www.thefork.es/restaurante/lisbeth-s-nordic-cuisine-lounge-bar-r866460/menu",
+      "source_type": "third_party",
+      "note": "TheFork published 2026 menu with food sections"
+    },
+    {
+      "name": "Restaurante 34",
+      "menu": "https://weur-cdn.menuweb.menu/storage/media/companies_menu_pdf/48514173/restaurante-34-nerja-carta.pdf",
+      "source_type": "third_party",
+      "note": "Third-party menu PDF; restaurant identity and freshness need checking"
     }
   ]
 }
