@@ -3,8 +3,9 @@
     "node/5667412345": {
       "source": "https://www.merenderolabarca.es/img/carta-nueva/page-1.jpg",
       "status": "candidate",
+      "source_type": "official_site",
       "method": "pdf-text-or-local-ocr",
-      "checked_at": "2026-11-16T13:59:02.300842+00:00",
+      "checked_at": "2026-11-16T18:00:49.094625+00:00",
       "dishes": [
         [
           "inefleischspiesS coccion»",
