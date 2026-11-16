@@ -101,3 +101,5 @@ main{padding-top:16px}
 .coverage-list{columns:2;max-height:400px;overflow:auto;padding-left:22px}
 .coverage-list li{break-inside:avoid;margin:6px 0;font-size:13px}
 @media(max-width:650px){.coverage-list{columns:1}}
+
+.primary-menu-link{display:inline-flex!important;align-items:center;justify-content:center;background:#075c86!important;color:#fff!important;font-weight:700;border-radius:10px;padding:10px 14px;text-decoration:none;min-height:42px}.primary-menu-link:hover{background:#034365!important}
