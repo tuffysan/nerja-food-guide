@@ -23,6 +23,8 @@ jobs:
         run: |
           python -m unittest discover -s tests -v
           node --check assets/guide-v3.js
+          python -c "from pathlib import Path; import re; s=Path('index.html').read_text(encoding='utf-8'); js=re.findall(r'<script(?:\\s[^>]*)?>([\\s\\S]*?)</script>',s); Path('/tmp/nerja-inline.js').write_text('\\n'.join(js),encoding='utf-8')"
+          node --check /tmp/nerja-inline.js
       - name: Update restaurant directory
         run: python scripts/update.py
       - name: Discover menu links
