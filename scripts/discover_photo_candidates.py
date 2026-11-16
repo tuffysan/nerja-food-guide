@@ -40,10 +40,36 @@ def candidates_for(r):
                        "status":"needs_manual_identity_and_license_review"})
     return result[:5]
 
+def category_candidates(restaurants, photos):
+    params=urllib.parse.urlencode({"action":"query","format":"json","list":"categorymembers",
+        "cmtitle":"Category:Restaurants in Nerja","cmnamespace":6,"cmlimit":100})
+    req=urllib.request.Request(API+"?"+params,headers=HEADERS)
+    with urllib.request.urlopen(req,timeout=15) as response:
+        files=json.load(response).get("query",{}).get("categorymembers",[])
+    found={}
+    for r in restaurants:
+        if r["id"] in photos:continue
+        words=[w for w in re.findall(r"[a-záéíóúñü]{4,}",str(r["name"]).casefold())
+               if w not in {"restaurante","restaurant","cafeteria","cafetería","nerja","cafe","café","bar","the","del","los","las"}]
+        options=[]
+        for file in files:
+            title=str(file.get("title",""))
+            matches=[w for w in words if w in title.casefold()]
+            if matches:
+                options.append({"title":title,"source":"https://commons.wikimedia.org/wiki/"+
+                    urllib.parse.quote(title.replace(" ","_"),safe=":/"),
+                    "matched_words":matches,"status":"needs_manual_identity_and_license_review"})
+        if options:found[r["id"]]={"name":r["name"],"candidates":options[:5]}
+    return found
+
 def main():
     restaurants=json.loads((ROOT/"restaurants.json").read_text(encoding="utf-8")).get("items",[])
     photos=json.loads((ROOT/"restaurant-photos.json").read_text(encoding="utf-8")).get("photos",{})
     pending={}
+    try:
+        pending.update(category_candidates(restaurants,photos))
+    except (OSError,ValueError,KeyError) as exc:
+        print("Commons category unavailable:",str(exc)[:100])
     checked=0
     for r in restaurants:
         if r["id"] in photos:continue
@@ -51,7 +77,7 @@ def main():
         checked+=1
         try:
             options=candidates_for(r)
-            if options:pending[r["id"]]={"name":r["name"],"candidates":options}
+            if options and r["id"] not in pending:pending[r["id"]]={"name":r["name"],"candidates":options}
         except (OSError,ValueError,KeyError) as exc:
             print("Geosearch unavailable for",r["id"],str(exc)[:100])
     (ROOT/"photo-review-candidates.json").write_text(json.dumps({
