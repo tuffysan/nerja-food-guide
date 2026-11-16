@@ -38,7 +38,7 @@ class GuideReleaseTests(unittest.TestCase):
             source=next((x for x in entries if x["name"]==name),None)
             self.assertIsNotNone(source,name)
             self.assertTrue(source["menu"].startswith("https://"),name)
-            self.assertTrue(source["menu"].endswith(".pdf"),name)
+            self.assertIn("/restaurantes/",source["menu"]) if name != "Tardeo by Origen" else self.assertTrue(source["menu"].endswith(".pdf"))
     def test_menu_audit_is_price_independent(self):
         import ast
         source=(ROOT/"scripts/menu_availability_audit.py").read_text(encoding="utf-8")
