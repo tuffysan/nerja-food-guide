@@ -44,8 +44,11 @@ def main():
     restaurants=json.loads((ROOT/"restaurants.json").read_text(encoding="utf-8")).get("items",[])
     photos=json.loads((ROOT/"restaurant-photos.json").read_text(encoding="utf-8")).get("photos",{})
     pending={}
+    checked=0
     for r in restaurants:
         if r["id"] in photos:continue
+        if checked>=30:break
+        checked+=1
         try:
             options=candidates_for(r)
             if options:pending[r["id"]]={"name":r["name"],"candidates":options}
