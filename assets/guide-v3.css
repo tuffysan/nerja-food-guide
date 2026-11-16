@@ -1,0 +1,19 @@
+/* Nerja Food Guide 3.x responsive enhancement */
+:root{color-scheme:light;--ink:#163449;--sea:#087e92;--sand:#f5f8f7}
+body{line-height:1.5}header{padding-top:50px;padding-bottom:46px}header p{max-width:620px;opacity:.93}
+main{max-width:1180px}.filters{position:relative;align-items:stretch}
+.filters input:focus,.filters select:focus,.filters button:focus-visible{outline:3px solid #59a9bb;outline-offset:2px}
+.grid{grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:18px}
+.card{border:1px solid #e1ebec;box-shadow:0 5px 18px #153b4c10;transition:transform .15s}
+.card:hover{transform:translateY(-2px)}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0 20px}
+.toolbar label{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:14px}
+.toolbar input{max-width:120px;min-width:80px}
+.toolbar button,.toolbar a{background:#e8f5f8;color:#075a73;text-decoration:none;padding:11px 15px;border-radius:10px;cursor:pointer}
+.toolbar button[aria-pressed=true]{background:#075a73;color:white}
+#restaurant-map{height:min(65vh,550px);min-height:310px;border-radius:18px;border:1px solid #cadde0;margin-bottom:22px}
+#restaurant-map[hidden]{display:none}
+.source-tag{display:inline-block;background:#eaf2f5;color:#17495a;border-radius:99px;padding:4px 10px;font-size:12px;margin:5px 0}
+.source-tag.warn{background:#fff3dc;color:#795315}
+.menu-preview{overflow-wrap:anywhere}
+@media(max-width:600px){header{padding:32px 18px}main{padding:16px}.filters input,.filters select{min-width:100%;box-sizing:border-box}.grid{grid-template-columns:1fr}.card{padding:17px}.toolbar>*{flex-grow:1}#restaurant-map{height:390px}}
