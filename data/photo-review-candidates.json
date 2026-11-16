@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-11-16T19:39:17.577387+00:00",
+  "generated_at": "2026-11-16T21:22:07.995734+00:00",
   "warning": "Candidates are NOT approved photographs; manually verify subject, rights and attribution.",
   "restaurants": {
-    "node/430878902": {
-      "name": "La Puntilla",
-      "candidates": [
-        {
-          "title": "File:Pesces en exhibición - La Puntilla (41315176722).jpg",
-          "source": "https://commons.wikimedia.org/wiki/File:Pesces_en_exhibici%C3%B3n_-_La_Puntilla_%2841315176722%29.jpg",
-          "matched_words": [
-            "puntilla"
-          ],
-          "status": "needs_manual_identity_and_license_review"
-        }
-      ]
-    },
     "node/9391849713": {
       "name": "Plaza",
       "candidates": [

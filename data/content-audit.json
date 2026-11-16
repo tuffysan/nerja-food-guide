@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-16T19:50:05.678389+00:00",
+  "updated_at": "2026-11-16T21:31:46.147040+00:00",
   "scope": "OpenStreetMap restaurant records only; additional curated listings may exist",
   "note": "No menu/photo is fabricated. Status is evidence coverage, not proof a restaurant lacks a menu.",
   "stats": {
     "total": 183,
     "with_dishes": 3,
     "with_menu_link_or_dishes": 8,
-    "with_photo": 0,
+    "with_photo": 1,
     "missing_menu": 175,
-    "missing_photo": 183
+    "missing_photo": 182
   },
   "restaurants": [
     {
@@ -98,7 +98,7 @@
       "dish_count": 10,
       "photo_status": "not_found",
       "address_status": "not_found",
-      "website_status": "not_found",
+      "website_status": "available",
       "source_url": "https://www.avalonnerja.com/es/menu-a-la-carta/"
     },
     {
@@ -1016,7 +1016,7 @@
       "name": "La Puntilla",
       "menu_status": "dishes_and_prices",
       "dish_count": 66,
-      "photo_status": "not_found",
+      "photo_status": "licensed_photo",
       "address_status": "not_found",
       "website_status": "available",
       "source_url": "https://www.lapuntillanerja.es/menu/"

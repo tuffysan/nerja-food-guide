@@ -1,0 +1,214 @@
+{
+  "restaurants_with_menu_evidence": 34,
+  "restaurants_with_menu_links": 33,
+  "restaurants_with_dish_entries": 16,
+  "restaurants_with_official_menu_link": 9,
+  "total_menu_urls": 199,
+  "note": "Evidence counts, NOT verified working links. A website without a menu-specific URL is excluded. Photos counted separately.",
+  "restaurants": [
+    {
+      "name": "Andele!! Andele!!",
+      "menu_links": 1,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "Avalon",
+      "menu_links": 16,
+      "has_dishes": true,
+      "official": true
+    },
+    {
+      "name": "Bakers Restaurant Bar",
+      "menu_links": 1,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "Bruxelles by David Leon",
+      "menu_links": 35,
+      "has_dishes": true,
+      "official": true
+    },
+    {
+      "name": "Cafetería Calabella",
+      "menu_links": 1,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "Casa Luque",
+      "menu_links": 1,
+      "has_dishes": true,
+      "official": false
+    },
+    {
+      "name": "Chez Spice",
+      "menu_links": 1,
+      "has_dishes": true,
+      "official": false
+    },
+    {
+      "name": "El Ombú del Mediterráneo",
+      "menu_links": 1,
+      "has_dishes": true,
+      "official": false
+    },
+    {
+      "name": "El Portico",
+      "menu_links": 1,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "Inita Cafe",
+      "menu_links": 1,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "La Barca",
+      "menu_links": 9,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "La Bodega de Antonia",
+      "menu_links": 1,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "La Bottega",
+      "menu_links": 2,
+      "has_dishes": false,
+      "official": true
+    },
+    {
+      "name": "La Fama",
+      "menu_links": 4,
+      "has_dishes": true,
+      "official": false
+    },
+    {
+      "name": "La Puntilla",
+      "menu_links": 1,
+      "has_dishes": true,
+      "official": true
+    },
+    {
+      "name": "La Tasquita del Sevillano",
+      "menu_links": 1,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "Lisbeth's Nordic Cuisine & Lounge Bar",
+      "menu_links": 1,
+      "has_dishes": true,
+      "official": false
+    },
+    {
+      "name": "MUM Nerja",
+      "menu_links": 18,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "Nerja Club",
+      "menu_links": 1,
+      "has_dishes": false,
+      "official": true
+    },
+    {
+      "name": "Oculto",
+      "menu_links": 10,
+      "has_dishes": true,
+      "official": false
+    },
+    {
+      "name": "Old Town Restaurant & Bar",
+      "menu_links": 2,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "Parador de Nerja",
+      "menu_links": 0,
+      "has_dishes": true,
+      "official": false
+    },
+    {
+      "name": "Patagonia y Ole",
+      "menu_links": 1,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "Peppe Pizza",
+      "menu_links": 5,
+      "has_dishes": true,
+      "official": false
+    },
+    {
+      "name": "Rare Grill",
+      "menu_links": 1,
+      "has_dishes": true,
+      "official": false
+    },
+    {
+      "name": "Restaurante 34",
+      "menu_links": 1,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "Restaurante del Parador de Nerja",
+      "menu_links": 1,
+      "has_dishes": true,
+      "official": false
+    },
+    {
+      "name": "Restaurante Doña Lola",
+      "menu_links": 18,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "Restaurante Oliva",
+      "menu_links": 1,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "Restaurante Único",
+      "menu_links": 2,
+      "has_dishes": true,
+      "official": true
+    },
+    {
+      "name": "Rincón del Sol",
+      "menu_links": 38,
+      "has_dishes": true,
+      "official": true
+    },
+    {
+      "name": "Sevillano La Tasquita",
+      "menu_links": 13,
+      "has_dishes": false,
+      "official": false
+    },
+    {
+      "name": "Tardeo by Origen",
+      "menu_links": 2,
+      "has_dishes": false,
+      "official": true
+    },
+    {
+      "name": "Trattoria Italia",
+      "menu_links": 7,
+      "has_dishes": true,
+      "official": true
+    }
+  ]
+}

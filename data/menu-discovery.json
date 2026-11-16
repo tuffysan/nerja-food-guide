@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T19:45:06.566082+00:00",
+  "updated_at": "2026-11-16T21:27:20.842024+00:00",
   "note": "Official and third-party sources are labeled separately. QR links are candidates, not verified menus.",
   "restaurants": {
     "node/3328393211": {
@@ -16,13 +16,13 @@
     },
     "node/12243862968": {
       "name": "Avalon",
-      "official_website": "https://www.avalonnerja.com/es/menu-a-la-carta/",
+      "official_website": "https://www.avalonnerja.com/",
       "links": [
         {
           "url": "https://www.avalonnerja.com/es/menu-a-la-carta/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
+          "source": "https://www.avalonnerja.com/page-sitemap.xml"
         },
         {
           "url": "https://www.avalonnerja.com/es/a-la-carte-menu-summer/",
@@ -34,49 +34,49 @@
           "url": "https://www.avalonnerja.com/es/carta-de-vino/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.avalonnerja.com/es/bebidas/"
+          "source": "https://www.avalonnerja.com/page-sitemap.xml"
         },
         {
           "url": "https://www.avalonnerja.com/es/bebidas/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.avalonnerja.com/drinks/"
+          "source": "https://www.avalonnerja.com/page-sitemap.xml"
         },
         {
           "url": "https://www.avalonnerja.com/a-la-carte-menu/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.avalonnerja.com/a-la-carte-menu/"
+          "source": "https://www.avalonnerja.com/"
         },
         {
           "url": "https://www.avalonnerja.com/a-la-carte-menu-summer/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
+          "source": "https://www.avalonnerja.com/new-years-eve-dinner-2026/"
         },
         {
           "url": "https://www.avalonnerja.com/drinks/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
+          "source": "https://www.avalonnerja.com/new-years-eve-dinner-2026/"
         },
         {
           "url": "https://www.avalonnerja.com/christmas-eve-menu-2026/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
+          "source": "https://www.avalonnerja.com/new-years-eve-dinner-2026/"
         },
         {
           "url": "https://www.avalonnerja.com/christmas-menu-2026/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
+          "source": "https://www.avalonnerja.com/new-years-eve-dinner-2026/"
         },
         {
           "url": "https://www.avalonnerja.com/christmas-vegan-menu-2026/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://www.avalonnerja.com/restaurant-in-nerja/"
+          "source": "https://www.avalonnerja.com/new-years-eve-dinner-2026/"
         },
         {
           "url": "https://www.avalonnerja.com/es/a-la-carte-menu-invierno/",
@@ -513,8 +513,8 @@
         {
           "url": "https://www.lapuntillanerja.es/menu/",
           "kind": "web",
-          "status": "candidate",
-          "source": "https://www.lapuntillanerja.es/page-sitemap.xml"
+          "status": "published",
+          "source": "Reviewed source list"
         }
       ]
     },
@@ -565,37 +565,91 @@
       "official_website": "https://rincondelsolnerja.com/",
       "links": [
         {
-          "url": "https://rincondelsolnerja.com/cartas/combinados/",
+          "url": "https://rincondelsolnerja.com/cartas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/ensaladas/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/aperitivos-cocteles/",
+          "url": "https://rincondelsolnerja.com/cartas/poke-salads-y-asiaticos/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/licores-brandys/",
+          "url": "https://rincondelsolnerja.com/cartas/entrantes/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/zumos-batidos/",
+          "url": "https://rincondelsolnerja.com/wp-content/uploads/2022/04/Entrantes-1000x1000.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/carnes/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/cafes-e-infusiones/",
+          "url": "https://rincondelsolnerja.com/cartas/burguers-y-bruschettas/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/refrescos-cervezas/",
+          "url": "https://rincondelsolnerja.com/cartas/pescados/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/arroces-y-pastas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pescaito-frito/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pizza/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/postres/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/wp-content/uploads/2022/04/Postres-1000x1000.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
@@ -625,94 +679,40 @@
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
+          "url": "https://rincondelsolnerja.com/cartas/refrescos-cervezas/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/postres/",
+          "url": "https://rincondelsolnerja.com/cartas/cafes-e-infusiones/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/pizza/",
+          "url": "https://rincondelsolnerja.com/cartas/zumos-batidos/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/arroces-y-pastas/",
+          "url": "https://rincondelsolnerja.com/cartas/licores-brandys/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/pescaito-frito/",
+          "url": "https://rincondelsolnerja.com/cartas/aperitivos-cocteles/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/pescados/",
+          "url": "https://rincondelsolnerja.com/cartas/combinados/",
           "kind": "web",
           "status": "candidate",
           "source": "https://rincondelsolnerja.com/cartas/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/burguers-y-bruschettas/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/cartas/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/carnes/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/cartas/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/entrantes/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/cartas/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/poke-salads-y-asiaticos/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/cartas/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/en/menus/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/ensaladas/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/cartas/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/en/menus/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/en/menus/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/wp-content/uploads/2022/04/Entrantes-1000x1000.png",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/en/menus/"
-        },
-        {
-          "url": "https://rincondelsolnerja.com/wp-content/uploads/2022/04/Postres-1000x1000.png",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://rincondelsolnerja.com/en/menus/"
         },
         {
           "url": "https://rincondelsolnerja.com/en/menus/salads/",
@@ -1430,136 +1430,10 @@
         }
       ]
     },
-    "verified/Restaurante Doña Lola": {
-      "name": "Restaurante Doña Lola",
-      "official_website": "https://restaurantedonalola.com/",
-      "links": [
-        {
-          "url": "https://restaurantedonalola.com/",
-          "kind": "web",
-          "status": "published",
-          "source": "Reviewed source list"
-        },
-        {
-          "url": "https://restaurantedonalola.com/carta.html",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta-snack.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/carta-bebidas.html",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta-snack.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/carta-snack.html",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta-snack.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/images/home/menu3.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/index.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/images/home/menu4.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/index.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/cartaeng.html",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/carta-bebidaseng.html",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta-bebidas.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/carta-snackeng.html",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta-snack.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/images/carta/1.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/images/carta/2.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/images/carta/3.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/images/carta/4.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/images/carta/5.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/images/carta/6.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/images/carta/7.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/images/carta/8.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/images/bebidas/1.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta-bebidas.html"
-        },
-        {
-          "url": "https://restaurantedonalola.com/images/bebidas/2.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://restaurantedonalola.com/carta-bebidas.html"
-        }
-      ]
-    },
     "verified/Trattoria Italia": {
       "name": "Trattoria Italia",
       "official_website": "https://trattoriaitalianerja.es/",
       "links": [
-        {
-          "url": "https://trattoriaitalianerja.es/",
-          "kind": "web",
-          "status": "published",
-          "source": "Reviewed source list"
-        },
         {
           "url": "https://trattoriaitalianerja.es/en/menu/",
           "kind": "web",
@@ -1626,12 +1500,6 @@
       "name": "Bruxelles by David Leon",
       "official_website": "https://nerjadenerja.es/es/",
       "links": [
-        {
-          "url": "https://nerjadenerja.es/es/",
-          "kind": "web",
-          "status": "published",
-          "source": "Reviewed source list"
-        },
         {
           "url": "https://nerjadenerja.es/es/cartas/",
           "kind": "web",
@@ -1988,345 +1856,33 @@
         }
       ]
     },
-    "verified/Rincón del Sevillano": {
-      "name": "Rincón del Sevillano",
-      "official_website": "https://sevillanonerja.com/",
+    "verified/Tardeo by Origen": {
+      "name": "Tardeo by Origen",
+      "official_website": "https://tardeoennerja.com/",
       "links": [
         {
-          "url": "https://sevillanonerja.com/restaurantes/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-566x800.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/"
-        },
-        {
-          "url": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/category/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/1-640x800.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Rincon-del-Sevillano-Nerja-2025.pdf",
+          "url": "https://tardeoennerja.com/wp-content/uploads/2026/09/tardeo-carta.pdf",
           "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
+          "status": "published",
+          "source": "Reviewed source list"
         },
         {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-La-Tasquita-Sevillano-Nerja-2025.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Chaparil-Sevillano-Nerja-2025.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-Los-Huertos-1.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/",
+          "url": "https://tardeoennerja.com/carta/",
           "kind": "web",
           "status": "candidate",
-          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Menu-Comuniones-2026-Restaurantes-Sevillano-Nerja.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-75x65.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/"
-        },
-        {
-          "url": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
-        },
-        {
-          "url": "https://sevillanonerja.com/tag/menu-nochevieja-2025/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/tag/menu-nochevieja-2025/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-CENA-EMPRESA-NAVIDAD-2025.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/"
-        },
-        {
-          "url": "https://sevillanonerja.com/category/restaurantes/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/category/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/"
+          "source": "https://tardeoennerja.com/page-sitemap.xml"
         }
       ]
     },
-    "verified/Sevillano El Chaparil": {
-      "name": "Sevillano El Chaparil",
-      "official_website": "https://sevillanonerja.com/",
+    "verified/Nerja Club": {
+      "name": "Nerja Club",
+      "official_website": "https://www.nerjaclub.com/",
       "links": [
         {
-          "url": "https://sevillanonerja.com/restaurantes/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-566x800.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/"
-        },
-        {
-          "url": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/category/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/1-640x800.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Rincon-del-Sevillano-Nerja-2025.pdf",
+          "url": "https://www.nerjaclub.com/cdn/files/CARTA-BEBIDAS-NERJA-CLUB.pdf",
           "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-La-Tasquita-Sevillano-Nerja-2025.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Chaparil-Sevillano-Nerja-2025.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-Los-Huertos-1.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Menu-Comuniones-2026-Restaurantes-Sevillano-Nerja.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-75x65.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/"
-        },
-        {
-          "url": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
-        },
-        {
-          "url": "https://sevillanonerja.com/tag/menu-nochevieja-2025/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/tag/menu-nochevieja-2025/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-CENA-EMPRESA-NAVIDAD-2025.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/"
-        },
-        {
-          "url": "https://sevillanonerja.com/category/restaurantes/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/category/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/"
-        }
-      ]
-    },
-    "verified/Los Huertos del Sevillano": {
-      "name": "Los Huertos del Sevillano",
-      "official_website": "https://sevillanonerja.com/",
-      "links": [
-        {
-          "url": "https://sevillanonerja.com/restaurantes/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-566x800.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/"
-        },
-        {
-          "url": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/category/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/1-640x800.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Rincon-del-Sevillano-Nerja-2025.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-La-Tasquita-Sevillano-Nerja-2025.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-El-Chaparil-Sevillano-Nerja-2025.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Carta-Los-Huertos-1.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/Menu-Comuniones-2026-Restaurantes-Sevillano-Nerja.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/comuniones-en-nerja-una-celebracion-para-disfrutar-en-familia-con-restaurantes-sevillano/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026-75x65.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/"
-        },
-        {
-          "url": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-NOCHEVIEJA-SEVILLANO-2026.jpg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/nochevieja-2026-en-nerja-con-restaurantes-sevillano/"
-        },
-        {
-          "url": "https://sevillanonerja.com/tag/menu-nochevieja-2025/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/tag/menu-nochevieja-2025/"
-        },
-        {
-          "url": "https://sevillanonerja.com/wp-content/uploads/MENU-CENA-EMPRESA-NAVIDAD-2025.pdf",
-          "kind": "pdf",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/cena-de-empresa-en-nerja-menu-especial-de-celebracion-2025/"
-        },
-        {
-          "url": "https://sevillanonerja.com/category/restaurantes/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/category/restaurantes/"
-        },
-        {
-          "url": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/",
-          "kind": "web",
-          "status": "candidate",
-          "source": "https://sevillanonerja.com/tag/restaurante-nerja-nochevieja/"
+          "status": "published",
+          "source": "Reviewed source list"
         }
       ]
     },
@@ -2349,26 +1905,26 @@
       "official_website": "https://www.labotteganerja.com/",
       "links": [
         {
-          "url": "https://www.labotteganerja.com/",
-          "kind": "web",
+          "url": "https://www.labotteganerja.com/s/may-2026-english.pdf",
+          "kind": "pdf",
           "status": "published",
           "source": "verified-menu-sources.json",
           "source_type": "official",
-          "note": ""
+          "note": "English food menu PDF linked directly from the restaurant's official site; dated May 2026"
         }
       ]
     },
     "researched/Restaurante Doña Lola": {
       "name": "Restaurante Doña Lola",
-      "official_website": "https://restaurantedonalola.com/",
+      "official_website": "",
       "links": [
         {
           "url": "https://restaurantedonalola.com/",
           "kind": "web",
-          "status": "published",
+          "status": "external_unverified",
           "source": "verified-menu-sources.json",
-          "source_type": "official",
-          "note": ""
+          "source_type": "official_menu_section",
+          "note": "Official homepage has CARTA, CARTA BEBIDA and CARTA SNACK navigation; follow menu links there"
         }
       ]
     },
@@ -2377,12 +1933,12 @@
       "official_website": "https://trattoriaitalianerja.es/",
       "links": [
         {
-          "url": "https://trattoriaitalianerja.es/",
+          "url": "https://trattoriaitalianerja.es/en/menu/",
           "kind": "web",
           "status": "published",
           "source": "verified-menu-sources.json",
           "source_type": "official",
-          "note": ""
+          "note": "Official English food menu inspected November 2026"
         }
       ]
     },
@@ -2405,12 +1961,12 @@
       "official_website": "https://nerjadenerja.es/es/",
       "links": [
         {
-          "url": "https://nerjadenerja.es/es/",
+          "url": "https://nerjadenerja.es/es/cartas/",
           "kind": "web",
           "status": "published",
           "source": "verified-menu-sources.json",
           "source_type": "official",
-          "note": ""
+          "note": "Official restaurant menu or PDF; check current version"
         }
       ]
     },
@@ -2570,15 +2126,15 @@
     },
     "researched/Rincón del Sevillano": {
       "name": "Rincón del Sevillano",
-      "official_website": "https://sevillanonerja.com/",
+      "official_website": "",
       "links": [
         {
           "url": "https://sevillanonerja.com/restaurantes/",
           "kind": "web",
-          "status": "published",
+          "status": "external_unverified",
           "source": "verified-menu-sources.json",
-          "source_type": "official",
-          "note": ""
+          "source_type": "official_menu_section",
+          "note": "Official restaurant listing links to the menu PDF; earlier guessed direct PDF path was not verified"
         }
       ]
     },
@@ -2598,29 +2154,155 @@
     },
     "researched/Sevillano El Chaparil": {
       "name": "Sevillano El Chaparil",
-      "official_website": "https://sevillanonerja.com/",
+      "official_website": "",
       "links": [
         {
           "url": "https://sevillanonerja.com/restaurantes/",
           "kind": "web",
-          "status": "published",
+          "status": "external_unverified",
           "source": "verified-menu-sources.json",
-          "source_type": "official",
-          "note": ""
+          "source_type": "official_menu_section",
+          "note": "Official restaurant listing links to the menu PDF; earlier guessed direct PDF path was not verified"
         }
       ]
     },
     "researched/Los Huertos del Sevillano": {
       "name": "Los Huertos del Sevillano",
-      "official_website": "https://sevillanonerja.com/",
+      "official_website": "",
       "links": [
         {
           "url": "https://sevillanonerja.com/restaurantes/",
           "kind": "web",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "official_menu_section",
+          "note": "Official restaurant listing links to the menu PDF; earlier guessed direct PDF path was not verified"
+        }
+      ]
+    },
+    "researched/Avalon": {
+      "name": "Avalon",
+      "official_website": "https://www.avalonnerja.com/",
+      "links": [
+        {
+          "url": "https://www.avalonnerja.com/a-la-carte-menu/",
+          "kind": "web",
           "status": "published",
           "source": "verified-menu-sources.json",
           "source_type": "official",
-          "note": ""
+          "note": "Official a la carte menu; prices may change"
+        }
+      ]
+    },
+    "researched/La Tasquita del Sevillano": {
+      "name": "La Tasquita del Sevillano",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://sevillanonerja.com/restaurantes/",
+          "kind": "web",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "official_menu_section",
+          "note": "Official restaurant page links to Carta La Tasquita; earlier guessed PDF path was not verified"
+        }
+      ]
+    },
+    "researched/Tardeo by Origen": {
+      "name": "Tardeo by Origen",
+      "official_website": "https://tardeoennerja.com/",
+      "links": [
+        {
+          "url": "https://tardeoennerja.com/wp-content/uploads/2026/09/tardeo-carta.pdf",
+          "kind": "pdf",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": "Official restaurant menu or PDF; check current version"
+        }
+      ]
+    },
+    "researched/Peppe Pizza": {
+      "name": "Peppe Pizza",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://www.peppepizza.com/",
+          "kind": "web",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "official_menu_section",
+          "note": "Official home page contains pizza menu and link to complete PDF menu"
+        }
+      ]
+    },
+    "researched/Restaurante Jamaica": {
+      "name": "Restaurante Jamaica",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://cafeteriajamaica.com/",
+          "kind": "web",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "official_menu_section",
+          "note": "Official homepage has Nuestra carta / Carta completa section; not a direct menu document"
+        }
+      ]
+    },
+    "researched/Nerja Club": {
+      "name": "Nerja Club",
+      "official_website": "https://www.nerjaclub.com/",
+      "links": [
+        {
+          "url": "https://www.nerjaclub.com/cdn/files/CARTA-BEBIDAS-NERJA-CLUB.pdf",
+          "kind": "pdf",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": "Official drinks menu PDF (not food menu); March 2026"
+        }
+      ]
+    },
+    "researched/El Ombú del Mediterráneo": {
+      "name": "El Ombú del Mediterráneo",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://paradores.es/es/espacio-gastronomico-el-ombu-del-mediterraneo-parador-de-nerja",
+          "kind": "web",
+          "status": "published",
+          "source": "verified-menu-sources.json",
+          "source_type": "official",
+          "note": "Official Paradores page has published dishes and menu section"
+        }
+      ]
+    },
+    "researched/Lisbeth's Nordic Cuisine & Lounge Bar": {
+      "name": "Lisbeth's Nordic Cuisine & Lounge Bar",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://www.thefork.es/restaurante/lisbeth-s-nordic-cuisine-lounge-bar-r866460/menu",
+          "kind": "web",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "third_party",
+          "note": "TheFork published 2026 menu with food sections"
+        }
+      ]
+    },
+    "researched/Restaurante 34": {
+      "name": "Restaurante 34",
+      "official_website": "",
+      "links": [
+        {
+          "url": "https://weur-cdn.menuweb.menu/storage/media/companies_menu_pdf/48514173/restaurante-34-nerja-carta.pdf",
+          "kind": "pdf",
+          "status": "external_unverified",
+          "source": "verified-menu-sources.json",
+          "source_type": "third_party",
+          "note": "Third-party menu PDF; restaurant identity and freshness need checking"
         }
       ]
     },
@@ -2636,24 +2318,12 @@
         }
       ]
     },
-    "verified/restaurantedonalola": {
-      "name": "Restaurante Doña Lola",
-      "official_website": "https://restaurantedonalola.com/",
-      "links": [
-        {
-          "url": "https://restaurantedonalola.com/",
-          "kind": "web",
-          "status": "published",
-          "source": "researched official restaurant website"
-        }
-      ]
-    },
     "verified/trattoriaitalia": {
       "name": "Trattoria Italia",
       "official_website": "https://trattoriaitalianerja.es/",
       "links": [
         {
-          "url": "https://trattoriaitalianerja.es/",
+          "url": "https://trattoriaitalianerja.es/en/menu/",
           "kind": "web",
           "status": "published",
           "source": "researched official restaurant website"
@@ -2677,7 +2347,7 @@
       "official_website": "https://nerjadenerja.es/es/",
       "links": [
         {
-          "url": "https://nerjadenerja.es/es/",
+          "url": "https://nerjadenerja.es/es/cartas/",
           "kind": "web",
           "status": "published",
           "source": "researched official restaurant website"
@@ -2696,36 +2366,36 @@
         }
       ]
     },
-    "verified/rincondelsevillano": {
-      "name": "Rincón del Sevillano",
-      "official_website": "https://sevillanonerja.com/",
+    "verified/tardeobyorigen": {
+      "name": "Tardeo by Origen",
+      "official_website": "https://tardeoennerja.com/",
       "links": [
         {
-          "url": "https://sevillanonerja.com/restaurantes/",
-          "kind": "web",
+          "url": "https://tardeoennerja.com/wp-content/uploads/2026/09/tardeo-carta.pdf",
+          "kind": "pdf",
           "status": "published",
           "source": "researched official restaurant website"
         }
       ]
     },
-    "verified/sevillanoelchaparil": {
-      "name": "Sevillano El Chaparil",
-      "official_website": "https://sevillanonerja.com/",
+    "verified/nerjaclub": {
+      "name": "Nerja Club",
+      "official_website": "https://www.nerjaclub.com/",
       "links": [
         {
-          "url": "https://sevillanonerja.com/restaurantes/",
-          "kind": "web",
+          "url": "https://www.nerjaclub.com/cdn/files/CARTA-BEBIDAS-NERJA-CLUB.pdf",
+          "kind": "pdf",
           "status": "published",
           "source": "researched official restaurant website"
         }
       ]
     },
-    "verified/loshuertosdelsevillano": {
-      "name": "Los Huertos del Sevillano",
-      "official_website": "https://sevillanonerja.com/",
+    "verified/elombudelmediterraneo": {
+      "name": "El Ombú del Mediterráneo",
+      "official_website": "",
       "links": [
         {
-          "url": "https://sevillanonerja.com/restaurantes/",
+          "url": "https://paradores.es/es/espacio-gastronomico-el-ombu-del-mediterraneo-parador-de-nerja",
           "kind": "web",
           "status": "published",
           "source": "researched official restaurant website"

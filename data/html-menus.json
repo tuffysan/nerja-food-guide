@@ -15,7 +15,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T19:45:28.962766+00:00",
+      "checked_at": "2026-11-16T21:27:47.392128+00:00",
       "pages": [
         {
           "url": "https://www.avalonnerja.com/es/menu-a-la-carta/",
@@ -743,396 +743,241 @@
       ]
     },
     "node/2702579708": {
-      "source": "https://rincondelsolnerja.com/cartas/combinados/",
+      "source": "https://rincondelsolnerja.com/cartas/ensaladas/",
       "sources": [
-        "https://rincondelsolnerja.com/cartas/combinados/",
-        "https://rincondelsolnerja.com/cartas/aperitivos-cocteles/",
-        "https://rincondelsolnerja.com/cartas/licores-brandys/",
-        "https://rincondelsolnerja.com/cartas/zumos-batidos/",
-        "https://rincondelsolnerja.com/cartas/cafes-e-infusiones/",
-        "https://rincondelsolnerja.com/cartas/refrescos-cervezas/",
-        "https://rincondelsolnerja.com/cartas/vino-tinto/",
-        "https://rincondelsolnerja.com/cartas/vino-blanco/",
-        "https://rincondelsolnerja.com/cartas/vino-rosado/",
-        "https://rincondelsolnerja.com/cartas/cavas-champagnes/",
+        "https://rincondelsolnerja.com/cartas/ensaladas/",
+        "https://rincondelsolnerja.com/cartas/poke-salads-y-asiaticos/",
+        "https://rincondelsolnerja.com/cartas/entrantes/",
+        "https://rincondelsolnerja.com/cartas/carnes/",
+        "https://rincondelsolnerja.com/cartas/burguers-y-bruschettas/",
+        "https://rincondelsolnerja.com/cartas/pescados/",
+        "https://rincondelsolnerja.com/cartas/arroces-y-pastas/",
+        "https://rincondelsolnerja.com/cartas/pescaito-frito/",
+        "https://rincondelsolnerja.com/cartas/pizza/",
+        "https://rincondelsolnerja.com/cartas/postres/",
         "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
-        "https://rincondelsolnerja.com/cartas/postres/"
+        "https://rincondelsolnerja.com/cartas/vino-tinto/"
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T19:46:25.291753+00:00",
+      "checked_at": "2026-11-16T21:28:14.551676+00:00",
       "pages": [
         {
-          "url": "https://rincondelsolnerja.com/cartas/combinados/",
+          "url": "https://rincondelsolnerja.com/cartas/ensaladas/",
           "dishes": [
             [
-              "Brugal Añejo",
-              "8,00 €"
-            ],
-            [
-              "Brugal Extra Viejo",
-              "9,95 €"
-            ],
-            [
-              "Matusalem Gran Reserva 15 años",
-              "9,95 €"
-            ],
-            [
-              "Captain Morgan",
-              "8,00 €"
-            ],
-            [
-              "Cacique 500",
-              "9,00 €"
-            ],
-            [
-              "Guajiro (Miel)",
-              "8,00 €"
-            ],
-            [
-              "Havana 3, Añejo Especial",
-              "8,50 €"
-            ],
-            [
-              "Havana 7",
-              "9,00 €"
-            ],
-            [
-              "Santa Teresa",
-              "8,00 €"
-            ],
-            [
-              "Flor de Caña",
-              "8,00 €"
-            ],
-            [
-              "Grey Goose",
-              "9,95 €"
-            ],
-            [
-              "Larios 12, Rosé",
-              "8,50 €"
-            ],
-            [
-              "Gin Mare",
-              "9,00 €"
-            ],
-            [
-              "Tanqueray Sevilla",
-              "8,50 €"
-            ],
-            [
-              "Tanqueray 0.0",
-              "7,50 €"
-            ],
-            [
-              "The London n1",
-              "10,95 €"
-            ],
-            [
-              "The London n3",
-              "10,95 €"
-            ],
-            [
-              "Bombay Sapphire",
-              "8,95 €"
-            ],
-            [
-              "Martin Miller’s",
-              "10,95 €"
-            ],
-            [
-              "Black Label",
-              "9,95 €"
-            ],
-            [
-              "White Label",
-              "8,50 €"
-            ],
-            [
-              "Johnnie Walker Red",
-              "8,00 €"
-            ],
-            [
-              "100 Pipers",
-              "8,50 €"
-            ],
-            [
-              "Famous Grouse",
-              "8,50 €"
-            ],
-            [
-              "Jack Daniel’s",
-              "8,95 €"
-            ],
-            [
-              "Four Roses",
-              "8,50 €"
+              "Brotes tiernos, tomates cherry, pepino, cebolla encurtida y atún",
+              "11,95 €"
             ]
           ]
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/aperitivos-cocteles/",
+          "url": "https://rincondelsolnerja.com/cartas/poke-salads-y-asiaticos/",
           "dishes": [
             [
-              "Martini Bianco",
-              "5,95 €"
+              "Verduras Thai aromatizadas con jengibre",
+              "12,95 €"
             ],
             [
-              "Martini Rosato",
-              "5,95 €"
+              "Salmón, arroz jazmín, aguacate, edamame, patchoy, wakame y mango",
+              "16,95 €"
             ],
             [
-              "Martini Extra Dry",
-              "5,95 €"
-            ],
+              "Udons salteados con katsu de pollo y salsa Kinchi",
+              "17,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/entrantes/",
+          "dishes": [
             [
-              "Martini Rosso",
-              "5,95 €"
-            ],
-            [
-              "Vermut Málaga",
-              "5,95 €"
-            ],
-            [
-              "Vermut Málaga Reserva",
-              "6,50 €"
-            ],
-            [
-              "Sangría de Cava",
-              "8,50 €"
-            ],
-            [
-              "MARGARITAS Tequila, Cointreau y Lima / Fresa / Mango",
-              "8,95 €"
-            ],
-            [
-              "NEGRONI Vermouth Rojo, Campari, Ginebra",
-              "9,00 €"
-            ],
-            [
-              "PIÑA COLADA Ron, Malibú, Mangaroca y Zumo de Piña",
+              "Salsa brava ligeramente picante",
               "9,95 €"
             ],
             [
-              "WHISKY SOUR Bourbon, Jarabe de azúcar y Lima",
-              "8,50 €"
+              "Berenjenas, tomates secos y crema de miel de caña",
+              "13,95 €"
             ],
             [
-              "EXPRESSO MARTINI Vodka, Kahlúa y Café Espresso",
-              "8,50 €"
+              "Shitake, porcini y mayo de boletus",
+              "13,95 €"
             ],
             [
-              "BRAMBLE Frutos rojos, gin zumo de limón natural",
-              "8,50 €"
+              "Acompañadas de verduritas, mango y salsa sakura",
+              "16,95 €"
             ],
             [
-              "DISARONNO SOUR Disaronno, Jarabe de azúcar y Lima",
-              "8,50 €"
+              "Con verduritas, salsa de albahaca y curry, y guisantes wasabi",
+              "14,95 €"
             ],
             [
-              "COSMOPOLITAN Vodka, Cointreau, Lima y Zumo de Arándanos",
+              "Acompañado de verduritas y salsa unagi",
+              "23,95 €"
+            ],
+            [
+              "Ajos, tomates cherry y parmentier de coliflor",
+              "25,95 €"
+            ],
+            [
+              "Langostinos al pil-pil",
+              "16,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/carnes/",
+          "dishes": [
+            [
+              "Entrecot de Black Angus a la parrilla 350g",
+              "27,70 €"
+            ],
+            [
+              "Costillas de cerdo BBQ",
+              "23,90 €"
+            ],
+            [
+              "Secreto ibérico Piri-Piri",
+              "41,70 €"
+            ],
+            [
+              "Acompañado de arroz jazmín",
+              "24,70 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/burguers-y-bruschettas/",
+          "dishes": [
+            [
+              "Jamón serrano, brotes tiernos, emulsión de tomate y mozzarella fresca",
+              "13,70 €"
+            ],
+            [
+              "Cochinita pibil, cebolla encurtida, guacamole y emulsión de tomate",
+              "14,90 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pescados/",
+          "dishes": [
+            [
+              "Salmón en crema de carabineros y espárragos",
+              "25,70 €"
+            ],
+            [
+              "Calamar a la parrilla con vinagreta ponzu",
+              "26,90 €"
+            ],
+            [
+              "Papillote de dorada al mango y cilantro",
+              "24,70 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/arroces-y-pastas/",
+          "dishes": [
+            [
+              "Risotto del Mediterráneo",
+              "20,95 €"
+            ],
+            [
+              "Fettuccine con bogavante, tomates cherry y albahaca",
+              "27,70 €"
+            ],
+            [
+              "Risotto de Carabinero y Gambas",
+              "26,70 €"
+            ],
+            [
+              "Risotto de Boletus, trufas y espárragos",
+              "19,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pescaito-frito/",
+          "dishes": [
+            [
+              "Fritura de pescado",
+              "24,70 €"
+            ],
+            [
+              "Bacalao en tempura al aroma ponzu",
+              "17,90 €"
+            ],
+            [
+              "Calamares fritos",
+              "13,90 €"
+            ],
+            [
+              "Boquerones fritos",
+              "15,95 €"
+            ],
+            [
+              "Rejos fritos",
+              "13,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pizza/",
+          "dishes": [
+            [
+              "Base blanca con mozzarella, salmón ahumado, rúcula y tomate cherry",
+              "15,95 €"
+            ],
+            [
+              "Tomate, mozzarella y pepperoni",
+              "13,95 €"
+            ],
+            [
+              "Tomate, mozzarella, jamón york, champiñones y aceitunas",
+              "15,95 €"
+            ],
+            [
+              "Tomate y mozzarella",
+              "13,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/postres/",
+          "dishes": [
+            [
+              "Fondant de chocolate",
+              "7,95 €"
+            ],
+            [
+              "Tarta de queso con pistacho",
               "8,95 €"
             ],
             [
-              "TEQUILA SUNRISE Tequila, Zumo de Naranja y Granadina",
-              "8,95 €"
+              "RDS Edition",
+              "7,95 €"
             ],
             [
-              "APEROL SPRITZ Aperol, Cava Brut y Soda",
-              "8,00 €"
+              "Soufflé de manzana",
+              "7,95 €"
             ],
             [
-              "WHITE RUSSIAN Vodka, Licor de Café y Leche",
-              "9,50 €"
+              "Tarta de queso",
+              "7,95 €"
             ],
             [
-              "SAN FRANCISCO Variedad de zumos y Granadina",
-              "6,95 €"
-            ],
-            [
-              "GREEN COCKTAIL Kiwi y Zumo de Piña",
-              "6,95 €"
-            ],
-            [
-              "MOJITO SIN Lima / Fresa / Melón / Mango",
-              "7,50 €"
-            ],
-            [
-              "DAIKIRIS SIN Lima / Fresa / Melón / Mango",
+              "Tarta tres leches",
               "7,95 €"
             ]
           ]
         },
         {
-          "url": "https://rincondelsolnerja.com/cartas/licores-brandys/",
+          "url": "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
           "dishes": [
             [
-              "Ponche, Anís, Pacharán, Pardorán",
-              "5,50 €"
-            ],
-            [
-              "Orujos, Crema Catalana, Licores de fruta",
-              "5,50 €"
-            ],
-            [
-              "Cointreau, Jägermeister, Drambuie, Baileys",
-              "6,50 €"
-            ],
-            [
-              "Amaretto, Fernet Branca, Frangelico",
-              "6,50 €"
-            ],
-            [
-              "Licor 43, Tía María, Grappa",
-              "6,50 €"
-            ],
-            [
-              "Gran Marnier, Carlos I",
-              "11,50 €"
-            ],
-            [
-              "Magno, Carlos III",
-              "6,50 €"
-            ],
-            [
-              "Soberano, Veterano, 103",
-              "5,50 €"
-            ]
-          ]
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/zumos-batidos/",
-          "dishes": [
-            [
-              "Zumos Tropicana de Naranja, Manzana, Piña, Tomate o Melocotón",
-              "3,50 €"
-            ],
-            [
-              "Zumo natural de Naranja",
-              "4,75 €"
-            ]
-          ]
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/cafes-e-infusiones/",
-          "dishes": [
-            [
-              "Café con leche",
-              "2,60 €"
-            ],
-            [
-              "Capuchino Nata",
-              "3,95 €"
-            ],
-            [
-              "Capuchino Leche",
-              "2,85 €"
-            ],
-            [
-              "Café Machiatto",
-              "3,95 €"
-            ],
-            [
-              "Espresso Machiatto",
-              "2,60 €"
-            ],
-            [
-              "Blanco & Negro Café",
-              "4,95 €"
-            ],
-            [
-              "Café Bombón",
-              "3,50 €"
-            ],
-            [
-              "Café Irlandés",
-              "6,95 €"
-            ],
-            [
-              "Café Jamaicano Tía María",
-              "6,95 €"
-            ],
-            [
-              "Café descafeinado (sobre)",
-              "2,60 €"
-            ],
-            [
-              "Té Americano",
-              "5,95 €"
-            ]
-          ]
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/refrescos-cervezas/",
-          "dishes": [
-            [
-              "Cola, 7up, Limón, Naranja",
-              "3,25 €"
-            ],
-            [
-              "Casera, Tónica, Tónica 0, Mosto",
-              "3,25 €"
-            ],
-            [
-              "Ginger Ale, Nestea, Aquarade",
-              "3,50 €"
-            ],
-            [
-              "Red Bull",
-              "3,95 €"
-            ],
-            [
-              "Agua mineral 0.50L",
-              "2,80 €"
-            ],
-            [
-              "Agua mineral 1.25L",
-              "3,00 €"
-            ],
-            [
-              "Agua con gas 0.33L",
-              "2,80 €"
-            ],
-            [
-              "Ladrón de Manzanas",
-              "3,80 €"
-            ],
-            [
-              "Botella Victoria",
-              "3,80 €"
-            ],
-            [
-              "Botella Alhambra Especial",
-              "3,80 €"
-            ],
-            [
-              "Botella Sol",
-              "3,95 €"
-            ],
-            [
-              "Botella Cruzcampo",
-              "3,80 €"
-            ],
-            [
-              "Alhambra 1925",
-              "3,95 €"
-            ],
-            [
-              "Sin Alcohol",
-              "3,50 €"
-            ],
-            [
-              "Sin Gluten",
-              "3,50 €"
-            ],
-            [
-              "Tinto de Verano",
-              "4,75 €"
-            ],
-            [
-              "Jarra de 1L Tinto de Verano",
-              "14,50 €"
+              "HELADO INCLUIDO",
+              "12,95 €"
             ]
           ]
         },
@@ -1168,477 +1013,172 @@
               "49,20 €"
             ]
           ]
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/vino-blanco/",
-          "dishes": [
-            [
-              "Blanco de la Casa Verdejo",
-              "15,50 €"
-            ],
-            [
-              "Bordón D.O.Ca. Rioja Viura",
-              "16,50 €"
-            ],
-            [
-              "Castillo de Miraflores D.O. Rueda Verdejo semidulce",
-              "16,50 €"
-            ],
-            [
-              "Piérola D.O.Ca. Rioja Tempranillo blanco",
-              "17,50 €"
-            ],
-            [
-              "Tamaral D.O. Rueda Verdejo",
-              "18,50 €"
-            ],
-            [
-              "Altanza D.O.Ca. Rioja Sauvignon blanc",
-              "22,90 €"
-            ],
-            [
-              "Marco Real by Martín Berasategui D.O. Rías Baixas Albariño",
-              "26,50 €"
-            ],
-            [
-              "O Luar D.O. Valdeorras Godello",
-              "35,00 €"
-            ]
-          ]
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/vino-rosado/",
-          "dishes": [
-            [
-              "Rosado de la casa Garnacha",
-              "15,50 €"
-            ],
-            [
-              "Ferratus D.O. Ribera del Duero Tempranillo",
-              "23,50 €"
-            ],
-            [
-              "Arínzano D.O. Pago Tempranillo",
-              "27,50 €"
-            ]
-          ]
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/cavas-champagnes/",
-          "dishes": [
-            [
-              "Cava RDS",
-              "15,50 €"
-            ],
-            [
-              "Mini Cava Freixenet Brut",
-              "7,50 €"
-            ],
-            [
-              "Mini Cava Freixenet Rosado",
-              "7,50 €"
-            ],
-            [
-              "Freixenet Brut",
-              "22,50 €"
-            ],
-            [
-              "Moet lmpérial",
-              "100,00 €"
-            ],
-            [
-              "Moet Ice",
-              "180,00 €"
-            ],
-            [
-              "Moet Ice Rosado",
-              "200,00 €"
-            ]
-          ]
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
-          "dishes": [
-            [
-              "HELADO INCLUIDO",
-              "12,95 €"
-            ]
-          ]
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/postres/",
-          "dishes": [
-            [
-              "Fondant de chocolate",
-              "7,95 €"
-            ],
-            [
-              "Tarta de queso con pistacho",
-              "8,95 €"
-            ],
-            [
-              "RDS Edition",
-              "7,95 €"
-            ],
-            [
-              "Soufflé de manzana",
-              "7,95 €"
-            ],
-            [
-              "Tarta de queso",
-              "7,95 €"
-            ],
-            [
-              "Tarta tres leches",
-              "7,95 €"
-            ]
-          ]
         }
       ],
       "dishes": [
         [
-          "Brugal Añejo",
-          "8,00 €"
+          "Brotes tiernos, tomates cherry, pepino, cebolla encurtida y atún",
+          "11,95 €"
         ],
         [
-          "Brugal Extra Viejo",
+          "Verduras Thai aromatizadas con jengibre",
+          "12,95 €"
+        ],
+        [
+          "Salmón, arroz jazmín, aguacate, edamame, patchoy, wakame y mango",
+          "16,95 €"
+        ],
+        [
+          "Udons salteados con katsu de pollo y salsa Kinchi",
+          "17,95 €"
+        ],
+        [
+          "Salsa brava ligeramente picante",
           "9,95 €"
         ],
         [
-          "Matusalem Gran Reserva 15 años",
-          "9,95 €"
+          "Berenjenas, tomates secos y crema de miel de caña",
+          "13,95 €"
         ],
         [
-          "Captain Morgan",
-          "8,00 €"
+          "Shitake, porcini y mayo de boletus",
+          "13,95 €"
         ],
         [
-          "Cacique 500",
-          "9,00 €"
+          "Acompañadas de verduritas, mango y salsa sakura",
+          "16,95 €"
         ],
         [
-          "Guajiro (Miel)",
-          "8,00 €"
+          "Con verduritas, salsa de albahaca y curry, y guisantes wasabi",
+          "14,95 €"
         ],
         [
-          "Havana 3, Añejo Especial",
-          "8,50 €"
+          "Acompañado de verduritas y salsa unagi",
+          "23,95 €"
         ],
         [
-          "Havana 7",
-          "9,00 €"
+          "Ajos, tomates cherry y parmentier de coliflor",
+          "25,95 €"
         ],
         [
-          "Santa Teresa",
-          "8,00 €"
+          "Langostinos al pil-pil",
+          "16,95 €"
         ],
         [
-          "Flor de Caña",
-          "8,00 €"
+          "Entrecot de Black Angus a la parrilla 350g",
+          "27,70 €"
         ],
         [
-          "Grey Goose",
-          "9,95 €"
+          "Costillas de cerdo BBQ",
+          "23,90 €"
         ],
         [
-          "Larios 12, Rosé",
-          "8,50 €"
+          "Secreto ibérico Piri-Piri",
+          "41,70 €"
         ],
         [
-          "Gin Mare",
-          "9,00 €"
+          "Acompañado de arroz jazmín",
+          "24,70 €"
         ],
         [
-          "Tanqueray Sevilla",
-          "8,50 €"
+          "Jamón serrano, brotes tiernos, emulsión de tomate y mozzarella fresca",
+          "13,70 €"
         ],
         [
-          "Tanqueray 0.0",
-          "7,50 €"
+          "Cochinita pibil, cebolla encurtida, guacamole y emulsión de tomate",
+          "14,90 €"
         ],
         [
-          "The London n1",
-          "10,95 €"
+          "Salmón en crema de carabineros y espárragos",
+          "25,70 €"
         ],
         [
-          "The London n3",
-          "10,95 €"
+          "Calamar a la parrilla con vinagreta ponzu",
+          "26,90 €"
         ],
         [
-          "Bombay Sapphire",
-          "8,95 €"
+          "Papillote de dorada al mango y cilantro",
+          "24,70 €"
         ],
         [
-          "Martin Miller’s",
-          "10,95 €"
+          "Risotto del Mediterráneo",
+          "20,95 €"
         ],
         [
-          "Black Label",
-          "9,95 €"
+          "Fettuccine con bogavante, tomates cherry y albahaca",
+          "27,70 €"
         ],
         [
-          "White Label",
-          "8,50 €"
+          "Risotto de Carabinero y Gambas",
+          "26,70 €"
         ],
         [
-          "Johnnie Walker Red",
-          "8,00 €"
+          "Risotto de Boletus, trufas y espárragos",
+          "19,95 €"
         ],
         [
-          "100 Pipers",
-          "8,50 €"
+          "Fritura de pescado",
+          "24,70 €"
         ],
         [
-          "Famous Grouse",
-          "8,50 €"
+          "Bacalao en tempura al aroma ponzu",
+          "17,90 €"
         ],
         [
-          "Jack Daniel’s",
-          "8,95 €"
+          "Calamares fritos",
+          "13,90 €"
         ],
         [
-          "Four Roses",
-          "8,50 €"
+          "Boquerones fritos",
+          "15,95 €"
         ],
         [
-          "Martini Bianco",
-          "5,95 €"
+          "Rejos fritos",
+          "13,95 €"
         ],
         [
-          "Martini Rosato",
-          "5,95 €"
+          "Base blanca con mozzarella, salmón ahumado, rúcula y tomate cherry",
+          "15,95 €"
         ],
         [
-          "Martini Extra Dry",
-          "5,95 €"
+          "Tomate, mozzarella y pepperoni",
+          "13,95 €"
         ],
         [
-          "Martini Rosso",
-          "5,95 €"
+          "Tomate, mozzarella, jamón york, champiñones y aceitunas",
+          "15,95 €"
         ],
         [
-          "Vermut Málaga",
-          "5,95 €"
+          "Tomate y mozzarella",
+          "13,95 €"
         ],
         [
-          "Vermut Málaga Reserva",
-          "6,50 €"
-        ],
-        [
-          "Sangría de Cava",
-          "8,50 €"
-        ],
-        [
-          "MARGARITAS Tequila, Cointreau y Lima / Fresa / Mango",
-          "8,95 €"
-        ],
-        [
-          "NEGRONI Vermouth Rojo, Campari, Ginebra",
-          "9,00 €"
-        ],
-        [
-          "PIÑA COLADA Ron, Malibú, Mangaroca y Zumo de Piña",
-          "9,95 €"
-        ],
-        [
-          "WHISKY SOUR Bourbon, Jarabe de azúcar y Lima",
-          "8,50 €"
-        ],
-        [
-          "EXPRESSO MARTINI Vodka, Kahlúa y Café Espresso",
-          "8,50 €"
-        ],
-        [
-          "BRAMBLE Frutos rojos, gin zumo de limón natural",
-          "8,50 €"
-        ],
-        [
-          "DISARONNO SOUR Disaronno, Jarabe de azúcar y Lima",
-          "8,50 €"
-        ],
-        [
-          "COSMOPOLITAN Vodka, Cointreau, Lima y Zumo de Arándanos",
-          "8,95 €"
-        ],
-        [
-          "TEQUILA SUNRISE Tequila, Zumo de Naranja y Granadina",
-          "8,95 €"
-        ],
-        [
-          "APEROL SPRITZ Aperol, Cava Brut y Soda",
-          "8,00 €"
-        ],
-        [
-          "WHITE RUSSIAN Vodka, Licor de Café y Leche",
-          "9,50 €"
-        ],
-        [
-          "SAN FRANCISCO Variedad de zumos y Granadina",
-          "6,95 €"
-        ],
-        [
-          "GREEN COCKTAIL Kiwi y Zumo de Piña",
-          "6,95 €"
-        ],
-        [
-          "MOJITO SIN Lima / Fresa / Melón / Mango",
-          "7,50 €"
-        ],
-        [
-          "DAIKIRIS SIN Lima / Fresa / Melón / Mango",
+          "Fondant de chocolate",
           "7,95 €"
         ],
         [
-          "Ponche, Anís, Pacharán, Pardorán",
-          "5,50 €"
+          "Tarta de queso con pistacho",
+          "8,95 €"
         ],
         [
-          "Orujos, Crema Catalana, Licores de fruta",
-          "5,50 €"
+          "RDS Edition",
+          "7,95 €"
         ],
         [
-          "Cointreau, Jägermeister, Drambuie, Baileys",
-          "6,50 €"
+          "Soufflé de manzana",
+          "7,95 €"
         ],
         [
-          "Amaretto, Fernet Branca, Frangelico",
-          "6,50 €"
+          "Tarta de queso",
+          "7,95 €"
         ],
         [
-          "Licor 43, Tía María, Grappa",
-          "6,50 €"
+          "Tarta tres leches",
+          "7,95 €"
         ],
         [
-          "Gran Marnier, Carlos I",
-          "11,50 €"
-        ],
-        [
-          "Magno, Carlos III",
-          "6,50 €"
-        ],
-        [
-          "Soberano, Veterano, 103",
-          "5,50 €"
-        ],
-        [
-          "Zumos Tropicana de Naranja, Manzana, Piña, Tomate o Melocotón",
-          "3,50 €"
-        ],
-        [
-          "Zumo natural de Naranja",
-          "4,75 €"
-        ],
-        [
-          "Café con leche",
-          "2,60 €"
-        ],
-        [
-          "Capuchino Nata",
-          "3,95 €"
-        ],
-        [
-          "Capuchino Leche",
-          "2,85 €"
-        ],
-        [
-          "Café Machiatto",
-          "3,95 €"
-        ],
-        [
-          "Espresso Machiatto",
-          "2,60 €"
-        ],
-        [
-          "Blanco & Negro Café",
-          "4,95 €"
-        ],
-        [
-          "Café Bombón",
-          "3,50 €"
-        ],
-        [
-          "Café Irlandés",
-          "6,95 €"
-        ],
-        [
-          "Café Jamaicano Tía María",
-          "6,95 €"
-        ],
-        [
-          "Café descafeinado (sobre)",
-          "2,60 €"
-        ],
-        [
-          "Té Americano",
-          "5,95 €"
-        ],
-        [
-          "Cola, 7up, Limón, Naranja",
-          "3,25 €"
-        ],
-        [
-          "Casera, Tónica, Tónica 0, Mosto",
-          "3,25 €"
-        ],
-        [
-          "Ginger Ale, Nestea, Aquarade",
-          "3,50 €"
-        ],
-        [
-          "Red Bull",
-          "3,95 €"
-        ],
-        [
-          "Agua mineral 0.50L",
-          "2,80 €"
-        ],
-        [
-          "Agua mineral 1.25L",
-          "3,00 €"
-        ],
-        [
-          "Agua con gas 0.33L",
-          "2,80 €"
-        ],
-        [
-          "Ladrón de Manzanas",
-          "3,80 €"
-        ],
-        [
-          "Botella Victoria",
-          "3,80 €"
-        ],
-        [
-          "Botella Alhambra Especial",
-          "3,80 €"
-        ],
-        [
-          "Botella Sol",
-          "3,95 €"
-        ],
-        [
-          "Botella Cruzcampo",
-          "3,80 €"
-        ],
-        [
-          "Alhambra 1925",
-          "3,95 €"
-        ],
-        [
-          "Sin Alcohol",
-          "3,50 €"
-        ],
-        [
-          "Sin Gluten",
-          "3,50 €"
-        ],
-        [
-          "Tinto de Verano",
-          "4,75 €"
-        ],
-        [
-          "Jarra de 1L Tinto de Verano",
-          "14,50 €"
+          "HELADO INCLUIDO",
+          "12,95 €"
         ],
         [
           "Tinto de la Casa Garnacha",
@@ -1667,34 +1207,6 @@
         [
           "Cristina D.O. Sierras de Málaga Malbec",
           "49,20 €"
-        ],
-        [
-          "Blanco de la Casa Verdejo",
-          "15,50 €"
-        ],
-        [
-          "Bordón D.O.Ca. Rioja Viura",
-          "16,50 €"
-        ],
-        [
-          "Castillo de Miraflores D.O. Rueda Verdejo semidulce",
-          "16,50 €"
-        ],
-        [
-          "Piérola D.O.Ca. Rioja Tempranillo blanco",
-          "17,50 €"
-        ],
-        [
-          "Tamaral D.O. Rueda Verdejo",
-          "18,50 €"
-        ],
-        [
-          "Altanza D.O.Ca. Rioja Sauvignon blanc",
-          "22,90 €"
-        ],
-        [
-          "Marco Real by Martín Berasategui D.O. Rías Baixas Albariño",
-          "26,50 €"
         ]
       ]
     },
@@ -1702,7 +1214,7 @@
       "source": "https://restauranteunico.com/nuestra-carta/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T19:47:48.039658+00:00",
+      "checked_at": "2026-11-16T21:29:18.513788+00:00",
       "dishes": [
         [
           "Cava",
@@ -1866,7 +1378,7 @@
       "source": "https://www.peppepizza.com/carta",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T19:47:48.565591+00:00",
+      "checked_at": "2026-11-16T21:29:19.104071+00:00",
       "dishes": [
         [
           "Polpette Tradizionali",
@@ -2170,7 +1682,7 @@
       "source": "https://lafamarestaurante.com/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T19:47:49.852676+00:00",
+      "checked_at": "2026-11-16T21:29:21.178699+00:00",
       "dishes": [
         [
           "Desayuno Inglés English breakfast",
@@ -2534,7 +2046,7 @@
       "source": "https://trattoriaitalianerja.es/en/menu/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T19:47:52.169070+00:00",
+      "checked_at": "2026-11-16T21:29:23.918612+00:00",
       "dishes": [
         [
           "🇮🇹 Barbera D'Alba DOC - Piazzo",
@@ -2566,7 +2078,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T19:47:00.757976+00:00",
+      "checked_at": "2026-11-16T21:28:48.889682+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
@@ -3054,7 +2566,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T19:47:04.946529+00:00",
+      "checked_at": "2026-11-16T21:28:51.495072+00:00",
       "pages": [
         {
           "url": "https://trattoriaitalianerja.es/en/menu/",
@@ -3137,7 +2649,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T19:47:27.701773+00:00",
+      "checked_at": "2026-11-16T21:29:01.639562+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
@@ -3460,6 +2972,186 @@
         ]
       ]
     },
+    "researched/Trattoria Italia": {
+      "source": "https://trattoriaitalianerja.es/en/menu/",
+      "sources": [
+        "https://trattoriaitalianerja.es/en/menu/"
+      ],
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-16T21:29:03.112310+00:00",
+      "pages": [
+        {
+          "url": "https://trattoriaitalianerja.es/en/menu/",
+          "dishes": [
+            [
+              "🇮🇹 Barbera D'Alba DOC - Piazzo",
+              "21,00 €"
+            ],
+            [
+              "Rosado-Rosé Copa/Glass",
+              "4,50 €"
+            ],
+            [
+              "🇮🇹 Chardonnay DOC. Grave Friuli-Romio",
+              "21,50 €"
+            ],
+            [
+              "Copa/Glass",
+              "4,50 €"
+            ],
+            [
+              "½ Bot",
+              "8,50 €"
+            ]
+          ]
+        }
+      ],
+      "dishes": [
+        [
+          "🇮🇹 Barbera D'Alba DOC - Piazzo",
+          "21,00 €"
+        ],
+        [
+          "Rosado-Rosé Copa/Glass",
+          "4,50 €"
+        ],
+        [
+          "🇮🇹 Chardonnay DOC. Grave Friuli-Romio",
+          "21,50 €"
+        ],
+        [
+          "Copa/Glass",
+          "4,50 €"
+        ],
+        [
+          "½ Bot",
+          "8,50 €"
+        ]
+      ]
+    },
+    "researched/Avalon": {
+      "source": "https://www.avalonnerja.com/a-la-carte-menu/",
+      "sources": [
+        "https://www.avalonnerja.com/a-la-carte-menu/"
+      ],
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-16T21:29:11.381347+00:00",
+      "pages": [
+        {
+          "url": "https://www.avalonnerja.com/a-la-carte-menu/",
+          "dishes": [
+            [
+              "Croquetas of the day",
+              "9,00 €"
+            ],
+            [
+              "Vegetables of the day",
+              "6,00 €"
+            ],
+            [
+              "Hand cut chips",
+              "4,00 €"
+            ],
+            [
+              "Spanish potatoes",
+              "4,00 €"
+            ],
+            [
+              "Lime and ginger cheesecake",
+              "8,00 €"
+            ],
+            [
+              "Sticky toffee pudding – salted caramel - vanilla ice cream",
+              "8,00 €"
+            ],
+            [
+              "Fresh fruit salad",
+              "8,00 €"
+            ],
+            [
+              "Warm chocolate cake – orange mascarpone",
+              "8,00 €"
+            ],
+            [
+              "Panna cotta – vodka - orange",
+              "8,00 €"
+            ],
+            [
+              "Spanish cheeses – quince jelly – crisp bread",
+              "12,00 €"
+            ],
+            [
+              "Mango sorbet – ponche caballero",
+              "8,00 €"
+            ],
+            [
+              "Vanilla ice cream – salted caramel",
+              "8,00 €"
+            ],
+            [
+              "Lemon sorbet – cava",
+              "8,00 €"
+            ]
+          ]
+        }
+      ],
+      "dishes": [
+        [
+          "Croquetas of the day",
+          "9,00 €"
+        ],
+        [
+          "Vegetables of the day",
+          "6,00 €"
+        ],
+        [
+          "Hand cut chips",
+          "4,00 €"
+        ],
+        [
+          "Spanish potatoes",
+          "4,00 €"
+        ],
+        [
+          "Lime and ginger cheesecake",
+          "8,00 €"
+        ],
+        [
+          "Sticky toffee pudding – salted caramel - vanilla ice cream",
+          "8,00 €"
+        ],
+        [
+          "Fresh fruit salad",
+          "8,00 €"
+        ],
+        [
+          "Warm chocolate cake – orange mascarpone",
+          "8,00 €"
+        ],
+        [
+          "Panna cotta – vodka - orange",
+          "8,00 €"
+        ],
+        [
+          "Spanish cheeses – quince jelly – crisp bread",
+          "12,00 €"
+        ],
+        [
+          "Mango sorbet – ponche caballero",
+          "8,00 €"
+        ],
+        [
+          "Vanilla ice cream – salted caramel",
+          "8,00 €"
+        ],
+        [
+          "Lemon sorbet – cava",
+          "8,00 €"
+        ]
+      ]
+    },
     "verified/restauranteunico": {
       "source": "https://restauranteunico.com/nuestra-carta/",
       "sources": [
@@ -3467,7 +3159,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T19:47:43.129794+00:00",
+      "checked_at": "2026-11-16T21:29:13.937469+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
@@ -3787,6 +3479,64 @@
         [
           "Crema de limon caramelizada Caramelized lemon cream",
           "6,90 €"
+        ]
+      ]
+    },
+    "verified/trattoriaitalia": {
+      "source": "https://trattoriaitalianerja.es/en/menu/",
+      "sources": [
+        "https://trattoriaitalianerja.es/en/menu/"
+      ],
+      "status": "candidate",
+      "method": "html-visible-text",
+      "checked_at": "2026-11-16T21:29:15.072563+00:00",
+      "pages": [
+        {
+          "url": "https://trattoriaitalianerja.es/en/menu/",
+          "dishes": [
+            [
+              "🇮🇹 Barbera D'Alba DOC - Piazzo",
+              "21,00 €"
+            ],
+            [
+              "Rosado-Rosé Copa/Glass",
+              "4,50 €"
+            ],
+            [
+              "🇮🇹 Chardonnay DOC. Grave Friuli-Romio",
+              "21,50 €"
+            ],
+            [
+              "Copa/Glass",
+              "4,50 €"
+            ],
+            [
+              "½ Bot",
+              "8,50 €"
+            ]
+          ]
+        }
+      ],
+      "dishes": [
+        [
+          "🇮🇹 Barbera D'Alba DOC - Piazzo",
+          "21,00 €"
+        ],
+        [
+          "Rosado-Rosé Copa/Glass",
+          "4,50 €"
+        ],
+        [
+          "🇮🇹 Chardonnay DOC. Grave Friuli-Romio",
+          "21,50 €"
+        ],
+        [
+          "Copa/Glass",
+          "4,50 €"
+        ],
+        [
+          "½ Bot",
+          "8,50 €"
         ]
       ]
     }

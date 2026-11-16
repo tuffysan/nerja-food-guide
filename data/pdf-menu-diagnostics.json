@@ -1,6 +1,6 @@
 {
-  "attempted": 17,
-  "fresh": 1,
+  "attempted": 22,
+  "fresh": 2,
   "failures": [
     {
       "restaurant": "La Barca",
@@ -78,8 +78,28 @@
       "reason": "No confident dish/price pairs"
     },
     {
+      "restaurant": "La Bottega",
+      "url": "https://www.labotteganerja.com/s/may-2026-english.pdf",
+      "reason": "HTTP Error 302: Found"
+    },
+    {
       "restaurant": "Inita Cafe",
       "url": "https://weur-cdn.carta.menu/storage/media/companies_menu_pdf/114107611/inita-cafe-nerja-carta.pdf",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "Tardeo by Origen",
+      "url": "https://tardeoennerja.com/wp-content/uploads/2026/09/tardeo-carta.pdf",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "Tardeo by Origen",
+      "url": "https://tardeoennerja.com/wp-content/uploads/2026/09/tardeo-carta.pdf",
+      "reason": "No confident dish/price pairs"
+    },
+    {
+      "restaurant": "Restaurante 34",
+      "url": "https://weur-cdn.menuweb.menu/storage/media/companies_menu_pdf/48514173/restaurante-34-nerja-carta.pdf",
       "reason": "No confident dish/price pairs"
     }
   ],

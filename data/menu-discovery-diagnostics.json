@@ -1,5 +1,5 @@
 {
-  "external_leads": 8,
+  "external_leads": 17,
   "official_leads": 13,
   "qr_images_checked": 0,
   "qr_links": 0,
@@ -14,6 +14,6 @@
     }
   ],
   "qr_sites_checked": 18,
-  "generated_at": "2026-11-16T19:45:06.492056+00:00",
-  "total_sources": 61
+  "generated_at": "2026-11-16T21:27:20.787681+00:00",
+  "total_sources": 68
 }

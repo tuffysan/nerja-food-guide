@@ -5,7 +5,7 @@
       "status": "candidate",
       "source_type": "official_site",
       "method": "pdf-text-or-local-ocr",
-      "checked_at": "2026-11-16T19:49:13.795667+00:00",
+      "checked_at": "2026-11-16T21:30:31.619826+00:00",
       "dishes": [
         [
           "inefleischspiesS coccion»",
@@ -14,6 +14,87 @@
         [
           "Iberischen Schwein Secreto",
           "23,00 €"
+        ]
+      ]
+    },
+    "verified/Nerja Club": {
+      "source": "https://www.nerjaclub.com/cdn/files/CARTA-BEBIDAS-NERJA-CLUB.pdf",
+      "status": "candidate",
+      "source_type": "official",
+      "method": "pdf-text-or-local-ocr",
+      "checked_at": "2026-11-16T21:31:34.420448+00:00",
+      "dishes": [
+        [
+          "MARITIN FROZEN",
+          "7,00 €"
+        ],
+        [
+          "BAHAM MAMA",
+          "8,00 €"
+        ],
+        [
+          "TEQUILA SUNRISE",
+          "8,00 €"
+        ],
+        [
+          "MONTO DE FRESA / STRAWBERRY MOJITO",
+          "7,00 €"
+        ],
+        [
+          "Batido de vainila / Vanilla milkshake",
+          "6,00 €"
+        ],
+        [
+          "DAIQUIRI DE LIMON / LEMON DAIQUIRI",
+          "8,00 €"
+        ],
+        [
+          "Batido de KitKat /KitKat milkshake",
+          "6,00 €"
+        ],
+        [
+          "Batido de Kinder/ Kinder milkshake",
+          "6,00 €"
+        ],
+        [
+          "Batido de Oreo / Oreo milkshake",
+          "6,00 €"
+        ],
+        [
+          "MOJITO DE SABORES / FLAVOURED MOJITO",
+          "8,00 €"
+        ],
+        [
+          "Platano y fresa / Banana and strawberry",
+          "6,20 €"
+        ],
+        [
+          "Naranja y piña / Orange and pineapple",
+          "6,20 €"
+        ],
+        [
+          "Frutos rojos / Red fruits",
+          "6,20 €"
+        ],
+        [
+          "Piña y mango / Pineapple and mango",
+          "6,20 €"
+        ],
+        [
+          "LONG ISLAND ICE TEA",
+          "8,50 €"
+        ],
+        [
+          "DAIQUIRI DE LIMÓN / LEMON DAIQUIRI",
+          "8,00 €"
+        ],
+        [
+          "+ Suplemento lima o blackcurrant /+ Suplement lime or blackcurrant———",
+          "0,50 €"
+        ],
+        [
+          "Refrescos / Soft drinks (Cola, món, naranja, tónica cola, lemon, orange, tonic]",
+          "2,70 €"
         ]
       ]
     }
