@@ -40,8 +40,14 @@ def clean(value):
     return " ".join(html.unescape(value).split())[:180]
 
 def license_allowed(license_name):
-    value = license_name.upper().replace(" ", "-")
-    return any(value == prefix or value.startswith(prefix + "-") for prefix in ("CC0", "CC-BY", "CC-BY-SA", "PD", "PDM", "PUBLIC-DOMAIN"))
+    """Accept only known free licenses, never NC/ND restrictions."""
+    value = str(license_name or "").upper().strip().replace(" ", "-")
+    if any(part in value for part in ("-NC", "-ND", "NONCOMMERCIAL", "NODERIVATIVES")):
+        return False
+    return bool(re.fullmatch(
+        r"(?:CC0(?:-1[.]0)?|CC-BY(?:-SA)?(?:-[1-4][.]0)?|"
+        r"PD(?:-[A-Z0-9.-]+)?|PDM|PUBLIC-DOMAIN)", value
+    ))
 
 def request_metadata(titles):
     params = urllib.parse.urlencode({
