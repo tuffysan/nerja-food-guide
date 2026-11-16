@@ -15,7 +15,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T17:58:08.721355+00:00",
+      "checked_at": "2026-11-16T19:01:17.165884+00:00",
       "pages": [
         {
           "url": "https://www.avalonnerja.com/es/menu-a-la-carta/",
@@ -758,9 +758,9 @@
         "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
         "https://rincondelsolnerja.com/cartas/vino-tinto/"
       ],
-      "status": "stale_candidate",
+      "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T13:57:08.177265+00:00",
+      "checked_at": "2026-11-16T19:01:54.160532+00:00",
       "pages": [
         {
           "url": "https://rincondelsolnerja.com/cartas/ensaladas/",
@@ -1208,14 +1208,13 @@
           "Cristina D.O. Sierras de Málaga Malbec",
           "49,20 €"
         ]
-      ],
-      "stale_reason": "No fresh menu extracted"
+      ]
     },
     "curated/Restaurante Único": {
       "source": "https://restauranteunico.com/nuestra-carta/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T17:59:21.848032+00:00",
+      "checked_at": "2026-11-16T19:02:40.867759+00:00",
       "dishes": [
         [
           "Cava",
@@ -1379,7 +1378,7 @@
       "source": "https://www.peppepizza.com/carta",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T17:59:22.022722+00:00",
+      "checked_at": "2026-11-16T19:02:41.002113+00:00",
       "dishes": [
         [
           "Polpette Tradizionali",
@@ -1683,7 +1682,7 @@
       "source": "https://lafamarestaurante.com/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T17:59:23.687160+00:00",
+      "checked_at": "2026-11-16T19:02:42.103466+00:00",
       "dishes": [
         [
           "Desayuno Inglés English breakfast",
@@ -2047,7 +2046,7 @@
       "source": "https://trattoriaitalianerja.es/en/menu/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T17:59:27.848093+00:00",
+      "checked_at": "2026-11-16T19:02:43.711337+00:00",
       "dishes": [
         [
           "🇮🇹 Barbera D'Alba DOC - Piazzo",
@@ -2079,7 +2078,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T17:58:56.512731+00:00",
+      "checked_at": "2026-11-16T19:02:21.195795+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
@@ -2567,7 +2566,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T17:59:00.688439+00:00",
+      "checked_at": "2026-11-16T19:02:25.469207+00:00",
       "pages": [
         {
           "url": "https://trattoriaitalianerja.es/en/menu/",
@@ -2650,7 +2649,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T17:59:11.913975+00:00",
+      "checked_at": "2026-11-16T19:02:34.007045+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
@@ -2980,7 +2979,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-16T17:59:16.245307+00:00",
+      "checked_at": "2026-11-16T19:02:37.352611+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T17:57:36.068323+00:00",
+  "updated_at": "2026-11-16T19:00:56.998556+00:00",
   "note": "Official and third-party sources are labeled separately. QR links are candidates, not verified menus.",
   "restaurants": {
     "node/3328393211": {
@@ -459,8 +459,26 @@
         {
           "url": "https://www.labotteganerja.com/",
           "kind": "web",
-          "status": "published",
-          "source": "Reviewed source list"
+          "status": "candidate",
+          "source": "https://www.labotteganerja.com/"
+        },
+        {
+          "url": "https://www.labotteganerja.com/s/may-2026-english.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.labotteganerja.com/"
+        },
+        {
+          "url": "https://www.labotteganerja.com/s/drinks-2026-f9lg.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.labotteganerja.com/"
+        },
+        {
+          "url": "https://www.labotteganerja.com/s/may-2026-spanish.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.labotteganerja.com/"
         }
       ]
     },
@@ -535,16 +553,244 @@
       "official_website": "https://rincondelsolnerja.com/",
       "links": [
         {
-          "url": "https://rincondelsolnerja.com/",
-          "kind": "website",
-          "status": "website_only",
-          "source": "https://rincondelsolnerja.com/"
-        },
-        {
           "url": "https://rincondelsolnerja.com/cartas/",
           "kind": "web",
-          "status": "published",
-          "source": "Reviewed source list"
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/ensaladas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/poke-salads-y-asiaticos/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/entrantes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/wp-content/uploads/2022/04/Entrantes-1000x1000.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/carnes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/burguers-y-bruschettas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pescados/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/arroces-y-pastas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pescaito-frito/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/pizza/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/postres/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/wp-content/uploads/2022/04/Postres-1000x1000.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/vino-tinto/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/vino-blanco/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/vino-rosado/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/cavas-champagnes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/refrescos-cervezas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/cafes-e-infusiones/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/zumos-batidos/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/licores-brandys/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/aperitivos-cocteles/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/combinados/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/cartas/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/salads/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/poke-salads-asian/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/starters/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/meats/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/burgers-and-bruschettas/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/fish/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/rice-and-pasta/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/fried-fish/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/pizza/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/desserts/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/childrens-menu/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/red-wine/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/white-wine/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/vino-rosado/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
+        },
+        {
+          "url": "https://rincondelsolnerja.com/en/menus/cavas-champagnes/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://rincondelsolnerja.com/en/menus/"
         }
       ]
     },
@@ -597,8 +843,50 @@
         {
           "url": "https://www.peppepizza.com/carta",
           "kind": "web",
-          "status": "curated",
-          "source": "curated-menus.json"
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/index.html"
+        },
+        {
+          "url": "https://www.peppepizza.com/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/"
+        },
+        {
+          "url": "https://www.peppepizza.com/pdf/carta-peppe.pdf?v=2026-08",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/index.html"
+        },
+        {
+          "url": "https://www.peppepizza.com/blog/cocteles-nerja-terraza/",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/index.html"
+        },
+        {
+          "url": "https://www.peppepizza.com/index.html",
+          "kind": "web",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/index.html"
+        },
+        {
+          "url": "https://www.peppepizza.com/pdf/carta-bebidas-cocteles.pdf?v=2026-08",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/carta"
+        },
+        {
+          "url": "https://www.peppepizza.com/pdf/carta-dolci-caffe.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/carta"
+        },
+        {
+          "url": "https://www.peppepizza.com/pdf/carta-kids.pdf",
+          "kind": "pdf",
+          "status": "candidate",
+          "source": "https://www.peppepizza.com/carta"
         }
       ]
     },
@@ -610,7 +898,7 @@
           "url": "https://chezspice.es/menu",
           "kind": "web",
           "status": "candidate",
-          "source": "https://chezspice.es/sitemap.xml"
+          "source": "https://chezspice.es/menu"
         }
       ]
     },

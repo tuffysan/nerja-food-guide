@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T22:00:04.262953+00:00",
+  "updated_at": "2026-11-16T18:57:25.635206+00:00",
   "source": "OpenStreetMap contributors via Overpass",
   "count": 183,
   "items": [
@@ -9,6 +9,8 @@
       "cuisine": "sandwich",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -30,7 +32,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/430878885",
@@ -38,6 +40,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -59,7 +63,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/1575649206",
@@ -67,6 +71,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -88,7 +94,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/3328393211",
@@ -96,6 +102,8 @@
       "cuisine": "mexican",
       "address": "Avenida Mediterráneo",
       "website": "https://andeleandelenerja.com/",
+      "image": null,
+      "wikidata": null,
       "menu": "https://andeleandelenerja.com/#men%C3%BA",
       "hours": null,
       "phone": null,
@@ -117,7 +125,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/10126438254",
@@ -125,6 +133,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -146,7 +156,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/3331997863",
@@ -154,6 +164,8 @@
       "cuisine": "chicken",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -175,7 +187,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2774995381",
@@ -183,6 +195,8 @@
       "cuisine": "asian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -204,7 +218,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4788285770",
@@ -212,6 +226,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -233,7 +249,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/12243862968",
@@ -241,6 +257,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -262,7 +280,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/833420283",
@@ -270,6 +288,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "24/7",
       "phone": "+34 952522104",
@@ -291,7 +311,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2883917401",
@@ -299,6 +319,8 @@
       "cuisine": "regional",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -320,7 +342,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/304571589",
@@ -328,6 +350,8 @@
       "cuisine": "Ej angivet",
       "address": "Plaza de los Cangrejos",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo-Su 09:00-22:00",
       "phone": null,
@@ -349,7 +373,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/14094437327",
@@ -357,6 +381,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -378,7 +404,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "way/78393450",
@@ -386,6 +412,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -407,7 +435,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2774995374",
@@ -415,6 +443,8 @@
       "cuisine": "italian, pizza",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -436,7 +466,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4164895892",
@@ -444,6 +474,8 @@
       "cuisine": "Ej angivet",
       "address": "Calle Hernando Carabeo 50",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -465,7 +497,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/10699384906",
@@ -473,6 +505,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -494,7 +528,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/13306918128",
@@ -502,6 +536,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -523,7 +559,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/6964600333",
@@ -531,6 +567,8 @@
       "cuisine": "Ej angivet",
       "address": "Calle Almirante Ferrándiz 28",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -552,7 +590,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/6057345609",
@@ -560,6 +598,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -581,7 +621,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2154168766",
@@ -589,6 +629,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -610,7 +652,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/5641390801",
@@ -618,6 +660,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -639,7 +683,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/543661479",
@@ -647,6 +691,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -668,7 +714,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2752241853",
@@ -676,6 +722,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -697,7 +745,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/10699645706",
@@ -705,6 +753,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -726,7 +776,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4399835189",
@@ -734,6 +784,8 @@
       "cuisine": "Ej angivet",
       "address": "Plaza de las Maravillas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -755,7 +807,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4164894090",
@@ -763,6 +815,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -784,7 +838,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2774995378",
@@ -792,6 +846,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -813,7 +869,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/833418421",
@@ -821,6 +877,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -842,7 +900,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2368321887",
@@ -850,6 +908,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -871,7 +931,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/13207269259",
@@ -879,6 +939,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -900,7 +962,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/431250005",
@@ -908,6 +970,8 @@
       "cuisine": "regional",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Tu off",
       "phone": "+34 951 138 626",
@@ -929,7 +993,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4164895893",
@@ -937,6 +1001,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -958,7 +1024,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/579590817",
@@ -966,6 +1032,8 @@
       "cuisine": "mexican",
       "address": "Calle El Barrio 24-26",
       "website": "https://cielitolindo.es/",
+      "image": "https://photos.app.goo.gl/LnABnAPyUVmwNSQx7",
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 952 52 74 95",
@@ -987,7 +1055,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/431250046",
@@ -995,6 +1063,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1016,7 +1086,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/307845016",
@@ -1024,6 +1094,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 952527474",
@@ -1045,7 +1117,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/14018334501",
@@ -1053,6 +1125,8 @@
       "cuisine": "coffee_shop",
       "address": "Calle Arropieros 5",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo-Fr 09:30-14:00; Sa 09:30-13:30",
       "phone": null,
@@ -1074,7 +1148,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/3792660148",
@@ -1082,6 +1156,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1103,7 +1179,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/431250023",
@@ -1111,6 +1187,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1132,7 +1210,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9453186248",
@@ -1140,6 +1218,8 @@
       "cuisine": "pizza",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1161,7 +1241,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/1108753287",
@@ -1169,6 +1249,8 @@
       "cuisine": "coffee_shop",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1190,7 +1272,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/14018323001",
@@ -1198,6 +1280,8 @@
       "cuisine": "pizza",
       "address": "Calle Prolongación Antonio Millón 6",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Tu-Su 07:00-23:30",
       "phone": null,
@@ -1219,7 +1303,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/3359565192",
@@ -1227,6 +1311,8 @@
       "cuisine": "regional, spanish, sandwich, burger, hot_dog, fish, crepe",
       "address": "Calle Pintada 55",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1248,7 +1334,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/309862991",
@@ -1256,6 +1342,8 @@
       "cuisine": "curry",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo 18:30-23:30; Tu-Su 13:00-15:30, 18:30-23:30",
       "phone": "+34 952 52 54 10",
@@ -1277,7 +1365,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4229734841",
@@ -1285,6 +1373,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "PH,We-Mo 21:00-23:30",
       "phone": null,
@@ -1306,7 +1396,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/775371428",
@@ -1314,6 +1404,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1335,7 +1427,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4399713093",
@@ -1343,6 +1435,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1364,7 +1458,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4800866432",
@@ -1372,6 +1466,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1393,7 +1489,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/3359538922",
@@ -1401,6 +1497,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo-Su 07:30-10:30,19:00-22:00",
       "phone": null,
@@ -1422,7 +1520,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/5642328367",
@@ -1430,6 +1528,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1451,7 +1551,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9200321214",
@@ -1459,6 +1559,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1480,7 +1582,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/13241594500",
@@ -1488,6 +1590,8 @@
       "cuisine": "italian, pizza, pasta",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1509,7 +1613,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4165777892",
@@ -1517,6 +1621,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1538,7 +1644,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2370695047",
@@ -1546,6 +1652,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1567,7 +1675,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4229734846",
@@ -1575,6 +1683,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1596,7 +1706,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4399834691",
@@ -1604,6 +1714,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1625,7 +1737,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/6079753418",
@@ -1633,6 +1745,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1654,7 +1768,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/1739162249",
@@ -1662,6 +1776,8 @@
       "cuisine": "pizza",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1683,7 +1799,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/775371421",
@@ -1691,6 +1807,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1712,7 +1830,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/10699385205",
@@ -1720,6 +1838,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1741,7 +1861,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/322819142",
@@ -1749,6 +1869,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 952520174",
@@ -1770,7 +1892,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9282688554",
@@ -1778,6 +1900,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1799,7 +1923,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/997703611",
@@ -1807,6 +1931,8 @@
       "cuisine": "Ej angivet",
       "address": "Calle Almirante Ferrándiz 26",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1828,7 +1954,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/10699668406",
@@ -1836,6 +1962,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1857,7 +1985,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/1122309756",
@@ -1865,6 +1993,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1886,7 +2016,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/1119698098",
@@ -1894,6 +2024,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": "http://www.firstnerja.com/",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1915,7 +2047,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9672112061",
@@ -1923,6 +2055,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1944,7 +2078,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9675076657",
@@ -1952,6 +2086,8 @@
       "cuisine": "indian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -1973,7 +2109,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/6521128167",
@@ -1981,6 +2117,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2002,7 +2140,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/1108753440",
@@ -2010,6 +2148,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2031,7 +2171,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9675076659",
@@ -2039,6 +2179,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2060,7 +2202,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2368322077",
@@ -2068,6 +2210,8 @@
       "cuisine": "kebab",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2089,7 +2233,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/11409454639",
@@ -2097,6 +2241,8 @@
       "cuisine": "italian, pizza, pasta",
       "address": "Adress saknas",
       "website": "https://linktr.ee/ilcovo_es",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 642 64 55 27",
@@ -2118,7 +2264,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4230075568",
@@ -2126,6 +2272,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2147,7 +2295,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2368321985",
@@ -2155,6 +2303,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2176,7 +2326,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/304571661",
@@ -2184,6 +2334,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2205,7 +2357,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9413764796",
@@ -2213,6 +2365,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2234,7 +2388,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/1119700645",
@@ -2242,6 +2396,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo-Su 10:00-23:00",
       "phone": null,
@@ -2263,7 +2419,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4230075570",
@@ -2271,6 +2427,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2292,7 +2450,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2368322222",
@@ -2300,6 +2458,8 @@
       "cuisine": "pizza",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2321,7 +2481,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/325937110",
@@ -2329,6 +2489,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2350,7 +2512,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/13306918141",
@@ -2358,6 +2520,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2379,7 +2543,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2774995380",
@@ -2387,6 +2551,8 @@
       "cuisine": "regional",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2408,7 +2574,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4230075595",
@@ -2416,6 +2582,8 @@
       "cuisine": "Ej angivet",
       "address": "Calle El Barrio 1",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2437,7 +2605,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/6504530413",
@@ -2445,6 +2613,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2466,7 +2636,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/5667412345",
@@ -2474,6 +2644,8 @@
       "cuisine": "Ej angivet",
       "address": "Paseo Maritimo Antonio Mercero",
       "website": "https://www.merenderolabarca.es/",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 952 52 69 27",
@@ -2495,7 +2667,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/307845017",
@@ -2503,6 +2675,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 952527474",
@@ -2524,7 +2698,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/10126448663",
@@ -2532,6 +2706,8 @@
       "cuisine": "spanish",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2553,7 +2729,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4800864468",
@@ -2561,6 +2737,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2582,7 +2760,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/6970068955",
@@ -2590,6 +2768,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2611,7 +2791,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9386501417",
@@ -2619,6 +2799,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2640,7 +2822,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2114074332",
@@ -2648,6 +2830,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2669,7 +2853,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4230075573",
@@ -2677,6 +2861,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2698,7 +2884,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2154168791",
@@ -2706,6 +2892,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2727,7 +2915,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/1057385149",
@@ -2735,6 +2923,8 @@
       "cuisine": "fish, fish_and_chips",
       "address": "Calle Castilla Pérez 20",
       "website": "https://la-marina-marisqueria.negocio.site/",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo, We, Th, Fr, Sa, Su 12:00-16:30,20:00-23:30; Tu 12:00-16:30",
       "phone": null,
@@ -2756,7 +2946,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/10132446103",
@@ -2764,6 +2954,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2785,7 +2977,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4229781998",
@@ -2793,6 +2985,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2814,7 +3008,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "way/85571578",
@@ -2822,6 +3016,8 @@
       "cuisine": "spanish, italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2843,7 +3039,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2114139257",
@@ -2851,6 +3047,8 @@
       "cuisine": "mediterranean, spanish",
       "address": "Paseo de Burriana 15",
       "website": "https://www.ayonerja.com",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo-Su 08:00-18:00",
       "phone": "+34 952522289;+34665541100",
@@ -2872,7 +3070,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/738884910",
@@ -2880,6 +3078,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2901,7 +3101,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/430878902",
@@ -2909,6 +3109,8 @@
       "cuisine": "regional",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2930,7 +3132,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/543661240",
@@ -2938,6 +3140,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2959,7 +3163,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/430878866",
@@ -2967,6 +3171,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -2988,7 +3194,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/997700806",
@@ -2996,6 +3202,8 @@
       "cuisine": "Ej angivet",
       "address": "Calle Almirante Ferrándiz 5",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3017,7 +3225,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2368321987",
@@ -3025,6 +3233,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3046,7 +3256,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4788285771",
@@ -3054,6 +3264,8 @@
       "cuisine": "thai, lao",
       "address": "Adress saknas",
       "website": "http://www.lansang.com",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo-Sa 19:30-23:00",
       "phone": "+34 952528053",
@@ -3075,7 +3287,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/12745694658",
@@ -3083,6 +3295,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3104,7 +3318,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/11935417581",
@@ -3112,6 +3326,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3133,7 +3349,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4903340921",
@@ -3141,6 +3357,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3162,7 +3380,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4887161680",
@@ -3170,6 +3388,8 @@
       "cuisine": "fish",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3191,7 +3411,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9200265444",
@@ -3199,6 +3419,8 @@
       "cuisine": "salad",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3220,7 +3442,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/1290221483",
@@ -3228,6 +3450,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3249,7 +3473,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2368321989",
@@ -3257,6 +3481,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3278,7 +3504,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/920130070",
@@ -3286,6 +3512,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3307,7 +3535,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/1132335116",
@@ -3315,6 +3543,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo-Su 00:00-00:30,09:00-24:00",
       "phone": null,
@@ -3336,7 +3566,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2774995376",
@@ -3344,6 +3574,8 @@
       "cuisine": "regional",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3365,7 +3597,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/1753943507",
@@ -3373,6 +3605,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3394,7 +3628,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2368321991",
@@ -3402,6 +3636,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3423,7 +3659,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "way/78390696",
@@ -3431,6 +3667,8 @@
       "cuisine": "mediterranean, spanish",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3452,7 +3690,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "way/78388534",
@@ -3460,6 +3698,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 952526052",
@@ -3481,7 +3721,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/430879426",
@@ -3489,6 +3729,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3510,7 +3752,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4165073292",
@@ -3518,6 +3760,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3539,7 +3783,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/304571590",
@@ -3547,6 +3791,8 @@
       "cuisine": "mediterranean",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3568,7 +3814,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4851165338",
@@ -3576,6 +3822,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3597,7 +3845,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/5667412344",
@@ -3605,6 +3853,8 @@
       "cuisine": "seafood, spanish",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo-Su 09:00-23:00",
       "phone": "+34952524530",
@@ -3626,7 +3876,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "way/79626922",
@@ -3634,6 +3884,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3655,7 +3907,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9672112030",
@@ -3663,6 +3915,8 @@
       "cuisine": "indian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3684,7 +3938,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/5306988318",
@@ -3692,6 +3946,8 @@
       "cuisine": "indian, nepalese",
       "address": "Calle Almirante Ferrándiz 18",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 951 25 23 88",
@@ -3713,7 +3969,7 @@
       "payment_cards": null,
       "smoking": "no",
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/13566629101",
@@ -3721,6 +3977,8 @@
       "cuisine": "Ej angivet",
       "address": "Calle San Sebastián 30",
       "website": "https://www.oldtownrestaurantfrigiliana.com",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Fr-We 18:30-00:00",
       "phone": "+34 624502343",
@@ -3742,7 +4000,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/1739162215",
@@ -3750,6 +4008,8 @@
       "cuisine": "regional",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3771,7 +4031,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2368322223",
@@ -3779,6 +4039,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": "http://www.restauranteoliva.com",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 952522988",
@@ -3800,7 +4062,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9672055163",
@@ -3808,6 +4070,8 @@
       "cuisine": "Ej angivet",
       "address": "Plaza de España 2",
       "website": "http://www.restauranteoliva.com/",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 952 522 988",
@@ -3829,7 +4093,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2154168777",
@@ -3837,6 +4101,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3858,7 +4124,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/997711463",
@@ -3866,6 +4132,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3887,7 +4155,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9453265524",
@@ -3895,6 +4163,8 @@
       "cuisine": "nepal",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3916,7 +4186,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/12386030620",
@@ -3924,6 +4194,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34675684872",
@@ -3945,7 +4217,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/10699385106",
@@ -3953,6 +4225,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -3974,7 +4248,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9453265517",
@@ -3982,6 +4256,8 @@
       "cuisine": "argentinian, bio",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4003,7 +4279,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/997719653",
@@ -4011,6 +4287,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4032,7 +4310,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2702588660",
@@ -4040,6 +4318,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4061,7 +4341,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/5100592226",
@@ -4069,6 +4349,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4090,7 +4372,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4399713092",
@@ -4098,6 +4380,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4119,7 +4403,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/13857441269",
@@ -4127,6 +4411,8 @@
       "cuisine": "Ej angivet",
       "address": "Avenida Alcalde Antonio Villasclaras Rosas 30",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4148,7 +4434,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9391849713",
@@ -4156,6 +4442,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4177,7 +4465,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/5334911625",
@@ -4185,6 +4473,8 @@
       "cuisine": "italian_pizza, spanish",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4206,7 +4496,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/5321992529",
@@ -4214,6 +4504,8 @@
       "cuisine": "regional",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo, Tu, Th-Su 12:00-23:00",
       "phone": null,
@@ -4235,7 +4527,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2154168784",
@@ -4243,6 +4535,8 @@
       "cuisine": "spanish",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4264,7 +4558,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4230056368",
@@ -4272,6 +4566,8 @@
       "cuisine": "fish",
       "address": "Adress saknas",
       "website": "https://redondo.bar/",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo-Sa 12:00-16:00,18:00-23:30",
       "phone": null,
@@ -4293,7 +4589,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/12135451351",
@@ -4301,6 +4597,8 @@
       "cuisine": "Ej angivet",
       "address": "Calle Antonio Jiménez 7",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 693 86 40 70",
@@ -4322,7 +4620,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/292586998",
@@ -4330,6 +4628,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4351,7 +4651,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/5100592225",
@@ -4359,6 +4659,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": "https://www.hotelcarabeo.com/boutique_hotels_nerja/boutique_hotels_nerja_restaurant34.asp",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4380,7 +4682,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2752241854",
@@ -4388,6 +4690,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo-Su 11:00-17:30",
       "phone": null,
@@ -4409,7 +4713,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/5100645421",
@@ -4417,6 +4721,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4438,7 +4744,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/976510920",
@@ -4446,6 +4752,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4467,7 +4775,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2368322080",
@@ -4475,6 +4783,8 @@
       "cuisine": "chicken",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4496,7 +4806,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2702579708",
@@ -4504,6 +4814,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": "https://rincondelsolnerja.com/",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 625302781;+34952528365",
@@ -4525,7 +4837,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/13306918142",
@@ -4533,6 +4845,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4554,7 +4868,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/431250027",
@@ -4562,6 +4876,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4583,7 +4899,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/13228033717",
@@ -4591,6 +4907,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4612,7 +4930,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/5641212883",
@@ -4620,6 +4938,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": "https://restaurantesalamandranerja.com/",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 653 268 079",
@@ -4641,7 +4961,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/922686821",
@@ -4649,6 +4969,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4670,7 +4992,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4800875508",
@@ -4678,6 +5000,8 @@
       "cuisine": "thai",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4699,7 +5023,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2154168776",
@@ -4707,6 +5031,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4728,7 +5054,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4230075594",
@@ -4736,6 +5062,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4757,7 +5085,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/10699384909",
@@ -4765,6 +5093,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4786,7 +5116,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2368322083",
@@ -4794,6 +5124,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4815,7 +5147,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/997717639",
@@ -4823,6 +5155,8 @@
       "cuisine": "spanish",
       "address": "Adress saknas",
       "website": "https://www.sevillanonerja.es/",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4844,7 +5178,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/7835942885",
@@ -4852,6 +5186,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4873,7 +5209,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/10691274664",
@@ -4881,6 +5217,8 @@
       "cuisine": "spanish",
       "address": "Calle Herrera Oria 30",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -4902,7 +5240,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/431250011",
@@ -4910,6 +5248,8 @@
       "cuisine": "Ej angivet",
       "address": "Avenida Castilla Pérez 19",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": "+34 665162319",
@@ -4931,7 +5271,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9671977583",
@@ -4939,6 +5279,8 @@
       "cuisine": "indian",
       "address": "Calle Hernando Carabeo 51",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "We-Mo 19:00-23:00, Sa,Su 13:00-16:00; Tu off",
       "phone": null,
@@ -4960,7 +5302,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2368322226",
@@ -4968,6 +5310,8 @@
       "cuisine": "pizza",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": "Mo-Su 13:00-16:00, 20:00-23:30",
       "phone": "+34 952 52 71 05",
@@ -4989,7 +5333,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/3593959373",
@@ -4997,6 +5341,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": "https://esnerja.com/restaurante/teteria-zaidin/",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -5018,7 +5364,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/1404652362",
@@ -5026,6 +5372,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -5047,7 +5395,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/3792399785",
@@ -5055,6 +5403,8 @@
       "cuisine": "international",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -5076,7 +5426,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/3792403626",
@@ -5084,6 +5434,8 @@
       "cuisine": "steak_house",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -5105,7 +5457,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/9392050041",
@@ -5113,6 +5465,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -5134,7 +5488,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/4229734840",
@@ -5142,6 +5496,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -5163,7 +5519,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/535073499",
@@ -5171,6 +5527,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": "https://clubtropicananerja.net/bar-restaurant",
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -5192,7 +5550,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/2154168790",
@@ -5200,6 +5558,8 @@
       "cuisine": "Ej angivet",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -5221,7 +5581,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/431250007",
@@ -5229,6 +5589,8 @@
       "cuisine": "italian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -5250,7 +5612,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/5751311151",
@@ -5258,6 +5620,8 @@
       "cuisine": "asian",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -5279,7 +5643,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     },
     {
       "id": "node/5667412348",
@@ -5287,6 +5651,8 @@
       "cuisine": "thai",
       "address": "Adress saknas",
       "website": null,
+      "image": null,
+      "wikidata": null,
       "menu": null,
       "hours": null,
       "phone": null,
@@ -5308,7 +5674,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-15"
+      "last_osm_check": "2026-11-16"
     }
   ]
 }

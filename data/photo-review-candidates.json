@@ -1,1 +1,5 @@
-{"restaurants": {}, "warning": "Unverified candidates; do not display as restaurant photos."}
+{
+  "generated_at": "2026-11-16T18:57:38.435674+00:00",
+  "warning": "Candidates are NOT approved photographs; manually verify subject, rights and attribution.",
+  "restaurants": {}
+}
