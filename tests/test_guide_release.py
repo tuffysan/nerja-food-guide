@@ -36,6 +36,13 @@ class GuideReleaseTests(unittest.TestCase):
         for photo in approved:
             self.assertEqual(restaurants.get(photo["restaurant_id"]),photo["restaurant_name"])
             self.assertTrue(photo["commons_file"].startswith("File:"))
+    def test_area_map_visible_and_filter(self):
+        js=(ROOT/"assets/guide-v3.js").read_text(encoding="utf-8")
+        self.assertIn('mapBox.hidden=false',js)
+        self.assertIn('area.addEventListener("change"',js)
+        self.assertIn('&&inArea(r)',js)
+        for name in ("centro","balcon","burriana","torrecilla","playazo","capistrano"):
+            self.assertIn(name,js)
     def test_photo_license_restrictions(self):
         import importlib.util
         spec=importlib.util.spec_from_file_location("photo_module", ROOT/"scripts/update_photos.py")
