@@ -118,6 +118,41 @@
       "address": "Calle Pintada 3, Nerja, Málaga, España",
       "source_type": "official",
       "note": "Official website contains links to Carta and Menú Diario; prices not yet verified."
+    },
+    {
+      "name": "La Puntilla",
+      "menu": "https://www.lapuntillanerja.es/menu/",
+      "website": "https://www.lapuntillanerja.es/",
+      "address": "Calle Bolivia 1, Nerja, España",
+      "source_type": "official"
+    },
+    {
+      "name": "Rincón del Sevillano",
+      "menu": "https://sevillanonerja.com/restaurantes/",
+      "website": "https://sevillanonerja.com/",
+      "address": "Calle Gloria 14, Nerja, España",
+      "source_type": "official"
+    },
+    {
+      "name": "Sevillano La Tasquita",
+      "menu": "https://sevillanonerja.com/restaurantes/",
+      "website": "https://sevillanonerja.com/",
+      "address": "Calle Gloria 15–17, Nerja, España",
+      "source_type": "official"
+    },
+    {
+      "name": "Sevillano El Chaparil",
+      "menu": "https://sevillanonerja.com/restaurantes/",
+      "website": "https://sevillanonerja.com/",
+      "address": "Calle Chaparil 7, Nerja, España",
+      "source_type": "official"
+    },
+    {
+      "name": "Los Huertos del Sevillano",
+      "menu": "https://sevillanonerja.com/restaurantes/",
+      "website": "https://sevillanonerja.com/",
+      "address": "Calle Los Huertos 33, Nerja, España",
+      "source_type": "official"
     }
   ]
 }
