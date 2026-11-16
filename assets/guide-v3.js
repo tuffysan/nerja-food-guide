@@ -14,7 +14,7 @@
   priceLabel.append(priceInput);
   const count=document.createElement("span");count.className="muted";count.setAttribute("aria-live","polite");
   const portal=document.createElement("a");portal.href="restaurant-portal.html";portal.textContent="🏪 Uppdatera restaurang";portal.title="Skicka in en meny för granskning";
-  toolbar.append(toggle,priceLabel,portal,count);
+  toolbar.append(toggle,portal,priceLabel,count);
   filters.after(toolbar);
   const mapBox=document.createElement("div");mapBox.id="restaurant-map";mapBox.hidden=true;mapBox.setAttribute("aria-label","Karta över restauranger i Nerja");toolbar.after(mapBox);
   let map=null,layer=null,loading=false;
@@ -45,6 +45,26 @@
       card.hidden=!ids.has(restaurant.id);
       if(card.dataset.enhanced)return;
       card.dataset.enhanced="1";
+      const details=[];
+      for(const child of [...card.children]){
+        if(child.tagName!=="P")continue;
+        const t=child.textContent||"";
+        if(/^(Öppettider|Telefon:|Rullstolsanpassning|Tillgängligt enligt OSM:|OSM-uppgifter hämtade:|Adress saknas)/.test(t))details.push(child);
+      }
+      if(details.length){
+        const extra=document.createElement("div");extra.className="secondary-details";
+        for(const d of details)extra.append(d);
+        const button=document.createElement("button");button.type="button";button.className="details-toggle";
+        button.textContent="Mer information ▾";button.setAttribute("aria-expanded","false");
+        button.addEventListener("click",()=>{
+          const open=card.classList.toggle("details-expanded");
+          button.textContent=open?"Mindre information ▴":"Mer information ▾";
+          button.setAttribute("aria-expanded",String(open));
+        });
+        const links=card.querySelector(".links");
+        if(links)card.insertBefore(extra,links);else card.append(extra);
+        extra.before(button);
+      }
       const h=htmlFor(restaurant),p=pdfMenus[restaurant.id],v=sourceFor(restaurant);
       const tag=document.createElement("span");tag.className="source-tag";
       if(h?.dishes?.length||p?.dishes?.length){tag.textContent="Automatiskt avläst · ej verifierat";tag.classList.add("warn")}
@@ -53,7 +73,7 @@
       else{tag.textContent="Menyuppgifter kan saknas"}
       card.querySelector("h2")?.after(tag);
     }
-    count.textContent=filtered.length+" restauranger matchar";
+    count.textContent=filtered.length+" restauranger";
     if(map&&!mapBox.hidden)drawMap(filtered);
   }
   function drawMap(restaurants){
