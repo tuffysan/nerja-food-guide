@@ -57,8 +57,7 @@
     }}).catch(()=>{});
 
   function dishes(r){
-    const d=findCurated(r);
-    return [...(d?.dishes||[]),...(autoMenus[d?.name]?.dishes||[]),...(pdfMenus[r.id]?.dishes||[]),...(htmlFor(r)?.dishes||[])];
+    return combinedDishes(r);
   }
   function withinPrice(r){
     if(!priceInput.value)return true;
