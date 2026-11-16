@@ -6,6 +6,19 @@ import unittest
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 
 class GuideReleaseTests(unittest.TestCase):
+    def test_discovered_menu_sources_do_not_regress(self):
+        import json
+        data=json.loads((ROOT/"data/menu-discovery.json").read_text(encoding="utf-8"))
+        self.assertGreaterEqual(len(data.get("restaurants",{})),60,
+            "Menu source registry unexpectedly shrank below 60 entries")
+        html=(ROOT/"index.html").read_text(encoding="utf-8")
+        self.assertIn("discoveredByName",html)
+        self.assertIn("Visa meny (PDF)",html)
+        self.assertIn("Visa menybild",html)
+    def test_approved_photo_survives_daily_refresh(self):
+        source=(ROOT/"scripts/update_photos.py").read_text(encoding="utf-8")
+        self.assertIn("approved_ids",source)
+        self.assertIn("Special:FilePath/",source)
     def test_web_assets_connected(self):
         html=(ROOT/"index.html").read_text(encoding="utf-8")
         self.assertIn('assets/guide-v3.js',html)
