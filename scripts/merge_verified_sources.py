@@ -24,8 +24,8 @@ target = ROOT / "menu-discovery.json"
 data = json.loads(target.read_text(encoding="utf-8"))
 out = data.setdefault("restaurants", {})
 for entry in verified:
-    name, site, menu = entry["name"], entry["website"], entry["menu"]
-    if entry.get("source_type") != "official" or urllib.parse.urlsplit(menu).scheme != "https":
+    name, site, menu = entry.get("name", ""), entry.get("website", ""), entry.get("menu", "")
+    if not name or entry.get("source_type") != "official" or urllib.parse.urlsplit(menu).scheme != "https":
         continue
     if site and urllib.parse.urlsplit(site).scheme != "https":
         continue
