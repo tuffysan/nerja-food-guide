@@ -1,0 +1,130 @@
+{
+  "updated_at": "2026-11-16",
+  "note": "Directly inspected restaurant menu pages; links are restaurant-specific. Prices optional; prices can change.",
+  "entries": [
+    {
+      "id": "node/2154168766",
+      "name": "Bruxelles",
+      "menu": "https://nerjadenerja.es/sv/",
+      "website": "https://nerjadenerja.es/sv/",
+      "status": "menu_content_seen",
+      "source": "official_site",
+      "dishes": [
+        [
+          "Blandsallad",
+          ""
+        ],
+        [
+          "½ grillad kyckling med pommes",
+          "15,40 €"
+        ]
+      ]
+    },
+    {
+      "id": "node/12243862968",
+      "name": "Avalon",
+      "menu": "https://www.avalonnerja.com/es/menu-a-la-carta/",
+      "website": "https://www.avalonnerja.com/",
+      "status": "menu_content_seen",
+      "source": "official_site",
+      "dishes": [
+        [
+          "Estofado de jabalí con vino tinto",
+          "20,00 €"
+        ],
+        [
+          "Risotto",
+          "16,00 €"
+        ],
+        [
+          "Ensalada de couscous",
+          "16,00 €"
+        ]
+      ]
+    },
+    {
+      "id": "researched/trattoria-italia",
+      "name": "Trattoria Italia",
+      "address": "Calle Almirante Ferrándiz 29, Nerja",
+      "menu": "https://trattoriaitalianerja.es/carta/",
+      "website": "https://trattoriaitalianerja.es/",
+      "status": "menu_content_seen",
+      "source": "official_site",
+      "dishes": [
+        [
+          "Bruschetta Napoli",
+          "10,50 €"
+        ],
+        [
+          "Vitello Tonnato",
+          "13,90 €"
+        ],
+        [
+          "Tagliatelle Boloñese",
+          "14,90 €"
+        ]
+      ]
+    },
+    {
+      "id": "researched/peppe-pizza",
+      "name": "Peppe Pizza",
+      "address": "Calle Almirante Ferrándiz 32, Nerja",
+      "menu": "https://www.peppepizza.com/carta",
+      "website": "https://www.peppepizza.com/",
+      "status": "menu_content_seen",
+      "source": "official_site",
+      "dishes": [
+        [
+          "Menú Kids",
+          "9,00 €"
+        ],
+        [
+          "Sangría Clásica",
+          "20,00 €"
+        ]
+      ]
+    },
+    {
+      "id": "researched/restaurante-unico",
+      "name": "Restaurante Único",
+      "address": "Calle Cristo 25, Nerja",
+      "menu": "https://restauranteunico.com/nuestra-carta/",
+      "website": "https://restauranteunico.com/",
+      "status": "menu_content_seen",
+      "source": "official_site",
+      "dishes": [
+        [
+          "Ensalada de queso de cabra gratinado",
+          "12,90 €"
+        ],
+        [
+          "Carpaccio de Ternera",
+          "12,90 €"
+        ],
+        [
+          "Tataki de atún",
+          "13,90 €"
+        ]
+      ]
+    },
+    {
+      "id": "researched/parador",
+      "name": "Restaurante del Parador de Nerja",
+      "address": "Parador de Nerja, Nerja",
+      "menu": "https://paradores.es/es/restaurante-del-parador-de-nerja",
+      "website": "https://paradores.es/es/restaurante-del-parador-de-nerja",
+      "status": "menu_content_seen",
+      "source": "official_site",
+      "dishes": [
+        [
+          "Flamenquín de jamón serrano",
+          "16 €"
+        ],
+        [
+          "Lentejas estofadas",
+          "13 €"
+        ]
+      ]
+    }
+  ]
+}
