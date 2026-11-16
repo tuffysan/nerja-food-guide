@@ -144,7 +144,7 @@
     const sorted=[...filtered].sort((a,b)=>menuScore(b)-menuScore(a)||a.name.localeCompare(b.name,"sv"));
     const byName=new Map([...cards.children].map(card=>[card.querySelector("h2")?.textContent,card]));
     for(const r of sorted){const card=byName.get(r.name);if(card)cards.append(card)}
-    count.textContent=filtered.length+" restauranger · menyer visas först";
+    count.textContent=filtered.length+" restauranger · "+filtered.filter(hasMenu).length+" med meny · "+filtered.filter(hasPrices).length+" med maträtter/priser";
     if(map&&!mapBox.hidden)drawMap(filtered);
   }
   function drawMap(restaurants){
@@ -189,8 +189,8 @@
   });
   priceInput.addEventListener("input",decorate);
   area.addEventListener("change",()=>{decorate();if(map&&!mapBox.hidden)drawMap(selected())});
-  loadMap();
   const original=render;
   render=function(){original();decorate()};
   if(items.length)decorate();
+  loadMap();
 })();
