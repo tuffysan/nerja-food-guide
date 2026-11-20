@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:34:13.139027+00:00",
+  "generated_at": "2026-11-20T14:12:03.124889+00:00",
   "warning": "Candidates are NOT approved photographs; manually verify subject, rights and attribution.",
   "restaurants": {
     "node/9391849713": {
@@ -23,56 +23,6 @@
           "source": "https://commons.wikimedia.org/wiki/File:Sevillano_looking_smart_with_its_new_lights._%2827326345308%29.jpg",
           "matched_words": [
             "sevillano"
-          ],
-          "status": "needs_manual_identity_and_license_review"
-        }
-      ]
-    },
-    "node/4887161680": {
-      "name": "Los Cangrejos",
-      "candidates": [
-        {
-          "title": "File:Nerja, café on the square \"Plaza fabrica de los cangrejos\".jpg",
-          "source": "https://commons.wikimedia.org/wiki/File:Nerja%2C_caf%C3%A9_on_the_square_%22Plaza_fabrica_de_los_cangrejos%22.jpg",
-          "distance_m": 31.0,
-          "matched_words": [
-            "cangrejos"
-          ],
-          "status": "needs_manual_identity_and_license_review"
-        },
-        {
-          "title": "File:Nerja, view from the square \"Plaza Fabrica de los Cangrejos\" to the Mediterranean.jpg",
-          "source": "https://commons.wikimedia.org/wiki/File:Nerja%2C_view_from_the_square_%22Plaza_Fabrica_de_los_Cangrejos%22_to_the_Mediterranean.jpg",
-          "distance_m": 38.1,
-          "matched_words": [
-            "cangrejos"
-          ],
-          "status": "needs_manual_identity_and_license_review"
-        },
-        {
-          "title": "File:Jt spain nerja plaza fabrica de los cangrejos.JPG",
-          "source": "https://commons.wikimedia.org/wiki/File:Jt_spain_nerja_plaza_fabrica_de_los_cangrejos.JPG",
-          "distance_m": 56.2,
-          "matched_words": [
-            "cangrejos"
-          ],
-          "status": "needs_manual_identity_and_license_review"
-        },
-        {
-          "title": "File:Nerja, the café Bamboo on the square \"Plaza Fabrica de los Cangrejos\".jpg",
-          "source": "https://commons.wikimedia.org/wiki/File:Nerja%2C_the_caf%C3%A9_Bamboo_on_the_square_%22Plaza_Fabrica_de_los_Cangrejos%22.jpg",
-          "distance_m": 61.9,
-          "matched_words": [
-            "cangrejos"
-          ],
-          "status": "needs_manual_identity_and_license_review"
-        },
-        {
-          "title": "File:Nerja, the square \"Plaza Fabrica de los Cangrejos\".jpg",
-          "source": "https://commons.wikimedia.org/wiki/File:Nerja%2C_the_square_%22Plaza_Fabrica_de_los_Cangrejos%22.jpg",
-          "distance_m": 66.5,
-          "matched_words": [
-            "cangrejos"
           ],
           "status": "needs_manual_identity_and_license_review"
         }

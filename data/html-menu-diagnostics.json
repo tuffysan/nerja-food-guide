@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:42:53.923127+00:00",
+  "generated_at": "2026-11-20T14:20:37.837633+00:00",
   "fresh": 13,
   "stale": 0,
   "failures": {
@@ -13,12 +13,6 @@
       {
         "url": "https://la-marina-marisqueria.negocio.site/",
         "reason": "HTTP Error 404: Not Found"
-      }
-    ],
-    "node/2702579708": [
-      {
-        "url": "https://rincondelsolnerja.com/cartas/entrantes/",
-        "reason": "IncompleteRead(32768 bytes read)"
       }
     ],
     "curated/Rare Grill": [

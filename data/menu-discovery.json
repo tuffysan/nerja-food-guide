@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T14:40:30.120436+00:00",
+  "updated_at": "2026-11-20T14:17:43.223192+00:00",
   "note": "Official and third-party sources are labeled separately. QR links are candidates, not verified menus.",
   "restaurants": {
     "node/3328393211": {
@@ -151,12 +151,6 @@
           "source": "https://nerjadenerja.es/es/carta/menu/"
         },
         {
-          "url": "https://nerjadenerja.es/static/uploads/eventos/047bbd03-IMG_7418.jpeg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://nerjadenerja.es/"
-        },
-        {
           "url": "https://nerjadenerja.es/static/uploads/eventos/41f5b653-8617E944-1F5E-4A07-A9B2-5C765D6A1DB2.jpg",
           "kind": "image",
           "status": "candidate",
@@ -164,6 +158,12 @@
         },
         {
           "url": "https://nerjadenerja.es/static/uploads/eventos/36fcc56a-3099BB0F-883D-4FC3-8D6A-36A579DD397B.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/"
+        },
+        {
+          "url": "https://nerjadenerja.es/static/uploads/eventos/93f71ec6-56C57F76-524E-4171-AA5F-7948C7FEADEC.png",
           "kind": "image",
           "status": "candidate",
           "source": "https://nerjadenerja.es/"
@@ -1531,12 +1531,6 @@
           "source": "https://nerjadenerja.es/es/carta/menu/"
         },
         {
-          "url": "https://nerjadenerja.es/static/uploads/eventos/047bbd03-IMG_7418.jpeg",
-          "kind": "image",
-          "status": "candidate",
-          "source": "https://nerjadenerja.es/es/"
-        },
-        {
           "url": "https://nerjadenerja.es/static/uploads/eventos/41f5b653-8617E944-1F5E-4A07-A9B2-5C765D6A1DB2.jpg",
           "kind": "image",
           "status": "candidate",
@@ -1544,6 +1538,12 @@
         },
         {
           "url": "https://nerjadenerja.es/static/uploads/eventos/36fcc56a-3099BB0F-883D-4FC3-8D6A-36A579DD397B.png",
+          "kind": "image",
+          "status": "candidate",
+          "source": "https://nerjadenerja.es/es/"
+        },
+        {
+          "url": "https://nerjadenerja.es/static/uploads/eventos/93f71ec6-56C57F76-524E-4171-AA5F-7948C7FEADEC.png",
           "kind": "image",
           "status": "candidate",
           "source": "https://nerjadenerja.es/es/"

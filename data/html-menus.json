@@ -15,7 +15,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-19T14:40:53.056842+00:00",
+      "checked_at": "2026-11-20T14:18:15.654149+00:00",
       "pages": [
         {
           "url": "https://www.avalonnerja.com/es/menu-a-la-carta/",
@@ -747,6 +747,7 @@
       "sources": [
         "https://rincondelsolnerja.com/cartas/ensaladas/",
         "https://rincondelsolnerja.com/cartas/poke-salads-y-asiaticos/",
+        "https://rincondelsolnerja.com/cartas/entrantes/",
         "https://rincondelsolnerja.com/cartas/carnes/",
         "https://rincondelsolnerja.com/cartas/burguers-y-bruschettas/",
         "https://rincondelsolnerja.com/cartas/pescados/",
@@ -755,12 +756,11 @@
         "https://rincondelsolnerja.com/cartas/pizza/",
         "https://rincondelsolnerja.com/cartas/postres/",
         "https://rincondelsolnerja.com/cartas/para-nuestros-peques/",
-        "https://rincondelsolnerja.com/cartas/vino-tinto/",
-        "https://rincondelsolnerja.com/cartas/vino-blanco/"
+        "https://rincondelsolnerja.com/cartas/vino-tinto/"
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-19T14:41:40.789776+00:00",
+      "checked_at": "2026-11-20T14:19:13.749335+00:00",
       "pages": [
         {
           "url": "https://rincondelsolnerja.com/cartas/ensaladas/",
@@ -785,6 +785,43 @@
             [
               "Udons salteados con katsu de pollo y salsa Kinchi",
               "17,95 €"
+            ]
+          ]
+        },
+        {
+          "url": "https://rincondelsolnerja.com/cartas/entrantes/",
+          "dishes": [
+            [
+              "Salsa brava ligeramente picante",
+              "9,95 €"
+            ],
+            [
+              "Berenjenas, tomates secos y crema de miel de caña",
+              "13,95 €"
+            ],
+            [
+              "Shitake, porcini y mayo de boletus",
+              "13,95 €"
+            ],
+            [
+              "Acompañadas de verduritas, mango y salsa sakura",
+              "16,95 €"
+            ],
+            [
+              "Con verduritas, salsa de albahaca y curry, y guisantes wasabi",
+              "14,95 €"
+            ],
+            [
+              "Acompañado de verduritas y salsa unagi",
+              "23,95 €"
+            ],
+            [
+              "Ajos, tomates cherry y parmentier de coliflor",
+              "25,95 €"
+            ],
+            [
+              "Langostinos al pil-pil",
+              "16,95 €"
             ]
           ]
         },
@@ -976,43 +1013,6 @@
               "49,20 €"
             ]
           ]
-        },
-        {
-          "url": "https://rincondelsolnerja.com/cartas/vino-blanco/",
-          "dishes": [
-            [
-              "Blanco de la Casa Verdejo",
-              "15,50 €"
-            ],
-            [
-              "Bordón D.O.Ca. Rioja Viura",
-              "16,50 €"
-            ],
-            [
-              "Castillo de Miraflores D.O. Rueda Verdejo semidulce",
-              "16,50 €"
-            ],
-            [
-              "Piérola D.O.Ca. Rioja Tempranillo blanco",
-              "17,50 €"
-            ],
-            [
-              "Tamaral D.O. Rueda Verdejo",
-              "18,50 €"
-            ],
-            [
-              "Altanza D.O.Ca. Rioja Sauvignon blanc",
-              "22,90 €"
-            ],
-            [
-              "Marco Real by Martín Berasategui D.O. Rías Baixas Albariño",
-              "26,50 €"
-            ],
-            [
-              "O Luar D.O. Valdeorras Godello",
-              "35,00 €"
-            ]
-          ]
         }
       ],
       "dishes": [
@@ -1031,6 +1031,38 @@
         [
           "Udons salteados con katsu de pollo y salsa Kinchi",
           "17,95 €"
+        ],
+        [
+          "Salsa brava ligeramente picante",
+          "9,95 €"
+        ],
+        [
+          "Berenjenas, tomates secos y crema de miel de caña",
+          "13,95 €"
+        ],
+        [
+          "Shitake, porcini y mayo de boletus",
+          "13,95 €"
+        ],
+        [
+          "Acompañadas de verduritas, mango y salsa sakura",
+          "16,95 €"
+        ],
+        [
+          "Con verduritas, salsa de albahaca y curry, y guisantes wasabi",
+          "14,95 €"
+        ],
+        [
+          "Acompañado de verduritas y salsa unagi",
+          "23,95 €"
+        ],
+        [
+          "Ajos, tomates cherry y parmentier de coliflor",
+          "25,95 €"
+        ],
+        [
+          "Langostinos al pil-pil",
+          "16,95 €"
         ],
         [
           "Entrecot de Black Angus a la parrilla 350g",
@@ -1175,38 +1207,6 @@
         [
           "Cristina D.O. Sierras de Málaga Malbec",
           "49,20 €"
-        ],
-        [
-          "Blanco de la Casa Verdejo",
-          "15,50 €"
-        ],
-        [
-          "Bordón D.O.Ca. Rioja Viura",
-          "16,50 €"
-        ],
-        [
-          "Castillo de Miraflores D.O. Rueda Verdejo semidulce",
-          "16,50 €"
-        ],
-        [
-          "Piérola D.O.Ca. Rioja Tempranillo blanco",
-          "17,50 €"
-        ],
-        [
-          "Tamaral D.O. Rueda Verdejo",
-          "18,50 €"
-        ],
-        [
-          "Altanza D.O.Ca. Rioja Sauvignon blanc",
-          "22,90 €"
-        ],
-        [
-          "Marco Real by Martín Berasategui D.O. Rías Baixas Albariño",
-          "26,50 €"
-        ],
-        [
-          "O Luar D.O. Valdeorras Godello",
-          "35,00 €"
         ]
       ]
     },
@@ -1214,7 +1214,7 @@
       "source": "https://restauranteunico.com/nuestra-carta/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-19T14:42:49.343933+00:00",
+      "checked_at": "2026-11-20T14:20:34.108084+00:00",
       "dishes": [
         [
           "Cava",
@@ -1378,7 +1378,7 @@
       "source": "https://www.peppepizza.com/carta",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-19T14:42:49.495155+00:00",
+      "checked_at": "2026-11-20T14:20:34.195156+00:00",
       "dishes": [
         [
           "Polpette Tradizionali",
@@ -1682,7 +1682,7 @@
       "source": "https://lafamarestaurante.com/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-19T14:42:50.480490+00:00",
+      "checked_at": "2026-11-20T14:20:35.520081+00:00",
       "dishes": [
         [
           "Desayuno Inglés English breakfast",
@@ -2046,7 +2046,7 @@
       "source": "https://trattoriaitalianerja.es/en/menu/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-19T14:42:53.323153+00:00",
+      "checked_at": "2026-11-20T14:20:37.414478+00:00",
       "dishes": [
         [
           "🇮🇹 Barbera D'Alba DOC - Piazzo",
@@ -2078,7 +2078,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-19T14:42:14.856191+00:00",
+      "checked_at": "2026-11-20T14:19:56.092596+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
@@ -2566,7 +2566,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-19T14:42:16.597005+00:00",
+      "checked_at": "2026-11-20T14:19:59.011107+00:00",
       "pages": [
         {
           "url": "https://trattoriaitalianerja.es/en/menu/",
@@ -2649,7 +2649,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-19T14:42:29.624191+00:00",
+      "checked_at": "2026-11-20T14:20:16.122269+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
@@ -2979,7 +2979,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-19T14:42:30.384493+00:00",
+      "checked_at": "2026-11-20T14:20:17.630600+00:00",
       "pages": [
         {
           "url": "https://trattoriaitalianerja.es/en/menu/",
@@ -3037,7 +3037,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-19T14:42:39.555727+00:00",
+      "checked_at": "2026-11-20T14:20:25.414514+00:00",
       "pages": [
         {
           "url": "https://www.avalonnerja.com/a-la-carte-menu/",
@@ -3159,7 +3159,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-19T14:42:43.194493+00:00",
+      "checked_at": "2026-11-20T14:20:29.699019+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
@@ -3489,7 +3489,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-19T14:42:44.047091+00:00",
+      "checked_at": "2026-11-20T14:20:30.745187+00:00",
       "pages": [
         {
           "url": "https://trattoriaitalianerja.es/en/menu/",
