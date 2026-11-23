@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T13:35:41.657831+00:00",
+  "generated_at": "2026-11-23T16:14:23.771644+00:00",
   "warning": "Candidates are NOT approved photographs; manually verify subject, rights and attribution.",
   "restaurants": {
     "node/9391849713": {
@@ -23,6 +23,20 @@
           "source": "https://commons.wikimedia.org/wiki/File:Sevillano_looking_smart_with_its_new_lights._%2827326345308%29.jpg",
           "matched_words": [
             "sevillano"
+          ],
+          "status": "needs_manual_identity_and_license_review"
+        }
+      ]
+    },
+    "node/922686821": {
+      "name": "San Miguel",
+      "candidates": [
+        {
+          "title": "File:Nerja, the café \"San Miguel\" at the street \"Calle Castilla Pérez\".jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Nerja%2C_the_caf%C3%A9_%22San_Miguel%22_at_the_street_%22Calle_Castilla_P%C3%A9rez%22.jpg",
+          "distance_m": 20.8,
+          "matched_words": [
+            "miguel"
           ],
           "status": "needs_manual_identity_and_license_review"
         }
