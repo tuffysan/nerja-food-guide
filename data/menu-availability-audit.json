@@ -3,7 +3,7 @@
   "restaurants_with_menu_links": 33,
   "restaurants_with_dish_entries": 16,
   "restaurants_with_official_menu_link": 9,
-  "total_menu_urls": 199,
+  "total_menu_urls": 200,
   "note": "Evidence counts, NOT verified working links. A website without a menu-specific URL is excluded. Photos counted separately.",
   "restaurants": [
     {
@@ -182,7 +182,7 @@
     },
     {
       "name": "Restaurante Único",
-      "menu_links": 2,
+      "menu_links": 3,
       "has_dishes": true,
       "official": true
     },
