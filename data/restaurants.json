@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T13:35:26.813830+00:00",
+  "updated_at": "2026-11-27T15:20:23.543054+00:00",
   "source": "OpenStreetMap contributors via Overpass",
   "count": 183,
   "items": [
@@ -32,7 +32,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/430878885",
@@ -63,7 +63,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/1575649206",
@@ -94,7 +94,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/3328393211",
@@ -125,7 +125,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/10126438254",
@@ -156,7 +156,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/3331997863",
@@ -187,7 +187,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2774995381",
@@ -218,7 +218,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4788285770",
@@ -249,7 +249,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/12243862968",
@@ -280,7 +280,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/833420283",
@@ -311,7 +311,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2883917401",
@@ -342,7 +342,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/304571589",
@@ -373,7 +373,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/14094437327",
@@ -404,7 +404,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "way/78393450",
@@ -435,7 +435,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2774995374",
@@ -466,7 +466,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4164895892",
@@ -497,7 +497,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/10699384906",
@@ -528,7 +528,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/13306918128",
@@ -559,7 +559,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/6964600333",
@@ -590,7 +590,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/6057345609",
@@ -621,7 +621,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2154168766",
@@ -652,7 +652,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/5641390801",
@@ -683,7 +683,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/543661479",
@@ -714,7 +714,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2752241853",
@@ -745,7 +745,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/10699645706",
@@ -776,7 +776,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4399835189",
@@ -807,7 +807,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4164894090",
@@ -838,7 +838,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2774995378",
@@ -869,7 +869,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/833418421",
@@ -900,7 +900,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2368321887",
@@ -931,7 +931,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/13207269259",
@@ -962,7 +962,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/431250005",
@@ -993,7 +993,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4164895893",
@@ -1024,7 +1024,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/579590817",
@@ -1055,7 +1055,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/431250046",
@@ -1086,7 +1086,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/307845016",
@@ -1117,7 +1117,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/14018334501",
@@ -1148,7 +1148,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/3792660148",
@@ -1179,7 +1179,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/431250023",
@@ -1210,7 +1210,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9453186248",
@@ -1241,7 +1241,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/1108753287",
@@ -1272,7 +1272,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/14018323001",
@@ -1303,7 +1303,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/3359565192",
@@ -1334,7 +1334,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/309862991",
@@ -1365,7 +1365,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4229734841",
@@ -1396,7 +1396,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/775371428",
@@ -1427,7 +1427,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4399713093",
@@ -1458,7 +1458,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4800866432",
@@ -1489,7 +1489,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/3359538922",
@@ -1520,7 +1520,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/5642328367",
@@ -1551,7 +1551,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9200321214",
@@ -1582,7 +1582,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/13241594500",
@@ -1613,7 +1613,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4165777892",
@@ -1644,7 +1644,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2370695047",
@@ -1675,7 +1675,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4229734846",
@@ -1706,7 +1706,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4399834691",
@@ -1737,7 +1737,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/6079753418",
@@ -1768,7 +1768,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/1739162249",
@@ -1799,7 +1799,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/775371421",
@@ -1830,7 +1830,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/10699385205",
@@ -1861,7 +1861,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/322819142",
@@ -1892,7 +1892,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9282688554",
@@ -1923,7 +1923,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/997703611",
@@ -1954,7 +1954,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/10699668406",
@@ -1985,7 +1985,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/1122309756",
@@ -2016,7 +2016,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/1119698098",
@@ -2047,7 +2047,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9672112061",
@@ -2078,7 +2078,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9675076657",
@@ -2109,7 +2109,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/6521128167",
@@ -2140,7 +2140,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/1108753440",
@@ -2171,7 +2171,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9675076659",
@@ -2202,7 +2202,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2368322077",
@@ -2233,7 +2233,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/11409454639",
@@ -2264,7 +2264,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4230075568",
@@ -2295,7 +2295,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2368321985",
@@ -2326,7 +2326,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/304571661",
@@ -2357,7 +2357,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9413764796",
@@ -2388,7 +2388,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/1119700645",
@@ -2419,7 +2419,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4230075570",
@@ -2450,7 +2450,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2368322222",
@@ -2481,7 +2481,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/325937110",
@@ -2512,7 +2512,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/13306918141",
@@ -2543,7 +2543,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2774995380",
@@ -2574,7 +2574,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4230075595",
@@ -2605,7 +2605,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/6504530413",
@@ -2636,7 +2636,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/5667412345",
@@ -2667,7 +2667,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/307845017",
@@ -2698,7 +2698,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/10126448663",
@@ -2729,7 +2729,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4800864468",
@@ -2760,7 +2760,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/6970068955",
@@ -2791,7 +2791,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9386501417",
@@ -2822,7 +2822,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2114074332",
@@ -2853,7 +2853,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4230075573",
@@ -2884,7 +2884,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2154168791",
@@ -2915,7 +2915,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/1057385149",
@@ -2946,7 +2946,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/10132446103",
@@ -2977,7 +2977,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4229781998",
@@ -3008,7 +3008,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "way/85571578",
@@ -3039,7 +3039,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2114139257",
@@ -3070,7 +3070,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/738884910",
@@ -3101,7 +3101,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/430878902",
@@ -3132,7 +3132,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/543661240",
@@ -3163,7 +3163,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/430878866",
@@ -3194,7 +3194,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/997700806",
@@ -3225,7 +3225,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2368321987",
@@ -3256,7 +3256,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4788285771",
@@ -3287,7 +3287,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/12745694658",
@@ -3318,7 +3318,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/11935417581",
@@ -3349,7 +3349,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4903340921",
@@ -3380,7 +3380,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4887161680",
@@ -3411,7 +3411,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9200265444",
@@ -3442,7 +3442,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/1290221483",
@@ -3473,7 +3473,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2368321989",
@@ -3504,7 +3504,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/920130070",
@@ -3535,7 +3535,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/1132335116",
@@ -3566,7 +3566,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2774995376",
@@ -3597,7 +3597,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/1753943507",
@@ -3628,7 +3628,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2368321991",
@@ -3659,7 +3659,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "way/78390696",
@@ -3690,7 +3690,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "way/78388534",
@@ -3721,7 +3721,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/430879426",
@@ -3752,7 +3752,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4165073292",
@@ -3783,7 +3783,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/304571590",
@@ -3814,7 +3814,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4851165338",
@@ -3845,7 +3845,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/5667412344",
@@ -3876,7 +3876,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "way/79626922",
@@ -3907,7 +3907,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9672112030",
@@ -3938,7 +3938,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/5306988318",
@@ -3969,7 +3969,7 @@
       "payment_cards": null,
       "smoking": "no",
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/13566629101",
@@ -4000,7 +4000,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/1739162215",
@@ -4031,7 +4031,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2368322223",
@@ -4062,7 +4062,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9672055163",
@@ -4093,7 +4093,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2154168777",
@@ -4124,7 +4124,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/997711463",
@@ -4155,7 +4155,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9453265524",
@@ -4186,7 +4186,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/12386030620",
@@ -4217,7 +4217,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/10699385106",
@@ -4248,7 +4248,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9453265517",
@@ -4279,7 +4279,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/997719653",
@@ -4310,7 +4310,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2702588660",
@@ -4341,7 +4341,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/5100592226",
@@ -4372,7 +4372,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4399713092",
@@ -4403,7 +4403,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/13857441269",
@@ -4434,7 +4434,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9391849713",
@@ -4465,7 +4465,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/5334911625",
@@ -4496,7 +4496,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/5321992529",
@@ -4527,7 +4527,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2154168784",
@@ -4558,7 +4558,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4230056368",
@@ -4589,7 +4589,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/12135451351",
@@ -4620,7 +4620,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/292586998",
@@ -4651,7 +4651,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/5100592225",
@@ -4682,7 +4682,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2752241854",
@@ -4713,7 +4713,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/5100645421",
@@ -4744,7 +4744,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/976510920",
@@ -4775,7 +4775,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2368322080",
@@ -4806,7 +4806,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2702579708",
@@ -4837,7 +4837,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/13306918142",
@@ -4868,7 +4868,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/431250027",
@@ -4899,7 +4899,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/13228033717",
@@ -4930,7 +4930,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/5641212883",
@@ -4961,7 +4961,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/922686821",
@@ -4992,7 +4992,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4800875508",
@@ -5023,7 +5023,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2154168776",
@@ -5054,7 +5054,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4230075594",
@@ -5085,7 +5085,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/10699384909",
@@ -5116,7 +5116,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2368322083",
@@ -5147,7 +5147,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/997717639",
@@ -5178,7 +5178,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/7835942885",
@@ -5209,7 +5209,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/10691274664",
@@ -5240,7 +5240,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/431250011",
@@ -5271,7 +5271,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9671977583",
@@ -5302,7 +5302,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2368322226",
@@ -5333,7 +5333,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "fast_food",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/3593959373",
@@ -5364,7 +5364,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/1404652362",
@@ -5395,7 +5395,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/3792399785",
@@ -5426,7 +5426,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/3792403626",
@@ -5457,7 +5457,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/9392050041",
@@ -5488,7 +5488,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/4229734840",
@@ -5519,7 +5519,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/535073499",
@@ -5550,7 +5550,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/2154168790",
@@ -5581,7 +5581,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "cafe",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/431250007",
@@ -5612,7 +5612,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/5751311151",
@@ -5643,7 +5643,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     },
     {
       "id": "node/5667412348",
@@ -5674,7 +5674,7 @@
       "payment_cards": null,
       "smoking": null,
       "amenity": "restaurant",
-      "last_osm_check": "2026-11-21"
+      "last_osm_check": "2026-11-27"
     }
   ]
 }

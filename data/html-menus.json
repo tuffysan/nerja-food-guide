@@ -15,7 +15,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-24T16:07:33.801027+00:00",
+      "checked_at": "2026-11-27T15:26:30.094758+00:00",
       "pages": [
         {
           "url": "https://www.avalonnerja.com/es/menu-a-la-carta/",
@@ -760,7 +760,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-24T16:08:14.313417+00:00",
+      "checked_at": "2026-11-27T15:26:48.388564+00:00",
       "pages": [
         {
           "url": "https://rincondelsolnerja.com/cartas/ensaladas/",
@@ -1214,7 +1214,7 @@
       "source": "https://restauranteunico.com/nuestra-carta/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-24T16:09:12.288421+00:00",
+      "checked_at": "2026-11-27T15:27:52.945577+00:00",
       "dishes": [
         [
           "Cava",
@@ -1378,7 +1378,7 @@
       "source": "https://www.peppepizza.com/carta",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-24T16:09:12.714163+00:00",
+      "checked_at": "2026-11-27T15:27:53.047469+00:00",
       "dishes": [
         [
           "Polpette Tradizionali",
@@ -1682,7 +1682,7 @@
       "source": "https://lafamarestaurante.com/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-24T16:09:13.600874+00:00",
+      "checked_at": "2026-11-27T15:27:54.401221+00:00",
       "dishes": [
         [
           "Desayuno Inglés English breakfast",
@@ -2046,7 +2046,7 @@
       "source": "https://trattoriaitalianerja.es/en/menu/",
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-24T16:09:15.712807+00:00",
+      "checked_at": "2026-11-27T15:27:56.878105+00:00",
       "dishes": [
         [
           "🇮🇹 Barbera D'Alba DOC - Piazzo",
@@ -2071,176 +2071,14 @@
       ]
     },
     "verified/Restaurante Único": {
-      "source": "https://restauranteunico.com/nuestra-carta/",
+      "source": "https://restauranteunico.com/nuestra-carta-de-vinos/",
       "sources": [
-        "https://restauranteunico.com/nuestra-carta/",
         "https://restauranteunico.com/nuestra-carta-de-vinos/"
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-24T16:08:46.363991+00:00",
+      "checked_at": "2026-11-27T15:27:27.012674+00:00",
       "pages": [
-        {
-          "url": "https://restauranteunico.com/nuestra-carta/",
-          "dishes": [
-            [
-              "Cava",
-              "4,20 €"
-            ],
-            [
-              "Kirr royal",
-              "4,80 €"
-            ],
-            [
-              "Mimosa",
-              "4,80 €"
-            ],
-            [
-              "Aperol spritz",
-              "6,30 €"
-            ],
-            [
-              "Bellini",
-              "4,80 €"
-            ],
-            [
-              "Manzanilla",
-              "4,50 €"
-            ],
-            [
-              "Campari",
-              "5,00 €"
-            ],
-            [
-              "Campari+ naranja",
-              "6,00 €"
-            ],
-            [
-              "Limoncello spritz",
-              "6,00 €"
-            ],
-            [
-              "Campari spritz",
-              "6,30 €"
-            ],
-            [
-              "Martini rojo",
-              "4,00 €"
-            ],
-            [
-              "Martini blanco",
-              "4,00 €"
-            ],
-            [
-              "Larios",
-              "7,00 €"
-            ],
-            [
-              "Larios Rose",
-              "7,50 €"
-            ],
-            [
-              "Bombay Sapphire",
-              "8,90 €"
-            ],
-            [
-              "Tanqueray",
-              "8,50 €"
-            ],
-            [
-              "Hendrick’s",
-              "10,90 €"
-            ],
-            [
-              "Agua sin gas",
-              "2,40 €"
-            ],
-            [
-              "Agua con gas",
-              "2,40 €"
-            ],
-            [
-              "Caña de cerveza",
-              "2,70 €"
-            ],
-            [
-              "Tanque de cerveza",
-              "5,20 €"
-            ],
-            [
-              "Heineken 00",
-              "3,00 €"
-            ],
-            [
-              "Alhambra 1925",
-              "4,00 €"
-            ],
-            [
-              "Alhambra Special",
-              "3,50 €"
-            ],
-            [
-              "Radler",
-              "3,00 €"
-            ],
-            [
-              "San Miguel",
-              "3,00 €"
-            ],
-            [
-              "Tinto verano con limon",
-              "3,00 €"
-            ],
-            [
-              "Tinto verano con casera",
-              "3,50 €"
-            ],
-            [
-              "Tinto de verano 1l",
-              "10,00 €"
-            ],
-            [
-              "Copa de tinto",
-              "3,90 €"
-            ],
-            [
-              "Copa de blanco",
-              "3,90 €"
-            ],
-            [
-              "Copa de rosa",
-              "3,90 €"
-            ],
-            [
-              "Refresco",
-              "3,00 €"
-            ],
-            [
-              "Zumo naranja",
-              "3,50 €"
-            ],
-            [
-              "Zumo variado",
-              "2,50 €"
-            ],
-            [
-              "Crumble de manzana Apple crumble",
-              "7,90 €"
-            ],
-            [
-              "Caramelised lemon cremeeux, biscuit sablé",
-              "7,90 €"
-            ],
-            [
-              "Viña Axarquia moscatel",
-              "4,20 €"
-            ],
-            [
-              "Crema de limon caramelizada Caramelized lemon cream",
-              "6,90 €"
-            ]
-          ]
-        },
         {
           "url": "https://restauranteunico.com/nuestra-carta-de-vinos/",
           "dishes": [
@@ -2324,162 +2162,6 @@
         }
       ],
       "dishes": [
-        [
-          "Cava",
-          "4,20 €"
-        ],
-        [
-          "Kirr royal",
-          "4,80 €"
-        ],
-        [
-          "Mimosa",
-          "4,80 €"
-        ],
-        [
-          "Aperol spritz",
-          "6,30 €"
-        ],
-        [
-          "Bellini",
-          "4,80 €"
-        ],
-        [
-          "Manzanilla",
-          "4,50 €"
-        ],
-        [
-          "Campari",
-          "5,00 €"
-        ],
-        [
-          "Campari+ naranja",
-          "6,00 €"
-        ],
-        [
-          "Limoncello spritz",
-          "6,00 €"
-        ],
-        [
-          "Campari spritz",
-          "6,30 €"
-        ],
-        [
-          "Martini rojo",
-          "4,00 €"
-        ],
-        [
-          "Martini blanco",
-          "4,00 €"
-        ],
-        [
-          "Larios",
-          "7,00 €"
-        ],
-        [
-          "Larios Rose",
-          "7,50 €"
-        ],
-        [
-          "Bombay Sapphire",
-          "8,90 €"
-        ],
-        [
-          "Tanqueray",
-          "8,50 €"
-        ],
-        [
-          "Hendrick’s",
-          "10,90 €"
-        ],
-        [
-          "Agua sin gas",
-          "2,40 €"
-        ],
-        [
-          "Agua con gas",
-          "2,40 €"
-        ],
-        [
-          "Caña de cerveza",
-          "2,70 €"
-        ],
-        [
-          "Tanque de cerveza",
-          "5,20 €"
-        ],
-        [
-          "Heineken 00",
-          "3,00 €"
-        ],
-        [
-          "Alhambra 1925",
-          "4,00 €"
-        ],
-        [
-          "Alhambra Special",
-          "3,50 €"
-        ],
-        [
-          "Radler",
-          "3,00 €"
-        ],
-        [
-          "San Miguel",
-          "3,00 €"
-        ],
-        [
-          "Tinto verano con limon",
-          "3,00 €"
-        ],
-        [
-          "Tinto verano con casera",
-          "3,50 €"
-        ],
-        [
-          "Tinto de verano 1l",
-          "10,00 €"
-        ],
-        [
-          "Copa de tinto",
-          "3,90 €"
-        ],
-        [
-          "Copa de blanco",
-          "3,90 €"
-        ],
-        [
-          "Copa de rosa",
-          "3,90 €"
-        ],
-        [
-          "Refresco",
-          "3,00 €"
-        ],
-        [
-          "Zumo naranja",
-          "3,50 €"
-        ],
-        [
-          "Zumo variado",
-          "2,50 €"
-        ],
-        [
-          "Crumble de manzana Apple crumble",
-          "7,90 €"
-        ],
-        [
-          "Caramelised lemon cremeeux, biscuit sablé",
-          "7,90 €"
-        ],
-        [
-          "Viña Axarquia moscatel",
-          "4,20 €"
-        ],
-        [
-          "Crema de limon caramelizada Caramelized lemon cream",
-          "6,90 €"
-        ],
         [
           "Uva: Macabeo Xarel-lo y Parellada",
           "23,90 €"
@@ -2566,7 +2248,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-24T16:08:47.774109+00:00",
+      "checked_at": "2026-11-27T15:27:28.480596+00:00",
       "pages": [
         {
           "url": "https://trattoriaitalianerja.es/en/menu/",
@@ -2649,7 +2331,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-24T16:09:00.635398+00:00",
+      "checked_at": "2026-11-27T15:27:37.451431+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
@@ -2979,7 +2661,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-24T16:09:01.327199+00:00",
+      "checked_at": "2026-11-27T15:27:38.388957+00:00",
       "pages": [
         {
           "url": "https://trattoriaitalianerja.es/en/menu/",
@@ -3037,7 +2719,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-24T16:09:03.541233+00:00",
+      "checked_at": "2026-11-27T15:27:44.822729+00:00",
       "pages": [
         {
           "url": "https://www.avalonnerja.com/a-la-carte-menu/",
@@ -3159,7 +2841,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-24T16:09:07.547553+00:00",
+      "checked_at": "2026-11-27T15:27:46.769218+00:00",
       "pages": [
         {
           "url": "https://restauranteunico.com/nuestra-carta/",
@@ -3489,7 +3171,7 @@
       ],
       "status": "candidate",
       "method": "html-visible-text",
-      "checked_at": "2026-11-24T16:09:08.252892+00:00",
+      "checked_at": "2026-11-27T15:27:47.507388+00:00",
       "pages": [
         {
           "url": "https://trattoriaitalianerja.es/en/menu/",

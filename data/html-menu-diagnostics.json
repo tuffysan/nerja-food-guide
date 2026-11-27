@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:09:16.023875+00:00",
+  "generated_at": "2026-11-27T15:27:57.161212+00:00",
   "fresh": 13,
   "stale": 0,
   "failures": {
@@ -43,6 +43,12 @@
       {
         "url": "https://weur-cdn.carta.menu/",
         "reason": "HTTP Error 404: Not Found"
+      }
+    ],
+    "verified/Restaurante Único": [
+      {
+        "url": "https://restauranteunico.com/nuestra-carta/",
+        "reason": "The read operation timed out"
       }
     ]
   }

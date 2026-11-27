@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:02:12.268750+00:00",
+  "generated_at": "2026-11-27T15:20:38.952529+00:00",
   "warning": "Candidates are NOT approved photographs; manually verify subject, rights and attribution.",
   "restaurants": {
     "node/9391849713": {
@@ -23,6 +23,85 @@
           "source": "https://commons.wikimedia.org/wiki/File:Sevillano_looking_smart_with_its_new_lights._%2827326345308%29.jpg",
           "matched_words": [
             "sevillano"
+          ],
+          "status": "needs_manual_identity_and_license_review"
+        }
+      ]
+    },
+    "node/2752241853": {
+      "name": "Cafeteria Heladeria Albi",
+      "candidates": [
+        {
+          "title": "File:Nerja, the Cafetaria Albi on the Plaza Balcón de Europa.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Nerja%2C_the_Cafetaria_Albi_on_the_Plaza_Balc%C3%B3n_de_Europa.jpg",
+          "distance_m": 21.6,
+          "matched_words": [
+            "albi"
+          ],
+          "status": "needs_manual_identity_and_license_review"
+        }
+      ]
+    },
+    "node/10699645706": {
+      "name": "Cafetería Cavana",
+      "candidates": [
+        {
+          "title": "File:Nerja, the square \"Plaza de la Cavana\".jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Nerja%2C_the_square_%22Plaza_de_la_Cavana%22.jpg",
+          "distance_m": 45.7,
+          "matched_words": [
+            "cavana"
+          ],
+          "status": "needs_manual_identity_and_license_review"
+        }
+      ]
+    },
+    "node/4399835189": {
+      "name": "Café Bar Restaurante Balcon de Maro",
+      "candidates": [
+        {
+          "title": "File:Maro (Nerja), the restaurant \"Balcon der Maro\".jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Maro_%28Nerja%29%2C_the_restaurant_%22Balcon_der_Maro%22.jpg",
+          "distance_m": 6.5,
+          "matched_words": [
+            "balcon",
+            "maro"
+          ],
+          "status": "needs_manual_identity_and_license_review"
+        },
+        {
+          "title": "File:Maro (Nerja), the church \"de las Maravillas\".jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Maro_%28Nerja%29%2C_the_church_%22de_las_Maravillas%22.jpg",
+          "distance_m": 14.8,
+          "matched_words": [
+            "maro"
+          ],
+          "status": "needs_manual_identity_and_license_review"
+        },
+        {
+          "title": "File:Maro (Nerja), the tower \"Torre de Maro\".jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Maro_%28Nerja%29%2C_the_tower_%22Torre_de_Maro%22.jpg",
+          "distance_m": 25.3,
+          "matched_words": [
+            "maro"
+          ],
+          "status": "needs_manual_identity_and_license_review"
+        },
+        {
+          "title": "File:Maro (Nerja), landscape.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Maro_%28Nerja%29%2C_landscape.jpg",
+          "distance_m": 25.3,
+          "matched_words": [
+            "maro"
+          ],
+          "status": "needs_manual_identity_and_license_review"
+        },
+        {
+          "title": "File:Maro (Nerja), the Calle Nueva.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Maro_%28Nerja%29%2C_the_Calle_Nueva.jpg",
+          "distance_m": 37.5,
+          "matched_words": [
+            "maro"
           ],
           "status": "needs_manual_identity_and_license_review"
         }
